@@ -14,5 +14,7 @@ and install the databases needed, as well as configure the server itself.
 
     general/index
     requirements/index
+    installation/index
+    configuration/index
 
 .. include:: /administration/map.rst.inc
