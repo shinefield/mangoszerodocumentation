@@ -58,9 +58,9 @@ Developer Documentation
 .. toctree::
     :hidden:
 
-    developer/index
+    development/index
 
-.. include:: /developer/map.rst.inc
+.. include:: /development/map.rst.inc
 
 .. _fork-docs:
 
@@ -77,6 +77,10 @@ Administrator Documentation
 
 .. toctree::
     :maxdepth: 2
+
+    administration/index
+
+.. include:: /administration/map.rst.inc
 
 .. _about-docs:
 
