@@ -1,27 +1,19 @@
-Sylius
-======
+mangos-zero
+===========
+A free, extendable [World of Warcraft][1] server for WoW version 1.12.x aka [vanilla WoW][2].
 
-Modern ecommerce solution for Symfony2.
+**This is official documentation repository**, available on [**docs.getmangos.com**][3].
 
-**This is official documentation repository**, available on [**docs.sylius.org**](http://docs.sylius.org). 
-
-Hosted by [readthedocs.org](http://readthedocs.org).
-
-Sylius on Twitter
------------------
-
-If you want to keep up with updates, [follow the official Sylius account on twitter](http://twitter.com/Sylius).
+Hosted by [readthedocs.org][4].
 
 Issues
 ------
-
-The documentation uses [GitHub issues](https://github.com/Sylius/Sylius-Docs/issues).
+The documentation uses [BitBucket issues][5].
 
 Build
 -----
-
-If you contribute to documentation you will want to check how it looks after your changes.  
-To be able to build the documentation, install [Sphinx](http://sphinx-doc.org/).
+If you contribute to documentation you will want to check how it looks after your changes.
+To be able to build the documentation, install [Sphinx][6].
 
 ```
 $ sudo easy_install -U Sphinx
@@ -30,12 +22,14 @@ $ sudo easy_install -U Sphinx
 Then run the following command.
 
 ```
-$ bin/build
+$ make html
 ```
 
-Documentation index is `build/index.html`.
+Documentation index is `_build/index.html`.
 
-Authors
--------
-
-See the list of [documentation contributors](http://github.com/Sylius/Sylius-Docs/contributors).
+[1]: http://worldofwarcraft.com/
+[2]: http://blizzard.com/games/wow/
+[3]: http://docs.getmangos.com/
+[4]: http://readthedocs.org/
+[5]: http://bitbucket.org/mangoszero/documentation/issues
+[6]: http://sphinx-doc.org/
