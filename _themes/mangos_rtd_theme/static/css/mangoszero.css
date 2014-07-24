@@ -9,13 +9,13 @@
 }
 .wy-menu-vertical li.current > a {
     color: #fff;
-    background-color: #1abb9c;
+    background-color: #31c2ee;
     border-top: 0;
     border-bottom: 0;
 }
 .wy-menu-vertical li.current > a:hover {
     color: #fff;
-    background-color: #1abb9c;
+    background-color: #31c2ee;
     border-top: 0;
     border-bottom: 0;
 }

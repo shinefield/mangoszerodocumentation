@@ -13,4 +13,4 @@ future adventures with us.
     general/index
     database/index
 
-.. include:: /developer/map.rst.inc
+.. include:: /development/map.rst.inc
