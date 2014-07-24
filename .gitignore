@@ -22,6 +22,7 @@
 *.err
 *.orig
 *.log
+*.pyc
 *.rej
 *.swo
 *.swp
@@ -43,4 +44,4 @@ Thumbs.db
 # Cache and log files
 
 # Generated files, vendor libraries
-
+/_build/
