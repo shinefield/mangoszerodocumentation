@@ -1,22 +1,27 @@
-.. mangos-zero documentation master file, created by
-   sphinx-quickstart on Thu Jul 24 13:55:53 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+mangos-zero documentation
+=========================
 
-Welcome to mangos-zero's documentation!
-=======================================
+`mangos-zero`_ is a free, GPL licensed server for running your own instance of
+`World of Warcraft`_ 1.12 also known as `vanilla WoW`_.
 
-Contents:
+.. note::
 
-.. toctree::
-   :maxdepth: 2
+    If you just want to grab the code, visit our `bitbucket project`_ and clone
+    the `server`_, `scripts`_ and `content`_ repositories.
 
+The Developer Guide
+-------------------
 
+The User Guide
+--------------
 
-Indices and tables
-==================
+The Administrator Guide
+-----------------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. _mangos-zero: http://getmangos.com/
+.. _World of Warcraft: http://worldofwarcraft.com/
+.. _vanilla WoW: http://blizzard.com/games/wow/
+.. _bitbucket project: http://bitbucket.org/mangoszero
+.. _server: http://bitbucket.org/mangoszero/server
+.. _scripts: http://bitbucket.org/mangoszero/scripts
+.. _content: http://bitbucket.org/mangoszero/content
