@@ -69,10 +69,10 @@ My guiding principles are:
 
   Also I intend to publish every background information I have. This includes
   things such as protocol information for client / server communication,
-  a full rundown on database structures and usage, or even practical
+  a full run-down on database structures and usage, or even practical
   guides on how to use scripting in **mangos-zero**.
 * **produce good code** and stick with it. Good code does follow best
-  practices, is readable, documented and thus easy to read for the new
+  practices, is readable, documented and thus easy to use for the new
   developer in town. I do not want to see you looking at the code and
   having to ask 20 questions, one should be sufficient to let you use
   and benefit from the projects' code.
