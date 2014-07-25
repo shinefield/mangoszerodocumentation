@@ -1,6 +1,6 @@
-========================
+########################
 About This Documentation
-========================
+########################
 
 This is the documentation for the `mangos-zero`_ server for `World of Warcraft`_
 version 1.12 also known as `vanilla WoW`_.
