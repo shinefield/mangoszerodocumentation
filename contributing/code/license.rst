@@ -274,7 +274,7 @@ number of this License, you may choose any version ever published by the
 Free Software Foundation.
 
 10.
-~~
+~~~
 
 If you wish to incorporate parts of the Program into other free programs
 whose distribution conditions are different, write to the author to ask
