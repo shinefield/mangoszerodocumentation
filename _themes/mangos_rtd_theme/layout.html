@@ -33,14 +33,12 @@
 
   {% endif %}
 
-  {# RTD hosts this file, so just load on non RTD builds #}
-  {% if not READTHEDOCS %}
-    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-  {% endif %}
   {% for cssfile in css_files %}
-    <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+  <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
   {% endfor %}
-    <link rel="stylesheet" href="{{ pathto('_static/css/mangoszero.css' , 1) }}" type="text/css" />
+
+  <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+  <link rel="stylesheet" href="{{ pathto('_static/css/mangoszero.css' , 1) }}" type="text/css" />
 
   {%- block linktags %}
     {%- if hasdoc('about') %}
@@ -86,9 +84,6 @@
       </div>
 
       <div class="wy-side-nav-search">
-        {% block sidebartitle %}
-          <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
-        {% endblock %}
         {% include "searchbox.html" %}
       </div>
 
@@ -146,10 +141,7 @@
 
   {% endif %}
 
-  {# RTD hosts this file, so just load on non RTD builds #}
-  {% if not READTHEDOCS %}
-    <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
-  {% endif %}
+  <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}

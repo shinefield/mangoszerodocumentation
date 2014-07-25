@@ -1,21 +1,12 @@
-.wy-menu-vertical li.current a:hover {
-    color: #fff;
-    background: #222;
-}
-.wy-menu-vertical li.current a {
-    color: #999;
-    background-color: #222;
-    border-right: 0;
-}
 .wy-menu-vertical li.current > a {
     color: #fff;
-    background-color: #1abb9c;
+    background-color: #31c2ee;
     border-top: 0;
     border-bottom: 0;
 }
 .wy-menu-vertical li.current > a:hover {
     color: #fff;
-    background-color: #1abb9c;
+    background-color: #31c2ee;
     border-top: 0;
     border-bottom: 0;
 }
@@ -31,9 +22,6 @@
 .wy-side-nav-search input[type=text] {
     border-color: #eee;
 }
-.wy-menu-vertical li.toctree-l2.current > a {
-    background-color: #333;
-}
-.wy-menu-vertical li.toctree-l2.current > a:hover {
-    background-color: #333;
+.wy-alert.wy-alert-success .wy-alert-title, .rst-content .wy-alert-success.note .wy-alert-title, .rst-content .wy-alert-success.attention .wy-alert-title, .rst-content .wy-alert-success.caution .wy-alert-title, .rst-content .wy-alert-success.danger .wy-alert-title, .rst-content .wy-alert-success.error .wy-alert-title, .rst-content .hint .wy-alert-title, .rst-content .important .wy-alert-title, .rst-content .tip .wy-alert-title, .rst-content .wy-alert-success.warning .wy-alert-title, .rst-content .wy-alert-success.seealso .wy-alert-title, .rst-content .wy-alert-success.admonition-todo .wy-alert-title, .wy-alert.wy-alert-success .rst-content .admonition-title, .rst-content .wy-alert.wy-alert-success .admonition-title, .rst-content .wy-alert-success.note .admonition-title, .rst-content .wy-alert-success.attention .admonition-title, .rst-content .wy-alert-success.caution .admonition-title, .rst-content .wy-alert-success.danger .admonition-title, .rst-content .wy-alert-success.error .admonition-title, .rst-content .hint .admonition-title, .rst-content .important .admonition-title, .rst-content .tip .admonition-title, .rst-content .wy-alert-success.warning .admonition-title, .rst-content .wy-alert-success.seealso .admonition-title, .rst-content .wy-alert-success.admonition-todo .admonition-title {
+    background-color: #31c2ee;
 }
