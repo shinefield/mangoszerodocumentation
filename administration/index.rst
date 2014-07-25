@@ -2,7 +2,7 @@ Administrator Documentation
 ===========================
 
 You want to install and run *mangos-zero* and would like to learn how
-tu build and configure it? Then this section has you covered.
+tu build and configure it? Then this section is for your.
 
 This section will guide you through getting the sources, installing the
 requirements for setting up the server and tools, describe how to extract

@@ -31,7 +31,6 @@ The documentation for the project is organized into a couple of sections:
 Information about development and running your own server is also available:
 
 * :ref:`dev-docs`
-* :ref:`fork-docs`
 * :ref:`ops-docs`
 
 .. _user-docs:
@@ -57,18 +56,6 @@ Developer Documentation
 
 .. toctree::
     :hidden:
-
-    development/index
-
-.. include:: /development/map.rst.inc
-
-.. _fork-docs:
-
-Contributor Guidelines
-----------------------
-
-.. toctree::
-    :maxdepth: 2
 
 .. _ops-docs:
 
