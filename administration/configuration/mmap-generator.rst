@@ -1,2 +1,0 @@
-Movement Map Generator
-======================
