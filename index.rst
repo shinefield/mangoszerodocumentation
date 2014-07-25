@@ -18,9 +18,10 @@ mangos-zero documentation
 
     intro
 
-.. warning::
+.. note::
 
-    Want even better documentation for **mangos-zero**?
+    This documentation for **mangos-zero** is work in progress as of
+    July 23rd 2014.
 
     Help us, and fill in the blanks, `fork us`_ and submit pull requests.
 
