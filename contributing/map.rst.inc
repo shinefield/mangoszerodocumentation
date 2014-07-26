@@ -8,6 +8,10 @@
   * :doc:`Git</contributing/code/git>`
   * :doc:`License </contributing/code/license>`
 
+* **Build System**
+
+  * :doc:`Best Practices </contributing/build-system/best-practices>`
+
 * **Documentation**
 
   * :doc:`Overview </contributing/documentation/overview>`

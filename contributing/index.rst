@@ -6,6 +6,7 @@ Contributing
    :hidden:
 
    code/index
+   build-system/index
    community/index
    documentation/index
 
