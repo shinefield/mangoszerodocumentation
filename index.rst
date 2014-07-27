@@ -38,6 +38,21 @@ Learn more about **mangos-zero**, what this project is about and what we provide
 
     intro
 
+.. _part-installation:
+
+******************
+Installation Guide
+******************
+
+A complete guide to installing **mangos-zero**.
+
+.. toctree::
+    :hidden:
+
+    installation/index
+
+.. include:: /installation/map.rst.inc
+
 .. _part-contributing:
 
 ************
