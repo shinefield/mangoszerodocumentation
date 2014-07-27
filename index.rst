@@ -4,6 +4,7 @@ Welcome to mangos-zero
 
 .. image:: /_images/logo.png
    :alt:   mangos-zero Welcome Page
+   :align: right
 
 `mangos-zero`_ allows your to run your own server instance of `World of Warcraft`_
 version 1.12 also known as `vanilla WoW`_. The code is open source, and made

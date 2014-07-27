@@ -2,6 +2,10 @@
 About This Project
 ##################
 
+.. image:: /_images/wow-beta-event.png
+   :alt:   End of the World of Warcraft beta (2005)
+   :align: right
+
 This is the documentation for the `mangos-zero`_ server for `World of Warcraft`_
 version 1.12 also known as `vanilla WoW`_.
 
