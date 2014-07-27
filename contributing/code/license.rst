@@ -1,6 +1,6 @@
-=======
-License
-=======
+============
+Code License
+============
 
 *Version 2, June 1991*
 
