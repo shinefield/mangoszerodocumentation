@@ -15,10 +15,14 @@ In addition to that, we also provide support for scripting using **ScriptDev2**:
 
 * `ScriptDev2 Pull Requests <http://bitbucket.org/mangoszero/scripts/pull-requests>`_
 * `Recent ScriptDev2 patches <http://bitbucket.org/mangoszero/scripts/commits>`_
-* `ScriptDev2 issues <http://bitbucket.org/mangoszero/scripts/issues>`_
 
 Finally, there is our own content database which is in active development:
 
 * `Database Pull Requests <http://bitbucket.org/mangoszero/content/pull-requests>`_
 * `Recent Database patches <http://bitbucket.org/mangoszero/content/commits>`_
 * `Database issues <http://bitbucket.org/mangoszero/content/issues>`_
+
+.. note::
+
+    Content related issues for both database content and scripts are tracked only
+    on the `database issue tracker <http://bitbucket.org/mangoszero/content/issues>`_.
