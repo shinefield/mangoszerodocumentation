@@ -5,7 +5,7 @@ Overview
 **mangos-zero** does not provide any platform specific build files, such as GNU
 Makefiles or Visual Studio project files.
 
-.. image:: /_images/cmake100.png
+.. image:: /_static/cmake100.png
    :alt:   CMake
    :align: right
 

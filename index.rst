@@ -2,7 +2,7 @@
 Welcome to mangos-zero
 ######################
 
-.. image:: /_images/logo.png
+.. image:: /_static/logo.png
    :alt:   mangos-zero Welcome Page
    :align: right
 

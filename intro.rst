@@ -2,7 +2,7 @@
 About This Project
 ##################
 
-.. image:: /_images/wow-beta-event.png
+.. image:: /_static/wow-beta-event.png
    :alt:   End of the World of Warcraft beta (2005)
    :align: right
 

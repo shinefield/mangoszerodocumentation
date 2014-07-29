@@ -42,12 +42,17 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output ----------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = "mangos_rtd_theme"
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed
+#from docs.readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-# Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ["_themes", ]
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    # The theme to use for HTML and HTML Help pages.  See the documentation for
+    # a list of builtin themes.
+    html_theme = "sphinx_rtd_theme"
+
+    # Add any paths that contain custom themes here, relative to this directory.
+    html_theme_path = ["_themes", ]
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'mangos-zero-doc'
