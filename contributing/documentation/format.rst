@@ -82,13 +82,15 @@ The previous reST snippet renders as follow:
 
 The current list of supported formats are the following:
 
-+-----------------+-------------+
-| Markup format   | Displayed   |
-+=================+=============+
-| cpp             | C++         |
-+-----------------+-------------+
-| text            | Text Only   |
-+-----------------+-------------+
++-----------------+----------------+
+| Markup format   | Displayed      |
++=================+================+
+| cpp             | C++            |
++-----------------+----------------+
+| sql             | SQL Statements |
++-----------------+----------------+
+| text            | Text Only      |
++-----------------+----------------+
 
 Adding Links
 ~~~~~~~~~~~~

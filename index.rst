@@ -24,7 +24,6 @@ version 1.12 also known as `vanilla WoW`_. The code is open source, and made
 
 .. _fork us: https://bitbucket.org/mangoszero/documentation
 
-
 .. _part-intro:
 
 ************
@@ -52,6 +51,21 @@ A complete guide to installing **mangos-zero**.
     installation/index
 
 .. include:: /installation/map.rst.inc
+
+.. _part-database:
+
+**************
+Database Guide
+**************
+
+A complete guide to conquering the **mangos-zero** databases.
+
+.. toctree::
+    :hidden:
+
+    database/index
+
+.. include:: /database/map.rst.inc
 
 .. _part-contributing:
 
