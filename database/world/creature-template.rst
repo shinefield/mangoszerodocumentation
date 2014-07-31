@@ -159,99 +159,48 @@ Table structure
 Fields
 ------
 
-entry
+Entry
 -----
 
 The unique identifier of the creature template entry.
 
-KillCredit1
------------
-
-If killing a creature should credit towards a different
-``creature_template``, this should be set to the creature template's
-identifier.
-
-KillCredit2
------------
-
-If killing a creature should credit towards a different
-``creature_template``, this should be set to the creature template's
-identifier.
-
-modelid\_1
-----------
-
-A display model identifier for the creature\_template. This references
-the `creature\_model\_info <creature_model_info>`__ tables unique ID for
-which this entry is valid.
-
-modelid\_2
-----------
-
-A display model identifier for the creature\_template. This references
-the `creature\_model\_info <creature_model_info>`__ tables unique ID for
-which this entry is valid.
-
-name
+Name
 ----
 
 The creature's name that will be displayed.
 
-subname
+SubName
 -------
 
 An optional tag, which will be shown below the creature's name.
 
-gossip\_menu\_id
-----------------
-
-This references the `gossip\_menu <gossip_menu>`__ tables unique ID for
-which the entry is valid, if the creature\_template should have a gossip
-dialogue.
-
-minlevel
+MinLevel
 --------
 
 The minimum level of the creature if the creature has a level range.
 
-maxlevel
+MaxLevel
 --------
 
 The maximum level of the creature if the creature has a level range.
 When added to world, a level in chosen in the specified level range.
 
-minhealth
----------
+ModelId1
+--------
 
-The minimum health of the creature if the creature has variable health.
+A display model identifier for the creature\_template. This references
+the `creature\_model\_info <creature_model_info>`__ tables unique ID for
+which this entry is valid.
 
-maxhealth
----------
+ModelId2
+--------
 
-The maximum health of the creature if the creature has a variable
-health. When added to world, the health value is chosen in proportion to
-the level chosen.
+A display model identifier for the creature\_template. This references
+the `creature\_model\_info <creature_model_info>`__ tables unique ID for
+which this entry is valid.
 
-minmana
--------
-
-The miminum mana of the creature if the creature has variable mana.
-
-maxmana
--------
-
-The maximum mana of the creature if the creature has variable mana. When
-added to world, the mana value is chosen in proportion to the level
-chosen.
-
-armor
------
-
-The armor value of the creature. It controls how much damage reduction
-the creature gets from physical attacks.
-
-faction\_A
-----------
+FactionAlliance
+---------------
 
 A faction for creatures on the Alliance side. The value has to match
 with a faction template identifier defined in
@@ -260,8 +209,8 @@ with a faction template identifier defined in
 *Notice*: This field also controls the creature family assistance
 mechanic. Only creatures with the same faction will assist each other.
 
-faction\_H
-----------
+FactionHorde
+------------
 
 A faction for creatures on the Horde side. The value has to match with a
 faction template identifier defined in
@@ -270,8 +219,132 @@ faction template identifier defined in
 *Notice*: This field also controls the creature family assistance
 mechanic. Only creatures with the same faction will assist each other.
 
-npcflag
--------
+Scale
+-----
+
+If non-zero, this field defines how the size of the model appears in
+game. If zero, it will use default model size taken from
+`CreatureDisplayInfo.dbc <../dbc/CreatureDisplayInfo.dbc>`__.
+
+Family
+------
+
+The creature's family is set for all creature's with a type of ``1``,
+aka. beasts.
+
++---------+----------------+---------+------------------+
+| Value   | Description    | Value   | Description      |
++=========+================+=========+==================+
+| 1       | Wolf           | 16      | Voidwalker       |
++---------+----------------+---------+------------------+
+| 2       | Cat            | 17      | Succubus         |
++---------+----------------+---------+------------------+
+| 3       | Spider         | 19      | Doomguard        |
++---------+----------------+---------+------------------+
+| 4       | Bear           | 20      | Scorpid          |
++---------+----------------+---------+------------------+
+| 5       | Boar           | 21      | Turtle           |
++---------+----------------+---------+------------------+
+| 6       | Crocolisk      | 23      | Imp              |
++---------+----------------+---------+------------------+
+| 7       | Carrion Bird   | 24      | Bat              |
++---------+----------------+---------+------------------+
+| 8       | Crab           | 25      | Hyena            |
++---------+----------------+---------+------------------+
+| 9       | Gorilla        | 26      | Owl              |
++---------+----------------+---------+------------------+
+| 11      | Raptor         | 27      | Wind Serpent     |
++---------+----------------+---------+------------------+
+| 12      | Tallstrider    | 28      | Remote Control   |
++---------+----------------+---------+------------------+
+| 15      | Felhunter      |         |                  |
++---------+----------------+---------+------------------+
+
+*Notice*: It has to be evaluated if creatures of type ``3`` (Demons)
+should have their family set, as there are creature families defined for
+these. Also, remote control family would probably be having a type of
+``9`` since these are mechanical.
+
+CreatureType
+------------
+
+The type of the creature. The following table provides a list of valid
+values. The values are taken from
+`CreatureType.dbc <../dbc/CreatureType.dbc>`__.
+
++---------+-----------------+
+| Value   | Name            |
++=========+=================+
+| 1       | Beast           |
++---------+-----------------+
+| 2       | Dragonkin       |
++---------+-----------------+
+| 3       | Demon           |
++---------+-----------------+
+| 4       | Elemental       |
++---------+-----------------+
+| 5       | Giant           |
++---------+-----------------+
+| 6       | Undead          |
++---------+-----------------+
+| 7       | Humanoid        |
++---------+-----------------+
+| 8       | Critter         |
++---------+-----------------+
+| 9       | Mechanical      |
++---------+-----------------+
+| 10      | Not specified   |
++---------+-----------------+
+| 11      | Totem           |
++---------+-----------------+
+
+InhabitType
+-----------
+
+The inhabit type defines where a creature can move and attack and thus
+also influences when a creature will rest.
+
++---------+-----------------------------+
+| Value   | Behaviour                   |
++=========+=============================+
+| 1       | Ground movement only        |
++---------+-----------------------------+
+| 2       | Water movement only         |
++---------+-----------------------------+
+| 3       | Ground and water movement   |
++---------+-----------------------------+
+| 4       | Air movement                |
++---------+-----------------------------+
+
+RegenerateHealth
+----------------
+
+Controls if a creature template should regenerate it's health or not.
+
++---------+-------------------+
+| Value   | Description       |
++=========+===================+
+| 0       | No regeneration   |
++---------+-------------------+
+| 1       | Regenerate        |
++---------+-------------------+
+
+RacialLeader
+------------
+
+Determines if a creature template is a racial leader. Racial leaders
+will grant increased honor points upon death.
+
++---------+-------------------+
+| Value   | Description       |
++=========+===================+
+| 0       | Normal creature   |
++---------+-------------------+
+| 1       | Racial leader     |
++---------+-------------------+
+
+NpcFlags
+--------
 
 This field is used to flag a creature\_template with the features it
 should support. Since this is a bit field, multiple flags can be
@@ -315,144 +388,8 @@ combined as needed. A list of supported flags is provided below.
 | 536870912   | Outdoor PvP      | Custom     |
 +-------------+------------------+------------+
 
-speed\_walk
------------
-
-Controls how fast the creature can move in walking mode.
-
-speed\_run
-----------
-
-Controls how fast the creature can move in running mode.
-
-scale
------
-
-If non-zero, this field defines how the size of the model appears in
-game. If zero, it will use default model size taken from
-`CreatureDisplayInfo.dbc <../dbc/CreatureDisplayInfo.dbc>`__.
-
-rank
-----
-
-The rank of a creature determines which border the game client will draw
-around the creature tooltip in the user interface. The following table
-lists all valid values:
-
-+---------+--------------+-------------------------------------------------+
-| Value   | Name         | Description                                     |
-+=========+==============+=================================================+
-| 0       | Normal       | Default type                                    |
-+---------+--------------+-------------------------------------------------+
-| 1       | Elite        | Increased health, damage, better loot           |
-+---------+--------------+-------------------------------------------------+
-| 2       | Rare elite   | Like Elite but with increased respawn time      |
-+---------+--------------+-------------------------------------------------+
-| 3       | World boss   | Highest rank, best loot, highest respawn time   |
-+---------+--------------+-------------------------------------------------+
-| 4       | Rare         | Increased respawn time, better loot             |
-+---------+--------------+-------------------------------------------------+
-
-mindmg
-------
-
-Minimum damage the creature deals in melee combat. This field is
-combined with the attackpower field to calculate the damage.
-
-maxdmg
-------
-
-Maximum damage the creature deals in melee combat. This field is
-combined with the attackpower field to calculate the damage.
-
-dmgschool
+UnitFlags
 ---------
-
-A damage school for melee combat. The following table provides a list of
-valid values.
-
-+---------+-----------------+
-| Value   | Description     |
-+=========+=================+
-| 0       | Normal damage   |
-+---------+-----------------+
-| 1       | Holy damage     |
-+---------+-----------------+
-| 2       | Fire damage     |
-+---------+-----------------+
-| 3       | Nature damage   |
-+---------+-----------------+
-| 4       | Frost damage    |
-+---------+-----------------+
-| 5       | Shadow damage   |
-+---------+-----------------+
-| 6       | Arcane damage   |
-+---------+-----------------+
-
-attackpower
------------
-
-The attack power for the creature's melee attacks. This field along with
-``mindmg`` and ``maxdmg`` dictate how much the creature will hit for.
-The formula for applying correct damages is as follows:
-
-.. code-block:: sql
-
-        UPDATE `creature_template` SET
-            `mindmg` = <#1>,
-            `maxdmg` = <#2>,
-            `attackpower` = ROUND((`mindmg` + `maxdmg`) / 4 * 7),
-            `mindmg` = ROUND(`mindmg` - `attackpower` / 7),
-            `maxdmg` = ROUND(`maxdmg` - `attackpower` / 7)
-          WHERE `entry` = ...
-
-In the query above, substitute ``<#1>`` with the minimum damage you want
-the creature to deal and ``<#2>`` with the maximum damage you want the
-creature to deal.
-
-*Notice*: you might want to double check the calculated values after the
-query has run because a large difference between ``mindmg`` and
-``maxdmg`` can cause ``mindmg`` to become a negative value.
-
-dmg\_multiplier
----------------
-
-Setting this value to a value smaller or larger than ``1`` will modify
-the creature template's damage by this factor.
-
-baseattacktime
---------------
-
-A creature's melee attack time in milliseconds.
-
-rangeattacktime
----------------
-
-A creature's ranged attack time in milliseconds.
-
-unit\_class
------------
-
-A creature's class. The following table describes the available classes.
-
-+---------+-----------+-----------------------------------------+
-| Value   | Name      | Description                             |
-+=========+===========+=========================================+
-| 1       | Warrior   | Has increased health and no mana        |
-+---------+-----------+-----------------------------------------+
-| 2       | Paladin   | Has increased health and low mana       |
-+---------+-----------+-----------------------------------------+
-| 4       | Rogue     | Has increased damage, but lower armor   |
-+---------+-----------+-----------------------------------------+
-| 8       | Mage      | Has low health, but increased mana      |
-+---------+-----------+-----------------------------------------+
-
-*Notice*: depending on the creature's class, you have to make sure that
-the mana values are set properly. E.g. a Warrior or Rogue will not have
-mana set.
-
-unit\_flags
------------
 
 Unit flags are used to signal creature template states. The following
 table contains a list of known values.
@@ -524,7 +461,7 @@ figure out.
 | 134217728   | Unknown              |
 +-------------+----------------------+
 
-dynamicflags
+DynamicFlags
 ------------
 
 Dynamic flags are used to control the visual appearance of a creature
@@ -551,357 +488,301 @@ flags may be combined.
 | 64      | Tapped by all threat list   |                                         |
 +---------+-----------------------------+-----------------------------------------+
 
-family
-------
+ExtraFlags
+----------
 
-The creature's family is set for all creature's with a type of ``1``,
-aka. beasts.
+The extra flags allow to modify special behaviour for a
+creature\_template. The following table contains a list of combinable
+flags.
 
-+---------+----------------+---------+------------------+
-| Value   | Description    | Value   | Description      |
-+=========+================+=========+==================+
-| 1       | Wolf           | 16      | Voidwalker       |
-+---------+----------------+---------+------------------+
-| 2       | Cat            | 17      | Succubus         |
-+---------+----------------+---------+------------------+
-| 3       | Spider         | 19      | Doomguard        |
-+---------+----------------+---------+------------------+
-| 4       | Bear           | 20      | Scorpid          |
-+---------+----------------+---------+------------------+
-| 5       | Boar           | 21      | Turtle           |
-+---------+----------------+---------+------------------+
-| 6       | Crocolisk      | 23      | Imp              |
-+---------+----------------+---------+------------------+
-| 7       | Carrion Bird   | 24      | Bat              |
-+---------+----------------+---------+------------------+
-| 8       | Crab           | 25      | Hyena            |
-+---------+----------------+---------+------------------+
-| 9       | Gorilla        | 26      | Owl              |
-+---------+----------------+---------+------------------+
-| 11      | Raptor         | 27      | Wind Serpent     |
-+---------+----------------+---------+------------------+
-| 12      | Tallstrider    | 28      | Remote Control   |
-+---------+----------------+---------+------------------+
-| 15      | Felhunter      |         |                  |
-+---------+----------------+---------+------------------+
++---------+----------------------+-----------------------------------------------+
+| Value   | Type                 | Description                                   |
++=========+======================+===============================================+
+| 0       | NONE                 | Default: do nothing.                          |
++---------+----------------------+-----------------------------------------------+
+| 1       | INSTANCE\_BIND       | Bounds killer’s party to the instance         |
++---------+----------------------+-----------------------------------------------+
+| 2       | CIVILIAN             | Makes creature ignore aggro                   |
++---------+----------------------+-----------------------------------------------+
+| 4       | NO\_PARRY            | Prohibits from parrying                       |
++---------+----------------------+-----------------------------------------------+
+| 8       | NO\_PARRY\_HASTEN    | Parries do not speed up its next attack       |
++---------+----------------------+-----------------------------------------------+
+| 16      | NO\_BLOCK            | Prohibits from blocking                       |
++---------+----------------------+-----------------------------------------------+
+| 32      | NO\_CRUSH            | Prohibits from dealing crushing blows         |
++---------+----------------------+-----------------------------------------------+
+| 64      | NO\_XP\_AT\_KILL     | Creature rewards no XP at kill                |
++---------+----------------------+-----------------------------------------------+
+| 128     | INVISIBLE            | Creature invisible for player, e.g triggers   |
++---------+----------------------+-----------------------------------------------+
+| 256     | NOT\_TAUNTABLE       | Creature is immune to taunts                  |
++---------+----------------------+-----------------------------------------------+
+| 512     | AGGRO\_ZONE          | Sets itself in combat with zone on aggro      |
++---------+----------------------+-----------------------------------------------+
+| 1024    | GUARD                | Is zone guard and death will be announced     |
++---------+----------------------+-----------------------------------------------+
+| 2048    | NO\_TALKTO\_CREDIT   | Does not give quest credit (temporary)        |
++---------+----------------------+-----------------------------------------------+
 
-*Notice*: It has to be evaluated if creatures of type ``3`` (Demons)
-should have their family set, as there are creature families defined for
-these. Also, remote control family would probably be having a type of
-``9`` since these are mechanical.
-
-trainer\_type
--------------
-
-For creature templates set to be trainers, this details what kind of
-trainer the creature is. The following table provides a list of valid
-trainer types.
-
-+---------+----------------+
-| Value   | Type           |
-+=========+================+
-| 0       | Class          |
-+---------+----------------+
-| 1       | Mounts         |
-+---------+----------------+
-| 2       | Trade skills   |
-+---------+----------------+
-| 3       | Pets           |
-+---------+----------------+
-
-trainer\_spell
---------------
-
-If set to a valid spell identifier from
-`Spell.dbc <../dbc/Spell.dbc>`__, this will restrict access to a
-profession trainer so that the player needs to already have access to
-the spell to access the trainer.
-
-trainer\_class
---------------
-
-The value of this field will restrict access to class and/or pet
-trainers, if set to a value corresponding with the class identifiers
-from `ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
-
-+---------+---------------+
-| Value   | Description   |
-+=========+===============+
-| 1       | Warrior       |
-+---------+---------------+
-| 2       | Paladin       |
-+---------+---------------+
-| 3       | Hunter        |
-+---------+---------------+
-| 4       | Rogue         |
-+---------+---------------+
-| 5       | Priest        |
-+---------+---------------+
-| 7       | Shaman        |
-+---------+---------------+
-| 8       | Mage          |
-+---------+---------------+
-| 9       | Warlock       |
-+---------+---------------+
-| 11      | Druid         |
-+---------+---------------+
-
-*Notice*: pet trainers should always use the Hunter class identifier
-``3``.
-
-trainer\_race
--------------
-
-This field allows to restrict a riding trainer to a specific race.
-Players not from that race will require exalted reputation with the
-trainers race before being able to buy from him. Values in this field
-correspond with the content of `ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
-
-minrangedmg
------------
-
-Minimum damage the creature deals in ranged combat. This field is
-combined with the ranged attackpower field to calculate the damage.
-
-maxrangedmg
------------
-
-Maximum damage the creature deals in ranged combat. This field is
-combined with the ranged attackpower field to calculate the damage.
-
-rangedattackpower
+CreatureTypeFlags
 -----------------
-
-The attack power for the creature's ranged attacks.
-
-type
-----
-
-The type of the creature. The following table provides a list of valid
-values. The values are taken from
-`CreatureType.dbc <../dbc/CreatureType.dbc>`__.
-
-+---------+-----------------+
-| Value   | Name            |
-+=========+=================+
-| 1       | Beast           |
-+---------+-----------------+
-| 2       | Dragonkin       |
-+---------+-----------------+
-| 3       | Demon           |
-+---------+-----------------+
-| 4       | Elemental       |
-+---------+-----------------+
-| 5       | Giant           |
-+---------+-----------------+
-| 6       | Undead          |
-+---------+-----------------+
-| 7       | Humanoid        |
-+---------+-----------------+
-| 8       | Critter         |
-+---------+-----------------+
-| 9       | Mechanical      |
-+---------+-----------------+
-| 10      | Not specified   |
-+---------+-----------------+
-| 11      | Totem           |
-+---------+-----------------+
-
-type\_flags
------------
 
 Type flags *seem* to control what actions a player can perform towards a
 creature template.
 
-lootid
+SpeedWalk
+---------
+
+Controls how fast the creature can move in walking mode.
+
+SpeedRun
+--------
+
+Controls how fast the creature can move in running mode.
+
+UnitClass
+---------
+
+A creature's class. The following table describes the available classes.
+
++---------+-----------+-----------------------------------------+
+| Value   | Name      | Description                             |
++=========+===========+=========================================+
+| 1       | Warrior   | Has increased health and no mana        |
++---------+-----------+-----------------------------------------+
+| 2       | Paladin   | Has increased health and low mana       |
++---------+-----------+-----------------------------------------+
+| 4       | Rogue     | Has increased damage, but lower armor   |
++---------+-----------+-----------------------------------------+
+| 8       | Mage      | Has low health, but increased mana      |
++---------+-----------+-----------------------------------------+
+
+*Notice*: depending on the creature's class, you have to make sure that
+the mana values are set properly. E.g. a Warrior or Rogue will not have
+mana set.
+
+Rank
+----
+
+The rank of a creature determines which border the game client will draw
+around the creature tooltip in the user interface. The following table
+lists all valid values:
+
++---------+--------------+-------------------------------------------------+
+| Value   | Name         | Description                                     |
++=========+==============+=================================================+
+| 0       | Normal       | Default type                                    |
++---------+--------------+-------------------------------------------------+
+| 1       | Elite        | Increased health, damage, better loot           |
++---------+--------------+-------------------------------------------------+
+| 2       | Rare elite   | Like Elite but with increased respawn time      |
++---------+--------------+-------------------------------------------------+
+| 3       | World boss   | Highest rank, best loot, highest respawn time   |
++---------+--------------+-------------------------------------------------+
+| 4       | Rare         | Increased respawn time, better loot             |
++---------+--------------+-------------------------------------------------+
+
+HealthMultiplier
+----------------
+
+Setting this value to a value smaller or larger than ``1`` will modify
+the creature template's health by this factor.
+
+ManaMultiplier
+--------------
+
+Setting this value to a value smaller or larger than ``1`` will modify
+the creature template's mana by this factor.
+
+DamageMultiplier
+----------------
+
+Setting this value to a value smaller or larger than ``1`` will modify
+the creature template's damage by this factor.
+
+DamageVariance
+--------------
+
+**TODO**
+
+ArmorMultiplier
+---------------
+
+Setting this value to a value smaller or larger than ``1`` will modify
+the creature template's armor by this factor.
+
+ExperienceMultiplier
+--------------------
+
+Setting this value to a value smaller or larger than ``1`` will modify
+experience gained from the creature template by this factor.
+
+MinLevelHealth
+--------------
+
+The minimum health of the creature if the creature has variable health.
+
+MaxLevelHealth
+--------------
+
+The maximum health of the creature if the creature has a variable
+health. When added to world, the health value is chosen in proportion to
+the level chosen.
+
+MinLevelMana
+------------
+
+The miminum mana of the creature if the creature has variable mana.
+
+MaxLevelMana
+------------
+
+The maximum mana of the creature if the creature has variable mana. When
+added to world, the mana value is chosen in proportion to the level
+chosen.
+
+MinMeleeDmg
+-----------
+
+Minimum damage the creature deals in melee combat. This field is
+combined with the attackpower field to calculate the damage.
+
+MaxMeleeDmg
+-----------
+
+Maximum damage the creature deals in melee combat. This field is
+combined with the attackpower field to calculate the damage.
+
+MinRangedDmg
+------------
+
+Minimum damage the creature deals in ranged combat. This field is
+combined with the ranged attackpower field to calculate the damage.
+
+MaxRangedDmg
+------------
+
+Maximum damage the creature deals in ranged combat. This field is
+combined with the ranged attackpower field to calculate the damage.
+
+Armor
+-----
+
+The armor value of the creature. It controls how much damage reduction
+the creature gets from physical attacks.
+
+MeleeAttackPower
+----------------
+
+The attack power for the creature's melee attacks. This field along with
+``MinMeleeDmg`` and ``MaxMeleeDmg`` dictate how much the creature will hit for.
+The formula for applying correct damages is as follows:
+
+.. code-block:: sql
+
+        UPDATE `creature_template` SET
+            `MinMeleeDmg` = <#1>,
+            `MaxMeleeDmg` = <#2>,
+            `MeleeAttackPower` = ROUND((`MinMeleeDmg` + `MaxMeleeDmg`) / 4 * 7),
+            `MinMeleeDmg` = ROUND(`MinMeleeDmg` - `MeleeAttackPower` / 7),
+            `MaxMeleeDmg` = ROUND(`MaxMeleeDmg` - `MeleeAttackPower` / 7)
+          WHERE `Entry` = ...
+
+In the query above, substitute ``<#1>`` with the minimum damage you want
+the creature to deal and ``<#2>`` with the maximum damage you want the
+creature to deal.
+
+*Notice*: you might want to double check the calculated values after the
+query has run because a large difference between ``MinMeleeDmg`` and
+``MaxMeleeDmg`` can cause ``MinMeleeDmg`` to become a negative value.
+
+RangedAttackPower
+-----------------
+
+The attack power for the creature's ranged attacks.
+
+MeleeBaseAttackTime
+-------------------
+
+A creature's melee attack time in milliseconds.
+
+RangedBaseAttackTime
+--------------------
+
+A creature's ranged attack time in milliseconds.
+
+DamageSchool
+------------
+
+A damage school for melee combat. The following table provides a list of
+valid values.
+
++---------+-----------------+
+| Value   | Description     |
++=========+=================+
+| 0       | Normal damage   |
++---------+-----------------+
+| 1       | Holy damage     |
++---------+-----------------+
+| 2       | Fire damage     |
++---------+-----------------+
+| 3       | Nature damage   |
++---------+-----------------+
+| 4       | Frost damage    |
++---------+-----------------+
+| 5       | Shadow damage   |
++---------+-----------------+
+| 6       | Arcane damage   |
++---------+-----------------+
+
+MinLootGold
+-------
+
+Minimum money the creature drops when killed, in copper.
+
+MaxLootGold
+-------
+
+Maximum money the creature drops when killed, in copper.
+
+LootId
 ------
 
 The field adds loot to a creature template and references the
 `creature\_loot\_template <creature_loot_template>`__ tables unique ID
 for which the entry is valid.
 
-pickpocketloot
---------------
+PickpocketLootId
+----------------
 
 The field adds pickpocketing loot to a creature template and references
 the `pickpocketing\_loot\_template <pickpocketing_loot_template>`__
 tables unique ID for which the entry is valid.
 
-skinloot
---------
+SkinningLootId
+--------------
 
 The field adds skinning loot to a creature template and references the
 `skinning\_loot\_template <skinning_loot_template>`__ tables unique ID
 for which the entry is valid.
 
-resistance1
+KillCredit1
 -----------
 
-Holy resistance.
+If killing a creature should credit towards a different
+``creature_template``, this should be set to the creature template's
+identifier.
 
-resistance2
+KillCredit2
 -----------
 
-Fire resistance.
+If killing a creature should credit towards a different
+``creature_template``, this should be set to the creature template's
+identifier.
 
-resistance3
------------
-
-Nature resistance.
-
-resistance4
------------
-
-Frost resistance.
-
-resistance5
------------
-
-Shadow resistance.
-
-resistance6
------------
-
-Arcane resistance.
-
-PetSpellDataId
---------------
-
-ID that displays what spells the pet has in the client.
-
-mingold
--------
-
-Minimum money the creature drops when killed, in copper.
-
-maxgold
--------
-
-Maximum money the creature drops when killed, in copper.
-
-AIName
-------
-
-This string determines which built-in AI script will be used for the
-creature template. By default and empty string will lead to the creature
-doing nothing. The following table lists all valid entries.
-
-+---------------+------------------------------------------------+
-| Value         | Description                                    |
-+===============+================================================+
-| NullAI        | Do nothing. Same as empty string.              |
-+---------------+------------------------------------------------+
-| AggressorAI   | Creature attacks when entering aggro radius.   |
-+---------------+------------------------------------------------+
-| ReactorAI     | Creature attacks only if aggroed by spell.     |
-+---------------+------------------------------------------------+
-| GuardAI       | Creature is a zone guard.                      |
-+---------------+------------------------------------------------+
-| PetAI         | Creature is a pet.                             |
-+---------------+------------------------------------------------+
-| TotemAI       | Creature casts spell from spell1.              |
-+---------------+------------------------------------------------+
-| EventAI       | Creature uses event based AI.                  |
-+---------------+------------------------------------------------+
-
-MovementType
-------------
-
-The movement type defines what a creature spawn will behave like after
-spawning.
-
-+---------+-----------------------------------------------+
-| Value   | Behaviour                                     |
-+=========+===============================================+
-| 0       | Idle on spawn point                           |
-+---------+-----------------------------------------------+
-| 1       | Random movement within ``spawndist`` radius   |
-+---------+-----------------------------------------------+
-| 2       | Waypoint movement                             |
-+---------+-----------------------------------------------+
-
-InhabitType
------------
-
-The inhabit type defines where a creature can move and attack and thus
-also influences when a creature will rest.
-
-+---------+-----------------------------+
-| Value   | Behaviour                   |
-+=========+=============================+
-| 1       | Ground movement only        |
-+---------+-----------------------------+
-| 2       | Water movement only         |
-+---------+-----------------------------+
-| 3       | Ground and water movement   |
-+---------+-----------------------------+
-| 4       | Air movement                |
-+---------+-----------------------------+
-
-Civilian
---------
-
-Marking a creature template as civilian will prevent it from aggroing
-and may influence the honor points gained negatively.
-
-+---------+---------------+
-| Value   | Description   |
-+=========+===============+
-| 0       | No civilian   |
-+---------+---------------+
-| 1       | Civilian      |
-+---------+---------------+
-
-RacialLeader
-------------
-
-Determines if a creature template is a racial leader. Racial leaders
-will grant increased honor points upon death.
-
-+---------+-------------------+
-| Value   | Description       |
-+=========+===================+
-| 0       | Normal creature   |
-+---------+-------------------+
-| 1       | Racial leader     |
-+---------+-------------------+
-
-RegenHealth
------------
-
-Controls if a creature template should regenerate it's health or not.
-
-+---------+-------------------+
-| Value   | Description       |
-+=========+===================+
-| 0       | No regeneration   |
-+---------+-------------------+
-| 1       | Regenerate        |
-+---------+-------------------+
-
-equipment\_id
--------------
-
-The field adds equipment to a creature template and references the
-`creature\_equip\_template <creature_equip_template>`__ tables unique ID
-for which the entry is valid.
-
-trainer\_id
------------
-
-This field adds a training spells to a creature template and references
-the `npc\_trainer\_template <npc_trainer_template>`__ tables unique ID
-for which the entry is valid.
-
-vendor\_id
-----------
-
-This field adds a vendor items to a creature template and references the
-`npc\_vendor\_template <npc_vendor_template>`__ tables unique ID for
-which the entry is valid.
-
-mechanic\_immune\_mask
-----------------------
+MechanicImmuneMask
+------------------
 
 This mask can be used to make creatures immune to spell mechanics.
 Multiple immunities can be combined.
@@ -946,42 +827,190 @@ Multiple immunities can be combined.
 `SpellMechanic.dbc <../dbc/SpellMechanic.dbc>`__ and the immunities list
 there, but it does not match. **TODO**
 
-flags\_extra
+ResistanceHoly
+-----------
+
+Holy resistance.
+
+ResistanceFire
+-----------
+
+Fire resistance.
+
+ResistanceNature
+-----------
+
+Nature resistance.
+
+ResistanceFrost
+-----------
+
+Frost resistance.
+
+ResistanceShadow
+-----------
+
+Shadow resistance.
+
+ResistanceArcane
+-----------
+
+Arcane resistance.
+
+PetSpellDataId
+--------------
+
+ID that displays what spells the pet has in the client.
+
+MovementType
 ------------
 
-The extra flags allow to modify special behaviour for a
-creature\_template. The following table contains a list of combinable
-flags.
+The movement type defines what a creature spawn will behave like after
+spawning.
 
-+---------+----------------------+-----------------------------------------------+
-| Value   | Type                 | Description                                   |
-+=========+======================+===============================================+
-| 0       | NONE                 | Default: do nothing.                          |
-+---------+----------------------+-----------------------------------------------+
-| 1       | INSTANCE\_BIND       | Bounds killer’s party to the instance         |
-+---------+----------------------+-----------------------------------------------+
-| 2       | CIVILIAN             | Makes creature ignore aggro                   |
-+---------+----------------------+-----------------------------------------------+
-| 4       | NO\_PARRY            | Prohibits from parrying                       |
-+---------+----------------------+-----------------------------------------------+
-| 8       | NO\_PARRY\_HASTEN    | Parries do not speed up its next attack       |
-+---------+----------------------+-----------------------------------------------+
-| 16      | NO\_BLOCK            | Prohibits from blocking                       |
-+---------+----------------------+-----------------------------------------------+
-| 32      | NO\_CRUSH            | Prohibits from dealing crushing blows         |
-+---------+----------------------+-----------------------------------------------+
-| 64      | NO\_XP\_AT\_KILL     | Creature rewards no XP at kill                |
-+---------+----------------------+-----------------------------------------------+
-| 128     | INVISIBLE            | Creature invisible for player, e.g triggers   |
-+---------+----------------------+-----------------------------------------------+
-| 256     | NOT\_TAUNTABLE       | Creature is immune to taunts                  |
-+---------+----------------------+-----------------------------------------------+
-| 512     | AGGRO\_ZONE          | Sets itself in combat with zone on aggro      |
-+---------+----------------------+-----------------------------------------------+
-| 1024    | GUARD                | Is zone guard and death will be announced     |
-+---------+----------------------+-----------------------------------------------+
-| 2048    | NO\_TALKTO\_CREDIT   | Does not give quest credit (temporary)        |
-+---------+----------------------+-----------------------------------------------+
++---------+-----------------------------------------------+
+| Value   | Behaviour                                     |
++=========+===============================================+
+| 0       | Idle on spawn point                           |
++---------+-----------------------------------------------+
+| 1       | Random movement within ``spawndist`` radius   |
++---------+-----------------------------------------------+
+| 2       | Waypoint movement                             |
++---------+-----------------------------------------------+
+
+TrainerType
+-----------
+
+For creature templates set to be trainers, this details what kind of
+trainer the creature is. The following table provides a list of valid
+trainer types.
+
++---------+----------------+
+| Value   | Type           |
++=========+================+
+| 0       | Class          |
++---------+----------------+
+| 1       | Mounts         |
++---------+----------------+
+| 2       | Trade skills   |
++---------+----------------+
+| 3       | Pets           |
++---------+----------------+
+
+TrainerSpell
+------------
+
+If set to a valid spell identifier from
+`Spell.dbc <../dbc/Spell.dbc>`__, this will restrict access to a
+profession trainer so that the player needs to already have access to
+the spell to access the trainer.
+
+TrainerClass
+------------
+
+The value of this field will restrict access to class and/or pet
+trainers, if set to a value corresponding with the class identifiers
+from `ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+
++---------+---------------+
+| Value   | Description   |
++=========+===============+
+| 1       | Warrior       |
++---------+---------------+
+| 2       | Paladin       |
++---------+---------------+
+| 3       | Hunter        |
++---------+---------------+
+| 4       | Rogue         |
++---------+---------------+
+| 5       | Priest        |
++---------+---------------+
+| 7       | Shaman        |
++---------+---------------+
+| 8       | Mage          |
++---------+---------------+
+| 9       | Warlock       |
++---------+---------------+
+| 11      | Druid         |
++---------+---------------+
+
+*Notice*: pet trainers should always use the Hunter class identifier
+``3``.
+
+TrainerRace
+-----------
+
+This field allows to restrict a riding trainer to a specific race.
+Players not from that race will require exalted reputation with the
+trainers race before being able to buy from him. Values in this field
+correspond with the content of `ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+
+TrainerTemplateId
+-----------------
+
+This field adds a training spells to a creature template and references
+the `npc\_trainer\_template <npc_trainer_template>`__ tables unique ID
+for which the entry is valid.
+
+VendorTemplateId
+----------------
+
+This field adds a vendor items to a creature template and references the
+`npc\_vendor\_template <npc_vendor_template>`__ tables unique ID for
+which the entry is valid.
+
+GossipMenuId
+------------
+
+This references the `gossip\_menu <gossip_menu>`__ tables unique ID for
+which the entry is valid, if the creature\_template should have a gossip
+dialogue.
+
+EquipmentTemplateId
+-------------------
+
+The field adds equipment to a creature template and references the
+`creature\_equip\_template <creature_equip_template>`__ tables unique ID
+for which the entry is valid.
+
+Civilian
+--------
+
+Marking a creature template as civilian will prevent it from aggroing
+and may influence the honor points gained negatively.
+
++---------+---------------+
+| Value   | Description   |
++=========+===============+
+| 0       | No civilian   |
++---------+---------------+
+| 1       | Civilian      |
++---------+---------------+
+
+AIName
+------
+
+This string determines which built-in AI script will be used for the
+creature template. By default and empty string will lead to the creature
+doing nothing. The following table lists all valid entries.
+
++---------------+------------------------------------------------+
+| Value         | Description                                    |
++===============+================================================+
+| NullAI        | Do nothing. Same as empty string.              |
++---------------+------------------------------------------------+
+| AggressorAI   | Creature attacks when entering aggro radius.   |
++---------------+------------------------------------------------+
+| ReactorAI     | Creature attacks only if aggroed by spell.     |
++---------------+------------------------------------------------+
+| GuardAI       | Creature is a zone guard.                      |
++---------------+------------------------------------------------+
+| PetAI         | Creature is a pet.                             |
++---------------+------------------------------------------------+
+| TotemAI       | Creature casts spell from spell1.              |
++---------------+------------------------------------------------+
+| EventAI       | Creature uses event based AI.                  |
++---------------+------------------------------------------------+
 
 ScriptName
 ----------
