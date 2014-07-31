@@ -737,12 +737,12 @@ valid values.
 +---------+-----------------+
 
 MinLootGold
--------
+-----------
 
 Minimum money the creature drops when killed, in copper.
 
 MaxLootGold
--------
+-----------
 
 Maximum money the creature drops when killed, in copper.
 
@@ -828,32 +828,32 @@ Multiple immunities can be combined.
 there, but it does not match. **TODO**
 
 ResistanceHoly
------------
+--------------
 
 Holy resistance.
 
 ResistanceFire
------------
+--------------
 
 Fire resistance.
 
 ResistanceNature
------------
+----------------
 
 Nature resistance.
 
 ResistanceFrost
------------
+---------------
 
 Frost resistance.
 
 ResistanceShadow
------------
+----------------
 
 Shadow resistance.
 
 ResistanceArcane
------------
+----------------
 
 Arcane resistance.
 
