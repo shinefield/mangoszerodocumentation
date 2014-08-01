@@ -62,4 +62,3 @@ Relations
 -  ``tabID`` references the primary key of ``TalentTab.dbc``
 -  ``spellRank[1-9]`` and ``requiredSpellId`` reference the primary key
    of ``Spell.dbc``
-

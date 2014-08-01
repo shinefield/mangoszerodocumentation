@@ -41,4 +41,3 @@ Relations
 
 -  ``QuestionID[1-10]`` reference the primary key of
    ``GMSurveyQuestions.dbc``.
-

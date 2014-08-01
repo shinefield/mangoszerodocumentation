@@ -25,7 +25,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 -  ``0``: item,
 -  ``1``: weapon.
@@ -34,4 +34,3 @@ Relations
 ---------
 
 -  ``subclassMapID`` references the primary key of ``ItemSubClass.dbc``.
-

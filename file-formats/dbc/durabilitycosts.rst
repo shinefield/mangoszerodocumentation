@@ -24,12 +24,12 @@ Fields
 ------
 
 weaponSubClassCost
-------------------
+~~~~~~~~~~~~~~~~~~
 
 **TODO**
 
 armorSubClassCost
------------------
+~~~~~~~~~~~~~~~~~
 
 **TODO**
 

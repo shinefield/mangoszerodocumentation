@@ -48,11 +48,10 @@ Relations
 Notes
 -----
 
-::
+.. math::
 
         pos.x = 17066.666 - pos.x / 36.0f;
         pos.y = 17066.666 - pos.y / 36.0f;
         pos.z = pos.z / 36.0f;
         falloffStart = falloffStart / 36.0f;
         falloffEnd = falloffEnd / 36.0f;
-

@@ -30,13 +30,13 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
 
 showScalp
----------
+~~~~~~~~~
 
 -  ``0``: not bald,
 -  ``1``: bald.
@@ -46,4 +46,3 @@ Relations
 
 -  ``raceID`` references the primary key of ``ChrRaces.dbc``.
 -  ``variationID`` references the primary key of ``CharVariations.dbc``.
-

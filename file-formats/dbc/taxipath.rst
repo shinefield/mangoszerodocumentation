@@ -27,4 +27,3 @@ Relations
 
 -  ``sourceTaxiNodeID`` and ``destinationTaxiNodeID`` references the
    primary key of ``TaxiNodes.dbc``.
-

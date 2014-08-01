@@ -25,4 +25,3 @@ Relations
 ---------
 
 -  ``languageID`` references the primary key of ``Languages.dbc``.
-

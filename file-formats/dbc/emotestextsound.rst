@@ -28,7 +28,7 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
@@ -39,4 +39,3 @@ Relations
 -  ``emotesTextID`` references the primary key of ``EmotesText.dbc``.
 -  ``raceID`` references the primary key of ``ChrRaces.dbc``.
 -  ``soundID`` references the primary key of ``SoundEntries.dbc``.
-

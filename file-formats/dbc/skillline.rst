@@ -36,4 +36,3 @@ Relations
 -  ``skillCostsID`` references the primary key of
    ``SkillCostsData.dbc``.
 -  ``spellIconID`` references the primary key of ``SpellIcon.dbc``.
-

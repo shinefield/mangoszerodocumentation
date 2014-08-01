@@ -31,7 +31,7 @@ Fields
 ------
 
 emoteFlags
-----------
+~~~~~~~~~~
 
 -  ``0000 0000 0000 1000`` / 8: Talk,
 -  ``0000 0000 0001 0000`` / 16: Question,
@@ -40,7 +40,7 @@ emoteFlags
 -  ``0000 0001 0000 0000`` / 256: Laugh.
 
 emoteSpecProc
--------------
+~~~~~~~~~~~~~
 
 -  ``0``: perform emote once,
 -  ``1``: loop emote,
@@ -53,4 +53,3 @@ Relations
    ``AnimationData.dbc``.
 -  ``eventSoundEntryID`` references the primary key of
    ``SoundEntries.dbc``.
-

@@ -36,4 +36,3 @@ Relations
 -  ``doodadID[1-4]`` reference the primary key of
    ``GroundEffectDoodad.dbc``.
 -  ``terrainTypeID`` references the primary key of ``TerrainType.dbc``.
-

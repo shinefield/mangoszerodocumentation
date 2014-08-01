@@ -36,4 +36,3 @@ The following is a list of available quest types.
 +------+-------------------------------+
 | 5    | [SERVER] Restart cancelled    |
 +------+-------------------------------+
-

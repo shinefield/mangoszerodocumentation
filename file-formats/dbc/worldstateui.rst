@@ -49,4 +49,3 @@ Relations
 
 -  ``mapID`` references the primary key of ``Map.dbc``.
 -  ``areaID`` references the primary key of ``AreaTable.dbc``.
-

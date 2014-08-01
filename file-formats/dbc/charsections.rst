@@ -39,13 +39,13 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
 
 sectionType
------------
+~~~~~~~~~~~
 
 Each ``sectionType`` value indicates a different use case for the fields
 ``colorIndex``, ``TextureName1``, ``TextureName2`` and ``TextureName3``.
@@ -72,7 +72,7 @@ Each ``sectionType`` value indicates a different use case for the fields
    empty.
 
 flags
------
+~~~~~
 
 This indicates if an entry is valid for a player character. Currently
 only entries for *Goblins* are marked as non-playable.
@@ -84,4 +84,3 @@ Relations
 ---------
 
 -  ``raceID`` references the primary key of ``ChrRaces.dbc``.
-

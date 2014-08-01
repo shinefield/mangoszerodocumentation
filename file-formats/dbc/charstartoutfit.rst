@@ -28,13 +28,13 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
 
 flag
-----
+~~~~
 
 **TODO**
 
@@ -43,4 +43,3 @@ Relations
 
 -  ``RaceID`` references the primary key of ``ChrRaces.dbc``.
 -  ``ClassID`` references the primary key of ``ChrClasses.dbc``.
-

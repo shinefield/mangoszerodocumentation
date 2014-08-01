@@ -40,4 +40,3 @@ Relations
 -  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
 -  ``cinematicCameraID[1-8]`` references the primary key of
    ``CinematicCamera.dbc``.
-

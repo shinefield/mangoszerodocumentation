@@ -41,37 +41,35 @@ Descriptions for each field with their meaning, usage and relations are
 available below.
 
 id
---
+~~
 
 The unique identifier for a realm server.
 
 name
-----
+~~~~
 
 The name to be displayed in the realm selection list.
 
 address
--------
+~~~~~~~
 
-A valid `IP address <http://en.wikipedia.org/wiki/IP_address>`__ at
-which the world server is accessible. This can be a private IP address,
-like ``192.168.0.1``, but also a public IP address if your world server
-is publicly accessible.
+A valid `IP address`_ at which the world server is accessible. This can
+be a private IP address, like ``192.168.0.1``, but also a public IP address
+if your world server is publicly accessible.
 
 The realm list server will redirect connections after logging in and
 selecting a realm to this IP address.
 
 Please note, that the IP address configured here has to match with the
-IP address you have configured in the world server configuration file
-``mangosd.conf``.
+IP address you have configured in the world server configuration file.
 
 port
-----
+~~~~
 
 A valid port number on which this realm server listens to connections.
 
 icon
-----
+~~~~
 
 The type of realm server.
 
@@ -88,7 +86,7 @@ realmflags
 **TODO**
 
 timezone
---------
+~~~~~~~~
 
 The realm time-zone, it will be displayed in the tabs of the realm list.
 
@@ -107,15 +105,15 @@ Valid values are:
 -  ``11``: Spanish
 
 allowedSecurityLevel
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
-The minimum `account <account>`__ ``gmlevel`` required for accounts to
+The minimum :doc:`account <account>` ``gmlevel`` required for accounts to
 log in to this realm. Changing this value will automatically update the
 visible in-game realm list, but the realm server must be restarted for
 it to take effect.
 
 population
-----------
+~~~~~~~~~~
 
 This field is automatically updated at regular intervals and will have
 the current population.
@@ -130,6 +128,8 @@ In the realm list in-game, the thresholds for low, medium and high
 population are 0.5, 1.0 and 2.0 respectively.
 
 realmbuilds
------------
+~~~~~~~~~~~
 
 Accepted Client version for the realm, in form of comma separated value.
+
+.. _IP address: http://en.wikipedia.org/wiki/IP_address

@@ -36,13 +36,13 @@ Fields
 ------
 
 highlightSky
-------------
+~~~~~~~~~~~~
 
 -  ``0``: false,
 -  ``1``: true.
 
 flags
------
+~~~~~
 
 **TODO**
 
@@ -50,4 +50,3 @@ Relations
 ---------
 
 -  ``lightSkyboxID`` references the primary key of ``LightSkyBox.dbc``.
-

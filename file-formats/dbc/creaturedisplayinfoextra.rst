@@ -56,13 +56,13 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
 
 flags
------
+~~~~~
 
 **TODO**
 
@@ -72,4 +72,3 @@ Relations
 -  ``displayRaceID`` references the primary key of ``ChrRaces.dbc``.
 -  ``NPCItemDisplayID[1-9]`` references the primary key of
    ``ItemDisplayInfo.dbc``.
-

@@ -39,35 +39,34 @@ Fields
 ------
 
 guildid
--------
+~~~~~~~
 
 name
-----
+~~~~
 
 leaderguid
-----------
+~~~~~~~~~~
 
 EmblemStyle
------------
+~~~~~~~~~~~
 
 EmblemColor
------------
+~~~~~~~~~~~
 
 BorderStyle
------------
+~~~~~~~~~~~
 
 BorderColor
------------
+~~~~~~~~~~~
 
 BackgroundColor
----------------
+~~~~~~~~~~~~~~~
 
 info
-----
+~~~~
 
 motd
-----
+~~~~
 
 createdate
-----------
-
+~~~~~~~~~~

@@ -25,4 +25,3 @@ Relations
 
 -  ``itemSubClassID`` references the key ``subClassID`` of
    ``ItemSubClass.dbc``.
-

@@ -25,4 +25,3 @@ Relations
 
 -  ``spellVisualKitID`` references the primary key of
    ``SpellVisualKit.dbc``.
-

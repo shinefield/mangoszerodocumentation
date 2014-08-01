@@ -55,7 +55,7 @@ Fields
 ------
 
 instanceType
-------------
+~~~~~~~~~~~~
 
 -  ``0``: normal map,
 -  ``1``: group instance map,
@@ -63,7 +63,7 @@ instanceType
 -  ``3``: battleground instance map.
 
 isBattleground
---------------
+~~~~~~~~~~~~~~
 
 -  ``0``: map is no PVP map,
 -  ``1``: map is a PVP map.
@@ -74,4 +74,3 @@ Relations
 -  ``areaTableID`` references the primary key of ``AreaTable.dbc``.
 -  ``LoadingScreenID`` references the primary key of
    ``LoadingScreens.dbc``.
-

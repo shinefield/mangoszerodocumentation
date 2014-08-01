@@ -44,8 +44,11 @@ Table structure
 | 15   | numSkillUps                | Integer            | 0         | Skill-ups for this skill.                          |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
 
+Fields
+------
+
 aquireMethod
-------------
+~~~~~~~~~~~~
 
 -  ``0``: **TODO**,
 -  ``1``: **TODO**,
@@ -57,4 +60,3 @@ Relations
 -  ``skillLine`` references the primary key of ``SkillLine.dbc``.
 -  ``spell`` and ``supersededBySpell`` reference the primary key of
    ``Spell.dbc``.
-

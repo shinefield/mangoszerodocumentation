@@ -42,7 +42,7 @@ Fields
 ------
 
 sizeClass
----------
+~~~~~~~~~
 
 -  ``0``: small,
 -  ``1``: medium,
@@ -59,4 +59,3 @@ Relations
    ``CreatureDisplayInfoExtra.dbc``.
 -  ``bloodID`` references the primary key of ``UnitBlood.dbc``.
 -  ``NPCSoundID`` references the primary key of ``NPCSounds.dbc``.
-

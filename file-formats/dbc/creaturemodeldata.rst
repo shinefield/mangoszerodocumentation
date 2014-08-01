@@ -50,7 +50,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 -  ``0``: **TODO**,
 -  ``1``: **TODO**,
@@ -59,7 +59,7 @@ flags
 -  ``8``: **TODO**.
 
 sizeClass
----------
+~~~~~~~~~
 
 -  ``0``: small,
 -  ``1``: medium,
@@ -73,4 +73,3 @@ Relations
 -  ``bloodID`` references the primary key of ``UnitBlood.dbc``.
 -  ``footprintTextureID`` references the primary key of
    ``FootprintTextures.dbc``.
-

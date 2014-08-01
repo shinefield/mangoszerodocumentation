@@ -28,4 +28,3 @@ Relations
 ---------
 
 -  ``factionID`` references the primary key of ``Faction.dbc``.
-

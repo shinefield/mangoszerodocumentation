@@ -32,14 +32,14 @@ Fields
 ------
 
 itemEnvTypes
-------------
+~~~~~~~~~~~~
 
 -  ``0``: shield,
 -  ``1``: metal weapon,
 -  ``2``: wood weapon.
 
 isShield
---------
+~~~~~~~~
 
 -  ``0``: a shield,
 -  ``1``: not a shield.
@@ -51,4 +51,3 @@ Relations
 -  ``itemSubclass`` references the primary key of ``ItemSubClass.dbc``.
 -  ``sheathSoundID`` and ``sheathSoundID`` reference the primary key of
    ``SoundEntries.dbc``.
-

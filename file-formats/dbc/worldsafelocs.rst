@@ -30,4 +30,3 @@ Relations
 ---------
 
 -  ``mapID`` references the primary key of ``Map.dbc``.
-

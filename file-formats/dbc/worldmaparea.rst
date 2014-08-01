@@ -34,7 +34,7 @@ Fields
 ------
 
 worldMapContinentID
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 -  ``0``: Eastern Kingdoms
 -  ``1``: Kalimdor
@@ -45,4 +45,3 @@ Relations
 -  ``worldMapContinentID`` references the primary key of
    ``WorldMapContinent.dbc``.
 -  ``areaTableID`` references the primary key of ``AreaTable.dbc``.
-

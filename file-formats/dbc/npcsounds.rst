@@ -29,4 +29,3 @@ Relations
 
 -  ``soundEntryID[1-4]`` reference the primary key of
    ``SoundEntries.dbc``.
-

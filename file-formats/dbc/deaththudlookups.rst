@@ -28,7 +28,7 @@ Fields
 ------
 
 sizeClass
----------
+~~~~~~~~~
 
 -  ``0``: small,
 -  ``1``: medium,
@@ -42,4 +42,3 @@ Relations
 -  ``terrainTypeID`` references the primary key of ``TerrainType.dbc``.
 -  ``soundEntryID`` and ``soundEntryIDWater`` reference the primary key
    of ``SoundEntries.dbc``.
-

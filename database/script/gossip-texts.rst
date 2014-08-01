@@ -40,61 +40,62 @@ Fields
 ------
 
 entry
------
+~~~~~
 
 The unique identifier of the gossip text entry. Identifiers here have to
 match with the identifier set in the string using the text.
 
-*Notice*: identifiers use a fixed format of
-``-3<map-identifier><three-digit-counter>``.
+.. note::
+
+    identifiers use a fixed format of ``-3<map-identifier><three-digit-counter>``.
 
 content\_default
-----------------
+~~~~~~~~~~~~~~~~
 
 The default text to be displayed in English.
 
 content\_loc1
--------------
+~~~~~~~~~~~~~
 
 *Korean* localization of ``content_default``.
 
 content\_loc2
--------------
+~~~~~~~~~~~~~
 
 *French* localization of ``content_default``.
 
 content\_loc3
--------------
+~~~~~~~~~~~~~
 
 *German* localization of ``content_default``.
 
 content\_loc4
--------------
+~~~~~~~~~~~~~
 
 *Chinese* localization of ``content_default``.
 
 content\_loc5
--------------
+~~~~~~~~~~~~~
 
 *Taiwanese* localization of ``content_default``.
 
 content\_loc6
--------------
+~~~~~~~~~~~~~
 
 *Spanish Spain* localization of ``content_default``.
 
 content\_loc7
--------------
+~~~~~~~~~~~~~
 
 *Spanish Latin America* localization of ``content_default``.
 
 content\_loc8
--------------
+~~~~~~~~~~~~~
 
 *Russian* localization of ``content_default``.
 
 comment
--------
+~~~~~~~
 
 Comments should always reflect where a gossip text will be used. Usually
 a creature's name to which the gossip is added should be mentioned, and

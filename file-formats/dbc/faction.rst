@@ -60,14 +60,14 @@ Fields
 ------
 
 reputationIndex
----------------
+~~~~~~~~~~~~~~~
 
 Available in-game to Lua add-ons. A value of ``-1`` indicates a faction
 for which no reputation can be gained. This includes attackable
 creatures and creatures used in events.
 
 reputationRaceMask
-------------------
+~~~~~~~~~~~~~~~~~~
 
 -  ``0000 0001`` / 1: Human,
 -  ``0000 0010`` / 2: Orc,
@@ -79,7 +79,7 @@ reputationRaceMask
 -  ``1000 0000`` / 128: Troll.
 
 reputationClassMask
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Currently this is only set for the *Cenarion Circle*, which Night Elf
 and Tauren druids are members of.
@@ -88,4 +88,3 @@ Relations
 ---------
 
 -  ``parentFactionID`` references the primary key of ``Faction.dbc``.
-

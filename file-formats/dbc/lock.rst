@@ -83,7 +83,7 @@ Fields
 ------
 
 type
-----
+~~~~
 
 This field determine which kind of lock the entry is about.
 
@@ -96,4 +96,3 @@ Relations
 
 -  ``property[1-8]`` may reference the primary key of ``LockType.dbc``
    if ``type`` is ``2``.
-

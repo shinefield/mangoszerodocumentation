@@ -31,4 +31,3 @@ Relations
 
 -  ``itemVisualEffectsID[1-5]`` references the primary key of
    ``ItemVisualEffects.dbc``.
-

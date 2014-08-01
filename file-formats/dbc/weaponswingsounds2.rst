@@ -26,14 +26,14 @@ Fields
 ------
 
 swingType
----------
+~~~~~~~~~
 
 -  ``0``: light. E.g. a knife.
 -  ``1``: medium. E.g. 1H sword/axe.
 -  ``2``: heavy. E.g. 2H sword/stave.
 
 isCritical
-----------
+~~~~~~~~~~
 
 -  ``0``: non-critical hit
 -  ``1``: critical hit
@@ -42,4 +42,3 @@ Relations
 ---------
 
 -  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
-

@@ -24,7 +24,7 @@ Descriptions for each field with their meaning, usage and relations are
 available below.
 
 required\_z2426\_01\_realmd\_relations
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This field is used to indicate the last database structure update
 applied. Each applied update will renamed the field, in order to allow

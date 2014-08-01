@@ -36,4 +36,3 @@ Relations
 -  ``mapID`` references the primary key of ``Map.dbc``.
 -  ``mountCreatureDisplayInfoID[1-2]`` references the primary key of
    ``CreatureDisplayInfo.dbc``.
-

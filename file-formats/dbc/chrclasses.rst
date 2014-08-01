@@ -36,7 +36,7 @@ Fields
 ------
 
 powerType
----------
+~~~~~~~~~
 
 -  ``0``: Mana,
 -  ``1``: Rage,
@@ -45,8 +45,7 @@ powerType
 -  ``4``: Happiness.
 
 isHybridClass
--------------
+~~~~~~~~~~~~~
 
 -  ``0``: no hybrid class,
 -  ``1``: hybrid class.
-

@@ -30,20 +30,21 @@ Fields
 ------
 
 instanceType
-------------
+~~~~~~~~~~~~
 
 -  ``1``: group instance,
 -  ``2``: raid group instance,
 -  ``4``: world zone,
 -  ``5``: battleground.
 
-*Notice*: only zones listed as *group instance* could be accessed via
-meeting stones or innkeepers for the Looking For Group feature.
+.. note::
+
+    only zones listed as *group instance* could be accessed via meeting stones or
+    innkeepers for the Looking For Group feature.
 
 faction
--------
+~~~~~~~
 
 -  ``-1``: faction independent,
 -  ``0``: Horde faction,
 -  ``1``: Alliance faction.
-

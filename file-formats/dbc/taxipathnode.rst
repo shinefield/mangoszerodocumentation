@@ -37,4 +37,3 @@ Relations
 
 -  ``taxiPathID`` references the primary key of ``TaxiPath.dbc``.
 -  ``mapID`` references the primary key of ``Map.dbc``.
-

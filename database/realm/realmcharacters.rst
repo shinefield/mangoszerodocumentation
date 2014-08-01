@@ -27,19 +27,19 @@ Descriptions for each field with their meaning, usage and relations are
 available below.
 
 realmid
--------
+~~~~~~~
 
-This references the `realmlist <realmlist>`__ tables unique ID of the
+This references the :doc:`realmlist <realmlist>` tables unique ID of the
 realm server for which the entry is valid.
 
 acctid
-------
+~~~~~~
 
-This references the `account <account>`__ tables unique ID of the user
+This references the :doc:`account <account>` tables unique ID of the user
 account for which the entry is valid.
 
 numchars
---------
+~~~~~~~~
 
 This field contains the number of characters stored on a realm for the
 account.

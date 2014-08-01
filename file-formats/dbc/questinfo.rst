@@ -37,4 +37,3 @@ The following is a list of available quest types.
 +---------+---------------+
 | 83      | Legendary     |
 +---------+---------------+
-

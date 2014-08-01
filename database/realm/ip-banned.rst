@@ -31,32 +31,33 @@ Descriptions for each field with their meaning, usage and relations are
 available below.
 
 ip
---
+~~
 
-A valid `IP address <http://en.wikipedia.org/wiki/IP_address>`__ which
-is disallowed from connection to the realm list server and thus from
-connecting to world servers, too.
+A valid `IP address`_ which is blocked from connecting to the realm list
+server and thus from connecting to world servers, too.
 
 bandate
--------
+~~~~~~~
 
 The date on which the IP address has been banned. This is saved as a
-`Unix timestamp <http://en.wikipedia.org/wiki/Unix_time>`__.
+`Unix timestamp`_.
 
 unbandate
----------
+~~~~~~~~~
 
 The date on which the IP address will be unbanned. If not set, the IP
-address will be banned indefinitely. This is saved as a `Unix
-timestamp <http://en.wikipedia.org/wiki/Unix_time>`__.
+address will be banned indefinitely. This is saved as a `Unix timestamp`_.
 
 bannedby
---------
+~~~~~~~~
 
 The account name of the user who banned the IP address. This references
-the `account <account>`__ tables ``username`` field.
+the :doc:`account <account>` tables ``username`` field.
 
 banreason
----------
+~~~~~~~~~
 
 A short comment describing the reason for the IP address ban.
+
+.. _IP address:     http://en.wikipedia.org/wiki/IP_address
+.. _Unix timestamp: http://en.wikipedia.org/wiki/Unix_time

@@ -93,4 +93,3 @@ Relations
 -  ``itemID[1-10]`` reference the primary key of an ``Item``.
 -  ``setSpellID[1-8]`` reference the primary key of ``Spell.dbc``.
 -  ``requiredSkill`` references the primary key of ``SkillLine.dbc``.
-

@@ -35,4 +35,3 @@ Relations
 
 -  ``spellItemEnchantmentID[1-5]`` references the primary key of
    ``SpellItemEnchantment.dbc``.
-

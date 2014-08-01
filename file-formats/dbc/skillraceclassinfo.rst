@@ -34,7 +34,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 **TODO**
 
@@ -47,4 +47,3 @@ Relations
 -  ``skillTierID`` references the primary key of ``SkillTiers.dbc``.
 -  ``skillCostIndex`` references the primary key of
    ``SkillCostsData.dbc``.
-

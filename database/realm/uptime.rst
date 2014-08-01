@@ -31,28 +31,28 @@ Descriptions for each field with their meaning, usage and relations are
 available below.
 
 realmid
--------
+~~~~~~~
 
-This references the `realmlist <realmlist>`__ tables unique ID of the
+This references the :doc:`realmlist <realmlist>` tables unique ID of the
 realm server for which the entry is valid.
 
 starttime
----------
+~~~~~~~~~
 
 The time when the server was started, in Unix time.
 
 startstring
------------
+~~~~~~~~~~~
 
 The time when the server was started, in string format. This does not
 include the current time zone.
 
 uptime
-------
+~~~~~~
 
 The uptime of the server, in seconds.
 
 maxplayers
-----------
+~~~~~~~~~~
 
 The maximum number of players connected.

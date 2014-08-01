@@ -43,9 +43,10 @@ Table structure
 +------+----------------+--------------------+-----------+----------------------------------------------------+
 
 Fields
+------
 
 flags
------
+~~~~~
 
 **TODO**
 
@@ -55,4 +56,3 @@ Relations
 -  ``factionGroup`` references the primary key of ``FactionGroup.dbc``.
 -  ``faction``, ``enemies[1-4]`` and ``friend[1-4]`` reference the
    primary key of ``Faction.dbc``.
-

@@ -32,7 +32,7 @@ Fields
 ------
 
 weaponFlags
------------
+~~~~~~~~~~~
 
 Weapon flags describe if an animation should modify the weapon(s) state
 worn by a character. Animations can ignore weapons and sheathe/unsheathe
@@ -48,4 +48,3 @@ Relations
 
 -  ``fallbackID`` references the primary key of ``AnimationData.dbc``.
 -  ``behaviourID`` references the primary key of ``AnimationData.dbc``.
-

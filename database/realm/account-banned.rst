@@ -33,35 +33,35 @@ Descriptions for each field with their meaning, usage and relations are
 available below.
 
 id
---
+~~
 
 The account of the user banned. This references the unique key of the
-`account <account>`__ table.
+:doc:`account <account>` table.
 
 bandate
--------
+~~~~~~~
 
 The date on which the IP address has been banned.
 
 unbandate
----------
+~~~~~~~~~
 
 The date on which the IP address will be unbanned. If not set, the IP
 address will be banned indefinitely.
 
 bannedby
---------
+~~~~~~~~
 
 The account name of the user who banned the IP address. This references
-the `account <account>`__ tables ``username`` field.
+the :doc:`account <account>` tables ``username`` field.
 
 banreason
----------
+~~~~~~~~~
 
 A short comment describing the reason for the IP address ban.
 
 active
-------
+~~~~~~
 
 Describes if a ban is currently active, or not.
 

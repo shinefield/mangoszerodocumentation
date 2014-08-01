@@ -69,4 +69,3 @@ Relations
 -  ``helmetGeosetVis[1-2]`` reference the primary key of
    ``HelmetGeosetVisData.dbc``.
 -  ``itemVisual`` references the primary key of ``ItemVisuals.dbc``.
-

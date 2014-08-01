@@ -93,7 +93,7 @@ to look at it and the next 17 rows after it go along with it as well
 To get the right ID out from Light.dbc (skyParam) you need to calculate
 it the following way:
 
-::
+.. math::
 
     idLightIntBand = lightEntry.skyParam * 18 - 17
 

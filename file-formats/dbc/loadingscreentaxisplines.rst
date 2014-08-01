@@ -56,7 +56,7 @@ Fields
 ------
 
 legIndex
---------
+~~~~~~~~
 
 **TODO**: seems to be some kind of flag.
 
@@ -67,4 +67,3 @@ Relations
 ---------
 
 -  ``taxiPathID`` references the primary key of ``TaxiPath.dbc``.
-

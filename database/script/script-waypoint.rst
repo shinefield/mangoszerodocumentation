@@ -32,42 +32,42 @@ Fields
 ------
 
 entry
------
+~~~~~
 
 This references the creature for which the waypoint script is meant to
 be executed and references the identifier in the
-`creature\_template <../world/creature_template>`__ table.
+:doc:`creature_template <../world/creature-template>` table.
 
 pointid
--------
+~~~~~~~
 
 An index count for all waypoints attached to a script. Starts with ``1``
 and increments by one.
 
 location\_x
------------
+~~~~~~~~~~~
 
 The X position for the script's waypoint.
 
 location\_y
------------
+~~~~~~~~~~~
 
 The Y position for the script's waypoint.
 
 location\_z
------------
+~~~~~~~~~~~
 
 The Z position for the script's waypoint.
 
 waittime
---------
+~~~~~~~~
 
 If the creature should wait at the movement point, set this to the time
 in milliseconds. Otherwise set to zero for the creature to immediately
 proceed to the next movement point.
 
 point\_comment
---------------
+~~~~~~~~~~~~~~
 
 A common rules is to add comments to any waypoint where something
 special is happening. This means: do not comment every point, but

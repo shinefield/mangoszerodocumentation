@@ -34,28 +34,28 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
 
 unk1
-----
+~~~~
 
 **TODO**
 
 mask1
------
+~~~~~
 
 -  ``512``: seems to indicate feet/head variations.
 
 mask2
------
+~~~~~
 
 -  ``512``: seems to indicate feet/head variations.
 
 unk4
-----
+~~~~
 
 **TODO**
 

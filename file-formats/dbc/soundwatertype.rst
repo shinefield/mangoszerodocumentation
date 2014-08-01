@@ -26,7 +26,7 @@ Fields
 ------
 
 fluidSpeed
-----------
+~~~~~~~~~~
 
 -  ``0``: still,
 -  ``4``: slow,
@@ -37,4 +37,3 @@ Relations
 
 -  ``liquidTypeID`` references the primary key of ``LiquidType.dbc``.
 -  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
-

@@ -34,7 +34,7 @@ Fields
 ------
 
 sexID
------
+~~~~~
 
 -  ``0``: male,
 -  ``1``: female.
@@ -43,4 +43,3 @@ Relations
 ---------
 
 -  ``raceID`` references the primary key of ``ChrRaces.dbc``.
-

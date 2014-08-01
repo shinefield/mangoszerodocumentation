@@ -33,4 +33,3 @@ Relations
 
 -  ``AnimationDataID`` references the primary key of
    ``AnimationData.dbc``.
-

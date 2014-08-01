@@ -24,7 +24,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 **TODO**
 
@@ -32,4 +32,3 @@ Relations
 ---------
 
 -  ``foleySoundID`` references the primary key of ``SoundEntries.dbc``.
-

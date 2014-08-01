@@ -28,7 +28,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 ``flags`` indicate in which state a channel is set initially for a
 character.
@@ -55,4 +55,3 @@ Relations
 ---------
 
 -  ``factionGroup`` references the key *maskID* of ``FactionGroup.dbc``.
-

@@ -43,4 +43,3 @@ Relations
 
 -  ``soundEntryID[1-10]`` reference the primary key of
    ``SoundEntries.dbc``.
-

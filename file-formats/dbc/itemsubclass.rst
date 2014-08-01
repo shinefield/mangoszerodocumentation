@@ -38,13 +38,16 @@ Table structure
 | 12   | verboseName                | String (localized)   | -         | The detailed name of the item sub class, e.g. for Axes, there is One-Handed Axes as sub class.   |
 +------+----------------------------+----------------------+-----------+--------------------------------------------------------------------------------------------------+
 
+Fields
+------
+
 flags
------
+~~~~~
 
 **TODO**
 
 displayFlags
-------------
+~~~~~~~~~~~~
 
 **TODO**
 
@@ -52,4 +55,3 @@ Relations
 ---------
 
 -  ``itemClassID`` references the primary key of ``ItemClass.dbc``.
-

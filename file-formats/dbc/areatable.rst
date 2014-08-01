@@ -51,7 +51,7 @@ Fields
 ------
 
 areaBit
--------
+~~~~~~~
 
 We have not investigated the purpose of these bit flags. The current
 assumption is that these bit flags provide meta information for a zone,
@@ -61,7 +61,7 @@ battleground, etc.
 **TODO**: Further research is required.
 
 flags
------
+~~~~~
 
 ``flags`` seem to directly relate to the state of a zone, e.g. is it a
 city, or is it a winter area, or can I duel there. Thus we assume these
@@ -388,4 +388,3 @@ non instanced.
 +-------------+--------+-----------------------+-----------------------+-----------------------------+
 | 451         | 22     | 0000 0010 0010 0011   | 0000 0000 0100 0000   | Programmer Isle             |
 +-------------+--------+-----------------------+-----------------------+-----------------------------+
-

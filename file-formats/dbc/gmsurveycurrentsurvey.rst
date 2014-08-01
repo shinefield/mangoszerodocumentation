@@ -22,7 +22,7 @@ Fields
 ------
 
 langID
-------
+~~~~~~
 
 -  ``0``: English
 -  ``1``: Korean
@@ -38,4 +38,3 @@ Relations
 ---------
 
 -  ``gmSurveyID`` references the primary key of ``GMSurveySurveys.dbc``.
-

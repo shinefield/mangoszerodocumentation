@@ -21,6 +21,6 @@ Fields
 ------
 
 version
--------
+~~~~~~~
 
 A string describing the version of the script library database.

@@ -23,15 +23,14 @@ Fields
 ------
 
 mask
-----
+~~~~
 
 **TODO**
 
 immunityPossible
-----------------
+~~~~~~~~~~~~~~~~
 
 **TODO**
 
 Relations
 ---------
-

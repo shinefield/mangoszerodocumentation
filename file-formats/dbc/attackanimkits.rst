@@ -28,7 +28,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 Determines what kind of weapon animation this is.
 
@@ -42,4 +42,3 @@ Relations
    ``AnimationData.dbc``.
 -  ``attackAnimTypeID`` references the primary key of
    ``AttackAnimTypes.dbc``.
-

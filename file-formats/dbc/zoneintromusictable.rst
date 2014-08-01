@@ -28,7 +28,7 @@ Fields
 ------
 
 priority
---------
+~~~~~~~~
 
 -  ``0``: no priority over default ambience sound.
 -  ``1``: has priority over default ambience sound.
@@ -37,4 +37,3 @@ Relations
 ---------
 
 -  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
-

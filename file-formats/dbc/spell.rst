@@ -297,7 +297,7 @@ Fields
 ------
 
 targets
--------
+~~~~~~~
 
 -  ``0``: **TODO**,
 -  ``2``: **TODO**,
@@ -347,4 +347,3 @@ Relations
    key of ``SpellShapeshiftForm.dbc``.
 -  ``spellVisualID1`` and ``spellVisualID2`` reference the primary key
    of ``SpellVisual.dbc``.
-

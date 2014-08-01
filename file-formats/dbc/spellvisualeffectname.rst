@@ -23,4 +23,3 @@ Table structure
 
 Relations
 ---------
-

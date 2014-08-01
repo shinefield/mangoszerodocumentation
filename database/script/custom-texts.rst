@@ -48,67 +48,68 @@ Fields
 ------
 
 entry
------
+~~~~~
 
 The unique identifier of the script text entry. Identifiers here have to
 match with the identifier set in the string using the text.
 
-*Notice*: identifiers use a fixed format of
-``-1<map-identifier><three-digit-counter>``.
+.. note::
+
+    identifiers use a fixed format of ``-1<map-identifier><three-digit-counter>``.
 
 content\_default
-----------------
+~~~~~~~~~~~~~~~~
 
 The default text to be displayed in English.
 
 content\_loc1
--------------
+~~~~~~~~~~~~~
 
 *Korean* localization of ``content_default``.
 
 content\_loc2
--------------
+~~~~~~~~~~~~~
 
 *French* localization of ``content_default``.
 
 content\_loc3
--------------
+~~~~~~~~~~~~~
 
 *German* localization of ``content_default``.
 
 content\_loc4
--------------
+~~~~~~~~~~~~~
 
 *Chinese* localization of ``content_default``.
 
 content\_loc5
--------------
+~~~~~~~~~~~~~
 
 *Taiwanese* localization of ``content_default``.
 
 content\_loc6
--------------
+~~~~~~~~~~~~~
 
 *Spanish Spain* localization of ``content_default``.
 
 content\_loc7
--------------
+~~~~~~~~~~~~~
 
 *Spanish Latin America* localization of ``content_default``.
 
 content\_loc8
--------------
+~~~~~~~~~~~~~
 
 *Russian* localization of ``content_default``.
 
 sound
------
+~~~~~
 
 If a sound file should be played, this references an entry in the
-`SoundEntries.dbc <../dbc/SoundEntries.dbc>`__ table.
+:doc:`SoundEntries.dbc <../../file-formats/dbc/soundentries>` table.
 
 type
-----
+~~~~
 
 Selects one of various text emote types to be used for the script text.
 The following tables shows available text emote types.
@@ -132,19 +133,19 @@ The following tables shows available text emote types.
 +---------+------------------+
 
 language
---------
+~~~~~~~~
 
 A language identifier. The value has to match with a language identifier
-defined in `Languages.dbc <../dbc/Languages.dbc>`__.
+defined in :doc:`Languages.dbc <../../file-formats/dbc/languages>`.
 
 emote
------
+~~~~~
 
 An emote identifier. The value has to match with a emote identifier
-defined in `Emotes.dbc <../dbc/Emotes.dbc>`__.
+defined in :doc:`Emotes.dbc <../../file-formats/dbc/emotes>`.
 
 comment
--------
+~~~~~~~
 
 This documents the script text. Currently no rules have been defined for
 the format of the comment. It *should* help identifying who and why does

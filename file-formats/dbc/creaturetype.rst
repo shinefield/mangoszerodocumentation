@@ -24,7 +24,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 Determines if a creature type is worth experience points.
 
@@ -59,4 +59,3 @@ Data
 +------+-----------------+---------+
 | 11   | Totem           | 0       |
 +------+-----------------+---------+
-

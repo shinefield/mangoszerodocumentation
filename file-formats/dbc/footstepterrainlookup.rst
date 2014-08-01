@@ -32,4 +32,3 @@ Relations
 -  ``terrainTypeID`` references the primary key of ``TerrainType.dbc``.
 -  ``soundEntryID`` and ``soundEntryIDSplash`` reference the primary key
    of ``SoundEntries.dbc``.
-

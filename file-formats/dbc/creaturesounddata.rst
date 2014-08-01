@@ -78,7 +78,7 @@ Fields
 ------
 
 creatureImpactType
-------------------
+~~~~~~~~~~~~~~~~~~
 
 **TODO**
 
@@ -91,4 +91,3 @@ Relations
    ``soundFootstepID``, ``soundAggroID``, ``soundWingFlapID``,
    ``soundWingGlideID`` and ``soundAlertID`` reference the primary key
    of ``SoundEntries.dbc``.
-

@@ -25,4 +25,3 @@ Relations
 
 -  ``daySoundEntryID`` and ``nightSoundEntryID`` reference the primary
    key of ``SoundEntries.dbc``.
-

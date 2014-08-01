@@ -30,7 +30,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 -  ``0``: do not display footsteps.
 -  ``1``: display footsteps on this terrain type.
@@ -42,4 +42,3 @@ Relations
    key of ``SpellVisualEffectName.dbc``.
 -  ``terrainTypeSoundID`` references the primary key of
    ``TerrainTypeSounds.dbc``.
-

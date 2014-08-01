@@ -34,7 +34,7 @@ Fields
 ------
 
 shakeType
----------
+~~~~~~~~~
 
 It is assumed that this flag describes either different variants of
 camera shaking, or that it is a boolean flag telling if the camera
@@ -44,7 +44,7 @@ camera shaking, or that it is a boolean flag telling if the camera
 -  ``1``: **TODO**.
 
 direction
----------
+~~~~~~~~~
 
 This flag seems to indicate the direction towards which a camera shake
 will point.
@@ -52,4 +52,3 @@ will point.
 -  ``0``: **TODO**,
 -  ``1``: **TODO**,
 -  ``2``: **TODO**.
-

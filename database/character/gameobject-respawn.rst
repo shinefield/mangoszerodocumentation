@@ -22,3 +22,11 @@ Table structure
 Fields
 ------
 
+guid
+~~~~
+
+respawntime
+~~~~~~~~~~~
+
+instance
+~~~~~~~~

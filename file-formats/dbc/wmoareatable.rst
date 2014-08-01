@@ -50,4 +50,3 @@ Relations
 -  ``zoneIntroMusicTableID`` references the primary key of
    ``ZoneIntroMusicTable.dbc``.
 -  ``areaTableID`` references the primary key of ``AreaTable.dbc``.
-

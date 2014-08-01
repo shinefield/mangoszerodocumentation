@@ -35,4 +35,3 @@ Relations
 -  ``normalMaleSoundEntryID``, ``normalFemaleSoundEntryID``,
    ``pissedMaleSoundEntryID`` and ``pissedFemaleSoundEntryID`` reference
    the primary key of ``SoundEntries.dbc``.
-

@@ -75,7 +75,7 @@ Fields
 ------
 
 soundType
----------
+~~~~~~~~~
 
 -  ``0``: Unused/Miscellaneous,
 -  ``1``: Spells,
@@ -103,4 +103,3 @@ soundType
 -  ``30``: Narration Music,
 -  ``31``: Narration,
 -  ``50``: Zone Ambience
-

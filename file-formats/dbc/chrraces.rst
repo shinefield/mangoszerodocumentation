@@ -60,7 +60,7 @@ Fields
 ------
 
 flags
------
+~~~~~
 
 -  ``0``: NONE,
 -  ``1``: NOT\_PLAYABLE,
@@ -69,7 +69,7 @@ flags
 -  ``8``: **TODO**.
 
 BaseLanguage
-------------
+~~~~~~~~~~~~
 
 -  ``1``: Horde,
 -  ``7``: Alliance.
@@ -87,4 +87,3 @@ Relations
    of ``Spell.dbc``.
 -  ``cinematicSequenceID`` references the primary key of
    ``CinematicSequences.dbc``.
-

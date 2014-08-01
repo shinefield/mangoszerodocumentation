@@ -58,4 +58,3 @@ Relations
 -  ``emoteID`` references the primary key of ``Emotes.dbc``.
 -  ``emoteTextDataID[1-16]`` reference the primary key of
    ``EmotesTextData.dbc``.
-

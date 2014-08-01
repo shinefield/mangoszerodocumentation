@@ -24,4 +24,3 @@ Relations
 ---------
 
 -  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
-
