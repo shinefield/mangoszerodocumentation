@@ -47,7 +47,7 @@ match with the identifier set in the string using the text.
 
 .. note::
 
-    identifiers use a fixed format of ``-3<map-identifier><three-digit-counter>``.
+    Identifiers use a fixed format of ``-3<map-identifier><three-digit-counter>``.
 
 content\_default
 ~~~~~~~~~~~~~~~~

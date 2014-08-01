@@ -10,7 +10,7 @@ path.
 
 .. note::
 
-    movement definitions here will overwrite any movement defined
+    Movement definitions here will overwrite any movement defined
     for the creature template.
 
 Table structure

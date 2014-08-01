@@ -464,7 +464,7 @@ The following table list known flags.
 
 .. note::
 
-    not all quest flags are currently supported by the core.
+    Not all quest flags are currently supported by the core.
 
 SpecialFlags
 ------------
@@ -708,7 +708,7 @@ an item identifier, referencing the creating items entry in the
 
 .. note::
 
-    this is required to decide if these items should be included
+    This is required to decide if these items should be included
     in loot or not.
 
 ReqSourceId2
@@ -720,7 +720,7 @@ an item identifier, referencing the creating items entry in the
 
 .. note::
 
-    this is required to decide if these items should be included
+    This is required to decide if these items should be included
     in loot or not.
 
 ReqSourceId3
@@ -732,7 +732,7 @@ an item identifier, referencing the creating items entry in the
 
 .. note::
 
-    this is required to decide if these items should be included
+    This is required to decide if these items should be included
     in loot or not.
 
 ReqSourceId4
@@ -744,7 +744,7 @@ an item identifier, referencing the creating items entry in the
 
 .. note::
 
-    this is required to decide if these items should be included
+    This is required to decide if these items should be included
     in loot or not.
 
 ReqSourceCount1
@@ -1014,7 +1014,7 @@ table.
 
 .. note::
 
-    this is intended to reward extra reputation. Normal reputation
+    This is intended to reward extra reputation. Normal reputation
     is awarded automatically by the server.
 
 RewRepFaction2
@@ -1026,7 +1026,7 @@ table.
 
 .. note::
 
-    this is intended to reward extra reputation. Normal reputation
+    This is intended to reward extra reputation. Normal reputation
     is awarded automatically by the server.
 
 RewRepFaction3
@@ -1038,7 +1038,7 @@ table.
 
 .. note::
 
-    this is intended to reward extra reputation. Normal reputation
+    This is intended to reward extra reputation. Normal reputation
     is awarded automatically by the server.
 
 RewRepFaction4
@@ -1050,7 +1050,7 @@ table.
 
 .. note::
 
-    this is intended to reward extra reputation. Normal reputation
+    This is intended to reward extra reputation. Normal reputation
     is awarded automatically by the server.
 
 RewRepFaction5
@@ -1062,7 +1062,7 @@ table.
 
 .. note::
 
-    this is intended to reward extra reputation. Normal reputation
+    This is intended to reward extra reputation. Normal reputation
     is awarded automatically by the server.
 
 RewRepValue1
@@ -1123,7 +1123,7 @@ table.
 
 .. note::
 
-    if ``RewSpellCast`` is set, this spell will only be shown, but
+    If ``RewSpellCast`` is set, this spell will only be shown, but
     not casted.
 
 RewSpellCast

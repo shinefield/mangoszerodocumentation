@@ -76,7 +76,7 @@ schools and matching bit masks.
 
 .. note::
 
-    multiple school masks can be combined to have spell trigger on
+    Multiple school masks can be combined to have spell trigger on
     more than one spell school.
 
 SpellFamilyName

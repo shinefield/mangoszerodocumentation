@@ -36,7 +36,7 @@ defined in `Spell.dbc <../dbc/Spell.dbc>`__.
 
 .. note::
 
-    any spell referenced is required to be rank 1 in the spell
+    Any spell referenced is required to be rank 1 in the spell
     chain, and has to have threat values set in the original spell
     definition.
 

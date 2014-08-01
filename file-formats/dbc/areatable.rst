@@ -111,7 +111,7 @@ individual cells.
 
 .. note::
 
-    this table contains all non-development areas, which are not
+    This table contains all non-development areas, which are not
     instanced.
 
 +-------------+--------+-----------------------+-----------------------+-----------------------------+
@@ -242,7 +242,7 @@ individual cells.
 
 .. note::
 
-    this table contains all non-development areas, which are
+    This table contains all non-development areas, which are
     instanced. These are all instanced areas which are sub-zones to a city.
 
 +-------------+--------+-----------------------+-----------------------+-------------------+
@@ -257,7 +257,7 @@ individual cells.
 
 .. note::
 
-    this table contains all non-development areas, which are
+    This table contains all non-development areas, which are
     instanced. These are normal dungeons.
 
 +-------------+--------+-----------------------+-----------------------+---------------------+
@@ -302,7 +302,7 @@ individual cells.
 
 .. note::
 
-    this table contains all non-development areas, which are
+    This table contains all non-development areas, which are
     instanced. These are raid battleground instances
 
 +-------------+--------+-----------------------+-----------------------+------------------+
@@ -319,7 +319,7 @@ individual cells.
 
 .. note::
 
-    this table contains all non-development areas, which are
+    This table contains all non-development areas, which are
     instanced. These are raid instances.
 
 +-------------+--------+-----------------------+-----------------------+----------------------+
@@ -342,7 +342,7 @@ individual cells.
 
 .. note::
 
-    this table contains all development areas, both instanced and
+    This table contains all development areas, both instanced and
     non instanced.
 
 +-------------+--------+-----------------------+-----------------------+-----------------------------+

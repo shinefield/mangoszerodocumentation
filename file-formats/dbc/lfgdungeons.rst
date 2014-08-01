@@ -39,7 +39,7 @@ instanceType
 
 .. note::
 
-    only zones listed as *group instance* could be accessed via meeting stones or
+    Only zones listed as *group instance* could be accessed via meeting stones or
     innkeepers for the Looking For Group feature.
 
 faction

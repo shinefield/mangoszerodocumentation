@@ -52,6 +52,6 @@ Similar node states exist for every battleground note.
 
 .. note::
 
-    if you update battleground scripts and make changes to node
+    If you update battleground scripts and make changes to node
     status values ensure that you provide database update scripts which
     update the battleground events accordingly.

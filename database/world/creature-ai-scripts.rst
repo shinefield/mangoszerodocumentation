@@ -154,7 +154,7 @@ Time parameters are measured in milliseconds.
 
 .. note::
 
-    events will not repeat until the creature exits combat or
+    Events will not repeat until the creature exits combat or
     unless EFLAG\_REPEATABLE is set. Some events such as EVENT\_T\_AGGRO,
     EVENT\_T\_DEATH, EVENT\_T\_SPAWNED and EVENT\_T\_EVADE cannot repeat.
 

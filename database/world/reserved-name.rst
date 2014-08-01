@@ -9,7 +9,7 @@ be used by characters with no special rights.
 
 .. note::
 
-    any character with any access level bigger than default player
+    Any character with any access level bigger than default player
     level may create a character using a reserved name.
 
 Table structure

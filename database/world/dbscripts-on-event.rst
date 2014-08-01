@@ -66,7 +66,7 @@ Setting the value to ``0`` will instantly execute the command.
 
 .. note::
 
-    delay is accumulated over all events with identical ``id`` values.
+    Delay is accumulated over all events with identical ``id`` values.
 
 command
 -------
@@ -174,7 +174,7 @@ The range in which the buddy's entry will be search for.
 
 .. note::
 
-    if ``data_flags`` has ``SCRIPT_FLAG_BUDDY_BY_GUID`` set, this
+    If ``data_flags`` has ``SCRIPT_FLAG_BUDDY_BY_GUID`` set, this
     references an entry in the `gameobject <gameobject>`__ or
     `creature <creature>`__ table.
 
@@ -207,7 +207,7 @@ A multi-purpose data field storing signed integer values.
 
 .. note::
 
-    currently these fields are only used as text identifiers for
+    Currently these fields are only used as text identifiers for
     the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
     commands.
 
@@ -218,7 +218,7 @@ A multi-purpose data field storing signed integer values.
 
 .. note::
 
-    currently these fields are only used as text identifiers for
+    Currently these fields are only used as text identifiers for
     the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
     commands.
 
@@ -229,7 +229,7 @@ A multi-purpose data field storing signed integer values.
 
 .. note::
 
-    currently these fields are only used as text identifiers for
+    Currently these fields are only used as text identifiers for
     the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
     commands.
 
@@ -240,7 +240,7 @@ A multi-purpose data field storing signed integer values.
 
 .. note::
 
-    currently these fields are only used as text identifiers for
+    Currently these fields are only used as text identifiers for
     the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
     commands.
 

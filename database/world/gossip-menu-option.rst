@@ -140,7 +140,7 @@ the menu will require. The following table shows all valid option types:
 
 .. note::
 
-    in order for gossip\_menu\_option entries to work, the
+    In order for gossip\_menu\_option entries to work, the
     ``npcflag`` of the `creature\_template <creature_template>`__ table
     entry needs to be set appropriately.
 
@@ -206,7 +206,7 @@ valid.
 
 .. note::
 
-    if you want the gossip\_menu\_option to close the gossip
+    If you want the gossip\_menu\_option to close the gossip
     window, set this field to ``-1``.
 
 action\_poi\_id

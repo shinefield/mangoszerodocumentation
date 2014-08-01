@@ -35,7 +35,7 @@ text for which the entry is valid.
 
 .. note::
 
-    to actually make a creature display a gossip dialogue with the
+    To actually make a creature display a gossip dialogue with the
     linked text, you will have to update the
     `creature\_template <creature_template>`__ as follows:
 

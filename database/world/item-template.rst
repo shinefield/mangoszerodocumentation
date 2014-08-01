@@ -301,7 +301,7 @@ The class of the item template.
 
 .. note::
 
-    the table only contains active classes, obsolete classes have
+    The table only contains active classes, obsolete classes have
     been stripped.
 
 subclass
@@ -427,7 +427,7 @@ The subclass of the item template.
 
 .. note::
 
-    the table only contains active subclasses, obsolete classes
+    The table only contains active subclasses, obsolete classes
     have been stripped.
 
 name
@@ -516,7 +516,7 @@ If an item is sold in stacks, the holds the number of items in a stack.
 
 .. note::
 
-    if an item has limited supplies, the item is refresh to this count.
+    If an item has limited supplies, the item is refresh to this count.
 
 BuyPrice
 --------
@@ -578,7 +578,7 @@ The value has to match with classes defined in
 
 .. note::
 
-    set to ``-1`` to allow usage by all classes.
+    Set to ``-1`` to allow usage by all classes.
 
 AllowableRace
 -------------
@@ -589,7 +589,7 @@ The value has to match with races defined in
 
 .. note::
 
-    set to ``-1`` to allow usage by all races.
+    Set to ``-1`` to allow usage by all races.
 
 ItemLevel
 ---------
@@ -1057,7 +1057,7 @@ defined in `ItemBagFamily.dbc <../dbc/ItemBagFamily.dbc>`__.
 
 .. note::
 
-    multiple bag families may be combined.
+    Multiple bag families may be combined.
 
 ScriptName
 ----------
@@ -1102,7 +1102,7 @@ inventory.
 
 .. note::
 
-    items set to be deleted in real time, require ``ExtraFlags``
+    Items set to be deleted in real time, require ``ExtraFlags``
     set accordingly.
 
 ExtraFlags

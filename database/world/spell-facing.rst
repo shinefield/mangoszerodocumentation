@@ -35,4 +35,4 @@ field has to be set to ``1``.
 
 .. note::
 
-    setting this to zero would disable the need to face the target.
+    Setting this to zero would disable the need to face the target.

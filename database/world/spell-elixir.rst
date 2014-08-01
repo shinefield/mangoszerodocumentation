@@ -9,7 +9,7 @@ prevent simultaneous use of potion in identical classes.
 
 .. note::
 
-    technically the use of classifications does not make any sense
+    Technically the use of classifications does not make any sense
     for vanilla WoW, since these were introduced in WoW version 2.1. In
     vanilla WoW, potions would only be marked as flasks, which disallowed
     dispelling these in PvP situations.

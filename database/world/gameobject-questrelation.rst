@@ -30,7 +30,7 @@ tables unique ID for which the entry is valid.
 
 .. note::
 
-    game object templates need to be of type quest giver.
+    Game object templates need to be of type quest giver.
 
 quest
 -----

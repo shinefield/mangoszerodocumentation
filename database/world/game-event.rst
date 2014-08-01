@@ -9,7 +9,7 @@ holiday related and normal events.
 
 .. note::
 
-    game events are not necessarily events related to events
+    Game events are not necessarily events related to events
     introduced by patches (e.g. The Ahn'Qiraj opening). Game events include
     things such as the Stockades riots, or the Pyrewood Village event for
     the Worgen curse.
@@ -75,7 +75,7 @@ Defines the length of an event. The time is measured in minutes, and
 
 .. note::
 
-    if ``length`` is > ``occurence``, an event would never stop.
+    If ``length`` is > ``occurence``, an event would never stop.
 
 holiday
 -------

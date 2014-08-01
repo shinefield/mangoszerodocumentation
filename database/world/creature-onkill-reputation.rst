@@ -9,7 +9,7 @@ awarded to characters when killing the creature.
 
 .. note::
 
-    reputation is awarded only on ``creature_template`` level, but
+    Reputation is awarded only on ``creature_template`` level, but
     not for individual spawns.
 
 Table structure

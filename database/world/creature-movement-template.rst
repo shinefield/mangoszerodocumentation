@@ -13,7 +13,7 @@ scripts, or for templates which are unique and have only one spawn.
 
 .. note::
 
-    movement attached to a creature template will be applied to
+    Movement attached to a creature template will be applied to
     all spawns of this template, unless there is a unique movement defined
     for the ``creature`` entry.
 

@@ -51,7 +51,7 @@ which this entry is valid.
 
 .. note::
 
-    set to ``0`` if only the equipment should be changed.
+    Set to ``0`` if only the equipment should be changed.
 
 equipment\_id
 -------------
@@ -62,7 +62,7 @@ for which the entry is valid.
 
 .. note::
 
-    set to ``0`` if only the model should be changed.
+    Set to ``0`` if only the model should be changed.
 
 spell\_start
 ------------

@@ -39,7 +39,7 @@ in `AreaTable.dbc <../dbc/AreaTable.dbc>`__.
 
 .. note::
 
-    junk loot to be distributed when fishing with low skill in a
+    Junk loot to be distributed when fishing with low skill in a
     zone may be added by using an entry identifier of ``0``.
 
 item
@@ -69,7 +69,7 @@ The following table shows possible combinations and their meanings.
 
 .. note::
 
-    setting ``ChanceOrQuestChance`` to ``0`` is only allowed for
+    Setting ``ChanceOrQuestChance`` to ``0`` is only allowed for
     entries which are part of a loot group (aka. have a ``groupid`` set).
     Also note that non-zero values are subject to multiplication based on
     the drop rate configured in the world server configuration if they are

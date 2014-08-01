@@ -566,7 +566,7 @@ A creature's class. The following table describes the available classes.
 
 .. note::
 
-    depending on the creature's class, you have to make sure that
+    Depending on the creature's class, you have to make sure that
     the mana values are set properly. E.g. a Warrior or Rogue will not have
     mana set.
 
@@ -703,7 +703,7 @@ creature to deal.
 
 .. note::
 
-    you might want to double check the calculated values after the
+    You might want to double check the calculated values after the
     query has run because a large difference between ``MinMeleeDmg`` and
     ``MaxMeleeDmg`` can cause ``MinMeleeDmg`` to become a negative value.
 
@@ -835,7 +835,7 @@ Multiple immunities can be combined.
 
 .. note::
 
-    in theory this should somehow relate to
+    In theory this should somehow relate to
     `SpellMechanic.dbc <../dbc/SpellMechanic.dbc>`__ and the immunities list
     there, but it does not match. **TODO**
 
@@ -948,7 +948,7 @@ from `ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
 
 .. note::
 
-    pet trainers should always use the Hunter class identifier ``3``.
+    Pet trainers should always use the Hunter class identifier ``3``.
 
 TrainerRace
 -----------

@@ -54,7 +54,7 @@ The English translation.
 
 .. note::
 
-    the ``%`` arguments need to be used in the exact same order for any translation.
+    The ``%`` arguments need to be used in the exact same order for any translation.
 
 content\_loc1
 -------------

@@ -57,7 +57,7 @@ The unique identifier of the script string entry.
 
 .. note::
 
-    entries in this table have to use an ID range from ``2000000000`` to ``2000010000``.
+    Entries in this table have to use an ID range from ``2000000000`` to ``2000010000``.
 
 content\_default
 ----------------

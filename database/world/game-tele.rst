@@ -9,7 +9,7 @@ unique names.
 
 .. note::
 
-    teleport locations are merely an addition to ease the life of
+    Teleport locations are merely an addition to ease the life of
     game masters and developers, allowing to quickly travel to a location
     instead of having to lookup the coordinates.
 
@@ -75,4 +75,4 @@ A unique name for the teleport location.
 
 .. note::
 
-    using spaces and special characters for locations is prohibited.
+    Using spaces and special characters for locations is prohibited.

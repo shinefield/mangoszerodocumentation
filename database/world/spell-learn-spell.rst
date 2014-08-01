@@ -12,7 +12,7 @@ profession spell and an initial set of recipe spells.
 
 .. note::
 
-    do not include spells with SPELL\_EFFECT\_LEARN\_SPELL here.
+    Do not include spells with SPELL\_EFFECT\_LEARN\_SPELL here.
 
 Table structure
 ---------------
