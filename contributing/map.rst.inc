@@ -6,7 +6,7 @@
   * :doc:`Coding Standards</contributing/code/standards>`
   * :doc:`Code Conventions</contributing/code/conventions>`
   * :doc:`Git</contributing/code/git>`
-  * :doc:`Code License </contributing/code/license>`
+  * :doc:`License </contributing/code/license>`
 
 * **Build System**
 
@@ -17,8 +17,8 @@
 
   * :doc:`Overview </contributing/documentation/overview>`
   * :doc:`Format </contributing/documentation/format>`
-  * :doc:`Documentation Standards </contributing/documentation/standards>`
-  * :doc:`Documentation License </contributing/documentation/license>`
+  * :doc:`Standards </contributing/documentation/standards>`
+  * :doc:`License </contributing/documentation/license>`
 
 * **Community**
 

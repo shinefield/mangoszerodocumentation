@@ -20,7 +20,7 @@ and change it. By contrast, the GNU General Public License is intended to
 guarantee your freedom to share and change free software -- to make sure the
 software is free for all its users. This General Public License applies to most
 of the Free Software Foundation's software and to any other program whose
-authors commit to using it  [1]_. You can apply it to your programs, too.
+authors commit to using it [1]_. You can apply it to your programs, too.
 
 When we speak of free software, we are referring to freedom, not price. Our
 General Public Licenses are designed to make sure that you have the freedom to

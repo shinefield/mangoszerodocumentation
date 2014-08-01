@@ -29,5 +29,5 @@ If your problem definitely looks like a bug, report it using the official bug
 
 * *(optional)* Attach a :doc:`patch <patches>`.
 
-.. _documentation: http://docs.getmangos.com/
-.. _tracker: https://bitbucket.org/mangoszero/server/issues
+.. _documentation:  http://docs.getmangos.com/
+.. _tracker:        https://bitbucket.org/mangoszero/server/issues

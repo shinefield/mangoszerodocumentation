@@ -49,7 +49,7 @@ Non-Commercial Attribution-Share Alike 3.0 Unported `License`_.
   the license terms of this work. The best way to do this is with a link
   to this web page.
 
-This is a human-readable summary of the `Legal Code (the full license)`_.
+This is a human-readable summary of the `Legal Code`_ (the full license).
 
-.. _License: http://creativecommons.org/licenses/by-nc-sa/3.0/
-.. _Legal Code (the full license): http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+.. _License:    http://creativecommons.org/licenses/by-nc-sa/3.0/
+.. _Legal Code: http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode

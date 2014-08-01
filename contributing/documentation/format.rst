@@ -127,10 +127,13 @@ To test documentation before a commit:
 
 * Run ``make html`` and view the generated HTML in the ``build`` directory.
 
-.. _reStructuredText:        http://docutils.sourceforge.net/rst.html
-.. _Sphinx:                  http://sphinx-doc.org/
 .. _documents:               http://bitbucket.org/mangoszero/documentation
+
+.. _reStructuredText:        http://docutils.sourceforge.net/rst.html
 .. _reStructuredText Primer: http://sphinx-doc.org/rest.html
-.. _markup:                  http://sphinx-doc.org/markup/
-.. _Pygments website:        http://pygments.org/languages/
+
+.. _Sphinx:                  http://sphinx-doc.org/
 .. _Sphinx quick setup:      http://sphinx-doc.org/tutorial.html#setting-up-the-documentation-sources
+.. _markup:                  http://sphinx-doc.org/markup/
+
+.. _Pygments website:        http://pygments.org/languages/

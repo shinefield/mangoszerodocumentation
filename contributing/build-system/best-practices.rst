@@ -7,8 +7,6 @@ Best Practices
 **mangos-zero** relies on `CMake`_ to produce build definitions and project
 files on various platforms, such as Linux, Windows or Mac OS X.
 
-.. _CMake: http://cmake.org/
-
 To ensure that our project can be built on most platforms we enforce a few
 rules when crafting ``CMakeLists.txt`` files.
 
@@ -69,3 +67,5 @@ Install it
 ----------
 
 Install built app/library, configured files, and others - based on build switches
+
+.. _CMake: http://cmake.org/

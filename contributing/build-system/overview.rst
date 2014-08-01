@@ -21,5 +21,5 @@ available at your hands.
     We currently use CMake version *2.8.x*. The current build system has not yet
     been tested with `CMake 3`_.
 
-.. _CMake: http://cmake.org/
-.. _CMake 3: http://www.cmake.org/cmake/help/v3.0/release/3.0.0.html
+.. _CMake:    http://cmake.org/
+.. _CMake 3:  http://www.cmake.org/cmake/help/v3.0/release/3.0.0.html
