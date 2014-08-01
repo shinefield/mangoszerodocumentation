@@ -50,6 +50,8 @@ to character interaction. E.g. if stables in Arathi Basin are taken over
 by Alliance, the stables note state would become Alliance controlled.
 Similar node states exist for every battleground note.
 
-*Notice*: if you update battleground scripts and make changes to node
-status values ensure that you provide database update scripts which
-update the battleground events accordingly.
+.. note::
+
+    if you update battleground scripts and make changes to node
+    status values ensure that you provide database update scripts which
+    update the battleground events accordingly.

@@ -138,9 +138,11 @@ the menu will require. The following table shows all valid option types:
 | 17      | GOSSIP\_OPTION\_UNLEARNPETSKILLS   |
 +---------+------------------------------------+
 
-*Notice*: in order for gossip\_menu\_option entries to work, the
-``npcflag`` of the `creature\_template <creature_template>`__ table
-entry needs to be set appropriately.
+.. note::
+
+    in order for gossip\_menu\_option entries to work, the
+    ``npcflag`` of the `creature\_template <creature_template>`__ table
+    entry needs to be set appropriately.
 
 npc\_option\_npcflag
 --------------------
@@ -202,8 +204,10 @@ To create a sub-menu, this can reference the
 `gossip\_menu <gossip_menu>`__ tables unique ID for which the entry is
 valid.
 
-*Notice*: if you want the gossip\_menu\_option to close the gossip
-window, set this field to ``-1``.
+.. note::
+
+    if you want the gossip\_menu\_option to close the gossip
+    window, set this field to ``-1``.
 
 action\_poi\_id
 ---------------

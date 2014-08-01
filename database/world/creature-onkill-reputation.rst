@@ -7,8 +7,10 @@
 The ``creature_onkill_reputation`` table holds information on reputation
 awarded to characters when killing the creature.
 
-*Notice*: reputation is awarded only on ``creature_template`` level, but
-not for individual spawns.
+.. note::
+
+    reputation is awarded only on ``creature_template`` level, but
+    not for individual spawns.
 
 Table structure
 ---------------

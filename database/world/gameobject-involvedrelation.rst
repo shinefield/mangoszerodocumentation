@@ -28,7 +28,9 @@ id
 This references the `gameobject\_template <gameobject_template>`__
 tables unique ID for which the entry is valid.
 
-*Notice*: game object templates need to be of type quest giver.
+.. note::
+
+    game object templates need to be of type quest giver.
 
 quest
 -----

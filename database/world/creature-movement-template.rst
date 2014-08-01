@@ -11,9 +11,11 @@ movement path.
 Template movement is usually applied to creature templates spawned by
 scripts, or for templates which are unique and have only one spawn.
 
-*Notice*: movement attached to a creature template will be applied to
-all spawns of this template, unless there is a unique movement defined
-for the ``creature`` entry.
+.. note::
+
+    movement attached to a creature template will be applied to
+    all spawns of this template, unless there is a unique movement defined
+    for the ``creature`` entry.
 
 Table structure
 ---------------

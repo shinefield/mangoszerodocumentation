@@ -10,7 +10,9 @@ be learned by a character when learning a spell.
 This is e.g. used when learning professions, where a character gains the
 profession spell and an initial set of recipe spells.
 
-*Notice*: do not include spells with SPELL\_EFFECT\_LEARN\_SPELL here.
+.. note::
+
+    do not include spells with SPELL\_EFFECT\_LEARN\_SPELL here.
 
 Table structure
 ---------------

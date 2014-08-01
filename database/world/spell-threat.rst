@@ -34,9 +34,11 @@ entry
 The spell identifier. The value has to match with a spell identifier
 defined in `Spell.dbc <../dbc/Spell.dbc>`__.
 
-*Notice*: any spell referenced is required to be rank 1 in the spell
-chain, and has to have threat values set in the original spell
-definition.
+.. note::
+
+    any spell referenced is required to be rank 1 in the spell
+    chain, and has to have threat values set in the original spell
+    definition.
 
 Threat
 ------

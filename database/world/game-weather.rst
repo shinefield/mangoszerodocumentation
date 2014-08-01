@@ -8,7 +8,9 @@ The ``game_weather`` table holds the percentages for weather changes in
 various zones. For any given zone the percentage of all weather types
 for each season, should total and not exceed 100%.
 
-*Notice*: Not all zones can have their weather changed.
+.. note::
+
+    Not all zones can have their weather changed in vanilla WoW.
 
 Table structure
 ---------------

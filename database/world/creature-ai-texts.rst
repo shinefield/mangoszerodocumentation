@@ -56,7 +56,9 @@ entry
 This references a script using an action of the type ``ACTION_T_TEXT``
 in the `creature\_ai\_scripts <creature_ai_scripts>`__ tables entry.
 
-*Notice*: IDs use the *negative* versions of the referenced action's ID.
+.. note::
+
+    IDs use the *negative* versions of the referenced action's ID.
 
 content\_default
 ----------------

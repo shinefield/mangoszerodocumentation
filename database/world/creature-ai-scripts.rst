@@ -152,9 +152,11 @@ shows all available event types:
 
 Time parameters are measured in milliseconds.
 
-*Notice*: events will not repeat until the creature exits combat or
-unless EFLAG\_REPEATABLE is set. Some events such as EVENT\_T\_AGGRO,
-EVENT\_T\_DEATH, EVENT\_T\_SPAWNED and EVENT\_T\_EVADE cannot repeat.
+.. note::
+
+    events will not repeat until the creature exits combat or
+    unless EFLAG\_REPEATABLE is set. Some events such as EVENT\_T\_AGGRO,
+    EVENT\_T\_DEATH, EVENT\_T\_SPAWNED and EVENT\_T\_EVADE cannot repeat.
 
 event\_inverse\_phase\_mask
 ---------------------------

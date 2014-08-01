@@ -43,16 +43,18 @@ entry
 The ID that the core uses to identify a string. These IDs are contained
 and used internally and need to correspond to what the core expects.
 
-*Notice*: The core will not operate if strings are missing from this
-table.
+.. note::
+
+    The core will not operate if strings are missing from this table.
 
 content\_default
 ----------------
 
 The English translation.
 
-*Notice*: the ``%`` arguments need to be used in the exact same order
-for any translation.
+.. note::
+
+    the ``%`` arguments need to be used in the exact same order for any translation.
 
 content\_loc1
 -------------

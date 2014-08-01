@@ -49,7 +49,9 @@ A display model identifier. This references the
 `creature\_model\_info <creature_model_info>`__ tables unique ID for
 which this entry is valid.
 
-*Notice*: set to ``0`` if only the equipment should be changed.
+.. note::
+
+    set to ``0`` if only the equipment should be changed.
 
 equipment\_id
 -------------
@@ -58,7 +60,9 @@ This references the
 `creature\_equip\_template <creature_equip_template>`__ tables unique ID
 for which the entry is valid.
 
-*Notice*: set to ``0`` if only the model should be changed.
+.. note::
+
+    set to ``0`` if only the model should be changed.
 
 spell\_start
 ------------

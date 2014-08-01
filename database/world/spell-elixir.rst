@@ -7,13 +7,15 @@
 The ``spell_elixir`` table holds classifications for potion spells to
 prevent simultaneous use of potion in identical classes.
 
-*Notice*: technically the use of classifications does not make any sense
-for vanilla WoW, since these were introduced in WoW version 2.1. In
-vanilla WoW, potions would only be marked as flasks, which disallowed
-dispelling these in PvP situations.
+.. note::
 
-In rare occasions spells for food can grant the buffs after eating for a
-specified time period. These spells are marked here, too.
+    technically the use of classifications does not make any sense
+    for vanilla WoW, since these were introduced in WoW version 2.1. In
+    vanilla WoW, potions would only be marked as flasks, which disallowed
+    dispelling these in PvP situations.
+
+    In rare occasions spells for food can grant the buffs after eating for a
+    specified time period. These spells are marked here, too.
 
 Table structure
 ---------------

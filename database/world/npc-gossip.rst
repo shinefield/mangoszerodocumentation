@@ -33,11 +33,13 @@ textid
 This references the `npc\_text <npc_text>`__ tables unique ID of the NPC
 text for which the entry is valid.
 
-*Notice*: to actually make a creature display a gossip dialogue with the
-linked text, you will have to update the
-`creature\_template <creature_template>`__ as follows:
+.. note::
 
-::
+    to actually make a creature display a gossip dialogue with the
+    linked text, you will have to update the
+    `creature\_template <creature_template>`__ as follows:
+
+.. code-block:: sql
 
         SET @CREATURE_FLAG_NPC_GOSSIP                   = 1;
 

@@ -206,8 +206,10 @@ A faction for creatures on the Alliance side. The value has to match
 with a faction template identifier defined in
 `FactionTemplate.dbc <../dbc/FactionTemplate.dbc>`__.
 
-*Notice*: This field also controls the creature family assistance
-mechanic. Only creatures with the same faction will assist each other.
+.. note::
+
+    This field also controls the creature family assistance
+    mechanic. Only creatures with the same faction will assist each other.
 
 FactionHorde
 ------------
@@ -216,8 +218,10 @@ A faction for creatures on the Horde side. The value has to match with a
 faction template identifier defined in
 `FactionTemplate.dbc <../dbc/FactionTemplate.dbc>`__.
 
-*Notice*: This field also controls the creature family assistance
-mechanic. Only creatures with the same faction will assist each other.
+.. note::
+
+    This field also controls the creature family assistance
+    mechanic. Only creatures with the same faction will assist each other.
 
 Scale
 -----
@@ -260,10 +264,12 @@ aka. beasts.
 | 15      | Felhunter      |         |                  |
 +---------+----------------+---------+------------------+
 
-*Notice*: It has to be evaluated if creatures of type ``3`` (Demons)
-should have their family set, as there are creature families defined for
-these. Also, remote control family would probably be having a type of
-``9`` since these are mechanical.
+.. note::
+
+    It has to be evaluated if creatures of type ``3`` (Demons)
+    should have their family set, as there are creature families defined for
+    these. Also, remote control family would probably be having a type of
+    ``9`` since these are mechanical.
 
 CreatureType
 ------------
@@ -558,9 +564,11 @@ A creature's class. The following table describes the available classes.
 | 8       | Mage      | Has low health, but increased mana      |
 +---------+-----------+-----------------------------------------+
 
-*Notice*: depending on the creature's class, you have to make sure that
-the mana values are set properly. E.g. a Warrior or Rogue will not have
-mana set.
+.. note::
+
+    depending on the creature's class, you have to make sure that
+    the mana values are set properly. E.g. a Warrior or Rogue will not have
+    mana set.
 
 Rank
 ----
@@ -693,9 +701,11 @@ In the query above, substitute ``<#1>`` with the minimum damage you want
 the creature to deal and ``<#2>`` with the maximum damage you want the
 creature to deal.
 
-*Notice*: you might want to double check the calculated values after the
-query has run because a large difference between ``MinMeleeDmg`` and
-``MaxMeleeDmg`` can cause ``MinMeleeDmg`` to become a negative value.
+.. note::
+
+    you might want to double check the calculated values after the
+    query has run because a large difference between ``MinMeleeDmg`` and
+    ``MaxMeleeDmg`` can cause ``MinMeleeDmg`` to become a negative value.
 
 RangedAttackPower
 -----------------
@@ -823,9 +833,11 @@ Multiple immunities can be combined.
 | 16384   | BLEED      |             |                   |
 +---------+------------+-------------+-------------------+
 
-*Notice*: in theory this should somehow relate to
-`SpellMechanic.dbc <../dbc/SpellMechanic.dbc>`__ and the immunities list
-there, but it does not match. **TODO**
+.. note::
+
+    in theory this should somehow relate to
+    `SpellMechanic.dbc <../dbc/SpellMechanic.dbc>`__ and the immunities list
+    there, but it does not match. **TODO**
 
 ResistanceHoly
 --------------
@@ -934,8 +946,9 @@ from `ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
 | 11      | Druid         |
 +---------+---------------+
 
-*Notice*: pet trainers should always use the Hunter class identifier
-``3``.
+.. note::
+
+    pet trainers should always use the Hunter class identifier ``3``.
 
 TrainerRace
 -----------

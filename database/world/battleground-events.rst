@@ -43,9 +43,11 @@ event2
 The state of the event node. Node status is defined differently in every
 battleground script.
 
-*Notice*: if you update battleground scripts and make changes to node
-status values ensure that you provide database update scripts which
-update the battleground events accordingly.
+.. note::
+
+    if you update battleground scripts and make changes to node
+    status values ensure that you provide database update scripts which
+    update the battleground events accordingly.
 
 description
 -----------

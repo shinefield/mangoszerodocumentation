@@ -7,9 +7,11 @@
 The ``creature_equip_template_raw`` table holds information in items
 that creatures should wear.
 
-*Notice*: this table is *deprecated*. Do not use it, as it will be
-removed in a future update and is just here to ease transition to the
-new ``creature_equip_template`` table.
+.. deprecated::
+
+    this table is *deprecated*. Do not use it, as it will be
+    removed in a future update and is just here to ease transition to the
+    new ``creature_equip_template`` table.
 
 Table structure
 ---------------

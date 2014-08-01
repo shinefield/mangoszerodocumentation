@@ -107,16 +107,20 @@ spawntimesecs
 
 The respawn time for the game object, defined in seconds till respawn.
 
-*Notice*: using a negative spawn time will lead to the object being
-despawned until spawned by a script. It will then *despawn* after the
-time specified here.
+.. note::
+
+    using a negative spawn time will lead to the object being
+    despawned until spawned by a script. It will then *despawn* after the
+    time specified here.
 
 animprogress
 ------------
 
 **TODO**
 
-*Notice*: set to ``100`` for game objects of type chest.
+.. note::
+
+    set to ``100`` for game objects of type chest.
 
 state
 -----

@@ -7,8 +7,9 @@
 The ``pickpocketing_loot_template`` table holds definitions on items
 dropped by pickpocketing creatures.
 
-*Notice*: pickpocketing loot is handed out to rogues only. Bad luck,
-hunters!
+.. note::
+
+    pickpocketing loot is handed out to rogues only. Bad luck, hunters!
 
 Table structure
 ---------------
@@ -65,11 +66,13 @@ The following table shows possible combinations and their meanings.
 | > 0                   | < 0             | A drop chance which has a chance to be used.   |
 +-----------------------+-----------------+------------------------------------------------+
 
-*Notice*: setting ``ChanceOrQuestChance`` to ``0`` is only allowed for
-entries which are part of a loot group (aka. have a ``groupid`` set).
-Also note that non-zero values are subject to multiplication based on
-the drop rate configured in the world server configuration if they are
-not part of a loot group.
+.. note::
+
+    setting ``ChanceOrQuestChance`` to ``0`` is only allowed for
+    entries which are part of a loot group (aka. have a ``groupid`` set).
+    Also note that non-zero values are subject to multiplication based on
+    the drop rate configured in the world server configuration if they are
+    not part of a loot group.
 
 groupid
 -------

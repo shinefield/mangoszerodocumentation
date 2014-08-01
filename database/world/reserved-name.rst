@@ -7,8 +7,10 @@
 The ``reserved_name`` table holds possible character names which may not
 be used by characters with no special rights.
 
-*Notice*: any character with any access level bigger than default player
-level may create a character using a reserved name.
+.. note::
+
+    any character with any access level bigger than default player
+    level may create a character using a reserved name.
 
 Table structure
 ---------------

@@ -141,9 +141,11 @@ Defines if the creature spawn is alive or dead.
 | 1       | Dead    |
 +---------+---------+
 
-*Notice*: dead creatures can not have gossip dialogues, unless you
-explicitly set the dynamic flag for corpses on the
-`creature\_template <creature_template>`__.
+.. note::
+
+    dead creatures can not have gossip dialogues, unless you
+    explicitly set the dynamic flag for corpses on the
+    `creature\_template <creature_template>`__.
 
 MovementType
 ------------

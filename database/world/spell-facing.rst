@@ -33,5 +33,6 @@ facingcasterflag
 If the referenced spell requires to be cast when facing the target, this
 field has to be set to ``1``.
 
-*Notice*: setting this to zero would disable the need to face the
-target.
+.. note::
+
+    setting this to zero would disable the need to face the target.

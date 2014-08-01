@@ -7,7 +7,9 @@
 The ``dbscripts_on_go_template_use`` table holds holds scripts which are
 executed upon game object template usage.
 
-*Notice*: this only includes game objects which are buttons.
+.. note::
+
+    this only includes game objects which are buttons.
 
 Table structure
 ---------------
@@ -65,8 +67,9 @@ delay
 The delay in seconds to apply before starting the script command.
 Setting the value to ``0`` will instantly execute the command.
 
-*Notice*: delay is accumulated over all events with identical ``id``
-values.
+.. note::
+
+    delay is accumulated over all events with identical ``id`` values.
 
 command
 -------
@@ -172,9 +175,11 @@ search\_radius
 
 The range in which the buddy's entry will be search for.
 
-*Notice*: if ``data_flags`` has ``SCRIPT_FLAG_BUDDY_BY_GUID`` set, this
-references an entry in the `gameobject <gameobject>`__ or
-`creature <creature>`__ table.
+.. note::
+
+    if ``data_flags`` has ``SCRIPT_FLAG_BUDDY_BY_GUID`` set, this
+    references an entry in the `gameobject <gameobject>`__ or
+    `creature <creature>`__ table.
 
 data\_flags
 -----------
@@ -203,36 +208,44 @@ dataint
 
 A multi-purpose data field storing signed integer values.
 
-*Notice*: currently these fields are only used as text identifiers for
-the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
-commands.
+.. note::
+
+    currently these fields are only used as text identifiers for
+    the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
+    commands.
 
 dataint2
 --------
 
 A multi-purpose data field storing signed integer values.
 
-*Notice*: currently these fields are only used as text identifiers for
-the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
-commands.
+.. note::
+
+    currently these fields are only used as text identifiers for
+    the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
+    commands.
 
 dataint3
 --------
 
 A multi-purpose data field storing signed integer values.
 
-*Notice*: currently these fields are only used as text identifiers for
-the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
-commands.
+.. note::
+
+    currently these fields are only used as text identifiers for
+    the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
+    commands.
 
 dataint4
 --------
 
 A multi-purpose data field storing signed integer values.
 
-*Notice*: currently these fields are only used as text identifiers for
-the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
-commands.
+.. note::
+
+    currently these fields are only used as text identifiers for
+    the ``SCRIPT_COMMAND_TALK`` and ``SCRIPT_COMMAND_TERMINATE_SCRIPT``
+    commands.
 
 x
 -

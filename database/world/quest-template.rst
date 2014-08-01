@@ -462,7 +462,9 @@ The following table list known flags.
 | 1024    | QUEST\_FLAGS\_AUTO\_REWARDED    | These quests are automatically rewarded on quest complete and they will never appear in quest log client side.                                                         |
 +---------+---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-*Notice*: not all quest flags are currently supported by the core.
+.. note::
+
+    not all quest flags are currently supported by the core.
 
 SpecialFlags
 ------------
@@ -704,8 +706,10 @@ If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
 `item\_template <item_template>`__ table.
 
-*Notice*: this is required to decide if these items should be included
-in loot or not.
+.. note::
+
+    this is required to decide if these items should be included
+    in loot or not.
 
 ReqSourceId2
 ------------
@@ -714,8 +718,10 @@ If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
 `item\_template <item_template>`__ table.
 
-*Notice*: this is required to decide if these items should be included
-in loot or not.
+.. note::
+
+    this is required to decide if these items should be included
+    in loot or not.
 
 ReqSourceId3
 ------------
@@ -724,8 +730,10 @@ If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
 `item\_template <item_template>`__ table.
 
-*Notice*: this is required to decide if these items should be included
-in loot or not.
+.. note::
+
+    this is required to decide if these items should be included
+    in loot or not.
 
 ReqSourceId4
 ------------
@@ -734,8 +742,10 @@ If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
 `item\_template <item_template>`__ table.
 
-*Notice*: this is required to decide if these items should be included
-in loot or not.
+.. note::
+
+    this is required to decide if these items should be included
+    in loot or not.
 
 ReqSourceCount1
 ---------------
@@ -1002,8 +1012,10 @@ If the quest should reward reputation towards a faction, this references
 a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
 table.
 
-*Notice*: this is intended to reward extra reputation. Normal reputation
-is awarded automatically by the server.
+.. note::
+
+    this is intended to reward extra reputation. Normal reputation
+    is awarded automatically by the server.
 
 RewRepFaction2
 --------------
@@ -1012,8 +1024,10 @@ If the quest should reward reputation towards a faction, this references
 a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
 table.
 
-*Notice*: this is intended to reward extra reputation. Normal reputation
-is awarded automatically by the server.
+.. note::
+
+    this is intended to reward extra reputation. Normal reputation
+    is awarded automatically by the server.
 
 RewRepFaction3
 --------------
@@ -1022,8 +1036,10 @@ If the quest should reward reputation towards a faction, this references
 a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
 table.
 
-*Notice*: this is intended to reward extra reputation. Normal reputation
-is awarded automatically by the server.
+.. note::
+
+    this is intended to reward extra reputation. Normal reputation
+    is awarded automatically by the server.
 
 RewRepFaction4
 --------------
@@ -1032,8 +1048,10 @@ If the quest should reward reputation towards a faction, this references
 a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
 table.
 
-*Notice*: this is intended to reward extra reputation. Normal reputation
-is awarded automatically by the server.
+.. note::
+
+    this is intended to reward extra reputation. Normal reputation
+    is awarded automatically by the server.
 
 RewRepFaction5
 --------------
@@ -1042,8 +1060,10 @@ If the quest should reward reputation towards a faction, this references
 a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
 table.
 
-*Notice*: this is intended to reward extra reputation. Normal reputation
-is awarded automatically by the server.
+.. note::
+
+    this is intended to reward extra reputation. Normal reputation
+    is awarded automatically by the server.
 
 RewRepValue1
 ------------
@@ -1101,8 +1121,10 @@ If a spell should be shown as being casted as quest reward, set this to
 a spell identifier referencing the `Spell.dbc <../dbc/Spell.dbc>`__
 table.
 
-*Notice*: if ``RewSpellCast`` is set, this spell will only be shown, but
-not casted.
+.. note::
+
+    if ``RewSpellCast`` is set, this spell will only be shown, but
+    not casted.
 
 RewSpellCast
 ------------

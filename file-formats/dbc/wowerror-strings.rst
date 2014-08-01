@@ -7,8 +7,10 @@ WowError\_Strings.dbc
 The *Wow error strings* table contains definitions for error messages
 used in the World of Warcraft crash reporting utility.
 
-*Notice*: It is not reference from any other DBC files and does not
-reference other DBC files.
+.. note::
+
+    This file is not reference from any other DBC files and does not
+    reference other DBC files.
 
 Table structure
 ---------------

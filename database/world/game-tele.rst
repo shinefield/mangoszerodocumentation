@@ -7,9 +7,11 @@
 The ``game_tele`` table holds lists of teleport locations identified by
 unique names.
 
-*Notice*: teleport locations are merely an addition to ease the life of
-game masters and developers, allowing to quickly travel to a location
-instead of having to lookup the coordinates.
+.. note::
+
+    teleport locations are merely an addition to ease the life of
+    game masters and developers, allowing to quickly travel to a location
+    instead of having to lookup the coordinates.
 
 Table structure
 ---------------
@@ -71,5 +73,6 @@ name
 
 A unique name for the teleport location.
 
-*Notice*: using spaces and special characters for locations is
-prohibited.
+.. note::
+
+    using spaces and special characters for locations is prohibited.

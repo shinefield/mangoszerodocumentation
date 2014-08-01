@@ -8,8 +8,10 @@ The ``creature_movement`` table holds informations on paths for spawned
 ``creature`` entries and allows to define behaviour along the movement
 path.
 
-*Notice*: movement definitions here will overwrite any movement defined
-for the creature template.
+.. note::
+
+    movement definitions here will overwrite any movement defined
+    for the creature template.
 
 Table structure
 ---------------

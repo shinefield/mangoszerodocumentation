@@ -109,8 +109,10 @@ The following tables contain the data contained within the file to allow
 for easier determination of actual formats, and the meaning of
 individual cells.
 
-*Note*: this table contains all non-development areas, which are not
-instanced.
+.. note::
+
+    this table contains all non-development areas, which are not
+    instanced.
 
 +-------------+--------+-----------------------+-----------------------+-----------------------------+
 | Continent   | ID     | AreaBit (binary)      | flags (binary)        | AreaName                    |
@@ -238,8 +240,10 @@ instanced.
 | 36          | 207    | 0000 0001 0000 1000   | 0000 0000 0100 0000   | The Great Sea               |
 +-------------+--------+-----------------------+-----------------------+-----------------------------+
 
-*Note*: this table contains all non-development areas, which are
-instanced. These are all instanced areas which are sub-zones to a city.
+.. note::
+
+    this table contains all non-development areas, which are
+    instanced. These are all instanced areas which are sub-zones to a city.
 
 +-------------+--------+-----------------------+-----------------------+-------------------+
 | Continent   | ID     | AreaBit (binary)      | flags (binary)        | AreaName          |
@@ -251,8 +255,10 @@ instanced. These are all instanced areas which are sub-zones to a city.
 | 1           | 2917   | 0000 0011 1101 1100   | 0000 0000 0010 0000   | Hall of Legends   |
 +-------------+--------+-----------------------+-----------------------+-------------------+
 
-*Note*: this table contains all non-development areas, which are
-instanced. These are normal dungeons.
+.. note::
+
+    this table contains all non-development areas, which are
+    instanced. These are normal dungeons.
 
 +-------------+--------+-----------------------+-----------------------+---------------------+
 | Continent   | ID     | AreaBit (binary)      | flags (binary)        | AreaName            |
@@ -294,8 +300,10 @@ instanced. These are normal dungeons.
 | 429         | 2557   | 0000 0011 1011 0010   | 0000 0000 0000 0000   | Dire Maul           |
 +-------------+--------+-----------------------+-----------------------+---------------------+
 
-*Note*: this table contains all non-development areas, which are
-instanced. These are raid battleground instances
+.. note::
+
+    this table contains all non-development areas, which are
+    instanced. These are raid battleground instances
 
 +-------------+--------+-----------------------+-----------------------+------------------+
 | Continent   | ID     | AreaBit (binary)      | flags (binary)        | AreaName         |
@@ -309,8 +317,10 @@ instanced. These are raid battleground instances
 | 529         | 3358   | 0000 0100 0001 0100   | 0000 0000 0000 0000   | Arathi Basin     |
 +-------------+--------+-----------------------+-----------------------+------------------+
 
-*Note*: this table contains all non-development areas, which are
-instanced. These are raid instances.
+.. note::
+
+    this table contains all non-development areas, which are
+    instanced. These are raid instances.
 
 +-------------+--------+-----------------------+-----------------------+----------------------+
 | Continent   | ID     | AreaBit (binary)      | flags (binary)        | AreaName             |
@@ -330,8 +340,10 @@ instanced. These are raid instances.
 | 533         | 3456   | 0000 0100 0011 0011   | 0000 0000 0000 0011   | Naxxramas            |
 +-------------+--------+-----------------------+-----------------------+----------------------+
 
-*Note*: this table contains all development areas, both instanced and
-non instanced.
+.. note::
+
+    this table contains all development areas, both instanced and
+    non instanced.
 
 +-------------+--------+-----------------------+-----------------------+-----------------------------+
 | Continent   | ID     | AreaBit (binary)      | flags (binary)        | AreaName                    |

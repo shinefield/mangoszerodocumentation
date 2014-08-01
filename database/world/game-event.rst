@@ -7,10 +7,12 @@
 The ``game_event`` table holds definitions for in-game events, both
 holiday related and normal events.
 
-*Notice*: game events are not necessarily events related to events
-introduced by patches (e.g. The Ahn'Qiraj opening). Game events include
-things such as the Stockades riots, or the Pyrewood Village event for
-the Worgen curse.
+.. note::
+
+    game events are not necessarily events related to events
+    introduced by patches (e.g. The Ahn'Qiraj opening). Game events include
+    things such as the Stockades riots, or the Pyrewood Village event for
+    the Worgen curse.
 
 Table structure
 ---------------
@@ -71,7 +73,9 @@ length
 Defines the length of an event. The time is measured in minutes, and
 **needs** to be lower than the value set for ``occurence``.
 
-*Notice*: if ``length`` is > ``occurence``, an event would never stop.
+.. note::
+
+    if ``length`` is > ``occurence``, an event would never stop.
 
 holiday
 -------

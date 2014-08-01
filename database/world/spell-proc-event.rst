@@ -74,8 +74,10 @@ schools and matching bit masks.
 | 6           | 64    | Arcane        |
 +-------------+-------+---------------+
 
-*Notice*: multiple school masks can be combined to have spell trigger on
-more than one spell school.
+.. note::
+
+    multiple school masks can be combined to have spell trigger on
+    more than one spell school.
 
 SpellFamilyName
 ---------------

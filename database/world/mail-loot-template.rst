@@ -62,11 +62,13 @@ The following table shows possible combinations and their meanings.
 | > 0                   | < 0             | A drop chance which has a chance to be used.   |
 +-----------------------+-----------------+------------------------------------------------+
 
-*Notice*: setting ``ChanceOrQuestChance`` to ``0`` is only allowed for
-entries which are part of a loot group (aka. have a ``groupid`` set).
-Also note that non-zero values are subject to multiplication based on
-the drop rate configured in the world server configuration if they are
-not part of a loot group.
+.. note::
+
+    setting ``ChanceOrQuestChance`` to ``0`` is only allowed for
+    entries which are part of a loot group (aka. have a ``groupid`` set).
+    Also note that non-zero values are subject to multiplication based on
+    the drop rate configured in the world server configuration if they are
+    not part of a loot group.
 
 groupid
 -------

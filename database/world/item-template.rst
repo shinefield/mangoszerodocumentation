@@ -299,8 +299,10 @@ The class of the item template.
 | 6    | Projectile   | 15   | Miscellaneous   |
 +------+--------------+------+-----------------+
 
-*Notice*: the table only contains active classes, obsolete classes have
-been removed.
+.. note::
+
+    the table only contains active classes, obsolete classes have
+    been stripped.
 
 subclass
 --------
@@ -423,8 +425,10 @@ The subclass of the item template.
 | 15         | 0             | Miscellaneous, Junk          |
 +------------+---------------+------------------------------+
 
-*Notice*: the table only contains active subclasses, obsolete classes
-have been removed.
+.. note::
+
+    the table only contains active subclasses, obsolete classes
+    have been stripped.
 
 name
 ----
@@ -510,8 +514,9 @@ BuyCount
 
 If an item is sold in stacks, the holds the number of items in a stack.
 
-*Notice*: if an item has limited supplies, the item is refresh to this
-count.
+.. note::
+
+    if an item has limited supplies, the item is refresh to this count.
 
 BuyPrice
 --------
@@ -571,7 +576,9 @@ A bit-mask corresponding to class that should be able to use the item.
 The value has to match with classes defined in
 `ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
 
-*Notice*: set to ``-1`` to allow usage by all classes.
+.. note::
+
+    set to ``-1`` to allow usage by all classes.
 
 AllowableRace
 -------------
@@ -580,7 +587,9 @@ A bit-mask corresponding to races that should be able to use the item.
 The value has to match with races defined in
 `ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
 
-*Notice*: set to ``-1`` to allow usage by all races.
+.. note::
+
+    set to ``-1`` to allow usage by all races.
 
 ItemLevel
 ---------
@@ -1046,7 +1055,9 @@ If an item is a bag, this holds a bit-mask corresponding to bag families
 to which the bag belongs. The value has to match with bag families
 defined in `ItemBagFamily.dbc <../dbc/ItemBagFamily.dbc>`__.
 
-*Notice*: multiple bag families may be combined.
+.. note::
+
+    multiple bag families may be combined.
 
 ScriptName
 ----------
@@ -1089,8 +1100,10 @@ inventory.
 -  if the value is < ``0``, the item will disappear after the set time
    in seconds, measured in real time.
 
-*Notice*: items set to be deleted in real time, require ``ExtraFlags``
-set accordingly.
+.. note::
+
+    items set to be deleted in real time, require ``ExtraFlags``
+    set accordingly.
 
 ExtraFlags
 ----------
