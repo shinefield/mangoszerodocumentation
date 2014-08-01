@@ -138,10 +138,10 @@ Resource list, fan sites
 Resource list, archived sites
 -----------------------------
 
-.. _Blizzard Entertainment:                     http://blizzard.com/
-.. _World of Warcraft:                          http://blizzard.com/games/wow/
+.. _Blizzard Entertainment:   http://blizzard.com/
+.. _World of Warcraft:        http://blizzard.com/games/wow/
 
-.. _Lua:                                        http://www.lua.org/
-.. _wayback machine:                            http://web.archive.org/
+.. _Lua:                      http://www.lua.org/
+.. _wayback machine:          http://web.archive.org/
 
-.. _BradyGames:                                 http://www.bradygames.com/
+.. _BradyGames:               http://www.bradygames.com/

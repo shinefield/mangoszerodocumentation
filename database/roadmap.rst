@@ -79,7 +79,7 @@ each of our release milestones.
 | 60            | No awesome name yet.   | Not defined yet.   |
 +---------------+------------------------+--------------------+
 
-.. _database:       http://bitbucket.org/mangoszero/content
+.. _database:               http://bitbucket.org/mangoszero/content
 
 .. _Blizzard Entertainment: http://blizzard.com/
 .. _Vanilla WoW:            http://blizzard.com/games/wow/

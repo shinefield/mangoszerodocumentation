@@ -85,14 +85,14 @@ If all this is still not enough, I recommend taking a look at the
 `minifesto`_ which I intend to follow with every change and update I
 make for this project.
 
-.. _mangos-zero: http://getmangos.com/
-.. _bitbucket project: http://bitbucket.org/mangoszero
+.. _mangos-zero:            http://getmangos.com/
+.. _bitbucket project:      http://bitbucket.org/mangoszero
 
-.. _CMaNGOS: http://cmangos.net/
+.. _CMaNGOS:                http://cmangos.net/
 
-.. _World of Warcraft: http://worldofwarcraft.com/
-.. _vanilla WoW: http://blizzard.com/games/wow/
-.. _The Burning Crusade: http://blizzard.com/games/burningcrusade/
+.. _World of Warcraft:      http://worldofwarcraft.com/
+.. _vanilla WoW:            http://blizzard.com/games/wow/
+.. _The Burning Crusade:    http://blizzard.com/games/burningcrusade/
 .. _Wrath of the Lich King: http://blizzard.com/games/wrath/
 
-.. _minifesto: http://minifesto.org/
+.. _minifesto:              http://minifesto.org/

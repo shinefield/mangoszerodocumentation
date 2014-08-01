@@ -10,19 +10,12 @@ Welcome to mangos-zero
 version 1.12 also known as `vanilla WoW`_. The code is open source, and made
 `available on BitBucket`_.
 
-.. _mangos-zero: http://getmangos.com/
-.. _World of Warcraft: http://worldofwarcraft.com/
-.. _vanilla WoW: http://blizzard.com/games/wow/
-.. _available on BitBucket: http://bitbucket.org/mangoszero
-
 .. note::
 
     This documentation for **mangos-zero** is work in progress as of
     July 23rd 2014.
 
     Help us, and fill in the blanks, `fork us`_ and submit pull requests.
-
-.. _fork us: https://bitbucket.org/mangoszero/documentation
 
 .. _part-intro:
 
@@ -97,3 +90,10 @@ A guide to help you contribute to **mangos-zero**.
     contributing/index
 
 .. include:: /contributing/map.rst.inc
+
+.. _mangos-zero:            http://getmangos.com/
+.. _available on BitBucket: http://bitbucket.org/mangoszero
+.. _fork us:                https://bitbucket.org/mangoszero/documentation
+
+.. _World of Warcraft:      http://worldofwarcraft.com/
+.. _vanilla WoW:            http://blizzard.com/games/wow/

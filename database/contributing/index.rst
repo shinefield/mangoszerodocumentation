@@ -19,4 +19,4 @@ submitting proper contributions to the project.
 If you have suggestions for topics we should cover here, please file an
 `issue`_.
 
-.. _issue: http://bitbucket.org/mangoszero/content/issues
+.. _issue:  http://bitbucket.org/mangoszero/content/issues
