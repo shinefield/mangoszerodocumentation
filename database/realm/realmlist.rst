@@ -82,8 +82,17 @@ Valid values are:
 
 realmflags
 ----------
+Realm flags allow the users to highlight realms for certain situations.
 
-**TODO**
+-  ``0``: Nothing to see here
+-  ``1``: Marks a realm as invalid
+-  ``2``: Marks the realm as offline
+-  ``4``: Shows the realms supported version in realm list
+-  ``8``: Unknown effects
+-  ``16``: Unknown effects
+-  ``32``: Highlight realm for new players
+-  ``64``: Marks realm as recommended
+-  ``128``: Marks realm as full
 
 timezone
 ~~~~~~~~
