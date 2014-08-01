@@ -1,3 +1,5 @@
+.. _db-overview:
+
 ********
 Overview
 ********

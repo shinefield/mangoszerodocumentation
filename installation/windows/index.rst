@@ -1,3 +1,5 @@
+.. _installation-windows-index:
+
 ====================
 Windows Installation
 ====================

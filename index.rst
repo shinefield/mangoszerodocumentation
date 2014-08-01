@@ -67,6 +67,22 @@ A complete guide to conquering the **mangos-zero** databases.
 
 .. include:: /database/map.rst.inc
 
+
+.. _part-file-formats:
+
+*****************
+File Format Guide
+*****************
+
+A guide describing the game client and server file formats.
+
+.. toctree::
+    :hidden:
+
+    file-formats/index
+
+.. include:: /file-formats/map.rst.inc
+
 .. _part-contributing:
 
 ************

@@ -1,3 +1,5 @@
+.. _contribute-documentation-overview:
+
 =================================
 Contributing to the Documentation
 =================================

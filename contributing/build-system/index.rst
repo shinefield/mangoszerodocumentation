@@ -1,3 +1,5 @@
+.. _contribute-build-system-index:
+
 ============
 Build System
 ============

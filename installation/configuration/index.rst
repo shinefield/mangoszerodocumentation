@@ -1,3 +1,5 @@
+.. _installation-configuration-index:
+
 =============
 Configuration
 =============

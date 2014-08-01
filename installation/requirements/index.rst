@@ -1,3 +1,5 @@
+.. _installation-requirements-index:
+
 ============
 Requirements
 ============

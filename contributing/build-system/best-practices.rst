@@ -1,3 +1,5 @@
+.. _contribute-build-system-best-practices:
+
 ==============
 Best Practices
 ==============

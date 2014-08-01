@@ -1,3 +1,5 @@
+.. _contribute-code-license:
+
 ============
 Code License
 ============

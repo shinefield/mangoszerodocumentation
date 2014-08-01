@@ -1,3 +1,5 @@
+.. _contribute-code-standards:
+
 ================
 Coding Standards
 ================

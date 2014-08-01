@@ -1,3 +1,5 @@
+.. _contribute-code-security:
+
 ===============
 Security Issues
 ===============

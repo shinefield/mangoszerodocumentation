@@ -1,3 +1,5 @@
+.. _contribute-code-patches:
+
 ==================
 Submitting a Patch
 ==================

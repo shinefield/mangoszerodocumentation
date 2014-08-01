@@ -1,3 +1,6 @@
+.. _contribute-code-conventions:
+
+===========
 Conventions
 ===========
 

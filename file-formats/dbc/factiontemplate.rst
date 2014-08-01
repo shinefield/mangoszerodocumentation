@@ -1,0 +1,58 @@
+.. _file-formats-dbc-factiontemplate:
+
+===================
+FactionTemplate.dbc
+===================
+
+The *faction template* table contains definitions for grouping factions
+into reusable templates which are referred to by game data.
+
+Table structure
+---------------
+
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| ID   | Name           | Type               | Default   | Description                                        |
++======+================+====================+===========+====================================================+
+| 1    | ID             | Integer (signed)   | -         | Unique ID                                          |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 2    | faction        | Integer (signed)   | 0         | The faction top which the template applies.        |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 3    | flags          | Integer            | 0         | See below.                                         |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 4    | factionGroup   | Integer (signed)   | 0         | The faction group to which this faction belongs.   |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 5    | friendGroup    | Integer            | 0         | A faction group at peace.                          |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 6    | enemyGroup     | Integer            | 0         | A faction group at war.                            |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 7    | enemies1       | Integer (signed)   | 0         | References a faction at war.                       |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 8    | enemies2       | Integer (signed)   | 0         | References a faction at war.                       |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 9    | enemies3       | Integer (signed)   | 0         | References a faction at war.                       |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 10   | enemies4       | Integer (signed)   | 0         | References a faction at war.                       |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 11   | friend1        | Integer (signed)   | 0         | References a friendly faction.                     |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 12   | friend2        | Integer (signed)   | 0         | References a friendly faction.                     |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 13   | friend3        | Integer (signed)   | 0         | References a friendly faction.                     |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+| 14   | friend4        | Integer (signed)   | 0         | References a friendly faction.                     |
++------+----------------+--------------------+-----------+----------------------------------------------------+
+
+Fields
+
+flags
+-----
+
+**TODO**
+
+Relations
+---------
+
+-  ``factionGroup`` references the primary key of ``FactionGroup.dbc``.
+-  ``faction``, ``enemies[1-4]`` and ``friend[1-4]`` reference the
+   primary key of ``Faction.dbc``.
+

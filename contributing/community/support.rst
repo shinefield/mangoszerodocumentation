@@ -1,3 +1,5 @@
+.. _contribute-community-support:
+
 =======
 Support
 =======

@@ -1,3 +1,5 @@
+.. _contribute-documentation-license:
+
 =====================
 Documentation License
 =====================

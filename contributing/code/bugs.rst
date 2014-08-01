@@ -1,3 +1,5 @@
+.. _contribute-code-bugs:
+
 ===============
 Reporting a Bug
 ===============

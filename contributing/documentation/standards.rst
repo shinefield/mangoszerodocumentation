@@ -1,3 +1,5 @@
+.. _contribute-documentation-standards:
+
 =======================
 Documentation Standards
 =======================
