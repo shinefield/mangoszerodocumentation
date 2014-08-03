@@ -36,39 +36,61 @@ Fields
 Level
 -----
 
-@TODO
+Creature level for the stats. Could Be ``MinLevel`` or ``MaxLevel`` or both, could Be Same if
+the creature only has a single level.
 
 Class
 -----
 
-@TODO
+A creature's class. The following table describes the available classes.
+
++---------+-----------+-----------------------------------------+
+| Value   | Name      | Description                             |
++=========+===========+=========================================+
+| 1       | Warrior   | Has increased health and no mana        |
++---------+-----------+-----------------------------------------+
+| 2       | Paladin   | Has increased health and low mana       |
++---------+-----------+-----------------------------------------+
+| 4       | Rogue     | Has increased damage, but lower armor   |
++---------+-----------+-----------------------------------------+
+| 8       | Mage      | Has low health, but increased mana      |
++---------+-----------+-----------------------------------------+
 
 BaseHealthExp0
 --------------
 
-@TODO
+Base health value for expansion 0 aka. vanilla WoW.
 
 BaseMana
 --------
 
-@TODO
+Base mana value for any creature of this level and class.
 
 BaseDamageExp0
 --------------
 
-@TODO
+Base damage value for expansion 0 aka. vanilla WoW.
 
 BaseMeleeAttackPower
 --------------------
 
-@TODO
+Base melee attack power that has been factored for low level creatures.
+
+.. tip::
+
+    This is raw base value to be used for all melee damage calculations.
 
 BaseRangedAttackPower
 ---------------------
 
-@TODO
+Base ranged attack power.
+
+.. tip::
+
+    This is raw base value to be used for all ranged damage calculations.
+
 
 BaseArmor
 ---------
 
-@TODO
+Base armor value for any creature of this level and class.
