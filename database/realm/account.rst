@@ -182,8 +182,7 @@ world servers will return the proper locale strings to the client.
 -  ``3``: German
 -  ``4``: Chinese
 -  ``5``: Taiwanese
--  ``6``: Spanish Spain
--  ``7``: Spanish Latin America
--  ``8``: Russian
+-  ``6``: Spanish - Spain
+-  ``7``: Spanish - Latin America
 
 .. _IP address: http://en.wikipedia.org/wiki/IP_address
