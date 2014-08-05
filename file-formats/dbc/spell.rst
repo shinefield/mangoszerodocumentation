@@ -314,7 +314,7 @@ targets
 Relations
 ---------
 
--  ``spellClassSet`` references the primary key of ``ChrClasses.dbc``.
+-  ``spellClassSet`` references the field ``classMask`` of ``ChrClasses.dbc``.
 -  ``targetCreatureType`` references the primary key of
    ``CreatureType.dbc``.
 -  ``equippedItemClass`` references the primary key of
