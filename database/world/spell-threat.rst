@@ -4,7 +4,7 @@
 "spell\_threat" table
 =====================
 
-The ``spell_threat`` table holds threat values for any spell that
+The ``spell_threat`` table holds threat values for any spells that
 increase or decrease threat.
 
 Entries here may be used to modify threat values which are original
