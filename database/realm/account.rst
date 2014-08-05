@@ -47,6 +47,15 @@ Table structure
 | locale              | tinyint(3) unsigned   | NO     |       | 0                     |                   |
 +---------------------+-----------------------+--------+-------+-----------------------+-------------------+
 
+.. note:
+
+    The default database in **mangos-zero** includes four sample users:
+
+    * username ``administrator``, password ``administrator``
+    * username ``gamemaster``, password ``gamemaster``
+    * username ``moderator``, password ``moderator``
+    * username ``player``, password ``player``
+
 Fields
 ------
 
