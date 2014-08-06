@@ -84,15 +84,10 @@ realmflags
 ----------
 Realm flags allow the users to highlight realms for certain situations.
 
--  ``0``: Nothing to see here
--  ``1``: Marks a realm as invalid
 -  ``2``: Marks the realm as offline
 -  ``4``: Shows the realms supported version in realm list
--  ``8``: Unknown effects
--  ``16``: Unknown effects
 -  ``32``: Highlight realm for new players
 -  ``64``: Marks realm as recommended
--  ``128``: Marks realm as full
 
 timezone
 ~~~~~~~~
@@ -101,17 +96,15 @@ The realm time-zone, it will be displayed in the tabs of the realm list.
 
 Valid values are:
 
--  ``1``: Development
--  ``2``: United States
--  ``3``: Oceanic
--  ``4``: Latin America
--  ``5``: Tournament
--  ``6``: Korea
--  ``7``: Tournament
--  ``8``: English
--  ``9``: German
--  ``10``: French
--  ``11``: Spanish
+- ``1``: United States (default)
+- ``2``: Korea
+- ``3``: English
+- ``3``: German
+- ``3``: French
+- ``4``: Taiwan
+- ``5``: China
+- ``99``: Test Server
+- ``101``: QA Server
 
 allowedSecurityLevel
 ~~~~~~~~~~~~~~~~~~~~
