@@ -15,7 +15,7 @@ Table structure
 +======+==============+====================+===========+============================================+
 | 1    | langID       | Integer            | 0         | See below.                                 |
 +------+--------------+--------------------+-----------+--------------------------------------------+
-| 2    | gmSurveyID   | Integer (signed)   | 0         | The current survey for a given language.   |
+| 2    | gmSurvey     | Integer            | 0         | The current survey for a given language.   |
 +------+--------------+--------------------+-----------+--------------------------------------------+
 
 Fields
@@ -36,4 +36,4 @@ langID
 Relations
 ---------
 
--  ``gmSurveyID`` references the primary key of ``GMSurveySurveys.dbc``.
+-  ``gmSurvey`` references the primary key of ``GMSurveySurveys.dbc``.

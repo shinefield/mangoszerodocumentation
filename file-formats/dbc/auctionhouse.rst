@@ -13,13 +13,13 @@ Table structure
 +------+-------------------+----------------------+-----------+--------------------------------------------------------------+
 | ID   | Name              | Type                 | Default   | Description                                                  |
 +======+===================+======================+===========+==============================================================+
-| 1    | ID                | Integer (signed)     | -         | Unique ID                                                    |
+| 1    | ID                | Integer              | -         | Unique ID                                                    |
 +------+-------------------+----------------------+-----------+--------------------------------------------------------------+
-| 2    | factionID         | Integer (signed)     | 0         | References the faction to which the auction house belongs.   |
+| 2    | faction           | Integer              | 0         | References the faction to which the auction house belongs.   |
 +------+-------------------+----------------------+-----------+--------------------------------------------------------------+
-| 3    | depositRate       | Integer              | 0         | The auction house's cut of the final earnings.               |
+| 3    | depositRate       | Integer (signed)     | 0         | The auction house's cut of the final earnings.               |
 +------+-------------------+----------------------+-----------+--------------------------------------------------------------+
-| 4    | consignmentRate   | Integer              | 0         | The deposit fee based on the sale price.                     |
+| 4    | consignmentRate   | Integer (signed)     | 0         | The deposit fee based on the sale price.                     |
 +------+-------------------+----------------------+-----------+--------------------------------------------------------------+
 | 5    | name              | String (localized)   | -         | The name of the auction house.                               |
 +------+-------------------+----------------------+-----------+--------------------------------------------------------------+
@@ -27,4 +27,4 @@ Table structure
 Relations
 ---------
 
--  ``factionID`` references the primary key of ``Faction.dbc``.
+-  ``faction`` references the primary key of ``Faction.dbc``.

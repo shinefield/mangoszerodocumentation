@@ -13,17 +13,17 @@ Table structure
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | ID   | Name                       | Type                 | Default   | Description                                                                                                         |
 +======+============================+======================+===========+=====================================================================================================================+
-| 1    | ID                         | Integer (signed)     | -         | Unique ID                                                                                                           |
+| 1    | ID                         | Integer              | -         | Unique ID                                                                                                           |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 2    | flags                      | Integer              | 0         | See below.                                                                                                          |
+| 2    | flags                      | Integer (signed)     | 0         | See below.                                                                                                          |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 3    | factionID                  | Integer (signed)     | 0         | References the faction to which the race belongs.                                                                   |
+| 3    | faction                    | Integer              | 0         | References the faction to which the race belongs.                                                                   |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 4    | explorationSoundID         | Integer (signed)     | 0         | References the sound to play upon zone exploration.                                                                 |
+| 4    | explorationSound           | Integer              | 0         | References the sound to play upon zone exploration.                                                                 |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 5    | maleDisplayID              | Integer (signed)     | 0         | References the male model for the race.                                                                             |
+| 5    | maleDisplay                | Integer              | 0         | References the male model for the race.                                                                             |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 6    | femaleDisplayID            | Integer (signed)     | 0         | References the female model for the race.                                                                           |
+| 6    | femaleDisplay              | Integer              | 0         | References the female model for the race.                                                                           |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 7    | clientPrefix               | String               | -         | A short form of the name. Used for helmet models.                                                                   |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
@@ -31,21 +31,21 @@ Table structure
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 9    | baseLanguage               | Integer              | -         | See below.                                                                                                          |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 10   | creatureType               | Integer (signed)     | 0         | References the creature type for the race. Surprisingly this is set to 7 for all races, meaning each is humanoid.   |
+| 10   | creatureType               | Integer              | 0         | References the creature type for the race. Surprisingly this is set to 7 for all races, meaning each is humanoid.   |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 11   | loginEffect                | Integer (signed)     | 0         | References the spell to cast upon logging in.                                                                       |
+| 11   | loginEffect                | Integer              | 0         | References the spell to cast upon logging in.                                                                       |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 12   | field12                    | Integer              | 1604      | **TODO**. Set to 1604 for all races.                                                                                |
+| 12   | field12                    | Integer (signed)     | 1604      | **TODO**. Set to 1604 for all races.                                                                                |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 13   | resSicknessSpellID         | Integer (signed)     | 0         | Resurrection sickness spell to cast upon resurrection from spirit healer.                                           |
+| 13   | resSicknessSpell           | Integer              | 0         | Resurrection sickness spell to cast upon resurrection from spirit healer.                                           |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 14   | splashSoundEntryID         | Integer (signed)     | 0         | Splash sound to be used for this race.                                                                              |
+| 14   | splashSoundEntry           | Integer              | 0         | Splash sound to be used for this race.                                                                              |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 15   | field15                    | Integer              | 0         | **TODO**. May be float modifier.                                                                                    |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 16   | clientFileString           | String               | -         | String used in model file paths.                                                                                    |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 17   | cinematicSequenceID        | Integer (signed)     | 0         | The cinematic sequence to play upon logging in the first time after character creation.                             |
+| 17   | cinematicSequence          | Integer              | 0         | The cinematic sequence to play upon logging in the first time after character creation.                             |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 18   | name                       | String (localized)   | -         | The name of the race.                                                                                               |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
@@ -77,13 +77,9 @@ BaseLanguage
 Relations
 ---------
 
--  ``factionID`` references the primary key of ``Faction.dbc``.
--  ``explorationSoundID`` and ``splashSoundEntryID`` references the
-   primary key of ``SoundEntries.dbc``.
--  ``maleDisplayID`` and ``femaleDisplayID`` reference the primary key
-   of ``CreatureDisplayInfo.dbc``.
+-  ``faction`` references the primary key of ``Faction.dbc``.
+-  ``explorationSound`` and ``splashSoundEntry`` references the primary key of ``SoundEntries.dbc``.
+-  ``maleDisplay`` and ``femaleDisplay`` reference the primary key of ``CreatureDisplayInfo.dbc``.
 -  ``creatureType`` references the primary key of ``CreatureType.dbc``.
--  ``loginEffect`` and ``resSicknessSpellID`` reference the primary key
-   of ``Spell.dbc``.
--  ``cinematicSequenceID`` references the primary key of
-   ``CinematicSequences.dbc``.
+-  ``loginEffect`` and ``resSicknessSpell`` reference the primary key of ``Spell.dbc``.
+-  ``cinematicSequence`` references the primary key of ``CinematicSequences.dbc``.

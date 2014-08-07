@@ -13,11 +13,11 @@ Table structure
 +------+-------------------+--------------------+-----------+--------------------------+
 | ID   | Name              | Type               | Default   | Description              |
 +======+===================+====================+===========+==========================+
-| 1    | ID                | Integer (signed)   | -         | Unique ID                |
+| 1    | ID                | Integer            | -         | Unique ID                |
 +------+-------------------+--------------------+-----------+--------------------------+
-| 2    | transportID       | Integer (signed)   | 0         | **TODO**                 |
+| 2    | transport         | Integer            | 0         | **TODO**                 |
 +------+-------------------+--------------------+-----------+--------------------------+
-| 3    | timeIndex         | Integer            | 0         | **TODO**                 |
+| 3    | timeIndex         | Integer (signed)   | 0         | **TODO**                 |
 +------+-------------------+--------------------+-----------+--------------------------+
 | 4    | locationX         | Float              | 0         | **TODO**                 |
 +------+-------------------+--------------------+-----------+--------------------------+
@@ -25,11 +25,10 @@ Table structure
 +------+-------------------+--------------------+-----------+--------------------------+
 | 6    | locationZ         | Float              | 0         | **TODO**                 |
 +------+-------------------+--------------------+-----------+--------------------------+
-| 7    | AnimationDataID   | Integer (signed)   | 0         | The animation sequence   |
+| 7    | sequence          | Integer            | 0         | The animation sequence   |
 +------+-------------------+--------------------+-----------+--------------------------+
 
 Relations
 ---------
 
--  ``AnimationDataID`` references the primary key of
-   ``AnimationData.dbc``.
+-  ``sequence`` references the primary key of ``AnimationData.dbc``.

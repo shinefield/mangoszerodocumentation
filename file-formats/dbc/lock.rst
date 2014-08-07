@@ -12,23 +12,23 @@ Table structure
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
 | ID   | Name        | Type               | Default   | Description                                                       |
 +======+=============+====================+===========+===================================================================+
-| 1    | ID          | Integer (signed)   | -         | Unique ID                                                         |
+| 1    | ID          | Integer            | -         | Unique ID                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 2    | type1       | Integer            | 0         | See below                                                         |
+| 2    | type1       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 3    | type2       | Integer            | 0         | See below                                                         |
+| 3    | type2       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 4    | type3       | Integer            | 0         | See below                                                         |
+| 4    | type3       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 5    | type4       | Integer            | 0         | See below                                                         |
+| 5    | type4       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 6    | type5       | Integer            | 0         | See below                                                         |
+| 6    | type5       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 7    | type6       | Integer            | 0         | See below                                                         |
+| 7    | type6       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 8    | type7       | Integer            | 0         | See below                                                         |
+| 8    | type7       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 9    | type8       | Integer            | 0         | See below                                                         |
+| 9    | type8       | Integer (signed)   | 0         | See below                                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
 | 10   | property1   | Integer (signed)   | 0         | Refers to a lock type, or an item ID.                             |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
@@ -46,37 +46,37 @@ Table structure
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
 | 17   | property8   | Integer (signed)   | 0         | Refers to a lock type, or an item ID.                             |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 18   | skill1      | Integer            | 0         | Required skill to unlock.                                         |
+| 18   | skill1      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 19   | skill2      | Integer            | 0         | Required skill to unlock.                                         |
+| 19   | skill2      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 20   | skill3      | Integer            | 0         | Required skill to unlock.                                         |
+| 20   | skill3      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 21   | skill4      | Integer            | 0         | Required skill to unlock.                                         |
+| 21   | skill4      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 22   | skill5      | Integer            | 0         | Required skill to unlock.                                         |
+| 22   | skill5      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 23   | skill6      | Integer            | 0         | Required skill to unlock.                                         |
+| 23   | skill6      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 24   | skill7      | Integer            | 0         | Required skill to unlock.                                         |
+| 24   | skill7      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 25   | skill8      | Integer            | 0         | Required skill to unlock.                                         |
+| 25   | skill8      | Integer (signed)   | 0         | Required skill to unlock.                                         |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 26   | action1     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 26   | action1     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 27   | action2     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 27   | action2     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 28   | action3     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 28   | action3     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 29   | action4     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 29   | action4     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 30   | action5     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 30   | action5     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 31   | action6     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 31   | action6     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 32   | action7     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 32   | action7     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
-| 33   | action8     | Integer            | 0         | References the action displayed in-game, e.g. opening, closing.   |
+| 33   | action8     | Integer (signed)   | 0         | References the action displayed in-game, e.g. opening, closing.   |
 +------+-------------+--------------------+-----------+-------------------------------------------------------------------+
 
 Fields
@@ -94,5 +94,4 @@ This field determine which kind of lock the entry is about.
 Relations
 ---------
 
--  ``property[1-8]`` may reference the primary key of ``LockType.dbc``
-   if ``type`` is ``2``.
+-  ``property[1-8]`` may reference the primary key of ``LockType.dbc`` if ``type`` is ``2``.

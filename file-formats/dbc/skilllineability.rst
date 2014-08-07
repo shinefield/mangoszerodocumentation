@@ -13,35 +13,35 @@ Table structure
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
 | ID   | Name                       | Type               | Default   | Description                                        |
 +======+============================+====================+===========+====================================================+
-| 1    | ID                         | Integer (signed)   | -         | Unique ID                                          |
+| 1    | ID                         | Integer            | -         | Unique ID                                          |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 2    | skillLine                  | Integer (signed)   | 0         | References the the skill to which this applies.    |
+| 2    | skillLine                  | Integer            | 0         | References the the skill to which this applies.    |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 3    | spell                      | Integer (signed)   | 0         | References a spell.                                |
+| 3    | spell                      | Integer            | 0         | References a spell.                                |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 4    | raceMask                   | Integer            | 0         | See notes.                                         |
+| 4    | raceMask                   | Integer (signed)   | 0         | See notes.                                         |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 5    | classMask                  | Integer            | 0         | See notes.                                         |
+| 5    | classMask                  | Integer (signed)   | 0         | See notes.                                         |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 6    | excludeRace                | Integer            | 0         | See notes.                                         |
+| 6    | excludeRace                | Integer (signed)   | 0         | See notes.                                         |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 7    | excludeClass               | Integer            | 0         | See notes.                                         |
+| 7    | excludeClass               | Integer (signed)   | 0         | See notes.                                         |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 8    | minSkillLineRank           | Integer            | 0         | Minimum skill rank.                                |
+| 8    | minSkillLineRank           | Integer (signed)   | 0         | Minimum skill rank.                                |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 9    | supersededBySpell          | Integer (signed)   | 0         | References a spell which superseded the ability.   |
+| 9    | supersededBySpell          | Integer            | 0         | References a spell which superseded the ability.   |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 10   | aquireMethod               | Integer            | 0         | See below.                                         |
+| 10   | aquireMethod               | Integer (signed)   | 0         | See below.                                         |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 11   | trivialSkillLineRankHigh   | Integer            | 0         | Rank when the skill becomes grey.                  |
+| 11   | trivialSkillLineRankHigh   | Integer (signed)   | 0         | Rank when the skill becomes gray.                  |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 12   | trivialSkillLineRankLow    | Integer            | 0         | Rank when the skill is green.                      |
+| 12   | trivialSkillLineRankLow    | Integer (signed)   | 0         | Rank when the skill is green.                      |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 13   | characterPoints            | Integer            | 0         | **TODO**                                           |
+| 13   | characterPoints            | Integer (signed)   | 0         | **TODO**                                           |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 14   | characterPoints            | Integer            | 0         | **TODO**                                           |
+| 14   | characterPoints            | Integer (signed)   | 0         | **TODO**                                           |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
-| 15   | numSkillUps                | Integer            | 0         | Skill-ups for this skill.                          |
+| 15   | numSkillUps                | Integer (signed)   | 0         | Skill-ups for this skill.                          |
 +------+----------------------------+--------------------+-----------+----------------------------------------------------+
 
 Fields
@@ -58,5 +58,4 @@ Relations
 ---------
 
 -  ``skillLine`` references the primary key of ``SkillLine.dbc``.
--  ``spell`` and ``supersededBySpell`` reference the primary key of
-   ``Spell.dbc``.
+-  ``spell`` and ``supersededBySpell`` reference the primary key of ``Spell.dbc``.

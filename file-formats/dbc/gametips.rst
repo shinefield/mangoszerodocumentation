@@ -13,7 +13,7 @@ Table structure
 +------+--------+----------------------+-----------+-----------------------------+
 | ID   | Name   | Type                 | Default   | Description                 |
 +======+========+======================+===========+=============================+
-| 1    | ID     | Integer (signed)     | -         | Unique ID                   |
+| 1    | ID     | Integer              | -         | Unique ID                   |
 +------+--------+----------------------+-----------+-----------------------------+
 | 2    | text   | String (localized)   | -         | The text of the game tip.   |
 +------+--------+----------------------+-----------+-----------------------------+
@@ -22,4 +22,4 @@ Notes
 -----
 
 The text for a game tip needs to be parsed with a regular expression to
-extract colour, title and actual tip from the text.
+extract color, title and actual tip from the text.

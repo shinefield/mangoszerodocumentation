@@ -13,7 +13,7 @@ Table structure
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
 | ID   | Name               | Type               | Default   | Description                                                       |
 +======+====================+====================+===========+===================================================================+
-| 1    | ID                 | Integer (signed)   | -         | Unique ID                                                         |
+| 1    | ID                 | Integer            | -         | Unique ID                                                         |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
 | 2    | modelName1         | String             | -         | The path to the model of the left side.                           |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
@@ -27,19 +27,19 @@ Table structure
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
 | 7    | inventoryIcon2     | String             | -         | Alternative icon to be displayed in the in-game user interface.   |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
-| 8    | geosetGroup1       | Integer            | 0         | **TODO**                                                          |
+| 8    | geosetGroup1       | Integer (signed)   | 0         | **TODO**                                                          |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
-| 9    | geosetGroup2       | Integer            | 0         | **TODO**                                                          |
+| 9    | geosetGroup2       | Integer (signed)   | 0         | **TODO**                                                          |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
-| 10   | geosetGroup3       | Integer            | 0         | **TODO**                                                          |
+| 10   | geosetGroup3       | Integer (signed)   | 0         | **TODO**                                                          |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
-| 11   | spellVisualID      | Integer (signed)   | 0         | **TODO**                                                          |
+| 11   | spellVisual        | Integer            | 0         | **TODO**                                                          |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
 | 12   | groupSoundIndex    | Integer (signed)   | 0         | Sound used when dropping the icon in the inventory.               |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
-| 13   | helmetGeosetVis1   | Integer (signed)   | 0         | **TODO**                                                          |
+| 13   | helmetGeosetVis1   | Integer            | 0         | **TODO**                                                          |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
-| 14   | helmetGeosetVis2   | Integer (signed)   | 0         | **TODO**                                                          |
+| 14   | helmetGeosetVis2   | Integer            | 0         | **TODO**                                                          |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
 | 15   | texture1           | String             | -         | The texture name for the upper arm.                               |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------------+
@@ -63,9 +63,7 @@ Table structure
 Relations
 ---------
 
--  ``spellVisualID`` references the primary key of ``SpellVisual.dbc``.
--  ``groupSoundIndex`` references the primary key of
-   ``ItemGroupSounds.dbc``.
--  ``helmetGeosetVis[1-2]`` reference the primary key of
-   ``HelmetGeosetVisData.dbc``.
+-  ``spellVisual`` references the primary key of ``SpellVisual.dbc``.
+-  ``groupSoundIndex`` references the primary key of ``ItemGroupSounds.dbc``.
+-  ``helmetGeosetVis[1-2]`` reference the primary key of ``HelmetGeosetVisData.dbc``.
 -  ``itemVisual`` references the primary key of ``ItemVisuals.dbc``.

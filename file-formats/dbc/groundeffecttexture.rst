@@ -15,24 +15,23 @@ Table structure
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
 | ID   | Name            | Type               | Default   | Description                                     |
 +======+=================+====================+===========+=================================================+
-| 1    | ID              | Integer (signed)   | -         | Unique ID                                       |
+| 1    | ID              | Integer            | -         | Unique ID                                       |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
-| 2    | doodadID1       | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
+| 2    | doodad1         | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
-| 3    | doodadID2       | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
+| 3    | doodad2         | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
-| 4    | doodadID3       | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
+| 4    | doodad3         | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
-| 5    | doodadID4       | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
+| 5    | doodad4         | Integer (signed)   | 0         | References a ground effect doodad to be used.   |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
-| 6    | density         | Integer            | 0         | The density for the texture.                    |
+| 6    | density         | Integer (signed)   | 0         | The density for the texture.                    |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
-| 7    | terrainTypeID   | Integer (signed)   | 0         | The terrain type to be used.                    |
+| 7    | terrainType     | Integer            | 0         | The terrain type to be used.                    |
 +------+-----------------+--------------------+-----------+-------------------------------------------------+
 
 Relations
 ---------
 
--  ``doodadID[1-4]`` reference the primary key of
-   ``GroundEffectDoodad.dbc``.
--  ``terrainTypeID`` references the primary key of ``TerrainType.dbc``.
+-  ``doodad[1-4]`` reference the primary key of ``GroundEffectDoodad.dbc``.
+-  ``terrainType`` references the primary key of ``TerrainType.dbc``.

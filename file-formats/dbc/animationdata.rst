@@ -13,19 +13,19 @@ Table structure
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
 | ID   | Name          | Type               | Default   | Description                                                    |
 +======+===============+====================+===========+================================================================+
-| 1    | ID            | Integer (signed)   | -         | Unique ID                                                      |
+| 1    | ID            | Integer            | -         | Unique ID                                                      |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
 | 2    | name          | String             | -         | The name of the animation.                                     |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
-| 3    | weaponFlags   | Integer            | 0         | See below.                                                     |
+| 3    | weaponFlags   | Integer (signed)   | 0         | See below.                                                     |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
-| 4    | bodyFlags     | Integer            | 0         | See below.                                                     |
+| 4    | bodyFlags     | Integer (signed)   | 0         | See below.                                                     |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
-| 5    | flags         | Integer            | 0         | See below.                                                     |
+| 5    | flags         | Integer (signed)   | 0         | See below.                                                     |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
-| 6    | fallbackID    | Integer (signed)   | 0         | The animation to return to after this animation is finished.   |
+| 6    | fallback      | Integer            | 0         | The animation to return to after this animation is finished.   |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
-| 7    | behaviourID   | Integer (signed)   | 0         | The preceding animation.                                       |
+| 7    | behaviour     | Integer            | 0         | The preceding animation.                                       |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
 
 Fields
@@ -43,8 +43,16 @@ them.
 -  ``16``: sheathe weapons automatically,
 -  ``32``: unsheathe weapons.
 
+bodyFlags
+~~~~~~~~~
+**TODO**
+
+Flags
+~~~~~
+**TODO**
+
 Relations
 ---------
 
--  ``fallbackID`` references the primary key of ``AnimationData.dbc``.
--  ``behaviourID`` references the primary key of ``AnimationData.dbc``.
+-  ``fallback`` references the primary key of ``AnimationData.dbc``.
+-  ``behaviour`` references the primary key of ``AnimationData.dbc``.

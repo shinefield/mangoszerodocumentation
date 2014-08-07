@@ -13,13 +13,13 @@ Table structure
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
 | ID   | Name         | Type               | Default   | Description                                                                        |
 +======+==============+====================+===========+====================================================================================+
-| 1    | ID           | Integer (signed)   | -         | Unique ID                                                                          |
+| 1    | ID           | Integer            | -         | Unique ID                                                                          |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
-| 2    | taxiPathID   | Integer (signed)   | 0         | Path that these coordinates are on.                                                |
+| 2    | taxiPath     | Integer            | 0         | Path that these coordinates are on.                                                |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
-| 3    | nodeIndex    | Integer            | 0         | The point number along the path.                                                   |
+| 3    | nodeIndex    | Integer (signed)   | 0         | The point number along the path.                                                   |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
-| 4    | mapID        | Integer (signed)   | 0         | Map that the coordinates are on.                                                   |
+| 4    | map          | Integer            | 0         | Map that the coordinates are on.                                                   |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
 | 5    | locationX    | Float              | 0         | X coordinate                                                                       |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
@@ -27,13 +27,13 @@ Table structure
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
 | 7    | locationZ    | Float              | 0         | Z coordinate                                                                       |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
-| 8    | flags        | Integer            | 0         | Rarely used, may be related to boats / trams / Zeppelins                           |
+| 8    | flags        | Integer (signed)   | 0         | Rarely used, may be related to boats / trams / Zeppelins                           |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
-| 9    | delay        | Integer            | 0         | Delay in seconds before moving to next point (used on boats / trams / Zeppelins)   |
+| 9    | delay        | Integer (signed)   | 0         | Delay in seconds before moving to next point (used on boats / trams / Zeppelins)   |
 +------+--------------+--------------------+-----------+------------------------------------------------------------------------------------+
 
 Relations
 ---------
 
--  ``taxiPathID`` references the primary key of ``TaxiPath.dbc``.
--  ``mapID`` references the primary key of ``Map.dbc``.
+-  ``taxiPath`` references the primary key of ``TaxiPath.dbc``.
+-  ``map`` references the primary key of ``Map.dbc``.

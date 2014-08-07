@@ -13,11 +13,11 @@ Table structure
 +------+-----------------------+--------------------+-----------+-----------------------------------------------------------------------------------+
 | ID   | Name                  | Type               | Default   | Description                                                                       |
 +======+=======================+====================+===========+===================================================================================+
-| 1    | ID                    | Integer (signed)   | -         | Unique ID                                                                         |
+| 1    | ID                    | Integer            | -         | Unique ID                                                                         |
 +------+-----------------------+--------------------+-----------+-----------------------------------------------------------------------------------+
-| 2    | worldMapContinentID   | Integer (signed)   | 0         | The continent to which an area belongs.                                           |
+| 2    | worldMapContinent     | Integer            | 0         | The continent to which an area belongs.                                           |
 +------+-----------------------+--------------------+-----------+-----------------------------------------------------------------------------------+
-| 3    | areaTableID           | Integer (signed)   | 0         | The map in which an area (aka. zone) is located.                                  |
+| 3    | areaTable             | Integer            | 0         | The map in which an area (aka. zone) is located.                                  |
 +------+-----------------------+--------------------+-----------+-----------------------------------------------------------------------------------+
 | 4    | areaName              | String             | -         | Name of the directory in ``Interface\WorldMap\`` containing images for an area.   |
 +------+-----------------------+--------------------+-----------+-----------------------------------------------------------------------------------+
@@ -33,8 +33,8 @@ Table structure
 Fields
 ------
 
-worldMapContinentID
-~~~~~~~~~~~~~~~~~~~
+worldMapContinent
+~~~~~~~~~~~~~~~~~
 
 -  ``0``: Eastern Kingdoms
 -  ``1``: Kalimdor
@@ -42,6 +42,5 @@ worldMapContinentID
 Relations
 ---------
 
--  ``worldMapContinentID`` references the primary key of
-   ``WorldMapContinent.dbc``.
--  ``areaTableID`` references the primary key of ``AreaTable.dbc``.
+-  ``worldMapContinent`` references the primary key of ``WorldMapContinent.dbc``.
+-  ``areaTable`` references the primary key of ``AreaTable.dbc``.

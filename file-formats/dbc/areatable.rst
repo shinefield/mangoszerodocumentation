@@ -12,39 +12,39 @@ Table structure
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
 | ID   | Name                           | Type                 | Default   | Description                                                                   |
 +======+================================+======================+===========+===============================================================================+
-| 1    | ID                             | Integer (signed)     | -         | Unique ID                                                                     |
+| 1    | ID                             | Integer              | -         | Unique ID                                                                     |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 2    | mapID                          | Integer (signed)     | 0         | The map on which the area is located.                                         |
+| 2    | map                            | Integer              | 0         | The map on which the area is located.                                         |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 3    | ParentAreaTableID              | Integer (signed)     | 0         | Refers to the parent area if set.                                             |
+| 3    | parentAreaTable                | Integer              | 0         | Refers to the parent area if set.                                             |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 4    | areaBit                        | Integer              | 0         | See below.                                                                    |
+| 4    | areaBit                        | Integer (signed)     | 0         | See below.                                                                    |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 5    | flags                          | Integer              | 0         | See below.                                                                    |
+| 5    | flags                          | Integer (signed)     | 0         | See below.                                                                    |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 6    | soundPreferencesID             | Integer (signed)     | 0         | Sound settings when moving while in this area.                                |
+| 6    | soundPreferences               | Integer              | 0         | Sound settings when moving while in this area.                                |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 7    | soundPreferencesIDUnderWater   | Integer (signed)     | 0         | Sound settings when moving in water while in this area.                       |
+| 7    | soundPreferencesUnderwater     | Integer              | 0         | Sound settings when moving in water while in this area.                       |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 8    | soundAmbienceID                | Integer (signed)     | 0         | Background sounds — birds, falling leafs, etc. — playing when in this area.   |
+| 8    | soundAmbience                  | Integer              | 0         | Background sounds — birds, falling leafs, etc. — playing when in this area.   |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 9    | zoneMusicID                    | Integer (signed)     | 0         | The background music when playing in this area.                               |
+| 9    | zoneMusic                      | Integer              | 0         | The background music when playing in this area.                               |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 10   | zoneIntroMusicTableID          | Integer (signed)     | 0         | Music played upon entering the area.                                          |
+| 10   | zoneIntroMusicTable            | Integer              | 0         | Music played upon entering the area.                                          |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 11   | explorationLevel               | Integer              | 0         | The suggested character level for exploring this area.                        |
+| 11   | explorationLevel               | Integer (signed)     | 0         | The suggested character level for exploring this area.                        |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
 | 12   | areaName                       | String (localized)   | -         | The name of the area.                                                         |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 13   | factionGroupID                 | Integer (signed)     | 0         | References the faction which owns this area.                                  |
+| 13   | factionGroup                   | Integer              | 0         | References the faction which owns this area.                                  |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 14   | liquidTypeID                   | Integer (signed)     | 0         | References the type of liquid to be found in this area.                       |
+| 14   | liquidType                     | Integer              | 0         | References the type of liquid to be found in this area.                       |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 15   | minElevation                   | Integer              | 0         | Lowest possible Z coordinate for this area.                                   |
+| 15   | minElevation                   | Integer (signed)     | 0         | Lowest possible Z coordinate for this area.                                   |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
 | 16   | ambientMultiplier              | Float                | 0         | Modifier for character lighting.                                              |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
-| 17   | lightID                        | Integer (signed)     | 0         | References the type of lighting to be seen in this area.                      |
+| 17   | light                          | Integer              | 0         | References the type of lighting to be seen in this area.                      |
 +------+--------------------------------+----------------------+-----------+-------------------------------------------------------------------------------+
 
 Fields

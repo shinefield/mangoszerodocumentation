@@ -13,22 +13,20 @@ Table structure
 +------+----------------------+--------------------+-----------+-------------------------------------------+
 | ID   | Name                 | Type               | Default   | Description                               |
 +======+======================+====================+===========+===========================================+
-| 1    | ID                   | Integer (signed)   | -         | Unique ID                                 |
+| 1    | ID                   | Integer            | -         | Unique ID                                 |
 +------+----------------------+--------------------+-----------+-------------------------------------------+
-| 2    | creatureFootstepID   | Integer (signed)   | 0         | The footstep doodad.                      |
+| 2    | creatureFootstep     | Integer            | 0         | The footstep doodad.                      |
 +------+----------------------+--------------------+-----------+-------------------------------------------+
-| 3    | terrainTypeID        | Integer (signed)   | 0         | The terrain type to which this applies.   |
+| 3    | terrainType          | Integer            | 0         | The terrain type to which this applies.   |
 +------+----------------------+--------------------+-----------+-------------------------------------------+
-| 4    | soundEntryID         | Integer (signed)   | 0         | Sound for dry terrain.                    |
+| 4    | soundEntry           | Integer            | 0         | Sound for dry terrain.                    |
 +------+----------------------+--------------------+-----------+-------------------------------------------+
-| 5    | soundEntryIDSplash   | Integer (signed)   | 0         | Sound for wet terrain.                    |
+| 5    | soundEntrySplash     | Integer            | 0         | Sound for wet terrain.                    |
 +------+----------------------+--------------------+-----------+-------------------------------------------+
 
 Relations
 ---------
 
--  ``creatureFootstepID`` references the primary key of
-   ``GroundEffectDoodad.dbc``.
--  ``terrainTypeID`` references the primary key of ``TerrainType.dbc``.
--  ``soundEntryID`` and ``soundEntryIDSplash`` reference the primary key
-   of ``SoundEntries.dbc``.
+-  ``creatureFootstep`` references the primary key of ``GroundEffectDoodad.dbc``.
+-  ``terrainType`` references the primary key of ``TerrainType.dbc``.
+-  ``soundEntry`` and ``soundEntrySplash`` reference the primary key of ``SoundEntries.dbc``.

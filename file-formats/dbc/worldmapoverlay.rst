@@ -13,17 +13,17 @@ Table structure
 +------+------------------+--------------------+-----------+------------------------------------------+
 | ID   | Name             | Type               | Default   | Description                              |
 +======+==================+====================+===========+==========================================+
-| 1    | ID               | Integer (signed)   | -         | Unique ID                                |
+| 1    | ID               | Integer            | -         | Unique ID                                |
 +------+------------------+--------------------+-----------+------------------------------------------+
-| 2    | worldMapAreaID   | Integer (signed)   | 0         | The zone in which the overlay is used.   |
+| 2    | worldMapArea     | Integer            | 0         | The zone in which the overlay is used.   |
 +------+------------------+--------------------+-----------+------------------------------------------+
-| 3    | areaTableID1     | Integer (signed)   | 0         | **TODO**                                 |
+| 3    | areaTable1       | Integer            | 0         | **TODO**                                 |
 +------+------------------+--------------------+-----------+------------------------------------------+
-| 4    | areaTableID2     | Integer (signed)   | 0         | **TODO**                                 |
+| 4    | areaTable2       | Integer            | 0         | **TODO**                                 |
 +------+------------------+--------------------+-----------+------------------------------------------+
-| 5    | areaTableID3     | Integer (signed)   | 0         | **TODO**                                 |
+| 5    | areaTable3       | Integer            | 0         | **TODO**                                 |
 +------+------------------+--------------------+-----------+------------------------------------------+
-| 6    | areaTableID4     | Integer (signed)   | 0         | **TODO**                                 |
+| 6    | areaTable4       | Integer            | 0         | **TODO**                                 |
 +------+------------------+--------------------+-----------+------------------------------------------+
 | 7    | locationX        | Integer            | 0         | **TODO**                                 |
 +------+------------------+--------------------+-----------+------------------------------------------+
@@ -51,9 +51,8 @@ Table structure
 Relations
 ---------
 
--  ``worldMapAreaID`` references the primary key of
-   ``WorldMapArea.dbc``.
--  ``areaTableID`` references the primary key of ``AreaTable.dbc``.
+-  ``worldMapArea`` references the primary key of ``WorldMapArea.dbc``.
+-  ``areaTable[1-4]`` references the primary key of ``AreaTable.dbc``.
 
 Notes
 -----

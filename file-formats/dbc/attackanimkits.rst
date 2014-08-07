@@ -13,15 +13,15 @@ Table structure
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------+
 | ID   | Name               | Type               | Default   | Description                                                 |
 +======+====================+====================+===========+=============================================================+
-| 1    | ID                 | Integer (signed)   | -         | Unique ID                                                   |
+| 1    | ID                 | Integer            | -         | Unique ID                                                   |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------+
-| 2    | animationDataID    | Integer (signed)   | 0         | The ID of the animation to play.                            |
+| 2    | animationData      | Integer            | 0         | The ID of the animation to play.                            |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------+
-| 3    | attackAnimTypeID   | Integer (signed)   | 0         | The ID of the attack animation type.                        |
+| 3    | attackAnimType     | Integer            | 0         | The ID of the attack animation type.                        |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------+
-| 4    | flags              | Integer            | 0         | See below.                                                  |
+| 4    | flags              | Integer (signed)   | 0         | See below.                                                  |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------+
-| 5    | field5             | Integer            | 0         | **TODO**. seems to be a flag for OffHand attack animation   |
+| 5    | field5             | Integer (signed)   | 0         | **TODO**. seems to be a flag for OffHand attack animation   |
 +------+--------------------+--------------------+-----------+-------------------------------------------------------------+
 
 Fields
@@ -38,7 +38,5 @@ Determines what kind of weapon animation this is.
 Relations
 ---------
 
--  ``animationDataID`` references the primary key of
-   ``AnimationData.dbc``.
--  ``attackAnimTypeID`` references the primary key of
-   ``AttackAnimTypes.dbc``.
+-  ``animationData`` references the primary key of ``AnimationData.dbc``.
+-  ``attackAnimType`` references the primary key of ``AttackAnimTypes.dbc``.

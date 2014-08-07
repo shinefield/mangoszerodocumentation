@@ -13,9 +13,9 @@ Table structure
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
 | ID   | Name                          | Type                 | Default   | Description                                  |
 +======+===============================+======================+===========+==============================================+
-| 1    | ID                            | Integer (signed)     | -         | Unique ID                                    |
+| 1    | ID                            | Integer              | -         | Unique ID                                    |
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
-| 2    | mapID                         | Integer (signed)     | 0         | The map on which the taxi node is located.   |
+| 2    | map                           | Integer              | 0         | The map on which the taxi node is located.   |
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
 | 3    | locationX                     | Float                | 0         | X coordinate                                 |
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
@@ -25,14 +25,13 @@ Table structure
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
 | 6    | name                          | String (localized)   | -         | The name of the taxi node.                   |
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
-| 7    | mountCreatureDisplayInfoID1   | Integer (signed)     | 0         | A mount model to display for Alliance.       |
+| 7    | mountCreatureDisplayInfo1     | Integer              | 0         | A mount model to display for Alliance.       |
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
-| 8    | mountCreatureDisplayInfoID2   | Integer (signed)     | 0         | A mount model to display for Horde.          |
+| 8    | mountCreatureDisplayInfo2     | Integer              | 0         | A mount model to display for Horde.          |
 +------+-------------------------------+----------------------+-----------+----------------------------------------------+
 
 Relations
 ---------
 
--  ``mapID`` references the primary key of ``Map.dbc``.
--  ``mountCreatureDisplayInfoID[1-2]`` references the primary key of
-   ``CreatureDisplayInfo.dbc``.
+-  ``map`` references the primary key of ``Map.dbc``.
+-  ``mountCreatureDisplayInfo[1-2]`` references the primary key of ``CreatureDisplayInfo.dbc``.

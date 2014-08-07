@@ -16,71 +16,71 @@ Table structure
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
 | 2    | name                | String (localized)   | -         | The name of the item set.                           |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 3    | itemID1             | Integer              | 0         | Item which belongs to the set                       |
+| 3    | item1               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 4    | itemID2             | Integer              | 0         | Item which belongs to the set                       |
+| 4    | item2               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 5    | itemID3             | Integer              | 0         | Item which belongs to the set                       |
+| 5    | item3               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 6    | itemID4             | Integer              | 0         | Item which belongs to the set                       |
+| 6    | item4               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 7    | itemID5             | Integer              | 0         | Item which belongs to the set                       |
+| 7    | item5               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 8    | itemID6             | Integer              | 0         | Item which belongs to the set                       |
+| 8    | item6               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 9    | itemID7             | Integer              | 0         | Item which belongs to the set                       |
+| 9    | item7               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 10   | itemID8             | Integer              | 0         | Item which belongs to the set                       |
+| 10   | item8               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 11   | itemID9             | Integer              | 0         | Item which belongs to the set                       |
+| 11   | item9               | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 12   | itemID10            | Integer              | 0         | Item which belongs to the set                       |
+| 12   | item10              | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 13   | bankItemID1         | Integer              | 0         | Item which belongs to the set                       |
+| 13   | bankItem1           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 14   | bankItemID2         | Integer              | 0         | Item which belongs to the set                       |
+| 14   | bankItem2           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 15   | bankItemID3         | Integer              | 0         | Item which belongs to the set                       |
+| 15   | bankItem3           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 16   | bankItemID4         | Integer              | 0         | Item which belongs to the set                       |
+| 16   | bankItem4           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 17   | bankItemID5         | Integer              | 0         | Item which belongs to the set                       |
+| 17   | bankItem5           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 18   | bankItemID6         | Integer              | 0         | Item which belongs to the set                       |
+| 18   | bankItem6           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 19   | bankItemID7         | Integer              | 0         | Item which belongs to the set                       |
+| 19   | bankItem7           | Integer              | 0         | Item which belongs to the set                       |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 20   | setSpellID1         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 20   | setSpell1           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 21   | setSpellID2         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 21   | setSpell2           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 22   | setSpellID3         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 22   | setSpell3           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 23   | setSpellID4         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 23   | setSpell4           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 24   | setSpellID5         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 24   | setSpell5           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 25   | setSpellID6         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 25   | setSpell6           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 26   | setSpellID7         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 26   | setSpell7           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 27   | setSpellID8         | Integer (signed)     | 0         | A spell part of the set.                            |
+| 27   | setSpell8           | Integer (signed)     | 0         | A spell part of the set.                            |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 28   | setThreshold1       | Integer              | 0         | Number of set items required to cast setSpellID1.   |
+| 28   | setThreshold1       | Integer              | 0         | Number of set items required to cast setSpell1.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 29   | setThreshold2       | Integer              | 0         | Number of set items required to cast setSpellID2.   |
+| 29   | setThreshold2       | Integer              | 0         | Number of set items required to cast setSpell2.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 30   | setThreshold3       | Integer              | 0         | Number of set items required to cast setSpellID3.   |
+| 30   | setThreshold3       | Integer              | 0         | Number of set items required to cast setSpell3.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 31   | setThreshold4       | Integer              | 0         | Number of set items required to cast setSpellID4.   |
+| 31   | setThreshold4       | Integer              | 0         | Number of set items required to cast setSpell4.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 32   | setThreshold5       | Integer              | 0         | Number of set items required to cast setSpellID5.   |
+| 32   | setThreshold5       | Integer              | 0         | Number of set items required to cast setSpell5.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 33   | setThreshold6       | Integer              | 0         | Number of set items required to cast setSpellID6.   |
+| 33   | setThreshold6       | Integer              | 0         | Number of set items required to cast setSpell6.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 34   | setThreshold7       | Integer              | 0         | Number of set items required to cast setSpellID7.   |
+| 34   | setThreshold7       | Integer              | 0         | Number of set items required to cast setSpell7.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
-| 35   | setThreshold8       | Integer              | 0         | Number of set items required to cast setSpellID8.   |
+| 35   | setThreshold8       | Integer              | 0         | Number of set items required to cast setSpell8.     |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
 | 36   | requiredSkill       | Integer (signed)     | 0         | Skill required to use the set.                      |
 +------+---------------------+----------------------+-----------+-----------------------------------------------------+
@@ -90,6 +90,6 @@ Table structure
 Relations
 ---------
 
--  ``itemID[1-10]`` reference the primary key of an ``Item``.
--  ``setSpellID[1-8]`` reference the primary key of ``Spell.dbc``.
+-  ``item[1-10]`` reference the primary key of an ``Item``.
+-  ``setSpell[1-8]`` reference the primary key of ``Spell.dbc``.
 -  ``requiredSkill`` references the primary key of ``SkillLine.dbc``.

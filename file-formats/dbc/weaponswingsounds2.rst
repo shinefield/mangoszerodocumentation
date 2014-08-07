@@ -13,13 +13,13 @@ Table structure
 +------+----------------+--------------------+-----------+---------------------------------------------------+
 | ID   | Name           | Type               | Default   | Description                                       |
 +======+================+====================+===========+===================================================+
-| 1    | ID             | Integer (signed)   | -         | Unique ID                                         |
+| 1    | ID             | Integer            | -         | Unique ID                                         |
 +------+----------------+--------------------+-----------+---------------------------------------------------+
-| 2    | swingType      | Integer            | 0         | The weight of the weapon used.                    |
+| 2    | swingType      | Integer (signed)   | 0         | The weight of the weapon used.                    |
 +------+----------------+--------------------+-----------+---------------------------------------------------+
-| 3    | isCritical     | Integer            | 0         | See below.                                        |
+| 3    | isCritical     | Integer (signed)   | 0         | See below.                                        |
 +------+----------------+--------------------+-----------+---------------------------------------------------+
-| 4    | soundEntryID   | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 4    | soundEntry     | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+----------------+--------------------+-----------+---------------------------------------------------+
 
 Fields
@@ -41,4 +41,4 @@ isCritical
 Relations
 ---------
 
--  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
+-  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.

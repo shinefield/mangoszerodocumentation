@@ -15,6 +15,7 @@ This section describe the file format itself, and covers the structure for each
     :maxdepth: 1
 
     animationdata
+    areapoi
     areatable
     areatrigger
     attackanimkits

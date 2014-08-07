@@ -13,7 +13,7 @@ Table structure
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
 | ID   | Name                                 | Type                 | Default   | Description                                                                                  |
 +======+======================================+======================+===========+==============================================================================================+
-| 1    | ID                                   | Integer (signed)     | -         | Unique ID                                                                                    |
+| 1    | ID                                   | Integer              | -         | Unique ID                                                                                    |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
 | 2    | wmoID                                | Integer              | 0         | The ID from a WMO files' header chunk.                                                       |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
@@ -25,15 +25,15 @@ Table structure
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
 | 6    | soundProviderPreferencesUnderwater   | Integer (signed)     | 0         | **TODO**                                                                                     |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
-| 7    | soundAmbienceID                      | Integer              | 0         | **TODO**                                                                                     |
+| 7    | soundAmbience                        | Integer (signed)     | 0         | **TODO**                                                                                     |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
-| 8    | zoneMusicID                          | Integer (signed)     | 0         | **TODO**                                                                                     |
+| 8    | zoneMusic                            | Integer (signed)     | 0         | **TODO**                                                                                     |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
-| 9    | zoneIntroMusicTableID                | Integer (signed)     | 0         | **TODO**                                                                                     |
+| 9    | zoneIntroMusicTable                  | Integer (signed)     | 0         | **TODO**                                                                                     |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
 | 10   | flags                                | Integer              | 0         | Flags seem to be related to outdoor state.                                                   |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
-| 11   | areaTableID                          | Integer (signed)     | 0         | The area related to this object entry. If 0 the underlying terrain is queried for its' Id.   |
+| 11   | areaTable                            | Integer              | 0         | The area related to this object entry. If 0 the underlying terrain is queried for its' Id.   |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
 | 12   | name                                 | String (localized)   | NULL      | The name of the area. If NULL, AreaTable.dbc is queried for the name.                        |
 +------+--------------------------------------+----------------------+-----------+----------------------------------------------------------------------------------------------+
@@ -41,12 +41,9 @@ Table structure
 Relations
 ---------
 
--  ``soundProviderPreferencesID``, and
-   ``soundProviderPreferencesIDUnderwater`` references the primary key
-   of ``SoundProviderPreferences.dbc``.
--  ``soundAmbienceID`` references the primary key of
-   ``SoundAmbience.dbc``.
+-  ``soundProviderPreferencesID``, and ``soundProviderPreferencesIDUnderwater``
+   references the primary key of ``SoundProviderPreferences.dbc``.
+-  ``soundAmbienceID`` references the primary key of ``SoundAmbience.dbc``.
 -  ``zoneMusicID`` references the primary key of ``ZoneMusic.dbc``.
--  ``zoneIntroMusicTableID`` references the primary key of
-   ``ZoneIntroMusicTable.dbc``.
+-  ``zoneIntroMusicTableID`` references the primary key of ``ZoneIntroMusicTable.dbc``.
 -  ``areaTableID`` references the primary key of ``AreaTable.dbc``.

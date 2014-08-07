@@ -13,11 +13,11 @@ Table structure
 +------+----------------+--------------------+-----------+------------------------------------------------+
 | ID   | Name           | Type               | Default   | Description                                    |
 +======+================+====================+===========+================================================+
-| 1    | ID             | Integer (signed)   | -         | Unique ID                                      |
+| 1    | ID             | Integer            | -         | Unique ID                                      |
 +------+----------------+--------------------+-----------+------------------------------------------------+
-| 2    | flags          | Integer            | 0         | **TODO**                                       |
+| 2    | flags          | Integer (signed)   | 0         | **TODO**                                       |
 +------+----------------+--------------------+-----------+------------------------------------------------+
-| 3    | foleySoundID   | Integer (signed)   | 0         | References to sound to use for the material.   |
+| 3    | foleySound     | Integer            | 0         | References to sound to use for the material.   |
 +------+----------------+--------------------+-----------+------------------------------------------------+
 
 Fields
@@ -31,4 +31,4 @@ flags
 Relations
 ---------
 
--  ``foleySoundID`` references the primary key of ``SoundEntries.dbc``.
+-  ``foleySound`` references the primary key of ``SoundEntries.dbc``.

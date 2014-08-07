@@ -13,9 +13,9 @@ Table structure
 +------+-------------+----------------------+-----------+-----------------------------------------------+
 | ID   | Name        | Type                 | Default   | Description                                   |
 +======+=============+======================+===========+===============================================+
-| 1    | ID          | Integer (signed)     | -         | Unique ID                                     |
+| 1    | ID          | Integer              | -         | Unique ID                                     |
 +------+-------------+----------------------+-----------+-----------------------------------------------+
-| 2    | mapID       | Integer (signed)     | -         | The map on which the graveyard is located.    |
+| 2    | map         | Integer              | -         | The map on which the graveyard is located.    |
 +------+-------------+----------------------+-----------+-----------------------------------------------+
 | 3    | locationX   | Float                | 0         | X coordinate of the graveyard in the world.   |
 +------+-------------+----------------------+-----------+-----------------------------------------------+
@@ -29,4 +29,4 @@ Table structure
 Relations
 ---------
 
--  ``mapID`` references the primary key of ``Map.dbc``.
+-  ``map`` references the primary key of ``Map.dbc``.

@@ -13,9 +13,9 @@ Table structure
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
 | ID   | Name             | Type               | Default   | Description                                                                                                      |
 +======+==================+====================+===========+==================================================================================================================+
-| 1    | ID               | Integer (signed)   | -         | Unique ID                                                                                                        |
+| 1    | ID               | Integer            | -         | Unique ID                                                                                                        |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
-| 2    | mapID            | Integer (signed)   | 0         | References the map to which the lighting applies.                                                                |
+| 2    | map              | Integer            | 0         | References the map to which the lighting applies.                                                                |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
 | 3    | locationX        | Float              | 0         | X coordinate for the lighting.                                                                                   |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
@@ -27,23 +27,22 @@ Table structure
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
 | 7    | falloffEnd       | Float              | 0         | If outside the inner radius but inside the outer radius then this light can be interpolated with other lights.   |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
-| 8    | lightParamsID1   | Integer (signed)   | 0         | References the light parameters used for sky & fog.                                                              |
+| 8    | lightParams1     | Integer            | 0         | References the light parameters used for sky & fog.                                                              |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
-| 9    | lightParamsID2   | Integer (signed)   | 0         | References the light parameters used for water.                                                                  |
+| 9    | lightParams2     | Integer            | 0         | References the light parameters used for water.                                                                  |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
-| 10   | lightParamsID3   | Integer (signed)   | 0         | References the light parameters used for sunset.                                                                 |
+| 10   | lightParams3     | Integer            | 0         | References the light parameters used for sunset.                                                                 |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
-| 11   | lightParamsID4   | Integer (signed)   | 0         | References the light parameters used for misc.                                                                   |
+| 11   | lightParams4     | Integer            | 0         | References the light parameters used for misc.                                                                   |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
-| 12   | lightParamsID5   | Integer (signed)   | 0         | References the light parameters used for death.                                                                  |
+| 12   | lightParams5     | Integer            | 0         | References the light parameters used for death.                                                                  |
 +------+------------------+--------------------+-----------+------------------------------------------------------------------------------------------------------------------+
 
 Relations
 ---------
 
--  ``mapID`` references the primary key of ``Map.dbc``.
--  ``lightParamsID[1-5]`` reference the primary key of
-   ``LightParams.dbc``.
+-  ``map`` references the primary key of ``Map.dbc``.
+-  ``lightParams[1-5]`` reference the primary key of ``LightParams.dbc``.
 
 Notes
 -----

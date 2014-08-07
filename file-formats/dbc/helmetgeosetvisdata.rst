@@ -13,15 +13,15 @@ Table structure
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+
 | ID   | Name          | Type               | Default   | Description                                                 |
 +======+===============+====================+===========+=============================================================+
-| 1    | ID            | Integer (signed)   | -         | Unique ID                                                   |
+| 1    | ID            | Integer            | -         | Unique ID                                                   |
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+
-| 2    | hideGeoset1   | Integer            | 0         | Part of the helmet geoset to hide. Probably hair related.   |
+| 2    | hideGeoset1   | Integer (signed)   | 0         | Part of the helmet geoset to hide. Probably hair related.   |
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+
-| 3    | hideGeoset2   | Integer            | 0         | Part of the helmet geoset to hide. Probably face related.   |
+| 3    | hideGeoset2   | Integer (signed)   | 0         | Part of the helmet geoset to hide. Probably face related.   |
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+
-| 4    | hideGeoset3   | Integer            | 0         | Part of the helmet geoset to hide. Probably face related.   |
+| 4    | hideGeoset3   | Integer (signed)   | 0         | Part of the helmet geoset to hide. Probably face related.   |
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+
-| 5    | hideGeoset4   | Integer            | 0         | Part of the helmet geoset to hide. Probably face related.   |
+| 5    | hideGeoset4   | Integer (signed)   | 0         | Part of the helmet geoset to hide. Probably face related.   |
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+
-| 6    | hideGeoset5   | Integer            | 0         | Part of the helmet geoset to hide. Probably ear related.    |
+| 6    | hideGeoset5   | Integer (signed)   | 0         | Part of the helmet geoset to hide. Probably ear related.    |
 +------+---------------+--------------------+-----------+-------------------------------------------------------------+

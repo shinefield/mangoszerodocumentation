@@ -13,9 +13,9 @@ Table structure
 +------+--------------+--------------------+-----------+----------------------------------+
 | ID   | Name         | Type               | Default   | Description                      |
 +======+==============+====================+===========+==================================+
-| 1    | ID           | Integer (signed)   | -         | Unique ID                        |
+| 1    | ID           | Integer            | -         | Unique ID                        |
 +------+--------------+--------------------+-----------+----------------------------------+
-| 2    | taxiPathID   | Integer (signed)   | 0         | References the taxi path used.   |
+| 2    | taxiPath     | Integer            | 0         | References the taxi path used.   |
 +------+--------------+--------------------+-----------+----------------------------------+
 | 3    | locationX1   | Float              | 0         | X coordinate of the path         |
 +------+--------------+--------------------+-----------+----------------------------------+
@@ -49,7 +49,7 @@ Table structure
 +------+--------------+--------------------+-----------+----------------------------------+
 | 18   | locationY8   | Float              | 0         | Y coordinate of the path         |
 +------+--------------+--------------------+-----------+----------------------------------+
-| 19   | legIndex     | Integer            | 0         |                                  |
+| 19   | legIndex     | Integer (signed)   | 0         |                                  |
 +------+--------------+--------------------+-----------+----------------------------------+
 
 Fields
@@ -66,4 +66,4 @@ legIndex
 Relations
 ---------
 
--  ``taxiPathID`` references the primary key of ``TaxiPath.dbc``.
+-  ``taxiPath`` references the primary key of ``TaxiPath.dbc``.

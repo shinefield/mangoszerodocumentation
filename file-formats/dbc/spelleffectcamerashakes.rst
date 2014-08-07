@@ -10,14 +10,16 @@ Table structure
 +------+------------------+--------------------+-----------+---------------+
 | ID   | Name             | Type               | Default   | Description   |
 +======+==================+====================+===========+===============+
-| 1    | ID               | Integer (signed)   | -         | Unique ID     |
+| 1    | ID               | Integer            | -         | Unique ID     |
 +------+------------------+--------------------+-----------+---------------+
-| 2    | cameraShakeID1   | Integer            | 0         | **TODO**      |
+| 2    | cameraShake1     | Integer            | 0         | **TODO**      |
 +------+------------------+--------------------+-----------+---------------+
-| 3    | cameraShakeID2   | Integer            | 0         | **TODO**      |
+| 3    | cameraShake2     | Integer            | 0         | **TODO**      |
 +------+------------------+--------------------+-----------+---------------+
-| 4    | cameraShakeID3   | Integer            | 0         | **TODO**      |
+| 4    | cameraShake3     | Integer            | 0         | **TODO**      |
 +------+------------------+--------------------+-----------+---------------+
 
 Relations
 ---------
+
+-  ``cameraShake[1-3]`` references the primary key of ``CameraShakes.dbc``.

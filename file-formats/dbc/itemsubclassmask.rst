@@ -13,9 +13,9 @@ Table structure
 +------+------------------+----------------------+-----------+-------------------------+
 | ID   | Name             | Type                 | Default   | Description             |
 +======+==================+======================+===========+=========================+
-| 1    | ID               | Integer (signed)     | -         | Unique ID               |
+| 1    | subClass         | Integer              | -         | Unique ID               |
 +------+------------------+----------------------+-----------+-------------------------+
-| 2    | itemSubClassID   | Integer (signed)     | 0         | Sub class ID.           |
+| 2    | mask             | Integer (signed)     | 0         | Sub class ID.           |
 +------+------------------+----------------------+-----------+-------------------------+
 | 3    | name             | String (localized)   | -         | The name of the mask.   |
 +------+------------------+----------------------+-----------+-------------------------+
@@ -23,5 +23,4 @@ Table structure
 Relations
 ---------
 
--  ``itemSubClassID`` references the key ``subClassID`` of
-   ``ItemSubClass.dbc``.
+-  ``subClass`` references the key ``subClass`` of ``ItemSubClass.dbc``.

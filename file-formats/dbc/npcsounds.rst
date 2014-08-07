@@ -13,19 +13,18 @@ Table structure
 +------+-----------------+--------------------+-----------+--------------------------------------------+
 | ID   | Name            | Type               | Default   | Description                                |
 +======+=================+====================+===========+============================================+
-| 1    | ID              | Integer (signed)   | -         | Unique ID                                  |
+| 1    | ID              | Integer            | -         | Unique ID                                  |
 +------+-----------------+--------------------+-----------+--------------------------------------------+
-| 2    | soundEntryID1   | Integer (signed)   | 0         | References the sound entry to be played.   |
+| 2    | soundEntry1     | Integer (signed)   | 0         | References the sound entry to be played.   |
 +------+-----------------+--------------------+-----------+--------------------------------------------+
-| 3    | soundEntryID2   | Integer (signed)   | 0         | References the sound entry to be played.   |
+| 3    | soundEntry2     | Integer (signed)   | 0         | References the sound entry to be played.   |
 +------+-----------------+--------------------+-----------+--------------------------------------------+
-| 4    | soundEntryID3   | Integer (signed)   | 0         | References the sound entry to be played.   |
+| 4    | soundEntry3     | Integer (signed)   | 0         | References the sound entry to be played.   |
 +------+-----------------+--------------------+-----------+--------------------------------------------+
-| 5    | soundEntryID4   | Integer (signed)   | 0         | References the sound entry to be played.   |
+| 5    | soundEntry4     | Integer (signed)   | 0         | References the sound entry to be played.   |
 +------+-----------------+--------------------+-----------+--------------------------------------------+
 
 Relations
 ---------
 
--  ``soundEntryID[1-4]`` reference the primary key of
-   ``SoundEntries.dbc``.
+-  ``soundEntry[1-4]`` reference the primary key of ``SoundEntries.dbc``.

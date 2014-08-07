@@ -13,15 +13,15 @@ Table structure
 +------+-------------------+--------------------+-----------+-------------------------------------------------------------------------------------+
 | ID   | Name              | Type               | Default   | Description                                                                         |
 +======+===================+====================+===========+=====================================================================================+
-| 1    | ID                | Integer (signed)   | -         | Unique ID                                                                           |
+| 1    | ID                | Integer            | -         | Unique ID                                                                           |
 +------+-------------------+--------------------+-----------+-------------------------------------------------------------------------------------+
 | 2    | name              | String             | 0         | The name of the ambience sound.                                                     |
 +------+-------------------+--------------------+-----------+-------------------------------------------------------------------------------------+
-| 3    | soundEntryID      | Integer (signed)   | 0         | The sound entry being played upon entering an area.                                 |
+| 3    | introSound        | Integer            | 0         | The sound entry being played upon entering an area.                                 |
 +------+-------------------+--------------------+-----------+-------------------------------------------------------------------------------------+
 | 4    | priority          | Integer            | 1         | See below.                                                                          |
 +------+-------------------+--------------------+-----------+-------------------------------------------------------------------------------------+
-| 5    | minDelayMinutes   | Integer            | 10        | The number of seconds playing the intro music will be delayed upon zone entering.   |
+| 5    | minDelay          | Integer            | 10        | The number of seconds playing the intro music will be delayed upon zone entering.   |
 +------+-------------------+--------------------+-----------+-------------------------------------------------------------------------------------+
 
 Fields
@@ -36,4 +36,4 @@ priority
 Relations
 ---------
 
--  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
+-  ``introSound`` references the primary key of ``SoundEntries.dbc``.

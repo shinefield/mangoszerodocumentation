@@ -12,11 +12,11 @@ Table structure
 +------+-----------------+----------------------+-----------+---------------------------------+
 | ID   | Name            | Type                 | Default   | Description                     |
 +======+=================+======================+===========+=================================+
-| 1    | ID              | Integer (signed)     | -         | Unique ID                       |
+| 1    | ID              | Integer              | -         | Unique ID                       |
 +------+-----------------+----------------------+-----------+---------------------------------+
-| 2    | subclassMapID   | Integer (signed)     | 0         | References the item subclass.   |
+| 2    | subclassMap     | Integer              | 0         | References the item subclass.   |
 +------+-----------------+----------------------+-----------+---------------------------------+
-| 3    | flags           | Integer              | 0         | See below.                      |
+| 3    | flags           | Integer (signed)     | 0         | See below.                      |
 +------+-----------------+----------------------+-----------+---------------------------------+
 | 4    | classname       | String (localized)   | -         | The name of the item class.     |
 +------+-----------------+----------------------+-----------+---------------------------------+
@@ -33,4 +33,4 @@ flags
 Relations
 ---------
 
--  ``subclassMapID`` references the primary key of ``ItemSubClass.dbc``.
+-  ``subclassMap`` references the primary key of ``ItemSubClass.dbc``.

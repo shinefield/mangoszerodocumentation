@@ -13,25 +13,25 @@ Table structure
 +------+----------------------------+--------------------+-----------+-----------------+
 | ID   | Name                       | Type               | Default   | Description     |
 +======+============================+====================+===========+=================+
-| 1    | ID                         | Integer (signed)   | -         | Unique ID       |
+| 1    | ID                         | Integer            | -         | Unique ID       |
 +------+----------------------------+--------------------+-----------+-----------------+
-| 2    | vocalUIEnum                | Integer            | 0         | **TODO**        |
+| 2    | vocalUIEnum                | Integer (signed)   | 0         | **TODO**        |
 +------+----------------------------+--------------------+-----------+-----------------+
-| 3    | raceID                     | Integer (signed)   | 0         | The race.       |
+| 3    | race                       | Integer            | 0         | The race.       |
 +------+----------------------------+--------------------+-----------+-----------------+
-| 4    | normalMaleSoundEntryID     | Integer (signed)   | 0         | Male sound.     |
+| 4    | normalMaleSoundEntry       | Integer (signed)   | 0         | Male sound.     |
 +------+----------------------------+--------------------+-----------+-----------------+
-| 5    | normalFemaleSoundEntryID   | Integer (signed)   | 0         | Female sound.   |
+| 5    | normalFemaleSoundEntry     | Integer (signed)   | 0         | Female sound.   |
 +------+----------------------------+--------------------+-----------+-----------------+
-| 6    | pissedMaleSoundEntryID     | Integer (signed)   | 0         | Male sound.     |
+| 6    | pissedMaleSoundEntry       | Integer (signed)   | 0         | Male sound.     |
 +------+----------------------------+--------------------+-----------+-----------------+
-| 7    | pissedFemaleSoundEntryID   | Integer (signed)   | 0         | Female sound.   |
+| 7    | pissedFemaleSoundEntry     | Integer (signed)   | 0         | Female sound.   |
 +------+----------------------------+--------------------+-----------+-----------------+
 
 Relations
 ---------
 
--  ``raceID`` references the primary key of ``ChrRaces.dbc``.
--  ``normalMaleSoundEntryID``, ``normalFemaleSoundEntryID``,
-   ``pissedMaleSoundEntryID`` and ``pissedFemaleSoundEntryID`` reference
+-  ``race`` references the primary key of ``ChrRaces.dbc``.
+-  ``normalMaleSoundEntry``, ``normalFemaleSoundEntry``,
+   ``pissedMaleSoundEntry`` and ``pissedFemaleSoundEntry`` reference
    the primary key of ``SoundEntries.dbc``.

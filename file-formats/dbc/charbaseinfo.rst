@@ -13,16 +13,16 @@ Table structure
 +------+-----------+--------------------+-----------+---------------------------------------+
 | ID   | Name      | Type               | Default   | Description                           |
 +======+===========+====================+===========+=======================================+
-| 1    | raceID    | Integer (signed)   | 0         | References the race which is used.    |
+| 1    | race      | Integer            | 0         | References the race which is used.    |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 2    | classID   | Integer (signed)   | 0         | References the class which is used.   |
+| 2    | class     | Integer            | 0         | References the class which is used.   |
 +------+-----------+--------------------+-----------+---------------------------------------+
 
 Relations
 ---------
 
--  ``raceID`` references the primary key of ``ChrRaces.dbc``.
--  ``classID`` references the primary key of ``ChrClasses.dbc``.
+-  ``race`` references the primary key of ``ChrRaces.dbc``.
+-  ``class`` references the primary key of ``ChrClasses.dbc``.
 
 Notes
 -----

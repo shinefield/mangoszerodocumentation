@@ -13,20 +13,20 @@ Table structure
 +------+----------+--------------------+-----------+---------------------------------------------+
 | ID   | Name     | Type               | Default   | Description                                 |
 +======+==========+====================+===========+=============================================+
-| 1    | ID       | Integer (signed)   | -         | Unique ID                                   |
+| 1    | ID       | Integer            | -         | Unique ID                                   |
 +------+----------+--------------------+-----------+---------------------------------------------+
 | 2    | name     | String             | -         | A given random player name.                 |
 +------+----------+--------------------+-----------+---------------------------------------------+
-| 3    | raceID   | Integer (signed)   | 0         | References a race to which this applies     |
+| 3    | race     | Integer            | 0         | References a race to which this applies     |
 +------+----------+--------------------+-----------+---------------------------------------------+
-| 4    | sexID    | Integer            | 0         | References the sex to which this applies.   |
+| 4    | sex      | Integer (signed)   | 0         | References the sex to which this applies.   |
 +------+----------+--------------------+-----------+---------------------------------------------+
 
 Fields
 ------
 
-sexID
-~~~~~
+sex
+~~~
 
 -  ``0``: male,
 -  ``1``: female.
@@ -34,4 +34,4 @@ sexID
 Relations
 ---------
 
--  ``raceID`` references the primary key of ``ChrRaces.dbc``.
+-  ``race`` references the primary key of ``ChrRaces.dbc``.

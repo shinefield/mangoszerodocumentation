@@ -13,24 +13,24 @@ Table structure
 +------+---------------+--------------------+-----------+---------------------------------------------------+
 | ID   | Name          | Type               | Default   | Description                                       |
 +======+===============+====================+===========+===================================================+
-| 1    | ID            | Integer (signed)   | -         | Unique ID                                         |
+| 1    | ID            | Integer            | -         | Unique ID                                         |
 +------+---------------+--------------------+-----------+---------------------------------------------------+
-| 2    | raceID        | Integer (signed)   | 0         | References the race to which the style applies.   |
+| 2    | race          | Integer            | 0         | References the race to which the style applies.   |
 +------+---------------+--------------------+-----------+---------------------------------------------------+
-| 3    | sexID         | Integer            | 0         | See below.                                        |
+| 3    | sex           | Integer (signed)   | 0         | See below.                                        |
 +------+---------------+--------------------+-----------+---------------------------------------------------+
-| 4    | variationID   | Integer (signed)   | 0         | References the actual style to apply.             |
+| 4    | variation     | Integer            | 0         | References the actual style to apply.             |
 +------+---------------+--------------------+-----------+---------------------------------------------------+
-| 5    | geosetID      | Integer            | 0         | References a geoset ID in a model.                |
+| 5    | geoset        | Integer (signed)   | 0         | References a geoset ID in a model.                |
 +------+---------------+--------------------+-----------+---------------------------------------------------+
-| 6    | showScalp     | Integer            | 0         | See below.                                        |
+| 6    | showScalp     | Integer (signed)   | 0         | See below.                                        |
 +------+---------------+--------------------+-----------+---------------------------------------------------+
 
 Fields
 ------
 
-sexID
-~~~~~
+sex
+~~~
 
 -  ``0``: male,
 -  ``1``: female.
@@ -44,5 +44,5 @@ showScalp
 Relations
 ---------
 
--  ``raceID`` references the primary key of ``ChrRaces.dbc``.
--  ``variationID`` references the primary key of ``CharVariations.dbc``.
+-  ``race`` references the primary key of ``ChrRaces.dbc``.
+-  ``variation`` references the primary key of ``CharVariations.dbc``.

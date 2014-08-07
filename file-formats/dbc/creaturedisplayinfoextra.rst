@@ -13,41 +13,41 @@ Table structure
 +------+---------------------+--------------------+-----------+------------------------------------------+
 | ID   | Name                | Type               | Default   | Description                              |
 +======+=====================+====================+===========+==========================================+
-| 1    | ID                  | Integer (signed)   | -         | Unique ID                                |
+| 1    | ID                  | Integer            | -         | Unique ID                                |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 2    | displayRaceID       | Integer (signed)   | 0         | References the race for this creature.   |
+| 2    | displayRace         | Integer            | 0         | References the race for this creature.   |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 3    | sexID               | Integer            | 0         | See below.                               |
+| 3    | sex                 | Integer (signed)   | 0         | See below.                               |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 4    | skinID              | Integer            | 0         | **TODO**                                 |
+| 4    | skin                | Integer (signed)   | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 5    | faceID              | Integer            | 0         | **TODO**                                 |
+| 5    | face                | Integer (signed)   | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 6    | hairStyleID         | Integer            | 0         | **TODO**                                 |
+| 6    | hairStyle           | Integer (signed)   | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 7    | hairColorID         | Integer            | 0         | **TODO**                                 |
+| 7    | hairColor           | Integer (signed)   | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 8    | facialHairID        | Integer            | 0         | **TODO**                                 |
+| 8    | facialHair          | Integer (signed)   | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 9    | NPCItemDisplayID1   | Integer (signed)   | 0         | **TODO**                                 |
+| 9    | NPCItemDisplay1     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 10   | NPCItemDisplayID2   | Integer (signed)   | 0         | **TODO**                                 |
+| 10   | NPCItemDisplay2     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 11   | NPCItemDisplayID3   | Integer (signed)   | 0         | **TODO**                                 |
+| 11   | NPCItemDisplay3     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 12   | NPCItemDisplayID4   | Integer (signed)   | 0         | **TODO**                                 |
+| 12   | NPCItemDisplay4     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 13   | NPCItemDisplayID5   | Integer (signed)   | 0         | **TODO**                                 |
+| 13   | NPCItemDisplay5     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 14   | NPCItemDisplayID6   | Integer (signed)   | 0         | **TODO**                                 |
+| 14   | NPCItemDisplay6     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 15   | NPCItemDisplayID7   | Integer (signed)   | 0         | **TODO**                                 |
+| 15   | NPCItemDisplay7     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 16   | NPCItemDisplayID8   | Integer (signed)   | 0         | **TODO**                                 |
+| 16   | NPCItemDisplay8     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 17   | NPCItemDisplayID9   | Integer (signed)   | 0         | **TODO**                                 |
+| 17   | NPCItemDisplay9     | Integer            | 0         | **TODO**                                 |
 +------+---------------------+--------------------+-----------+------------------------------------------+
-| 18   | flags               | Integer            | 0         | See below.                               |
+| 18   | flags               | Integer (signed)   | 0         | See below.                               |
 +------+---------------------+--------------------+-----------+------------------------------------------+
 | 19   | bakeName            | String             | -         | The model for the creature.              |
 +------+---------------------+--------------------+-----------+------------------------------------------+
@@ -55,8 +55,8 @@ Table structure
 Fields
 ------
 
-sexID
-~~~~~
+sex
+~~~
 
 -  ``0``: male,
 -  ``1``: female.
@@ -69,6 +69,5 @@ flags
 Relations
 ---------
 
--  ``displayRaceID`` references the primary key of ``ChrRaces.dbc``.
--  ``NPCItemDisplayID[1-9]`` references the primary key of
-   ``ItemDisplayInfo.dbc``.
+-  ``displayRace`` references the primary key of ``ChrRaces.dbc``.
+-  ``NPCItemDisplay[1-9]`` references the primary key of ``ItemDisplayInfo.dbc``.

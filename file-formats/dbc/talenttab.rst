@@ -13,15 +13,15 @@ Table structure
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
 | ID   | Name             | Type                 | Default   | Description                                                                             |
 +======+==================+======================+===========+=========================================================================================+
-| 1    | ID               | Integer (signed)     | -         | Unique ID                                                                               |
+| 1    | ID               | Integer              | -         | Unique ID                                                                               |
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
 | 2    | name             | String (localized)   | -         | The name of the talent tree.                                                            |
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
-| 3    | spellIconID      | Integer (signed)     | 0         | The talent tree's icon.                                                                 |
+| 3    | spellIcon        | Integer              | 0         | The talent tree's icon.                                                                 |
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
-| 4    | raceMask         | Integer              | 0         | The race(s) to which the talent tab applies, might not be ID, but rather masked ID.     |
+| 4    | raceMask         | Integer (signed)     | 0         | The race(s) to which the talent tab applies, might not be ID, but rather masked ID.     |
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
-| 5    | classMask        | Integer              | 0         | The class(es) to which the talent tab applies, might not be ID, but rather masked ID.   |
+| 5    | classMask        | Integer (signed)     | 0         | The class(es) to which the talent tab applies, might not be ID, but rather masked ID.   |
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
 | 6    | orderIndex       | Integer              | 0         | An order for the tab.                                                                   |
 +------+------------------+----------------------+-----------+-----------------------------------------------------------------------------------------+
@@ -33,7 +33,7 @@ Relations
 
 -  ``raceMask`` reference the primary key of ``ChrRaces.dbc``.
 -  ``classMask`` reference the primary key of ``ChrClasses.dbc``
--  ``spellIconID`` reference the primary key of ``SpellIcon.dbc``.
+-  ``spellIcon`` reference the primary key of ``SpellIcon.dbc``.
 
 Notes
 -----

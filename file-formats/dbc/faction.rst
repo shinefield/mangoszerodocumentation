@@ -13,43 +13,43 @@ Table structure
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
 | ID   | Name                   | Type                 | Default   | Description                                            |
 +======+========================+======================+===========+========================================================+
-| 1    | ID                     | Integer (signed)     | -         | Unique ID                                              |
+| 1    | ID                     | Integer              | -         | Unique ID                                              |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 2    | reputationIndex        | Integer              | -         | The unique faction index.                              |
+| 2    | reputationIndex        | Integer (signed)     | -         | The unique faction index.                              |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 3    | reputationRaceMask1    | Integer              | 0         | See below.                                             |
+| 3    | reputationRaceMask1    | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 4    | reputationRaceMask2    | Integer              | 0         | See below.                                             |
+| 4    | reputationRaceMask2    | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 5    | reputationRaceMask3    | Integer              | 0         | See below.                                             |
+| 5    | reputationRaceMask3    | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 6    | reputationRaceMask4    | Integer              | 0         | See below.                                             |
+| 6    | reputationRaceMask4    | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 7    | reputationClassMask1   | Integer              | 0         | See below.                                             |
+| 7    | reputationClassMask1   | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 8    | reputationClassMask2   | Integer              | 0         | See below.                                             |
+| 8    | reputationClassMask2   | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 9    | reputationClassMask3   | Integer              | 0         | See below.                                             |
+| 9    | reputationClassMask3   | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 10   | reputationClassMask4   | Integer              | 0         | See below.                                             |
+| 10   | reputationClassMask4   | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 11   | reputationBase1        | Integer              | 0         | Base reputation value.                                 |
+| 11   | reputationBase1        | Integer (signed)     | 0         | Base reputation value.                                 |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 12   | reputationBase2        | Integer              | 0         | Base reputation value.                                 |
+| 12   | reputationBase2        | Integer (signed)     | 0         | Base reputation value.                                 |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 13   | reputationBase3        | Integer              | 0         | Base reputation value.                                 |
+| 13   | reputationBase3        | Integer (signed)     | 0         | Base reputation value.                                 |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 14   | reputationBase4        | Integer              | 0         | Base reputation value.                                 |
+| 14   | reputationBase4        | Integer (signed)     | 0         | Base reputation value.                                 |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 15   | reputationFlags1       | Integer              | 0         | **TODO**                                               |
+| 15   | reputationFlags1       | Integer (signed)     | 0         | **TODO**                                               |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 16   | reputationFlags2       | Integer              | 0         | **TODO**                                               |
+| 16   | reputationFlags2       | Integer (signed)     | 0         | **TODO**                                               |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 17   | reputationFlags3       | Integer              | 0         | **TODO**                                               |
+| 17   | reputationFlags3       | Integer (signed)     | 0         | **TODO**                                               |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 18   | reputationFlags4       | Integer              | 0         | **TODO**                                               |
+| 18   | reputationFlags4       | Integer (signed)     | 0         | **TODO**                                               |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 19   | parentFactionID        | Integer (signed)     | 0         | If non-zero, the faction is a child of this faction.   |
+| 19   | parentFaction          | Integer              | 0         | If non-zero, the faction is a child of this faction.   |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
 | 20   | name                   | String (localized)   | -         | The name of the faction.                               |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
@@ -87,4 +87,4 @@ and Tauren druids are members of.
 Relations
 ---------
 
--  ``parentFactionID`` references the primary key of ``Faction.dbc``.
+-  ``parentFaction`` references the primary key of ``Faction.dbc``.

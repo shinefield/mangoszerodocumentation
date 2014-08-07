@@ -12,19 +12,19 @@ Table structure
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
 | ID   | Name                 | Type               | Default   | Description                                                   |
 +======+======================+====================+===========+===============================================================+
-| 1    | ID                   | Integer (signed)   | -         | Unique ID                                                     |
+| 1    | ID                   | Integer            | -         | Unique ID                                                     |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
 | 2    | emoteSlashCommand    | String             | -         | The emote command name, as referenced in-game, e.g. in Lua.   |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
-| 3    | animationDataID      | Integer (signed)   | 0         | The animation to play when executing the emote.               |
+| 3    | animationData        | Integer            | 0         | The animation to play when executing the emote.               |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
-| 4    | emoteFlags           | Integer            | 0         | See below.                                                    |
+| 4    | emoteFlags           | Integer (signed)   | 0         | See below.                                                    |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
-| 5    | emoteSpecProc        | Integer            | 0         | See below.                                                    |
+| 5    | emoteSpecProc        | Integer (signed)   | 0         | See below.                                                    |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
-| 6    | emoteSpecProcParam   | Integer            | 0         | Last frame of the emote animation.                            |
+| 6    | emoteSpecProcParam   | Integer (signed)   | 0         | Last frame of the emote animation.                            |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
-| 7    | eventSoundEntryID    | Integer (signed)   | 0         | The sound to be played while executing the emote.             |
+| 7    | eventSoundEntry      | Integer            | 0         | The sound to be played while executing the emote.             |
 +------+----------------------+--------------------+-----------+---------------------------------------------------------------+
 
 Fields
@@ -49,7 +49,5 @@ emoteSpecProc
 Relations
 ---------
 
--  ``animationDataID`` references the primary key of
-   ``AnimationData.dbc``.
--  ``eventSoundEntryID`` references the primary key of
-   ``SoundEntries.dbc``.
+-  ``animationData`` references the primary key of ``AnimationData.dbc``.
+-  ``eventSoundEntry`` references the primary key of ``SoundEntries.dbc``.

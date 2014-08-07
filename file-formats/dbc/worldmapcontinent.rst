@@ -13,9 +13,9 @@ Table structure
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
 | ID   | Name               | Type               | Default   | Description                                       |
 +======+====================+====================+===========+===================================================+
-| 1    | ID                 | Integer (signed)   | -         | Unique ID                                         |
+| 1    | ID                 | Integer            | -         | Unique ID                                         |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 2    | mapID              | Integer (signed)   | 0         | The map to which the continent overlay belongs.   |
+| 2    | map                | Integer            | 0         | The map to which the continent overlay belongs.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
 | 3    | leftBoundary       | Integer            | 0         | **TODO**                                          |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
@@ -43,10 +43,9 @@ Table structure
 Relations
 ---------
 
--  ``mapID`` references the primary key of ``Map.dbc``.
+-  ``map`` references the primary key of ``Map.dbc``.
 
 Notes
 -----
 
-Overlays are stored in
-``Interface\WorldMap\MapName\MapNameHighlight.blp``.
+Overlays are stored in ``Interface\WorldMap\MapName\MapNameHighlight.blp``.

@@ -13,11 +13,11 @@ Table structure
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------+
 | ID   | Name           | Type               | Default   | Description                                                     |
 +======+================+====================+===========+=================================================================+
-| 1    | ID             | Integer (signed)   | -         | Unique ID                                                       |
+| 1    | ID             | Integer            | -         | Unique ID                                                       |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------+
 | 2    | model          | String             | -         | The path for the model file name.                               |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------+
-| 3    | soundEntryID   | Integer (signed)   | 0         | The sound entry to be playing while the cinematic is running.   |
+| 3    | soundEntry     | Integer            | 0         | The sound entry to be playing while the cinematic is running.   |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------+
 | 4    | locationX      | Float              | 0         | X coordinate for the cinematic end-point.                       |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------+
@@ -31,4 +31,4 @@ Table structure
 Relations
 ---------
 
--  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
+-  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.

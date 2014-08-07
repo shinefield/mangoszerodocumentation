@@ -15,24 +15,22 @@ Table structure
 +------+----------------+----------------------+-----------+------------------------------------------------+
 | ID   | Name           | Type                 | Default   | Description                                    |
 +======+================+======================+===========+================================================+
-| 1    | ID             | Integer (signed)     | -         | Unique ID                                      |
+| 1    | ID             | Integer              | -         | Unique ID                                      |
 +------+----------------+----------------------+-----------+------------------------------------------------+
-| 2    | categoryID     | Integer (signed)     | 0         | References the skill line category.            |
+| 2    | category       | Integer (signed)     | 0         | References the skill line category.            |
 +------+----------------+----------------------+-----------+------------------------------------------------+
-| 3    | skillCostsID   | Integer (signed)     | 0         | References the skill learning costs.           |
+| 3    | skillCosts     | Integer              | 0         | References the skill learning costs.           |
 +------+----------------+----------------------+-----------+------------------------------------------------+
 | 4    | displayName    | String (localized)   | -         | The name of the skill line.                    |
 +------+----------------+----------------------+-----------+------------------------------------------------+
 | 5    | description    | String (localized)   | -         | The description of the skill line.             |
 +------+----------------+----------------------+-----------+------------------------------------------------+
-| 6    | spellIconID    | Integer (signed)     | 0         | References the icon used for the skill line.   |
+| 6    | spellIcon      | Integer              | 0         | References the icon used for the skill line.   |
 +------+----------------+----------------------+-----------+------------------------------------------------+
 
 Relations
 ---------
 
--  ``categoryID`` references the primary key of
-   ``SkillLineCategory.dbc``.
--  ``skillCostsID`` references the primary key of
-   ``SkillCostsData.dbc``.
--  ``spellIconID`` references the primary key of ``SpellIcon.dbc``.
+-  ``category`` references the primary key of ``SkillLineCategory.dbc``.
+-  ``skillCosts`` references the primary key of ``SkillCostsData.dbc``.
+-  ``spellIcon`` references the primary key of ``SpellIcon.dbc``.

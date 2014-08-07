@@ -13,48 +13,47 @@ Table structure
 +------+---------------------+--------------------+-----------+----------------------------------------------+
 | ID   | Name                | Type               | Default   | Description                                  |
 +======+=====================+====================+===========+==============================================+
-| 1    | ID                  | Integer (signed)   | -         | Unique ID                                    |
+| 1    | ID                  | Integer            | -         | Unique ID                                    |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
 | 2    | name                | String             | -         | Name of the emote as used in in-game chat.   |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 3    | emoteID             | Integer (signed)   | 0         | References the emote definition.             |
+| 3    | emote               | Integer            | 0         | References the emote definition.             |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 4    | emoteTextDataID1    | Integer (signed)   | 0         | The text to display.                         |
+| 4    | emoteTextData1      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 5    | emoteTextDataID2    | Integer (signed)   | 0         | The text to display.                         |
+| 5    | emoteTextData2      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 6    | emoteTextDataID3    | Integer (signed)   | 0         | The text to display.                         |
+| 6    | emoteTextData3      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 7    | emoteTextDataID4    | Integer (signed)   | 0         | The text to display.                         |
+| 7    | emoteTextData4      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 8    | emoteTextDataID5    | Integer (signed)   | 0         | The text to display.                         |
+| 8    | emoteTextData5      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 9    | emoteTextDataID6    | Integer (signed)   | 0         | The text to display.                         |
+| 9    | emoteTextData6      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 10   | emoteTextDataID7    | Integer (signed)   | 0         | The text to display.                         |
+| 10   | emoteTextData7      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 11   | emoteTextDataID8    | Integer (signed)   | 0         | The text to display.                         |
+| 11   | emoteTextData8      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 12   | emoteTextDataID9    | Integer (signed)   | 0         | The text to display.                         |
+| 12   | emoteTextData9      | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 13   | emoteTextDataID10   | Integer (signed)   | 0         | The text to display.                         |
+| 13   | emoteTextData10     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 14   | emoteTextDataID11   | Integer (signed)   | 0         | The text to display.                         |
+| 14   | emoteTextData11     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 15   | emoteTextDataID12   | Integer (signed)   | 0         | The text to display.                         |
+| 15   | emoteTextData12     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 16   | emoteTextDataID13   | Integer (signed)   | 0         | The text to display.                         |
+| 16   | emoteTextData13     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 17   | emoteTextDataID14   | Integer (signed)   | 0         | The text to display.                         |
+| 17   | emoteTextData14     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 18   | emoteTextDataID15   | Integer (signed)   | 0         | The text to display.                         |
+| 18   | emoteTextData15     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
-| 19   | emoteTextDataID16   | Integer (signed)   | 0         | The text to display.                         |
+| 19   | emoteTextData16     | Integer            | 0         | The text to display.                         |
 +------+---------------------+--------------------+-----------+----------------------------------------------+
 
 Relations
 ---------
 
--  ``emoteID`` references the primary key of ``Emotes.dbc``.
--  ``emoteTextDataID[1-16]`` reference the primary key of
-   ``EmotesTextData.dbc``.
+-  ``emote`` references the primary key of ``Emotes.dbc``.
+-  ``emoteTextData[1-16]`` reference the primary key of ``EmotesTextData.dbc``.

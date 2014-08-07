@@ -13,9 +13,9 @@ Table structure
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------------------------+
 | ID   | Name           | Type               | Default   | Description                                                                       |
 +======+================+====================+===========+===================================================================================+
-| 1    | ID             | Integer (signed)   | -         | Unique ID                                                                         |
+| 1    | ID             | Integer            | -         | Unique ID                                                                         |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------------------------+
-| 2    | soundEntryID   | Integer (signed)   | 0         | The sound to be played.                                                           |
+| 2    | soundEntry     | Integer            | 0         | The sound to be played.                                                           |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------------------------+
 | 3    | internalName   | String             | -         | Most likely the hard-coded name used in the clients' interface and LUA scripts.   |
 +------+----------------+--------------------+-----------+-----------------------------------------------------------------------------------+
@@ -23,4 +23,4 @@ Table structure
 Relations
 ---------
 
--  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
+-  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.

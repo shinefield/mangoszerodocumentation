@@ -13,13 +13,13 @@ Table structure
 +------+----------------+--------------------+-----------+----------------------------------------------------------+
 | ID   | Name           | Type               | Default   | Description                                              |
 +======+================+====================+===========+==========================================================+
-| 1    | ID             | Integer (signed)   | -         | Unique ID                                                |
+| 1    | ID             | Integer            | -         | Unique ID                                                |
 +------+----------------+--------------------+-----------+----------------------------------------------------------+
-| 2    | liquidTypeID   | Integer (signed)   | 0         | References the liquid type to which the sound applies.   |
+| 2    | liquidType     | Integer            | 0         | References the liquid type to which the sound applies.   |
 +------+----------------+--------------------+-----------+----------------------------------------------------------+
-| 3    | fluidSpeed     | Integer            | 0         | See below.                                               |
+| 3    | fluidSpeed     | Integer (signed)   | 0         | See below.                                               |
 +------+----------------+--------------------+-----------+----------------------------------------------------------+
-| 4    | soundEntryID   | Integer (signed)   | 0         | The sound to apply to the liquid type.                   |
+| 4    | soundEntry     | Integer            | 0         | The sound to apply to the liquid type.                   |
 +------+----------------+--------------------+-----------+----------------------------------------------------------+
 
 Fields
@@ -35,5 +35,5 @@ fluidSpeed
 Relations
 ---------
 
--  ``liquidTypeID`` references the primary key of ``LiquidType.dbc``.
--  ``soundEntryID`` references the primary key of ``SoundEntries.dbc``.
+-  ``liquidType`` references the primary key of ``LiquidType.dbc``.
+-  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.

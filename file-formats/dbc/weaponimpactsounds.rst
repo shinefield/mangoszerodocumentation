@@ -13,60 +13,58 @@ Table structure
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
 | ID   | Name               | Type               | Default   | Description                                       |
 +======+====================+====================+===========+===================================================+
-| 1    | ID                 | Integer (signed)   | -         | Unique ID                                         |
+| 1    | ID                 | Integer            | -         | Unique ID                                         |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 2    | weaponSubclassID   | Integer            | 0         | **TODO**                                          |
+| 2    | weaponSubclass     | Integer (signed)   | 0         | **TODO**                                          |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 3    | parrySoundType     | Integer            | 0         | **TODO**                                          |
+| 3    | parrySoundType     | Integer (signed)   | 0         | **TODO**                                          |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 4    | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 4    | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 5    | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 5    | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 6    | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 6    | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 7    | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 7    | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 8    | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 8    | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 9    | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 9    | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 10   | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 10   | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 11   | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 11   | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 12   | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 12   | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 13   | impactSound        | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 13   | impactSound        | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 14   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 14   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 15   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 15   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 16   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 16   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 17   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 17   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 18   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 18   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 19   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 19   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 20   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 20   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 21   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 21   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 22   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 22   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 23   | criticalSound      | Integer (signed)   | 0         | The sound entry to be played upon weapon swing.   |
+| 23   | critImpactSound    | Integer            | 0         | The sound entry to be played upon weapon swing.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
 
 Relations
 ---------
 
--  ``impactSound[1-10]`` references the primary key of
-   ``SoundEntries.dbc``.
--  ``criticalSound[1-10]`` references the primary key of
-   ``SoundEntries.dbc``.
+-  ``impactSound[1-10]`` references the primary key of ``SoundEntries.dbc``.
+-  ``critImpactSound[1-10]`` references the primary key of ``SoundEntries.dbc``.
 
 Notes
 -----

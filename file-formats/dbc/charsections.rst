@@ -14,17 +14,17 @@ Table structure
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
 | ID   | Name             | Type               | Default   | Description                                         |
 +======+==================+====================+===========+=====================================================+
-| 1    | ID               | Integer (signed)   | -         | Unique ID                                           |
+| 1    | ID               | Integer            | -         | Unique ID                                           |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
-| 2    | raceID           | Integer (signed)   | 0         | References the race to which the section applies.   |
+| 2    | race             | Integer            | 0         | References the race to which the section applies.   |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
-| 3    | sexID            | Integer            | 0         | See below.                                          |
+| 3    | sex              | Integer (signed)   | 0         | See below.                                          |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
-| 4    | sectionType      | Integer            | 0         | See below.                                          |
+| 4    | sectionType      | Integer (signed)   | 0         | See below.                                          |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
-| 5    | variationIndex   | Integer            | 0         | **TODO**                                            |
+| 5    | variationIndex   | Integer (signed)   | 0         | **TODO**                                            |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
-| 6    | colorIndex       | Integer            | 0         | An index                                            |
+| 6    | colorIndex       | Integer (signed)   | 0         | An index                                            |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
 | 7    | textureName1     | String             | -         | The name of the matching texture file.              |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
@@ -32,14 +32,14 @@ Table structure
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
 | 9    | textureName3     | String             | -         | The name of the matching texture file.              |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
-| 10   | flags            | Integer            | 0         | See below.                                          |
+| 10   | flags            | Integer (signed)   | 0         | See below.                                          |
 +------+------------------+--------------------+-----------+-----------------------------------------------------+
 
 Fields
 ------
 
-sexID
-~~~~~
+sex
+~~~
 
 -  ``0``: male,
 -  ``1``: female.
@@ -83,4 +83,4 @@ only entries for *Goblins* are marked as non-playable.
 Relations
 ---------
 
--  ``raceID`` references the primary key of ``ChrRaces.dbc``.
+-  ``race`` references the primary key of ``ChrRaces.dbc``.

@@ -10,37 +10,37 @@ Table structure
 +------+--------------------+----------------------+-----------+---------------+
 | ID   | Name               | Type                 | Default   | Description   |
 +======+====================+======================+===========+===============+
-| 1    | ID                 | Integer (signed)     | -         | Unique ID     |
+| 1    | ID                 | Integer              | -         | Unique ID     |
 +------+--------------------+----------------------+-----------+---------------+
-| 2    | enchantmentType1   | Integer              | 0         | **TODO**      |
+| 2    | enchantmentType1   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 3    | enchantmentType2   | Integer              | 0         | **TODO**      |
+| 3    | enchantmentType2   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 4    | enchantmentType3   | Integer              | 0         | **TODO**      |
+| 4    | enchantmentType3   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 5    | effectPointsMin1   | Integer              | 0         | **TODO**      |
+| 5    | effectPointsMin1   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 6    | effectPointsMin2   | Integer              | 0         | **TODO**      |
+| 6    | effectPointsMin2   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 7    | effectPointsMin3   | Integer              | 0         | **TODO**      |
+| 7    | effectPointsMin3   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 8    | effectPointsMax1   | Integer              | 0         | **TODO**      |
+| 8    | effectPointsMax1   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 9    | effectPointsMax2   | Integer              | 0         | **TODO**      |
+| 9    | effectPointsMax2   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 10   | effectPointsMax3   | Integer              | 0         | **TODO**      |
+| 10   | effectPointsMax3   | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 11   | effectArg1         | Integer              | 0         | **TODO**      |
+| 11   | effectArg1         | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 12   | effectArg2         | Integer              | 0         | **TODO**      |
+| 12   | effectArg2         | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 13   | effectArg3         | Integer              | 0         | **TODO**      |
+| 13   | effectArg3         | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
 | 14   | name               | String (localized)   | -         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 15   | itemVisual         | Integer              | 0         | **TODO**      |
+| 15   | itemVisual         | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
-| 15   | flags              | Integer              | 0         | **TODO**      |
+| 15   | flags              | Integer (signed)     | 0         | **TODO**      |
 +------+--------------------+----------------------+-----------+---------------+
 
 Relations

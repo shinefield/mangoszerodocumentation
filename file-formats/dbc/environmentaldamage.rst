@@ -13,15 +13,14 @@ Table structure
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
 | ID   | Name               | Type               | Default   | Description                                       |
 +======+====================+====================+===========+===================================================+
-| 1    | ID                 | Integer (signed)   | -         | Unique ID                                         |
+| 1    | ID                 | Integer            | -         | Unique ID                                         |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 2    | enumID             | Integer            | 0         | References an ID as defined in the game client.   |
+| 2    | enumID             | Integer (signed)   | 0         | References an ID as defined in the game client.   |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
-| 3    | spellVisualKitID   | Integer (signed)   | 0         | The spell visual to display.                      |
+| 3    | spellVisualKit     | Integer            | 0         | The spell visual to display.                      |
 +------+--------------------+--------------------+-----------+---------------------------------------------------+
 
 Relations
 ---------
 
--  ``spellVisualKitID`` references the primary key of
-   ``SpellVisualKit.dbc``.
+-  ``spellVisualKit`` references the primary key of ``SpellVisualKit.dbc``.

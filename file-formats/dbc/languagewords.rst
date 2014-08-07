@@ -14,9 +14,9 @@ Table structure
 +------+--------------+--------------------+-----------+--------------------------+
 | ID   | Name         | Type               | Default   | Description              |
 +======+==============+====================+===========+==========================+
-| 1    | ID           | Integer (signed)   | -         | Unique ID                |
+| 1    | ID           | Integer            | -         | Unique ID                |
 +------+--------------+--------------------+-----------+--------------------------+
-| 2    | languageID   | Integer (signed)   | 0         | The language used.       |
+| 2    | language     | Integer            | 0         | The language used.       |
 +------+--------------+--------------------+-----------+--------------------------+
 | 3    | word         | String             | -         | The language syllable.   |
 +------+--------------+--------------------+-----------+--------------------------+
@@ -24,4 +24,4 @@ Table structure
 Relations
 ---------
 
--  ``languageID`` references the primary key of ``Languages.dbc``.
+-  ``language`` references the primary key of ``Languages.dbc``.

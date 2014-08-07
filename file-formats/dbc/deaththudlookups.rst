@@ -13,15 +13,15 @@ Table structure
 +------+---------------------+---------------------+-----------+-----------------------+
 | ID   | Name                | Type                | Default   | Description           |
 +======+=====================+=====================+===========+=======================+
-| 1    | ID                  | Integer (signed),   | -         | Unique ID             |
+| 1    | ID                  | Integer             | -         | Unique ID             |
 +------+---------------------+---------------------+-----------+-----------------------+
-| 2    | sizeClass           | Integer,            | 0         | See below.            |
+| 2    | sizeClass           | Integer (signed)    | 0         | See below.            |
 +------+---------------------+---------------------+-----------+-----------------------+
-| 3    | terrainTypeID       | Integer (signed),   | 0         | Type of terrain.      |
+| 3    | terrainType         | Integer             | 0         | Type of terrain.      |
 +------+---------------------+---------------------+-----------+-----------------------+
-| 4    | soundEntryID        | Integer (signed),   | 0         | Dirt sound effect.    |
+| 4    | soundEntry          | Integer             | 0         | Dirt sound effect.    |
 +------+---------------------+---------------------+-----------+-----------------------+
-| 5    | soundEntryIDWater   | Integer (signed),   | 0         | Water sound effect.   |
+| 5    | soundEntryWater     | Integer             | 0         | Water sound effect.   |
 +------+---------------------+---------------------+-----------+-----------------------+
 
 Fields
@@ -39,6 +39,5 @@ sizeClass
 Relations
 ---------
 
--  ``terrainTypeID`` references the primary key of ``TerrainType.dbc``.
--  ``soundEntryID`` and ``soundEntryIDWater`` reference the primary key
-   of ``SoundEntries.dbc``.
+-  ``terrainType`` references the primary key of ``TerrainType.dbc``.
+-  ``soundEntry`` and ``soundEntryWater`` reference the primary key of ``SoundEntries.dbc``.

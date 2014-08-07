@@ -13,13 +13,13 @@ Table structure
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
 | ID   | Name            | Type                 | Default   | Description                                            |
 +======+=================+======================+===========+========================================================+
-| 1    | ID              | Integer (signed)     | -         | Unique ID                                              |
+| 1    | ID              | Integer              | -         | Unique ID                                              |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
-| 2    | field2          | Integer              | 1         | **TODO**. Value is 1 for all classes.                  |
+| 2    | field2          | Integer (signed)     | 1         | **TODO**. Value is 1 for all classes.                  |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
-| 3    | field3          | Integer              | 0         | **TODO**. Value is 1 only for Hunters and Rogues.      |
+| 3    | field3          | Integer (signed)     | 0         | **TODO**. Value is 1 only for Hunters and Rogues.      |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
-| 4    | powerType       | Integer              | 0         | See below.                                             |
+| 4    | powerType       | Integer (signed)     | 0         | See below.                                             |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
 | 5    | petNameToken    | String               | -         | Token for the type of pet available to the class.      |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
@@ -27,9 +27,9 @@ Table structure
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
 | 7    | fileName        | String               | -         | File name used to reference the class in data files.   |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
-| 8    | classMask       | Integer              | 0         | A class mask used e.g. as reference from spells.       |
+| 8    | classMask       | Integer (signed)     | 0         | A class mask used e.g. as reference from spells.       |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
-| 9    | isHybridClass   | Integer              | 0         | See below.                                             |
+| 9    | isHybridClass   | Integer (signed)     | 0         | See below.                                             |
 +------+-----------------+----------------------+-----------+--------------------------------------------------------+
 
 Fields
@@ -49,3 +49,8 @@ isHybridClass
 
 -  ``0``: no hybrid class,
 -  ``1``: hybrid class.
+
+classMask
+~~~~~~~~~
+
+Seems to be primarily used when assigning spells to classes.

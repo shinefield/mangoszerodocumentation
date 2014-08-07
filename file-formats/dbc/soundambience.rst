@@ -13,15 +13,14 @@ Table structure
 +------+---------------------+--------------------+-----------+---------------------------------+
 | ID   | Name                | Type               | Default   | Description                     |
 +======+=====================+====================+===========+=================================+
-| 1    | ID                  | Integer (signed)   | -         | Unique ID                       |
+| 1    | ID                  | Integer            | -         | Unique ID                       |
 +------+---------------------+--------------------+-----------+---------------------------------+
-| 2    | daySoundEntryID     | Integer (signed)   | 0         | Sound ambience for the day.     |
+| 2    | daySoundEntry       | Integer            | 0         | Sound ambience for the day.     |
 +------+---------------------+--------------------+-----------+---------------------------------+
-| 3    | nightSoundEntryID   | Integer (signed)   | 0         | Ambience sound for the night.   |
+| 3    | nightSoundEntry     | Integer            | 0         | Ambience sound for the night.   |
 +------+---------------------+--------------------+-----------+---------------------------------+
 
 Relations
 ---------
 
--  ``daySoundEntryID`` and ``nightSoundEntryID`` reference the primary
-   key of ``SoundEntries.dbc``.
+-  ``daySoundEntry`` and ``nightSoundEntry`` reference the primary key of ``SoundEntries.dbc``.

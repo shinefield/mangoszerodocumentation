@@ -13,13 +13,13 @@ Table structure
 +------+------------------------+--------------------+-----------+---------------------+
 | ID   | Name                   | Type               | Default   | Description         |
 +======+========================+====================+===========+=====================+
-| 1    | ID                     | Integer (signed)   | -         | Unique ID           |
+| 1    | ID                     | Integer            | -         | Unique ID           |
 +------+------------------------+--------------------+-----------+---------------------+
-| 2    | realmType              | Integer            | 0         | Type of the realm   |
+| 2    | realmType              | Integer (signed)   | 0         | Type of the realm   |
 +------+------------------------+--------------------+-----------+---------------------+
-| 3    | playerKillingAllowed   | Integer            | 0         | See below.          |
+| 3    | playerKillingAllowed   | Integer (signed)   | 0         | See below.          |
 +------+------------------------+--------------------+-----------+---------------------+
-| 4    | roleplaying            | Integer            | 0         | See below.          |
+| 4    | roleplaying            | Integer (signed)   | 0         | See below.          |
 +------+------------------------+--------------------+-----------+---------------------+
 
 Fields

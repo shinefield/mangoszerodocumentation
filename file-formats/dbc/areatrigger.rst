@@ -13,9 +13,9 @@ Table structure
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
 | ID   | Name        | Type               | Default   | Description                                         |
 +======+=============+====================+===========+=====================================================+
-| 1    | ID          | Integer (signed)   | -         | Unique ID                                           |
+| 1    | ID          | Integer            | -         | Unique ID                                           |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
-| 2    | mapID       | Integer (signed)   | 0         | The map on which the area is located.               |
+| 2    | map         | Integer            | 0         | The map on which the area is located.               |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
 | 3    | locationX   | Float              | 0         | X coordinate for the trigger.                       |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
@@ -25,16 +25,16 @@ Table structure
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
 | 6    | radius      | Float              | 0         | Box size of the area trigger.                       |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
-| 7    | boxLength   | Integer            | 0         | Length of the box if no radius is specified.        |
+| 7    | boxLength   | Float              | 0         | Length of the box if no radius is specified.        |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
-| 8    | boxWidth    | Integer            | 0         | Width of the box if no radius is specified.         |
+| 8    | boxWidth    | Float              | 0         | Width of the box if no radius is specified.         |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
-| 9    | boxHeight   | Integer            | 0         | Height of the box if no radius is specified.        |
+| 9    | boxHeight   | Float              | 0         | Height of the box if no radius is specified.        |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
-| 10   | boxYaw      | Integer            | 0         | Orientation of the box if no radius is specified.   |
+| 10   | boxYaw      | Float              | 0         | Orientation of the box if no radius is specified.   |
 +------+-------------+--------------------+-----------+-----------------------------------------------------+
 
 Relations
 ---------
 
--  ``mapID`` references the primary key of ``Map.dbc``.
+-  ``map`` references the primary key of ``Map.dbc``.

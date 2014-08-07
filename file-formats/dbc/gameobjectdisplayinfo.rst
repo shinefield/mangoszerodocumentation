@@ -13,33 +13,32 @@ Table structure
 +------+------------------+--------------------+-----------+----------------------------------------------+
 | ID   | Name             | Type               | Default   | Description                                  |
 +======+==================+====================+===========+==============================================+
-| 1    | ID               | Integer (signed)   | -         | Unique ID                                    |
+| 1    | ID               | Integer            | -         | Unique ID                                    |
 +------+------------------+--------------------+-----------+----------------------------------------------+
 | 2    | modelName        | String             | -         | The path to the model for the game object.   |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 3    | soundEntryID1    | Integer (signed)   | 0         | A sound for the state *STAND*.               |
+| 3    | soundEntry1      | Integer            | 0         | A sound for the state *STAND*.               |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 4    | soundEntryID2    | Integer (signed)   | 0         | A sound for the state *OPEN*.                |
+| 4    | soundEntry2      | Integer            | 0         | A sound for the state *OPEN*.                |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 5    | soundEntryID3    | Integer (signed)   | 0         | A sound for the state *LOOP*.                |
+| 5    | soundEntry3      | Integer            | 0         | A sound for the state *LOOP*.                |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 6    | soundEntryID4    | Integer (signed)   | 0         | A sound for the state *CLOSE*.               |
+| 6    | soundEntry4      | Integer            | 0         | A sound for the state *CLOSE*.               |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 7    | soundEntryID5    | Integer (signed)   | 0         | A sound for the state *DESTROY*.             |
+| 7    | soundEntry5      | Integer            | 0         | A sound for the state *DESTROY*.             |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 8    | soundEntryID6    | Integer (signed)   | 0         | A sound for the state *OPENED*.              |
+| 8    | soundEntry6      | Integer            | 0         | A sound for the state *OPENED*.              |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 9    | soundEntryID7    | Integer (signed)   | 0         | A sound for the state *CUSTOM0*.             |
+| 9    | soundEntry7      | Integer            | 0         | A sound for the state *CUSTOM0*.             |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 10   | soundEntryID8    | Integer (signed)   | 0         | A sound for the state *CUSTOM1*.             |
+| 10   | soundEntry8      | Integer            | 0         | A sound for the state *CUSTOM1*.             |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 11   | soundEntryID9    | Integer (signed)   | 0         | A sound for the state *CUSTOM2*.             |
+| 11   | soundEntry9      | Integer            | 0         | A sound for the state *CUSTOM2*.             |
 +------+------------------+--------------------+-----------+----------------------------------------------+
-| 12   | soundEntryID10   | Integer (signed)   | 0         | A sound for the state *CUSTOM3*.             |
+| 12   | soundEntry10     | Integer            | 0         | A sound for the state *CUSTOM3*.             |
 +------+------------------+--------------------+-----------+----------------------------------------------+
 
 Relations
 ---------
 
--  ``soundEntryID[1-10]`` reference the primary key of
-   ``SoundEntries.dbc``.
+-  ``soundEntry[1-10]`` reference the primary key of ``SoundEntries.dbc``.

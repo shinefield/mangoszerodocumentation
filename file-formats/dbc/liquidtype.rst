@@ -13,13 +13,13 @@ Table structure
 +------+-----------+---------------------+-----------+------------------------------------------------------------------------------+
 | ID   | Name      | Type                | Default   | Description                                                                  |
 +======+===========+=====================+===========+==============================================================================+
-| 1    | ID        | Integer (signed),   | -         | Unique ID                                                                    |
+| 1    | ID        | Integer             | -         | Unique ID                                                                    |
 +------+-----------+---------------------+-----------+------------------------------------------------------------------------------+
-| 2    | name      | String,             | -         | The name of the liquid type.                                                 |
+| 2    | name      | String              | -         | The name of the liquid type.                                                 |
 +------+-----------+---------------------+-----------+------------------------------------------------------------------------------+
-| 3    | type      | Integer,            | 0         | See below.                                                                   |
+| 3    | type      | Integer (signed)    | 0         | See below.                                                                   |
 +------+-----------+---------------------+-----------+------------------------------------------------------------------------------+
-| 4    | spellID   | Integer (signed),   | 0         | The spell to be cast when a character is on contact with this liquid type.   |
+| 4    | spell     | Integer             | 0         | The spell to be cast when a character is on contact with this liquid type.   |
 +------+-----------+---------------------+-----------+------------------------------------------------------------------------------+
 
 Fields
@@ -35,7 +35,7 @@ type
 Relations
 ---------
 
--  ``spellID`` references the primary key of ``Spell.dbc``.
+-  ``spell`` references the primary key of ``Spell.dbc``.
 
 Notes
 -----
