@@ -10,6 +10,7 @@ of **mangos-zero**.
 .. toctree::
    :hidden:
 
+   roadmap
    code/index
    build-system/index
    documentation/index
