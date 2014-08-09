@@ -23,11 +23,11 @@ Table structure
 +------+-----------------------+----------------------+-----------+------------------------------------------+
 | 5    | happinessThreshold3   | Integer (signed)     | 0         | Level for pet being happy.               |
 +------+-----------------------+----------------------+-----------+------------------------------------------+
-| 6    | happinessDamage1      | Float                | 0         | Damage modifier for pet being unhappy.   |
+| 6    | happinessDamage1      | Float                | 0         | Damage for pet being unhappy.            |
 +------+-----------------------+----------------------+-----------+------------------------------------------+
-| 7    | happinessDamage2      | Float                | 0         | Damage modifier for pet being content.   |
+| 7    | happinessDamage2      | Float                | 0         | Damage for pet being content.            |
 +------+-----------------------+----------------------+-----------+------------------------------------------+
-| 8    | happinessDamage3      | Float                | 0         | Damage modifier for pet being happy.     |
+| 8    | happinessDamage3      | Float                | 0         | Damage for pet being happy.              |
 +------+-----------------------+----------------------+-----------+------------------------------------------+
 | 9    | damageModifier1       | Float                | 0         | Damage modifier for pet being unhappy.   |
 +------+-----------------------+----------------------+-----------+------------------------------------------+

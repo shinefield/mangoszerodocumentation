@@ -25,3 +25,5 @@ Table structure
 
 Relations
 ---------
+
+-  ``spellIcon`` references the primary key of ``SpellIcon.dbc``.

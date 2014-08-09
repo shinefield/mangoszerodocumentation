@@ -17,7 +17,7 @@ Table structure
 +------+------------------+----------------------+-----------+---------------+
 | 2    | map              | Integer              | 0         | **TODO**      |
 +------+------------------+----------------------+-----------+---------------+
-| 3    | area             | Integer              | 0         | **TODO**      |
+| 3    | areaTable        | Integer              | 0         | **TODO**      |
 +------+------------------+----------------------+-----------+---------------+
 | 4    | icon             | String               | -         | **TODO**      |
 +------+------------------+----------------------+-----------+---------------+
@@ -48,4 +48,4 @@ Relations
 ---------
 
 -  ``map`` references the primary key of ``Map.dbc``.
--  ``area`` references the primary key of ``AreaTable.dbc``.
+-  ``areaTable`` references the primary key of ``AreaTable.dbc``.

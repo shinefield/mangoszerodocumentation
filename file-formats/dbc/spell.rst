@@ -36,7 +36,7 @@ Table structure
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
 | 12    | shapeshiftMask              | Integer (signed)     | 0         | References **TODO**                                                              |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
-| 13    | shapeshiftexclude           | Integer (signed)     | 0         | References **TODO**                                                              |
+| 13    | shapeshiftExclude           | Integer (signed)     | 0         | References **TODO**                                                              |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
 | 14    | targets                     | Integer (signed)     | 0         | See below.                                                                       |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
@@ -240,13 +240,13 @@ Table structure
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
 | 114   | effectPointsPerCombo3       | Float                | 0         | **TODO**                                                                         |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
-| 115   | spellVisualID1              | Integer (signed)     | 0         | References **TODO**                                                              |
+| 115   | spellVisual1                | Integer (signed)     | 0         | References **TODO**                                                              |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
-| 116   | spellVisualID2              | Integer (signed)     | 0         | References **TODO**                                                              |
+| 116   | spellVisual2                | Integer (signed)     | 0         | References **TODO**                                                              |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
-| 117   | spellIconID                 | Integer (signed)     | 0         | References **TODO**                                                              |
+| 117   | spellIcon                   | Integer (signed)     | 0         | References **TODO**                                                              |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
-| 118   | activeIconID                | Integer (signed)     | 0         | References **TODO**                                                              |
+| 118   | activeIcon                  | Integer (signed)     | 0         | References **TODO**                                                              |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
 | 119   | spellPriority               | Integer (signed)     | 0         | **TODO**                                                                         |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
@@ -286,7 +286,7 @@ Table structure
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
 | 137   | DamageMultiplier3           | Float                | 0         | **TODO**                                                                         |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
-| 138   | minFactionId                | Integer (signed)     | 0         | **TODO**                                                                         |
+| 138   | minFaction                  | Integer (signed)     | 0         | **TODO**                                                                         |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
 | 139   | minReputation               | Integer (signed)     | 0         | **TODO**                                                                         |
 +-------+-----------------------------+----------------------+-----------+----------------------------------------------------------------------------------+
@@ -326,7 +326,7 @@ Relations
 -  ``dispelType`` references the primary key of ``SpellDispelType.dbc``.
 -  ``durationIndex`` references the primary key of ``SpellDuration.dbc``.
 -  ``requiresSpellFocus`` references the primary key of ``SpellFocusObject.dbc``.
--  ``referenceID`` references the primary key of ``SpellIcon.dbc``.
+-  ``spellIcon`` references the primary key of ``SpellIcon.dbc``.
 -  ``effectMiscValue1``, ``effectMiscValue2`` and ``effectMiscValue3``
    reference the primary key of ``SpellItemEnchantment.dbc``.
 -  ``mechanic``, ``effectMechanic1``, ``effectMechanic2`` and
@@ -336,4 +336,4 @@ Relations
 -  ``rangeIndex`` references the primary key of ``SpellRange.dbc``.
 -  ``shapeshiftMask`` and ``shapeshiftexclude`` reference the primary
    key of ``SpellShapeshiftForm.dbc``.
--  ``spellVisualID1`` and ``spellVisualID2`` reference the primary key of ``SpellVisual.dbc``.
+-  ``spellVisual1`` and ``spellVisual2`` reference the primary key of ``SpellVisual.dbc``.

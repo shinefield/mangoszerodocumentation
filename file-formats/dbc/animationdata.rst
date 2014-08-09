@@ -25,7 +25,7 @@ Table structure
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
 | 6    | fallback      | Integer            | 0         | The animation to return to after this animation is finished.   |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
-| 7    | behaviour     | Integer            | 0         | The preceding animation.                                       |
+| 7    | behavior      | Integer            | 0         | The preceding animation.                                       |
 +------+---------------+--------------------+-----------+----------------------------------------------------------------+
 
 Fields
@@ -55,4 +55,4 @@ Relations
 ---------
 
 -  ``fallback`` references the primary key of ``AnimationData.dbc``.
--  ``behaviour`` references the primary key of ``AnimationData.dbc``.
+-  ``behavior`` references the primary key of ``AnimationData.dbc``.

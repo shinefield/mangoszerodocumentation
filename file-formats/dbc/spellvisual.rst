@@ -45,3 +45,7 @@ Table structure
 
 Relations
 ---------
+-  ``precastKit``, ``castKit``, ``impactKit``, ``stateKit``, ``stateDoneKit``,
+   ``channelKit``, ``casterImpactKit`` and ``targetImpactKit`` reference the primary
+   key of ``SpellVisualKit.dbc``.
+-  ``missileSound`` and ``animEventSound`` reference the primary key of ``SoundEntries.dbc``.

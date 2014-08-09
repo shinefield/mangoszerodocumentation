@@ -15,67 +15,67 @@ Table structure
 +======+===========+====================+===========+=======================================+
 | 1    | ID        | Integer            | -         | Unique ID                             |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 2    | cost1     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 2    | cost1     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 3    | cost2     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 3    | cost2     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 4    | cost3     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 4    | cost3     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 5    | cost4     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 5    | cost4     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 6    | cost5     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 6    | cost5     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 7    | cost6     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 7    | cost6     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 8    | cost7     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 8    | cost7     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 9    | cost8     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 9    | cost8     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 10   | cost9     | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 10   | cost9     | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 11   | cost10    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 11   | cost10    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 12   | cost11    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 12   | cost11    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 13   | cost12    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 13   | cost12    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 14   | cost13    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 14   | cost13    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 15   | cost14    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 15   | cost14    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 16   | cost15    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 16   | cost15    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 17   | cost16    | Integer (signed)   | 0         | Price in copper for the skill tier.   |
+| 17   | cost16    | Integer (signed)   | 0         | Price in copper for the tier.         |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 18   | value1    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 18   | value1    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 19   | value2    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 19   | value2    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 20   | value3    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 20   | value3    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 21   | value4    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 21   | value4    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 22   | value5    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 22   | value5    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 23   | value6    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 23   | value6    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 24   | value7    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 24   | value7    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 25   | value8    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 25   | value8    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 26   | value9    | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 26   | value9    | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 27   | value10   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 27   | value10   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 28   | value11   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 28   | value11   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 29   | value12   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 29   | value12   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 30   | value13   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 30   | value13   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 31   | value14   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 31   | value14   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 32   | value15   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 32   | value15   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+
-| 33   | value16   | Integer (signed)   | 0         | Skill rank for the skill tier.        |
+| 33   | value16   | Integer (signed)   | 0         | Skill rank of the tier.               |
 +------+-----------+--------------------+-----------+---------------------------------------+

@@ -34,11 +34,11 @@ Table structure
 +------+---------------------+--------------------+-----------+---------------+
 | 12   | rightWeaponEffect   | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 13   | specialEffect       | Integer (signed)   | 0         | **TODO**      |
+| 13   | specialEffect1      | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 14   | specialEffect       | Integer (signed)   | 0         | **TODO**      |
+| 14   | specialEffect2      | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 15   | specialEffect       | Integer (signed)   | 0         | **TODO**      |
+| 15   | specialEffect3      | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
 | 16   | worldEffect         | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
@@ -46,40 +46,48 @@ Table structure
 +------+---------------------+--------------------+-----------+---------------+
 | 18   | shake               | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 19   | charProc            | Float              | 0         | **TODO**      |
+| 19   | charProc1           | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 20   | charProc            | Float              | 0         | **TODO**      |
+| 20   | charProc2           | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 21   | charProc            | Float              | 0         | **TODO**      |
+| 21   | charProc3           | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 22   | charProc            | Float              | 0         | **TODO**      |
+| 22   | charProc4           | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 23   | charParamZero       | Float              | 0         | **TODO**      |
+| 23   | charParamZero1      | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 24   | charParamZero       | Float              | 0         | **TODO**      |
+| 24   | charParamZero2      | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 25   | charParamZero       | Float              | 0         | **TODO**      |
+| 25   | charParamZero3      | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 26   | charParamZero       | Float              | 0         | **TODO**      |
+| 26   | charParamZero4      | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 27   | charParamOne        | Float              | 0         | **TODO**      |
+| 27   | charParamOne1       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 28   | charParamOne        | Float              | 0         | **TODO**      |
+| 28   | charParamOne2       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 29   | charParamOne        | Float              | 0         | **TODO**      |
+| 29   | charParamOne3       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 30   | charParamOne        | Float              | 0         | **TODO**      |
+| 30   | charParamOne4       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 31   | charParamTwo        | Float              | 0         | **TODO**      |
+| 31   | charParamTwo1       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 32   | charParamTwo        | Float              | 0         | **TODO**      |
+| 32   | charParamTwo2       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 33   | charParamTwo        | Float              | 0         | **TODO**      |
+| 33   | charParamTwo3       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
-| 34   | charParamTwo        | Float              | 0         | **TODO**      |
+| 34   | charParamTwo4       | Float              | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
 | 35   | flags               | Integer (signed)   | 0         | **TODO**      |
 +------+---------------------+--------------------+-----------+---------------+
 
 Relations
 ---------
+-  ``startAnim`` and ``anim`` reference the primary key of ``AnimationData.dbc``.
+-  ``animKit`` references the primary key of ``AttackAnimKit.dbc``.
+-  ``headEffect``, ``chestEffect``, ``baseEffect``, ``leftHandEffect``,
+   ``rightHandEffect``, ``breathEffect``, ``leftWeaponEffect``, ``rightWeaponEffect``,
+   ``specialEffect1``, ``specialEffect2``, ``specialEffect3`` and``worldEffect``
+   reference the primary key of ``SpellVisualEffectName.dbc``.
+-  ``sound`` references the primary key of ``SoundEntries.dbc``.
+-  ``shake`` references the primary key of ``CameraShakes.dbc``.
