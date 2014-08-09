@@ -600,7 +600,7 @@ Setting this value to a value smaller or larger than ``1`` will modify
 the creature template's health by this factor.
 
 PowerMultiplier
---------------
+---------------
 
 Setting this value to a value smaller or larger than ``1`` will modify
 the creature template's power by this factor.
