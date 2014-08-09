@@ -39,7 +39,7 @@ Table structure
 +--------------------------+-------------------------+--------+-------+-----------+---------+
 | InhabitType              | tinyint(3) unsigned     | NO     |       | 3         |         |
 +--------------------------+-------------------------+--------+-------+-----------+---------+
-| RegenerateHealth         | tinyint(3) unsigned     | NO     |       | 1         |         |
+| RegenerateStats          | tinyint(3) unsigned     | NO     |       | 3         |         |
 +--------------------------+-------------------------+--------+-------+-----------+---------+
 | RacialLeader             | tinyint(3) unsigned     | NO     |       | 0         |         |
 +--------------------------+-------------------------+--------+-------+-----------+---------+
@@ -63,7 +63,7 @@ Table structure
 +--------------------------+-------------------------+--------+-------+-----------+---------+
 | HealthMultiplier         | float                   | NO     |       | 1         |         |
 +--------------------------+-------------------------+--------+-------+-----------+---------+
-| ManaMultiplier           | float                   | NO     |       | 1         |         |
+| PowerMultiplier          | float                   | NO     |       | 1         |         |
 +--------------------------+-------------------------+--------+-------+-----------+---------+
 | DamageMultiplier         | float                   | NO     |       | 1         |         |
 +--------------------------+-------------------------+--------+-------+-----------+---------+
@@ -322,7 +322,7 @@ also influences when a creature will rest.
 | 4       | Air movement                |
 +---------+-----------------------------+
 
-RegenerateHealth
+RegenerateStats
 ----------------
 
 Controls if a creature template should regenerate it's health or not.
@@ -332,7 +332,9 @@ Controls if a creature template should regenerate it's health or not.
 +=========+===================+
 | 0       | No regeneration   |
 +---------+-------------------+
-| 1       | Regenerate        |
+| 1       | Regenerate health |
++---------+-------------------+
+| 2       | Regenerate power  |
 +---------+-------------------+
 
 RacialLeader
@@ -597,11 +599,11 @@ HealthMultiplier
 Setting this value to a value smaller or larger than ``1`` will modify
 the creature template's health by this factor.
 
-ManaMultiplier
+PowerMultiplier
 --------------
 
 Setting this value to a value smaller or larger than ``1`` will modify
-the creature template's mana by this factor.
+the creature template's power by this factor.
 
 DamageMultiplier
 ----------------
