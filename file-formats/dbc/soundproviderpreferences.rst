@@ -4,8 +4,7 @@
 SoundProviderPreferences.dbc
 ============================
 
-The sound provider preferences table contains definitions for
-`fmod <http://www.fmod.org/>`__ properties.
+The sound provider preferences table contains definitions for `fmod`_ properties.
 
 Table structure
 ---------------
@@ -61,3 +60,5 @@ Table structure
 +------+----------------------------+--------------------+-----------+---------------+
 | 24   | EAX3LFReference            | Float              | 0         | **TODO**      |
 +------+----------------------------+--------------------+-----------+---------------+
+
+.. _fmod:   http://www.fmod.org/
