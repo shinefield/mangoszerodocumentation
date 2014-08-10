@@ -32,7 +32,7 @@ entry
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 effectId
 --------
@@ -45,5 +45,5 @@ SpellFamilyMask
 ---------------
 
 A spell class identifier. The value has to match with a spell class
-identifier from `Spell.dbc <../dbc/Spell.dbc>`__, and references the
+identifier from :doc:`../../file-formats/dbc/spell`, and references the
 ``spellClassSet`` field in that file.

@@ -37,8 +37,7 @@ raceMask
 --------
 
 A bit-mask corresponding to races that should get the mail. The value
-has to match with races defined in
-`ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+has to match with races defined in :doc:`../../file-formats/dbc/chrraces`.
 
 quest
 -----
@@ -50,7 +49,7 @@ mailTemplateId
 --------------
 
 This references an entry from the
-`MailTemplate.dbc <../dbc/MailTemplate.dbc>`__ table.
+:doc:`../../file-formats/dbc/mailtemplate` table.
 
 senderEntry
 -----------

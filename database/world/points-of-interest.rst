@@ -50,7 +50,7 @@ icon
 ----
 
 The icon to be used for this point of interest. This references an icon
-entry from `SpellIcon.dbc <../dbc/SpellIcon.dbc>`__
+entry from :doc:`../../file-formats/dbc/spellicon`.
 
 flags
 -----

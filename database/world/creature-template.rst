@@ -204,7 +204,7 @@ FactionAlliance
 
 A faction for creatures on the Alliance side. The value has to match
 with a faction template identifier defined in
-`FactionTemplate.dbc <../dbc/FactionTemplate.dbc>`__.
+:doc:`../../file-formats/dbc/factiontemplate`.
 
 .. note::
 
@@ -216,7 +216,7 @@ FactionHorde
 
 A faction for creatures on the Horde side. The value has to match with a
 faction template identifier defined in
-`FactionTemplate.dbc <../dbc/FactionTemplate.dbc>`__.
+:doc:`../../file-formats/dbc/factiontemplate`.
 
 .. note::
 
@@ -228,7 +228,7 @@ Scale
 
 If non-zero, this field defines how the size of the model appears in
 game. If zero, it will use default model size taken from
-`CreatureDisplayInfo.dbc <../dbc/CreatureDisplayInfo.dbc>`__.
+:doc:`../../file-formats/dbc/creaturedisplayinfo`.
 
 Family
 ------
@@ -275,8 +275,7 @@ CreatureType
 ------------
 
 The type of the creature. The following table provides a list of valid
-values. The values are taken from
-`CreatureType.dbc <../dbc/CreatureType.dbc>`__.
+values. The values are taken from :doc:`../../file-formats/dbc/creaturetype`.
 
 +---------+-----------------+
 | Value   | Name            |
@@ -838,7 +837,7 @@ Multiple immunities can be combined.
 .. note::
 
     In theory this should somehow relate to
-    `SpellMechanic.dbc <../dbc/SpellMechanic.dbc>`__ and the immunities list
+    :doc:`../../file-formats/dbc/spellmechanic` and the immunities list
     there, but it does not match. **TODO**
 
 ResistanceHoly
@@ -915,7 +914,7 @@ TrainerSpell
 ------------
 
 If set to a valid spell identifier from
-`Spell.dbc <../dbc/Spell.dbc>`__, this will restrict access to a
+:doc:`../../file-formats/dbc/spell`, this will restrict access to a
 profession trainer so that the player needs to already have access to
 the spell to access the trainer.
 
@@ -924,7 +923,7 @@ TrainerClass
 
 The value of this field will restrict access to class and/or pet
 trainers, if set to a value corresponding with the class identifiers
-from `ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+from :doc:`../../file-formats/dbc/chrclasses`.
 
 +---------+---------------+
 | Value   | Description   |
@@ -958,7 +957,7 @@ TrainerRace
 This field allows to restrict a riding trainer to a specific race.
 Players not from that race will require exalted reputation with the
 trainers race before being able to buy from him. Values in this field
-correspond with the content of `ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+correspond with the content of :doc:`../../file-formats/dbc/chrraces`.
 
 TrainerTemplateId
 -----------------

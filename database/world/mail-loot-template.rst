@@ -34,8 +34,7 @@ Fields
 entry
 -----
 
-This references an entry from the
-`MailTemplate.dbc <../dbc/MailTemplate.dbc>`__ table.
+This references an entry from the :doc:`../../file-formats/dbc/mailtemplate` table.
 
 item
 ----

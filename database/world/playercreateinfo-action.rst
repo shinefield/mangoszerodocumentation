@@ -32,15 +32,13 @@ race
 ----
 
 A bit-mask corresponding to races that should get the spell. The value
-has to match with races defined in
-`ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+has to match with races defined in :doc:`../../file-formats/dbc/chrraces`.
 
 class
 -----
 
 A bit-mask corresponding to class that should get the spell. The value
-has to match with classes defined in
-`ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+has to match with classes defined in :doc:`../../file-formats/dbc/chrclasses`.
 
 button
 ------
@@ -76,8 +74,8 @@ other similar special modes.
 action
 ------
 
-Depending on the type value, this could reference either a spell
-identifier as defined in ``Spell.dbc``, a reference to the unique
+Depending on the type value, this could reference either a spell identifier as
+defined in :doc:`../../file-formats/dbc/spell`, a reference to the unique
 identifier of an `item\_template <item_template>`__, or the identifier
 for a macro.
 

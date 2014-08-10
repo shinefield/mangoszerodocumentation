@@ -35,7 +35,7 @@ entry
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This is the spell cast by
+defined in :doc:`../../file-formats/dbc/spell`. This is the spell cast by
 the potion use.
 
 mask

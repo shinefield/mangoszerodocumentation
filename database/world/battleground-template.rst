@@ -67,26 +67,26 @@ MaxPlayersPerTeam
 
 This field defines the maximum number of characters allowed to join from
 each faction in order to start a battle. If set to ``0``, the server
-will use the value from `Map.dbc <../dbc/Map.dbc>`__.
+will use the value from :doc:`../../file-formats/dbc/map`.
 
 MinLvl
 ------
 
 The minimum level required to enter the battleground. If set to ``0``,
-the server will use the value from `Map.dbc <../dbc/Map.dbc>`__.
+the server will use the value from :doc:`../../file-formats/dbc/map`.
 
 MaxLvl
 ------
 
 The maximum level allowed to enter the battleground. If set to ``0``,
-the server will use the value from `Map.dbc <../dbc/Map.dbc>`__.
+the server will use the value from :doc:`../../file-formats/dbc/map`.
 
 AllianceStartLoc
 ----------------
 
 The location where Alliance characters initially will spawn. This
 references a safe location value from
-`WorldSafeLocs.dbc <WorldSafeLocs.dbc>`__.
+:doc:`../../file-formats/dbc/worldsafelocs`.
 
 AllianceStartO
 --------------
@@ -100,7 +100,7 @@ HordeStartLoc
 
 The location where Horde characters initially will spawn. This
 references a safe location value from
-`WorldSafeLocs.dbc <WorldSafeLocs.dbc>`__.
+:doc:`../../file-formats/dbc/worldsafelocs`.
 
 HordeStartO
 -----------

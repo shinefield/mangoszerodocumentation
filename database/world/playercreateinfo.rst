@@ -37,27 +37,26 @@ race
 ----
 
 A bit-mask corresponding to races that should get the spell. The value
-has to match with races defined in
-`ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+has to match with races defined in :doc:`../../file-formats/dbc/chrraces`.
 
 class
 -----
 
 A bit-mask corresponding to class that should get the spell. The value
 has to match with classes defined in
-`ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+:doc:`../../file-formats/dbc/chrclasses`.
 
 map
 ---
 
 A map identifier. The value has to match with a map identifier defined
-in `Map.dbc <../dbc/Map.dbc>`__.
+in :doc:`../../file-formats/dbc/map`.
 
 zone
 ----
 
 A zone identifier. The value has to match with a map identifier defined
-in `AreaTable.dbc <../dbc/AreaTable.dbc>`__.
+in :doc:`../../file-formats/dbc/areatable`.
 
 position\_x
 -----------

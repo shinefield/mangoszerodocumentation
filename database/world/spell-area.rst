@@ -41,13 +41,13 @@ spell
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 area
 ----
 
 An areatrigger identifier. The value has to match with a areatrigger
-identifier defined in `AreaTrigger.dbc <../dbc/AreaTrigger.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/areatrigger`.
 
 quest\_start
 ------------
@@ -82,7 +82,7 @@ aura\_spell
 -----------
 
 The aura spell identifier. The value has to match with a spell
-identifier defined in `Spell.dbc <../dbc/Spell.dbc>`__. If set to a with
+identifier defined in :doc:`../../file-formats/dbc/spell`. If set to a with
 a positive value, characters *must* have this aura to activate the
 spell, if set to the spell identifier with a negative sign, characters
 *must not* have the aura.
@@ -91,8 +91,7 @@ racemask
 --------
 
 A bit-mask corresponding to races that should get the spell. The value
-has to match with races defined in
-`ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+has to match with races defined in :doc:`../../file-formats/dbc/chrraces`.
 
 gender
 ------

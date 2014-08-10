@@ -33,8 +33,8 @@ ench
 ----
 
 The actual enchantment which should be applied to the item. This
-references an entry in the
-`ItemRandomProperties.dbc <../dbc/ItemRandomProperties.dbc>`__ table.
+references an entry in the :doc:`../../file-formats/dbc/itemrandomproperties`
+table.
 
 chance
 ------

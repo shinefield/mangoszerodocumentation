@@ -37,22 +37,22 @@ spell1
 ------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 spell2
 ------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 spell3
 ------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 spell4
 ------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.

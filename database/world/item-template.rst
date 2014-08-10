@@ -439,8 +439,7 @@ displayid
 ---------
 
 A display model identifier. The value has to match with a model
-identifier defined in
-`ItemDisplayInfo.dbc <../dbc/ItemDisplayInfo.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/itemdisplayinfo`.
 
 Quality
 -------
@@ -574,7 +573,7 @@ AllowableClass
 
 A bit-mask corresponding to class that should be able to use the item.
 The value has to match with classes defined in
-`ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+:doc:`../../file-formats/dbc/chrclasses`.
 
 .. note::
 
@@ -585,7 +584,7 @@ AllowableRace
 
 A bit-mask corresponding to races that should be able to use the item.
 The value has to match with races defined in
-`ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+:doc:`../../file-formats/dbc/chrraces`.
 
 .. note::
 
@@ -605,7 +604,7 @@ RequiredSkill
 -------------
 
 If the item requires a skill to use, this references the skill's entry
-in `SkillLine.dbc <../dbc/SkillLine.dbc>`__.
+in :doc:`../../file-formats/dbc/skillline`.
 
 RequiredSkillRank
 -----------------
@@ -617,7 +616,7 @@ requiredspell
 -------------
 
 If the item requires a spell to use, this references the spells entry in
-`Spell.dbc <../dbc/Spell.dbc>`__.
+:doc:`../../file-formats/dbc/spell`.
 
 requiredhonorrank
 -----------------
@@ -670,7 +669,7 @@ RequiredReputationFaction
 
 A faction for which reputation is required to use the item. The value
 has to match with a faction identifier defined in
-`Faction.dbc <../dbc/Faction.dbc>`__.
+:doc:`../../file-formats/dbc/faction`.
 
 RequiredReputationRank
 ----------------------
@@ -838,7 +837,7 @@ spellid\_[1-5]
 --------------
 
 If the item can cast or trigger a spell, this references the spell's
-entry in `Spell.dbc <../dbc/Spell.dbc>`__.
+entry in :doc:`../../file-formats/dbc/spell`.
 
 spelltrigger\_[1-5]
 -------------------
@@ -882,20 +881,20 @@ spellcooldown\_[1-5]
 --------------------
 
 The cooldown in milliseconds for the matching spell. If set to ``-1``,
-the default cooldown from the `Spell.dbc <../dbc/Spell.dbc>`__ table
+the default cooldown from the :doc:`../../file-formats/dbc/spell` table
 will be used.
 
 spellcategory\_[1-5]
 --------------------
 
 A spell category identifier. The value has to match with a category
-identifier defined in `SpellCategory.dbc <../dbc/SpellCategory.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/spellcategory`.
 
 spellcategorycooldown\_[1-5]
 ----------------------------
 
 The cooldown in milliseconds for the matching spell category. If set to
-``-1``, the default cooldown from the `Spell.dbc <../dbc/Spell.dbc>`__
+``-1``, the default cooldown from the :doc:`../../file-formats/dbc/spell`
 table will be used.
 
 bonding
@@ -934,14 +933,14 @@ LanguageID
 ----------
 
 If an item should have text in a specific language this references a
-language identifier from `Languages.dbc <../dbc/Languages.dbc>`__.
+language identifier from :doc:`../../file-formats/dbc/languages`.
 
 PageMaterial
 ------------
 
 The material to be used as background for items with page texts set.
 This references a page text material identifier from
-`PageTextMaterial.dbc <../dbc/PageTextMaterial.dbc>`__.
+:doc:`../../file-formats/dbc/pagetextmaterial`.
 
 startquest
 ----------
@@ -953,7 +952,7 @@ lockid
 ------
 
 If the item is a key, this references the lock mechanism's identifier in
-the `Lock.dbc <../dbc/Lock.dbc>`__ table. The key will then only work on
+the :doc:`../../file-formats/dbc/lock` table. The key will then only work on
 locks that require the referenced lock mechanism.
 
 Material
@@ -962,7 +961,7 @@ Material
 The material that the item is made of. The value here affects the sound
 the item uses when moved in bags. Use ``-1`` for consumable items like
 food, reagents, etc. This references a material identifier from
-`Material.dbc <../dbc/Material.dbc>`__.
+:doc:`../../file-formats/dbc/material`.
 
 The following table contains valid material identifiers.
 
@@ -1029,7 +1028,7 @@ itemset
 -------
 
 If an item is part of an item set, this references the item set's
-identifier in the `ItemSet.dbc <../dbc/ItemSet.dbc>`__ table.
+identifier in the :doc:`../../file-formats/dbc/itemset` table.
 
 MaxDurability
 -------------
@@ -1040,20 +1039,20 @@ area
 ----
 
 If an item is only usable in a specific area, this reference a zone
-identifier in the `AreaTable.dbc <../dbc/AreaTable.dbc>`__ table.
+identifier in the :doc:`../../file-formats/dbc/areatable` table.
 
 Map
 ---
 
 If an item is only usable on a specific map, this reference a map
-identifier in the `Map.dbc <../dbc/Map.dbc>`__ table.
+identifier in the :doc:`../../file-formats/dbc/map` table.
 
 BagFamily
 ---------
 
 If an item is a bag, this holds a bit-mask corresponding to bag families
 to which the bag belongs. The value has to match with bag families
-defined in `ItemBagFamily.dbc <../dbc/ItemBagFamily.dbc>`__.
+defined in :doc:`../../file-formats/dbc/itembagfamily`.
 
 .. note::
 
@@ -1075,7 +1074,7 @@ FoodType
 --------
 
 If an item is usable as pet food, this table references an entry in the
-`ItemPetFood.dbc <../dbc/ItemPetFood.dbc>`__ table.
+:doc:`../../file-formats/dbc/itempetfood` table.
 
 minMoneyLoot
 ------------

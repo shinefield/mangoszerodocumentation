@@ -8,7 +8,7 @@ The ``spell_threat`` table holds threat values for any spells that
 increase or decrease threat.
 
 Entries here may be used to modify threat values which are original
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 Table structure
 ---------------
@@ -32,7 +32,7 @@ entry
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 .. note::
 

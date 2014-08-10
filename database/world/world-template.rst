@@ -25,9 +25,8 @@ map
 ---
 
 A world continent identifier. The value has to match with a continent
-identifier defined in
-`WorldMapContent.dbc <../dbc/WorldMapContent.dbc>`__, and references the
-``mapID`` field in that file.
+identifier defined in :doc:`../../file-formats/dbc/worldmapcontinent`,
+and references the ``mapID`` field in that file.
 
 ScriptName
 ----------

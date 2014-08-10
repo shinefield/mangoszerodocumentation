@@ -31,7 +31,7 @@ class
 
 A bit-mask corresponding to class that should get the spell. The value
 has to match with classes defined in
-`ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+:doc:`../../file-formats/dbc/chrclasses`.
 
 level
 -----

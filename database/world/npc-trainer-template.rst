@@ -40,7 +40,7 @@ spell
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This has to be a spell
+defined in :doc:`../../file-formats/dbc/spell`. This has to be a spell
 which teaches the actual spell.
 
 spellcost
@@ -53,7 +53,7 @@ reqskill
 --------
 
 The required skill to be able to learn the spell. This references the
-skill's entry in the `SkillLine.dbc <../dbc/SkillLine.dbc>`__ table.
+skill's entry in the :doc:`../../file-formats/dbc/skillline` table.
 
 reqskillvalue
 -------------

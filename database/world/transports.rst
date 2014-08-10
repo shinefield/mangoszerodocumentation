@@ -41,5 +41,5 @@ period
 
 This is the amount of time that it take for the transport to make one
 full pass through all the frames in
-`TaxiNode.dbc <../dbc/TaxiNode.dbc>`__. When a client change occurs,
+:doc:`../../file-formats/dbc/taxinodes`. When a client change occurs,
 usually this field must be updated. This values is set in milliseconds.

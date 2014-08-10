@@ -25,7 +25,7 @@ entry
 -----
 
 An areatrigger identifier. The value has to match with a areatrigger
-identifier defined in `AreaTrigger.dbc <../dbc/AreaTrigger.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/areatrigger`.
 
 ScriptName
 ----------

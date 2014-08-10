@@ -31,20 +31,20 @@ spell\_id
 ---------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 prev\_spell
 -----------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This is the previous rank
+defined in :doc:`../../file-formats/dbc/spell`. This is the previous rank
 in the spell chain.
 
 first\_spell
 ------------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This is the rank 1 spell in
+defined in :doc:`../../file-formats/dbc/spell`. This is the rank 1 spell in
 the spell chain
 
 rank
@@ -56,5 +56,5 @@ req\_spell
 ----------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This references a spell
+defined in :doc:`../../file-formats/dbc/spell`. This references a spell
 required to use the spell referenced in ``spell_id``.

@@ -34,13 +34,13 @@ id
 --
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 target\_map
 -----------
 
 The target map's identifier. The value has to match with a map
-identifier defined in `Map.dbc <../dbc/Map.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/map`.
 
 target\_position\_x
 -------------------

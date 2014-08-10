@@ -123,7 +123,7 @@ sound
 -----
 
 A sound identifier. The value has to match with a sound identifier
-defined in `SoundEntries.dbc <../dbc/SoundEntries.dbc>`__.
+defined in :doc:`../../file-formats/dbc/soundentries`.
 
 type
 ----
@@ -151,13 +151,13 @@ language
 --------
 
 A language identifier. The value has to match with a language identifier
-defined in `Languages.dbc <../dbc/Languages.dbc>`__.
+defined in :doc:`../../file-formats/dbc/languages`.
 
 emote
 -----
 
 An emote identifier. The value has to match with a emote identifier
-defined in `Emotes.dbc <../dbc/Emotes.dbc>`__.
+defined in :doc:`../../file-formats/dbc/emotes`.
 
 comment
 -------

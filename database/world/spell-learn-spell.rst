@@ -34,14 +34,14 @@ entry
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This is the spell which
+defined in :doc:`../../file-formats/dbc/spell`. This is the spell which
 will teach the spell given by ``SpellID``.
 
 SpellID
 -------
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This is the spell which a
+defined in :doc:`../../file-formats/dbc/spell`. This is the spell which a
 character will actually learn.
 
 Active

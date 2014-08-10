@@ -78,7 +78,7 @@ emote
 -----
 
 An emote identifier. The value has to match with an emote identifier
-defined in `Emotes.dbc <../dbc/Emotes.dbc>`__.
+defined in :doc:`../../file-formats/dbc/emotes`.
 
 moveflags
 ---------
@@ -143,7 +143,7 @@ auras
 
 Allows to attach auras to a creature\_template entry. This includes
 visual auras and spell effects. The field is a string containing a spell
-identifier defined in `Spell.dbc <../dbc/Spell.dbc>`__ with an index to
+identifier defined in :doc:`../../file-formats/dbc/spell` with an index to
 the spell effect.
 
 Multiple spells can be concatenated. Spells and effect indexes are

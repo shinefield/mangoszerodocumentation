@@ -28,19 +28,19 @@ id
 --
 
 A graveyard identifier. The value has to match with a location
-identifier defined in `WorldSafeLocs.dbc <../dbc/WorldSafeLocs.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/worldsafelocs`.
 
 ghost\_zone
 -----------
 
 A zone identifier. The value has to match with a zone identifier defined
-in `AreaTable.dbc <../dbc/AreaTable.dbc>`__.
+in :doc:`../../file-formats/dbc/areatable`.
 
 faction
 -------
 
 The faction for which this graveyard should be used. This references a
-faction entry from the `Faction.dbc <../dbc/Faction.dbc>`__ table.
+faction entry from the :doc:`../../file-formats/dbc/faction` table.
 
 +---------+-----------------+
 | Value   | Faction         |

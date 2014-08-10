@@ -47,7 +47,7 @@ entry
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__.
+defined in :doc:`../../file-formats/dbc/spell`.
 
 SchoolMask
 ----------
@@ -83,28 +83,28 @@ SpellFamilyName
 ---------------
 
 A spell class identifier. The value has to match with a spell class
-identifier from `Spell.dbc <../dbc/Spell.dbc>`__, and references the
+identifier from :doc:`../../file-formats/dbc/spell`, and references the
 ``spellClassSet`` field in that file.
 
 SpellFamilyMask0
 ----------------
 
 A spell class mask. The value has to match with a spell class mask from
-`Spell.dbc <../dbc/Spell.dbc>`__, and references the ``spellClassMask1``
+:doc:`../../file-formats/dbc/spell`, and references the ``spellClassMask1``
 or ``spellClassMask2`` field in that file.
 
 SpellFamilyMask1
 ----------------
 
 A spell class mask. The value has to match with a spell class mask from
-`Spell.dbc <../dbc/Spell.dbc>`__, and references the ``spellClassMask1``
+:doc:`../../file-formats/dbc/spell`, and references the ``spellClassMask1``
 or ``spellClassMask2`` field in that file.
 
 SpellFamilyMask2
 ----------------
 
 A spell class mask. The value has to match with a spell class mask from
-`Spell.dbc <../dbc/Spell.dbc>`__, and references the ``spellClassMask1``
+:doc:`../../file-formats/dbc/spell`, and references the ``spellClassMask1``
 or ``spellClassMask2`` field in that file.
 
 procFlags

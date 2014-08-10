@@ -52,7 +52,7 @@ RewOnKillRepFaction1
 --------------------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. This
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. This
 is the default faction for which reputation will be gained. If the
 reputation awarded is faction specific, this is the faction Alliance
 characters will gain reputation for.
@@ -61,7 +61,7 @@ RewOnKillRepFaction2
 --------------------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. If
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. If
 the reputation awarded is faction specific, this is the faction Horde
 characters will gain reputation for.
 

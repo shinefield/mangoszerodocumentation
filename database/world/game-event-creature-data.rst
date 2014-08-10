@@ -68,14 +68,14 @@ spell\_start
 ------------
 
 If set to a valid spell identifier from
-`Spell.dbc <../dbc/Spell.dbc>`__, this will cause the create to cast the
+:doc:`../../file-formats/dbc/spell`, this will cause the create to cast the
 spell upon applying the modifications.
 
 spell\_end
 ----------
 
 If set to a valid spell identifier from
-`Spell.dbc <../dbc/Spell.dbc>`__, this will cause the create to cast the
+:doc:`../../file-formats/dbc/spell`, this will cause the create to cast the
 spell upon removing the modifications.
 
 event

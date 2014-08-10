@@ -25,7 +25,7 @@ entry
 -----
 
 A zone identifier. The value has to match with a zone identifier defined
-in `AreaTable.dbc <../dbc/AreaTable.dbc>`__.
+in :doc:`../../file-formats/dbc/areatable`.
 
 skill
 -----

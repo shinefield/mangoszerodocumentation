@@ -43,7 +43,7 @@ id
 --
 
 An areatrigger identifier. The value has to match with a areatrigger
-identifier defined in `AreaTrigger.dbc <../dbc/AreaTrigger.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/areatrigger`.
 
 name
 ----
@@ -81,7 +81,7 @@ target\_map
 -----------
 
 The target map's identifier. The value has to match with a map
-identifier defined in `Map.dbc <../dbc/Map.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/map`.
 
 target\_position\_x
 -------------------

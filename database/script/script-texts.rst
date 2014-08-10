@@ -106,7 +106,7 @@ sound
 ~~~~~
 
 If a sound file should be played, this references an entry in the
-:doc:`SoundEntries.dbc <../../file-formats/dbc/soundentries>` table.
+:doc:`../../file-formats/dbc/soundentries` table.
 
 type
 ~~~~
@@ -136,13 +136,13 @@ language
 ~~~~~~~~
 
 A language identifier. The value has to match with a language identifier
-defined in :doc:`Languages.dbc <../../file-formats/dbc/languages>`.
+defined in :doc:`../../file-formats/dbc/languages`.
 
 emote
 ~~~~~
 
 An emote identifier. The value has to match with a emote identifier
-defined in :doc:`Emotes.dbc <../../file-formats/dbc/emotes>`.
+defined in :doc:`../../file-formats/dbc/emotes`.
 
 comment
 ~~~~~~~

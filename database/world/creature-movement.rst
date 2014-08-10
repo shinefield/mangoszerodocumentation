@@ -140,13 +140,13 @@ emote
 -----
 
 An emote identifier. The value has to match with an emote identifier
-defined in `Emotes.dbc <../dbc/Emotes.dbc>`__.
+defined in :doc:`../../file-formats/dbc/emotes`.
 
 spell
 -----
 
 The spell identifier. The value has to match with a spell identifier
-defined in `Spell.dbc <../dbc/Spell.dbc>`__. This refers to a spell
+defined in :doc:`../../file-formats/dbc/spell`. This refers to a spell
 which should be cast on this waypoint.
 
 wpguid

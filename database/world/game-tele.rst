@@ -66,7 +66,7 @@ map
 ---
 
 A map identifier. The value has to match with a map identifier defined
-in `Map.dbc <../dbc/Map.dbc>`__.
+in :doc:`../../file-formats/dbc/map`.
 
 name
 ----

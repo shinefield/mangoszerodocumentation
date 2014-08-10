@@ -29,7 +29,7 @@ faction
 -------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__.
+faction identifier defined in :doc:`../../file-formats/dbc/faction`.
 
 quest\_rate
 -----------

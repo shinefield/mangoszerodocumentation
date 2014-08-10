@@ -39,7 +39,7 @@ map
 ---
 
 A map identifier. The value has to match with a map identifier defined
-in `Map.dbc <../dbc/Map.dbc>`__. This is the map where creature
+in :doc:`../../file-formats/dbc/map`. This is the map where creature
 templates are located.
 
 master\_entry

@@ -137,8 +137,7 @@ displayId
 ---------
 
 A display model identifier for the gameobject\_template. This references
-an entry in the
-`GameObjectDisplayInfo.dbc <../dbc/GameObjectDisplayInfo.dbc>`__ table.
+an entry in the :doc:`../../file-formats/dbc/gameobjectdisplayinfo` table.
 
 name
 ----
@@ -149,8 +148,7 @@ faction
 -------
 
 A faction for the game object. The value has to match with a faction
-template identifier defined in
-`FactionTemplate.dbc <../dbc/FactionTemplate.dbc>`__.
+template identifier defined in :doc:`../../file-formats/dbc/factiontemplate`.
 
 flags
 -----

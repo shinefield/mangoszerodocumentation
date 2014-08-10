@@ -34,8 +34,7 @@ modelid
 -------
 
 A display model identifier. The value has to match with a model
-identifier defined in
-`CreatureDisplayInfo.dbc <../dbc/CreatureDisplayInfo.dbc>`__.
+identifier defined in :doc:`../../file-formats/dbc/creaturedisplayinfo`.
 
 bounding\_radius
 ----------------

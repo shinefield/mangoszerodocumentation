@@ -296,9 +296,9 @@ quest log. Depending on the sign of the value different category sources
 will be used.
 
 -  If the value is > ``0``, the value references an entry from
-   `AreaTable.dbc <../dbc/AreaTable.dbc>`__.
+   :doc:`../../file-formats/dbc/areatable`.
 -  If the value is < ``0``, the value references an entry from
-   `QuestSort.dbc <../dbc/QuestSort.dbc>`__. This is usually the case
+   :doc:`../../file-formats/dbc/questsort`. This is usually the case
    for class or skill related quests.
 
 MinLevel
@@ -321,7 +321,7 @@ Type
 ----
 
 Classifies a quest's difficulty. This references an entry from
-`QuestInfo.dbc <../dbc/QuestInfo.dbc>`__. The following table lists
+:doc:`../../file-formats/dbc/questinfo`. The following table lists
 allowed values.
 
 +---------+---------------+
@@ -348,34 +348,32 @@ RequiredClasses
 ---------------
 
 A bit-mask corresponding to class that should get the quest. The value
-has to match with classes defined in
-`ChrClasses.dbc <../dbc/ChrClasses.dbc>`__.
+has to match with classes defined in :doc:`../../file-formats/dbc/chrclasses`.
 
 RequiredRaces
 -------------
 
 A bit-mask corresponding to races that should get the spell. The value
-has to match with races defined in
-`ChrRaces.dbc <../dbc/ChrRaces.dbc>`__.
+has to match with races defined in :doc:`../../file-formats/dbc/chrraces`.
 
 RequiredSkill
 -------------
 
 If the quest requires a skill, set this to a valid identifier
-referencing an entry from `SkillLine.dbc <../dbc/SkillLine.dbc>`__.
+referencing an entry from :doc:`../../file-formats/dbc/skillline`.
 
 RequiredSkillValue
 ------------------
 
 If a ``RequiredSkill`` is set, set this to the skill points required to
-aquire the quest.
+acquire the quest.
 
 RepObjectiveFaction
 -------------------
 
 If an objective of the quest is to reach a specific reputation with a
 faction, this value is set to a faction identifier, referencing an entry
-from the `Faction.dbc <../dbc/Faction.dbc>`__ table.
+from the :doc:`../../file-formats/dbc/faction` table.
 
 RepObjectiveValue
 -----------------
@@ -388,7 +386,7 @@ RequiredMinRepFaction
 
 If a quest is obtainable if the character has a specific *minimum*
 reputation with a faction, this value is set to a faction identifier,
-referencing an entry from the `Faction.dbc <../dbc/Faction.dbc>`__
+referencing an entry from the :doc:`../../file-formats/dbc/faction`
 table.
 
 RequiredMinRepValue
@@ -402,7 +400,7 @@ RequiredMaxRepFaction
 
 If a quest is obtainable if the character has a specific *maximum*
 reputation with a faction, this value is set to a faction identifier,
-referencing an entry from the `Faction.dbc <../dbc/Faction.dbc>`__
+referencing an entry from the :doc:`../../file-formats/dbc/faction`
 table.
 
 RequiredMaxRepValue
@@ -548,7 +546,7 @@ SrcSpell
 
 If a spell should be casted on a character upon starting the quest, set
 this to a spell identifier referencing the
-`Spell.dbc <../dbc/Spell.dbc>`__ table.
+:doc:`../../file-formats/dbc/spell` table.
 
 Title
 -----
@@ -835,7 +833,7 @@ ReqSpellCast1
 -------------
 
 Set to an entry referencing an entry from
-`Spell.dbc <../dbc/Spell.dbc>`__ table to require a spell to be cast.
+:doc:`../../file-formats/dbc/spell` table to require a spell to be cast.
 Spells usually need a target identifier set in the
 ``ReqCreatureOrGOId1``.
 
@@ -846,7 +844,7 @@ ReqSpellCast2
 -------------
 
 Set to an entry referencing an entry from
-`Spell.dbc <../dbc/Spell.dbc>`__ table to require a spell to be cast.
+:doc:`../../file-formats/dbc/spell` table to require a spell to be cast.
 Spells usually need a target identifier set in the
 ``ReqCreatureOrGOId2``.
 
@@ -857,7 +855,7 @@ ReqSpellCast3
 -------------
 
 Set to an entry referencing an entry from
-`Spell.dbc <../dbc/Spell.dbc>`__ table to require a spell to be cast.
+:doc:`../../file-formats/dbc/spell` table to require a spell to be cast.
 Spells usually need a target identifier set in the
 ``ReqCreatureOrGOId3``.
 
@@ -868,7 +866,7 @@ ReqSpellCast4
 -------------
 
 Set to an entry referencing an entry from
-`Spell.dbc <../dbc/Spell.dbc>`__ table to require a spell to be cast.
+:doc:`../../file-formats/dbc/spell` table to require a spell to be cast.
 Spells usually need a target identifier set in the
 ``ReqCreatureOrGOId4``.
 
@@ -1009,7 +1007,7 @@ RewRepFaction1
 --------------
 
 If the quest should reward reputation towards a faction, this references
-a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
+a faction identifier from the :doc:`../../file-formats/dbc/faction`
 table.
 
 .. note::
@@ -1021,7 +1019,7 @@ RewRepFaction2
 --------------
 
 If the quest should reward reputation towards a faction, this references
-a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
+a faction identifier from the :doc:`../../file-formats/dbc/faction`
 table.
 
 .. note::
@@ -1033,7 +1031,7 @@ RewRepFaction3
 --------------
 
 If the quest should reward reputation towards a faction, this references
-a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
+a faction identifier from the :doc:`../../file-formats/dbc/faction`
 table.
 
 .. note::
@@ -1045,7 +1043,7 @@ RewRepFaction4
 --------------
 
 If the quest should reward reputation towards a faction, this references
-a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
+a faction identifier from the :doc:`../../file-formats/dbc/faction`
 table.
 
 .. note::
@@ -1057,7 +1055,7 @@ RewRepFaction5
 --------------
 
 If the quest should reward reputation towards a faction, this references
-a faction identifier from the `Faction.dbc <../dbc/Faction.dbc>`__
+a faction identifier from the :doc:`../../file-formats/dbc/faction`
 table.
 
 .. note::
@@ -1118,7 +1116,7 @@ RewSpell
 --------
 
 If a spell should be shown as being casted as quest reward, set this to
-a spell identifier referencing the `Spell.dbc <../dbc/Spell.dbc>`__
+a spell identifier referencing the :doc:`../../file-formats/dbc/spell`
 table.
 
 .. note::
@@ -1131,14 +1129,14 @@ RewSpellCast
 
 If a spell should be casted as quest reward different from the spell
 shown as quest reward, set this to a spell identifier referencing the
-`Spell.dbc <../dbc/Spell.dbc>`__ table.
+:doc:`../../file-formats/dbc/spell` table.
 
 RewMailTemplateId
 -----------------
 
 If upon completion a quest should send out mail, this can be set to
 reference a mail template identifier in the
-`MailTemplate.dbc <../dbc/MailTemplate.dbc>`__ table.
+:doc:`../../file-formats/dbc/mailtemplate` table.
 
 RewMailDelaySecs
 ----------------
@@ -1173,28 +1171,28 @@ DetailsEmote1
 
 If an emote should be shown upon displaying quest details, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 DetailsEmote2
 -------------
 
 If an emote should be shown upon displaying quest details, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 DetailsEmote3
 -------------
 
 If an emote should be shown upon displaying quest details, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 DetailsEmote4
 -------------
 
 If an emote should be shown upon displaying quest details, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 DetailsEmoteDelay1
 ------------------
@@ -1225,42 +1223,42 @@ IncompleteEmote
 
 If an emote should be shown upon displaying the incomplete quest text,
 this references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 CompleteEmote
 -------------
 
 If an emote should be shown upon displaying the quest completion text,
 this references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 OfferRewardEmote1
 -----------------
 
 If an emote should be shown upon displaying rewarding the quest, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 OfferRewardEmote2
 -----------------
 
 If an emote should be shown upon displaying rewarding the quest, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 OfferRewardEmote3
 -----------------
 
 If an emote should be shown upon displaying rewarding the quest, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 OfferRewardEmote4
 -----------------
 
 If an emote should be shown upon displaying rewarding the quest, this
 references the emotes identifier in the
-`Emotes.dbc <../dbc/Emotes.dbc>`__ table.
+:doc:`../../file-formats/dbc/emotes` table.
 
 OfferRewardEmoteDelay1
 ----------------------

@@ -48,14 +48,14 @@ faction
 -------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. This
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. This
 is the faction for which reputation could not be rewarded any more.
 
 faction1
 --------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. This
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. This
 is an alternative to the ``faction`` defined.
 
 rate\_1
@@ -72,7 +72,7 @@ faction2
 --------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. This
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. This
 is an alternative to the ``faction`` defined.
 
 rate\_2
@@ -89,7 +89,7 @@ faction3
 --------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. This
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. This
 is an alternative to the ``faction`` defined.
 
 rate\_3
@@ -106,7 +106,7 @@ faction4
 --------
 
 A faction for which reputation is awarded. The value has to match with a
-faction identifier defined in `Faction.dbc <../dbc/Faction.dbc>`__. This
+faction identifier defined in :doc:`../../file-formats/dbc/faction`. This
 is an alternative to the ``faction`` defined.
 
 rate\_4

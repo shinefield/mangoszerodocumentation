@@ -44,14 +44,14 @@ map
 ---
 
 A map identifier. The value has to match with a map identifier defined
-in `Map.dbc <../dbc/Map.dbc>`__.
+in :doc:`../../file-formats/dbc/map`.
 
 parent
 ------
 
 If the instance is part of another instance, this holds its parent map.
 The value has to match with a map identifier defined in
-`Map.dbc <../dbc/Map.dbc>`__.
+:doc:`../../file-formats/dbc/map`.
 
 levelMin
 --------
@@ -82,8 +82,8 @@ ghostEntranceMap
 ----------------
 
 The continent on which ghosts will be spawned. This references the
-``mapID`` column in the
-`WorldMapContinent.dbc <../dbc/WorldMapContinent.dbc>`__ table.
+``mapID`` column in the :doc:`../../file-formats/dbc/worldmapcontinent`
+table.
 
 ghostEntranceX
 --------------
