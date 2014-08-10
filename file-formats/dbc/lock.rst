@@ -89,9 +89,9 @@ This field determine which kind of lock the entry is about.
 
 -  ``0``: none,
 -  ``1``: requires an item to unlock,
--  ``2``: matching Index refers to ``LockType.dbc``.
+-  ``2``: matching Index refers to :doc:`locktype`.
 
 Relations
 ---------
 
--  ``property[1-8]`` may reference the primary key of ``LockType.dbc`` if ``type`` is ``2``.
+-  ``property[1-8]`` may reference the primary key of :doc:`locktype` if ``type`` is ``2``.

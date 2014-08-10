@@ -22,4 +22,4 @@ Table structure
 Relations
 ---------
 
--  ``cameraShake[1-3]`` references the primary key of ``CameraShakes.dbc``.
+-  ``cameraShake[1-3]`` references the primary key of :doc:`camerashakes`.

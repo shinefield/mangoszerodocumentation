@@ -24,4 +24,4 @@ Table structure
 Relations
 ---------
 
--  ``language`` references the primary key of ``Languages.dbc``.
+-  ``language`` references the primary key of :doc:`languages`.

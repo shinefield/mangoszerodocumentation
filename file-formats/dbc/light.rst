@@ -41,8 +41,8 @@ Table structure
 Relations
 ---------
 
--  ``map`` references the primary key of ``Map.dbc``.
--  ``lightParams[1-5]`` reference the primary key of ``LightParams.dbc``.
+-  ``map`` references the primary key of :doc:`map`.
+-  ``lightParams[1-5]`` reference the primary key of :doc:`lightparams`.
 
 Notes
 -----

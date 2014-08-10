@@ -38,5 +38,5 @@ Determines what kind of weapon animation this is.
 Relations
 ---------
 
--  ``animationData`` references the primary key of ``AnimationData.dbc``.
--  ``attackAnimType`` references the primary key of ``AttackAnimTypes.dbc``.
+-  ``animationData`` references the primary key of :doc:`animationdata`.
+-  ``attackAnimType`` references the primary key of :doc:`attackanimtypes`.

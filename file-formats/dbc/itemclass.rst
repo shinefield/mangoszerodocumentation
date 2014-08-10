@@ -33,4 +33,4 @@ flags
 Relations
 ---------
 
--  ``subclassMap`` references the primary key of ``ItemSubClass.dbc``.
+-  ``subclassMap`` references the primary key of :doc:`itemsubclass`.

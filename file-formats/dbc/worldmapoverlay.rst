@@ -51,8 +51,8 @@ Table structure
 Relations
 ---------
 
--  ``worldMapArea`` references the primary key of ``WorldMapArea.dbc``.
--  ``areaTable[1-4]`` references the primary key of ``AreaTable.dbc``.
+-  ``worldMapArea`` references the primary key of :doc:`worldmaparea`.
+-  ``areaTable[1-4]`` references the primary key of :doc:`areatable`.
 
 Notes
 -----

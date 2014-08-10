@@ -36,6 +36,6 @@ sex
 Relations
 ---------
 
--  ``emotesText`` references the primary key of ``EmotesText.dbc``.
--  ``race`` references the primary key of ``ChrRaces.dbc``.
--  ``sound`` references the primary key of ``SoundEntries.dbc``.
+-  ``emotesText`` references the primary key of :doc:`emotestext`.
+-  ``race`` references the primary key of :doc:`chrraces`.
+-  ``sound`` references the primary key of :doc:`soundentries`.

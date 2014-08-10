@@ -70,5 +70,5 @@ sizeClass
 Relations
 ---------
 
--  ``blood`` references the primary key of ``UnitBlood.dbc``.
--  ``footprintTexture`` references the primary key of ``FootprintTextures.dbc``.
+-  ``blood`` references the primary key of :doc:`unitblood`.
+-  ``footprintTexture`` references the primary key of :doc:`footprinttextures`.

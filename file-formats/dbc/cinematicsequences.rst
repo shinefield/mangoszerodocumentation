@@ -37,5 +37,5 @@ Table structure
 Relations
 ---------
 
--  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.
--  ``cinematicCamera[1-8]`` references the primary key of ``CinematicCamera.dbc``.
+-  ``soundEntry`` references the primary key of :doc:`soundentries`.
+-  ``cinematicCamera[1-8]`` references the primary key of :doc:`cinematiccamera`.

@@ -41,8 +41,8 @@ flags
 Relations
 ---------
 
--  ``skill`` references the primary key of ``SkillLine.dbc``.
--  ``raceMask`` references the primary key of ``ChrRaces.dbc``.
--  ``classMask`` references the primary key of ``ChrClasses.dbc``.
--  ``skillTier`` references the primary key of ``SkillTiers.dbc``.
--  ``skillCostIndex`` references the primary key of ``SkillCostsData.dbc``.
+-  ``skill`` references the primary key of :doc:`skillline`.
+-  ``raceMask`` references the primary key of :doc:`chrraces`.
+-  ``classMask`` references the primary key of :doc:`chrclasses`.
+-  ``skillTier`` references the primary key of :doc:`skilltiers`.
+-  ``skillCostIndex`` references the primary key of :doc:`skillcostsdata`.

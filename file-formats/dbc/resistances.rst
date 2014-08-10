@@ -34,4 +34,4 @@ flags
 Relations
 ---------
 
--  ``fizzleSoundEntry`` references the primary key of ``SoundEntries.dbc``.
+-  ``fizzleSoundEntry`` references the primary key of :doc:`soundentries`.

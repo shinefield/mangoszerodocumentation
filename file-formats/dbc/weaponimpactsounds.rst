@@ -63,8 +63,8 @@ Table structure
 Relations
 ---------
 
--  ``impactSound[1-10]`` references the primary key of ``SoundEntries.dbc``.
--  ``critImpactSound[1-10]`` references the primary key of ``SoundEntries.dbc``.
+-  ``impactSound[1-10]`` references the primary key of :doc:`soundentries`.
+-  ``critImpactSound[1-10]`` references the primary key of :doc:`soundentries`.
 
 Notes
 -----

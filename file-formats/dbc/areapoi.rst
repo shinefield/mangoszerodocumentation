@@ -45,7 +45,7 @@ Fields
 Relations
 ---------
 
--  ``faction`` references the primary key of ``Faction.dbc``.
--  ``map`` references the primary key of ``Map.dbc``.
--  ``areaTable`` references the primary key of ``AreaTable.dbc``.
--  ``worldState`` references the primary key of ``WorldStateUI.dbc``.
+-  ``faction`` references the primary key of :doc:`faction`.
+-  ``map`` references the primary key of :doc:`map`.
+-  ``areaTable`` references the primary key of :doc:`areatable`.
+-  ``worldState`` references the primary key of :doc:`worldstateui`.

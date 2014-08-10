@@ -69,5 +69,5 @@ flags
 Relations
 ---------
 
--  ``displayRace`` references the primary key of ``ChrRaces.dbc``.
--  ``NPCItemDisplay[1-9]`` references the primary key of ``ItemDisplayInfo.dbc``.
+-  ``displayRace`` references the primary key of :doc:`chrraces`.
+-  ``NPCItemDisplay[1-9]`` references the primary key of :doc:`itemdisplayinfo`.

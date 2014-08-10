@@ -63,7 +63,7 @@ Table structure
 Relations
 ---------
 
--  ``spellVisual`` references the primary key of ``SpellVisual.dbc``.
--  ``groupSoundIndex`` references the primary key of ``ItemGroupSounds.dbc``.
--  ``helmetGeosetVis[1-2]`` reference the primary key of ``HelmetGeosetVisData.dbc``.
--  ``itemVisual`` references the primary key of ``ItemVisuals.dbc``.
+-  ``spellVisual`` references the primary key of :doc:`spellvisual`.
+-  ``groupSoundIndex`` references the primary key of :doc:`itemgroupsounds`.
+-  ``helmetGeosetVis[1-2]`` reference the primary key of :doc:`helmetgeosetvisdata`.
+-  ``itemVisual`` references the primary key of :doc:`itemvisuals`.

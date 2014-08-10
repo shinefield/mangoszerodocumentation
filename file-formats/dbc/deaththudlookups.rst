@@ -39,5 +39,5 @@ sizeClass
 Relations
 ---------
 
--  ``terrainType`` references the primary key of ``TerrainType.dbc``.
--  ``soundEntry`` and ``soundEntryWater`` reference the primary key of ``SoundEntries.dbc``.
+-  ``terrainType`` references the primary key of :doc:`terraintype`.
+-  ``soundEntry`` and ``soundEntryWater`` reference the primary key of :doc:`soundentries`.

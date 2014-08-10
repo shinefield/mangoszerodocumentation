@@ -35,7 +35,7 @@ type
 Relations
 ---------
 
--  ``spell`` references the primary key of ``Spell.dbc``.
+-  ``spell`` references the primary key of :doc:`spell`.
 
 Notes
 -----

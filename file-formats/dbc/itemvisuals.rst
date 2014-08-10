@@ -29,4 +29,4 @@ Table structure
 Relations
 ---------
 
--  ``itemVisualEffects[1-5]`` references the primary key of ``ItemVisualEffects.dbc``.
+-  ``itemVisualEffects[1-5]`` references the primary key of :doc:`itemvisualeffects`.

@@ -83,11 +83,11 @@ Table structure
 
 Relations
 ---------
--  ``startAnim`` and ``anim`` reference the primary key of ``AnimationData.dbc``.
--  ``animKit`` references the primary key of ``AttackAnimKit.dbc``.
+-  ``startAnim`` and ``anim`` reference the primary key of :doc:`animationdata`.
+-  ``animKit`` references the primary key of :doc:`attackanimkits`.
 -  ``headEffect``, ``chestEffect``, ``baseEffect``, ``leftHandEffect``,
    ``rightHandEffect``, ``breathEffect``, ``leftWeaponEffect``, ``rightWeaponEffect``,
    ``specialEffect1``, ``specialEffect2``, ``specialEffect3`` and``worldEffect``
-   reference the primary key of ``SpellVisualEffectName.dbc``.
--  ``sound`` references the primary key of ``SoundEntries.dbc``.
--  ``shake`` references the primary key of ``CameraShakes.dbc``.
+   reference the primary key of :doc:`spellvisualeffectname`.
+-  ``sound`` references the primary key of :doc:`soundentries`.
+-  ``shake`` references the primary key of :doc:`camerashakes`.

@@ -23,4 +23,4 @@ Table structure
 Relations
 ---------
 
--  ``spellVisualKit`` references the primary key of ``SpellVisualKit.dbc``.
+-  ``spellVisualKit`` references the primary key of :doc:`spellvisualkit`.

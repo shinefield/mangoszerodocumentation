@@ -41,4 +41,4 @@ isCritical
 Relations
 ---------
 
--  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.
+-  ``soundEntry`` references the primary key of :doc:`soundentries`.

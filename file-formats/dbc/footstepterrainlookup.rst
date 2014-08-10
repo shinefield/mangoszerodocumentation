@@ -27,6 +27,6 @@ Table structure
 Relations
 ---------
 
--  ``creatureFootstep`` references the primary key of ``GroundEffectDoodad.dbc``.
--  ``terrainType`` references the primary key of ``TerrainType.dbc``.
--  ``soundEntry`` and ``soundEntrySplash`` reference the primary key of ``SoundEntries.dbc``.
+-  ``creatureFootstep`` references the primary key of :doc:`groundeffectdoodad`.
+-  ``terrainType`` references the primary key of :doc:`terraintype`.
+-  ``soundEntry`` and ``soundEntrySplash`` reference the primary key of :doc:`soundentries`.

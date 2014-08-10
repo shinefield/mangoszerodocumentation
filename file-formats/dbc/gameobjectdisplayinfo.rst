@@ -41,4 +41,4 @@ Table structure
 Relations
 ---------
 
--  ``soundEntry[1-10]`` reference the primary key of ``SoundEntries.dbc``.
+-  ``soundEntry[1-10]`` reference the primary key of :doc:`soundentries`.

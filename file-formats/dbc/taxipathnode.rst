@@ -35,5 +35,5 @@ Table structure
 Relations
 ---------
 
--  ``taxiPath`` references the primary key of ``TaxiPath.dbc``.
--  ``map`` references the primary key of ``Map.dbc``.
+-  ``taxiPath`` references the primary key of :doc:`taxipath`.
+-  ``map`` references the primary key of :doc:`map`.

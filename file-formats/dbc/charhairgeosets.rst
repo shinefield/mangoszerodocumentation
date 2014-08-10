@@ -44,5 +44,5 @@ showScalp
 Relations
 ---------
 
--  ``race`` references the primary key of ``ChrRaces.dbc``.
--  ``variation`` references the primary key of ``CharVariations.dbc``.
+-  ``race`` references the primary key of :doc:`chrraces`.
+-  ``variation`` references the primary key of :doc:`charvariations`.

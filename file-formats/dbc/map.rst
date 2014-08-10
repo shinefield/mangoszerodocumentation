@@ -71,5 +71,5 @@ isBattleground
 Relations
 ---------
 
--  ``areaTable`` references the primary key of ``AreaTable.dbc``.
--  ``LoadingScreen`` references the primary key of ``LoadingScreens.dbc``.
+-  ``areaTable`` references the primary key of :doc:`areatable`.
+-  ``LoadingScreen`` references the primary key of :doc:`loadingscreens`.

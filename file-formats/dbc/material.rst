@@ -31,4 +31,4 @@ flags
 Relations
 ---------
 
--  ``foleySound`` references the primary key of ``SoundEntries.dbc``.
+-  ``foleySound`` references the primary key of :doc:`soundentries`.

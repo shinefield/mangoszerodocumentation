@@ -31,7 +31,7 @@ Table structure
 Relations
 ---------
 
--  ``race`` references the primary key of ``ChrRaces.dbc``.
+-  ``race`` references the primary key of :doc:`chrraces`.
 -  ``normalMaleSoundEntry``, ``normalFemaleSoundEntry``,
    ``pissedMaleSoundEntry`` and ``pissedFemaleSoundEntry`` reference
-   the primary key of ``SoundEntries.dbc``.
+   the primary key of :doc:`soundentries`.

@@ -42,5 +42,5 @@ worldMapContinent
 Relations
 ---------
 
--  ``worldMapContinent`` references the primary key of ``WorldMapContinent.dbc``.
--  ``areaTable`` references the primary key of ``AreaTable.dbc``.
+-  ``worldMapContinent`` references the primary key of :doc:`worldmapcontinent`.
+-  ``areaTable`` references the primary key of :doc:`areatable`.

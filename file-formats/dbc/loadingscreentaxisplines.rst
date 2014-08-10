@@ -66,4 +66,4 @@ legIndex
 Relations
 ---------
 
--  ``taxiPath`` references the primary key of ``TaxiPath.dbc``.
+-  ``taxiPath`` references the primary key of :doc:`taxipath`.

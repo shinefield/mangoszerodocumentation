@@ -31,4 +31,4 @@ Table structure
 Relations
 ---------
 
--  ``sequence`` references the primary key of ``AnimationData.dbc``.
+-  ``sequence`` references the primary key of :doc:`animationdata`.

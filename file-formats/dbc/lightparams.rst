@@ -49,4 +49,4 @@ flags
 Relations
 ---------
 
--  ``lightSkybox`` references the primary key of ``LightSkyBox.dbc``.
+-  ``lightSkybox`` references the primary key of :doc:`lightskybox`.

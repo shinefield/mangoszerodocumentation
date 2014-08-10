@@ -53,8 +53,8 @@ sizeClass
 Relations
 ---------
 
--  ``model`` references the primary key of ``CreatureModelData.dbc``.
--  ``sound`` references the primary key of ``CreatureSoundData.dbc``.
--  ``extendedDisplayInfo`` references the primary key of ``CreatureDisplayInfoExtra.dbc``.
--  ``blood`` references the primary key of ``UnitBlood.dbc``.
--  ``NPCSound`` references the primary key of ``NPCSounds.dbc``.
+-  ``model`` references the primary key of :doc:`creaturemodeldata`.
+-  ``sound`` references the primary key of :doc:`creaturesounddata`.
+-  ``extendedDisplayInfo`` references the primary key of :doc:`creaturedisplayinfoextra`.
+-  ``blood`` references the primary key of :doc:`unitblood`.
+-  ``NPCSound`` references the primary key of :doc:`npcsounds`.

@@ -31,9 +31,9 @@ Table structure
 Relations
 ---------
 
--  ``raceMask`` reference the primary key of ``ChrRaces.dbc``.
--  ``classMask`` reference the primary key of ``ChrClasses.dbc``
--  ``spellIcon`` reference the primary key of ``SpellIcon.dbc``.
+-  ``raceMask`` reference the primary key of :doc:`chrraces`.
+-  ``classMask`` reference the primary key of :doc:`chrclasses`.
+-  ``spellIcon`` reference the primary key of :doc:`spellicon`.
 
 Notes
 -----

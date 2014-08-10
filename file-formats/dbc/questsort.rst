@@ -5,7 +5,7 @@ QuestSort.dbc
 =============
 
 The *quest sort* table contains definitions for quest categories.
-Entries from ``AreaTable.dbc`` may also be used as quest categories.
+Entries from :doc:`areatable` may also be used as quest categories.
 
 Table structure
 ---------------

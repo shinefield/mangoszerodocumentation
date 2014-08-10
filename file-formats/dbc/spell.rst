@@ -314,26 +314,26 @@ targets
 Relations
 ---------
 
--  ``spellClassSet`` references the field ``classMask`` of ``ChrClasses.dbc``.
--  ``targetCreatureType`` references the primary key of ``CreatureType.dbc``.
--  ``equippedItemClass`` references the primary key of ``ItemClass.dbc``.
--  ``equippedItemSubclass`` references the primary key of ``ItemSubClass.dbc``.
--  ``school`` references the primary key of ``Resistances.dbc``.
+-  ``spellClassSet`` references the field ``classMask`` of :doc:`chrclasses`.
+-  ``targetCreatureType`` references the primary key of :doc:`creaturetype`.
+-  ``equippedItemClass`` references the primary key of :doc:`itemclass`.
+-  ``equippedItemSubclass`` references the primary key of :doc:`itemsubclass`.
+-  ``school`` references the primary key of :doc:`resistances`.
 -  ``modalNextSpell``, ``effectTriggerSpell1``, ``effectTriggerSpell2``
-   and ``effectTriggerSpell2`` reference the primary key of ``Spell.dbc``.
--  ``castingTimeIndex`` references the primary key of ``SpellCastTimes.dbc``.
--  ``category`` references the primary key of ``SpellCategory.dbc``.
--  ``dispelType`` references the primary key of ``SpellDispelType.dbc``.
--  ``durationIndex`` references the primary key of ``SpellDuration.dbc``.
--  ``requiresSpellFocus`` references the primary key of ``SpellFocusObject.dbc``.
--  ``spellIcon`` references the primary key of ``SpellIcon.dbc``.
+   and ``effectTriggerSpell2`` reference the primary key of :doc:`spell`.
+-  ``castingTimeIndex`` references the primary key of :doc:`spellcasttimes`.
+-  ``category`` references the primary key of :doc:`spellcategory`.
+-  ``dispelType`` references the primary key of :doc:`spelldispeltype`.
+-  ``durationIndex`` references the primary key of :doc:`spellduration`.
+-  ``requiresSpellFocus`` references the primary key of :doc:`spellfocusobject`.
+-  ``spellIcon`` references the primary key of :doc:`spellicon`.
 -  ``effectMiscValue1``, ``effectMiscValue2`` and ``effectMiscValue3``
-   reference the primary key of ``SpellItemEnchantment.dbc``.
+   reference the primary key of :doc:`spellitemenchantment`.
 -  ``mechanic``, ``effectMechanic1``, ``effectMechanic2`` and
-   ``effectMechanic3`` reference the primary key of ``SpellMechanic.dbc``.
+   ``effectMechanic3`` reference the primary key of :doc:`spellmechanic`.
 -  ``effectRadiusIndex1``, ``effectRadiusIndex2`` and
-   ``effectRadiusIndex3`` reference the primary key of ``SpellRadius.dbc``.
--  ``rangeIndex`` references the primary key of ``SpellRange.dbc``.
+   ``effectRadiusIndex3`` reference the primary key of :doc:`spellradius`.
+-  ``rangeIndex`` references the primary key of :doc:`spellrange`.
 -  ``shapeshiftMask`` and ``shapeshiftexclude`` reference the primary
-   key of ``SpellShapeshiftForm.dbc``.
--  ``spellVisual1`` and ``spellVisual2`` reference the primary key of ``SpellVisual.dbc``.
+   key of :doc:`spellshapeshiftform`.
+-  ``spellVisual1`` and ``spellVisual2`` reference the primary key of :doc:`spellvisual`.

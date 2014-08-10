@@ -90,6 +90,6 @@ Table structure
 Relations
 ---------
 
--  ``item[1-10]`` reference the primary key of an ``Item``.
--  ``setSpell[1-8]`` reference the primary key of ``Spell.dbc``.
--  ``requiredSkill`` references the primary key of ``SkillLine.dbc``.
+-  ``item[1-10]`` reference the primary key of an :doc:`../../database/world/item-template`.
+-  ``setSpell[1-8]`` reference the primary key of :doc:`spell`.
+-  ``requiredSkill`` references the primary key of :doc:`skillline`.

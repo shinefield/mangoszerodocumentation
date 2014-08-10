@@ -33,4 +33,4 @@ Table structure
 Relations
 ---------
 
--  ``spellItemEnchantment[1-5]`` references the primary key of ``SpellItemEnchantment.dbc``.
+-  ``spellItemEnchantment[1-5]`` references the primary key of :doc:`spellitemenchantment`.

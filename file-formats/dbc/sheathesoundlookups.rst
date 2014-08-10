@@ -47,6 +47,6 @@ isShield
 Relations
 ---------
 
--  ``itemClass`` references the primary key of ``ItemClass.dbc``.
--  ``itemSubclass`` references the primary key of ``ItemSubClass.dbc``.
--  ``sheathSound`` and ``sheathSound`` reference the primary key of ``SoundEntries.dbc``.
+-  ``itemClass`` references the primary key of :doc:`itemclass`.
+-  ``itemSubclass`` references the primary key of :doc:`itemsubclass`.
+-  ``sheathSound`` and ``sheathSound`` reference the primary key of :doc:`soundentries`.

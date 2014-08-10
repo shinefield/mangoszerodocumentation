@@ -33,5 +33,5 @@ Table structure
 Relations
 ---------
 
--  ``map`` references the primary key of ``Map.dbc``.
--  ``mountCreatureDisplayInfo[1-2]`` references the primary key of ``CreatureDisplayInfo.dbc``.
+-  ``map`` references the primary key of :doc:`map`.
+-  ``mountCreatureDisplayInfo[1-2]`` references the primary key of :doc:`creaturedisplayinfo`.

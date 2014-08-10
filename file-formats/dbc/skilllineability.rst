@@ -57,5 +57,5 @@ aquireMethod
 Relations
 ---------
 
--  ``skillLine`` references the primary key of ``SkillLine.dbc``.
--  ``spell`` and ``supersededBySpell`` reference the primary key of ``Spell.dbc``.
+-  ``skillLine`` references the primary key of :doc:`skillline`.
+-  ``spell`` and ``supersededBySpell`` reference the primary key of :doc:`spell`.

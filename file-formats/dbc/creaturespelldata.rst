@@ -36,7 +36,7 @@ Table structure
 Relations
 ---------
 
--  ``spell[1-4]`` references the primary key of ``Spell.dbc``.
+-  ``spell[1-4]`` references the primary key of :doc:`spell`.
 
 Notes
 -----

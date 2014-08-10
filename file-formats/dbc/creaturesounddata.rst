@@ -90,4 +90,4 @@ Relations
    ``soundDeath``, ``soundStun``, ``soundStand``,
    ``soundFootstep``, ``soundAggro``, ``soundWingFlap``,
    ``soundWingGlide`` and ``soundAlert`` reference the primary key
-   of ``SoundEntries.dbc``.
+   of :doc:`soundentries`.

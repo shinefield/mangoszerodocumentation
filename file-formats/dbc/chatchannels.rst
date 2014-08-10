@@ -54,4 +54,4 @@ character.
 Relations
 ---------
 
--  ``factionGroup`` references the key *maskID* of ``FactionGroup.dbc``.
+-  ``factionGroup`` references the key *maskID* of :doc:`factiongroup`.

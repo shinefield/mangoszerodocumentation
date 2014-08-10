@@ -83,4 +83,4 @@ only entries for *Goblins* are marked as non-playable.
 Relations
 ---------
 
--  ``race`` references the primary key of ``ChrRaces.dbc``.
+-  ``race`` references the primary key of :doc:`chrraces`.

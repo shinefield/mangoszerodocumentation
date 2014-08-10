@@ -31,6 +31,6 @@ Table structure
 Relations
 ---------
 
--  ``category`` references the primary key of ``SkillLineCategory.dbc``.
--  ``skillCosts`` references the primary key of ``SkillCostsData.dbc``.
--  ``spellIcon`` references the primary key of ``SpellIcon.dbc``.
+-  ``category`` references the primary key of :doc:`skilllinecategory`.
+-  ``skillCosts`` references the primary key of :doc:`skillcostsdata`.
+-  ``spellIcon`` references the primary key of :doc:`spellicon`.

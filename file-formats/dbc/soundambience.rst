@@ -23,4 +23,4 @@ Table structure
 Relations
 ---------
 
--  ``daySoundEntry`` and ``nightSoundEntry`` reference the primary key of ``SoundEntries.dbc``.
+-  ``daySoundEntry`` and ``nightSoundEntry`` reference the primary key of :doc:`soundentries`.

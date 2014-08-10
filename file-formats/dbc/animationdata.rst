@@ -54,5 +54,5 @@ Flags
 Relations
 ---------
 
--  ``fallback`` references the primary key of ``AnimationData.dbc``.
--  ``behavior`` references the primary key of ``AnimationData.dbc``.
+-  ``fallback`` references the primary key of :doc:`animationdata`.
+-  ``behavior`` references the primary key of :doc:`animationdata`.

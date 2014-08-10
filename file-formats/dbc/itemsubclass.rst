@@ -54,4 +54,4 @@ displayFlags
 Relations
 ---------
 
--  ``itemClass`` references the primary key of ``ItemClass.dbc``.
+-  ``itemClass`` references the primary key of :doc:`itemclass`.

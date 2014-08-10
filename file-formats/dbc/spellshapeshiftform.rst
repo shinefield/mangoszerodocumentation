@@ -26,4 +26,4 @@ Table structure
 Relations
 ---------
 
--  ``spellIcon`` references the primary key of ``SpellIcon.dbc``.
+-  ``spellIcon`` references the primary key of :doc:`spellicon`.

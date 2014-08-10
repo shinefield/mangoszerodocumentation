@@ -27,4 +27,4 @@ Table structure
 Relations
 ---------
 
--  ``faction`` references the primary key of ``Faction.dbc``.
+-  ``faction`` references the primary key of :doc:`faction`.

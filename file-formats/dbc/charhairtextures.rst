@@ -42,4 +42,4 @@ sex
 Relations
 ---------
 
--  ``race`` references the primary key of ``ChrRaces.dbc``.
+-  ``race`` references the primary key of :doc:`chrraces`.

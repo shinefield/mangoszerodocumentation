@@ -33,5 +33,5 @@ Table structure
 Relations
 ---------
 
--  ``doodad[1-4]`` reference the primary key of ``GroundEffectDoodad.dbc``.
--  ``terrainType`` references the primary key of ``TerrainType.dbc``.
+-  ``doodad[1-4]`` reference the primary key of :doc:`groundeffectdoodad`.
+-  ``terrainType`` references the primary key of :doc:`terraintype`.

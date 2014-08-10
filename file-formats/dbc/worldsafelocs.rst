@@ -29,4 +29,4 @@ Table structure
 Relations
 ---------
 
--  ``map`` references the primary key of ``Map.dbc``.
+-  ``map`` references the primary key of :doc:`map`.

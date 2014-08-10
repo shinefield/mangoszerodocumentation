@@ -23,4 +23,4 @@ Table structure
 Relations
 ---------
 
--  ``subClass`` references the key ``subClass`` of ``ItemSubClass.dbc``.
+-  ``subClass`` references the key ``subClass`` of :doc:`itemsubclass`.

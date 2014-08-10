@@ -36,4 +36,4 @@ langID
 Relations
 ---------
 
--  ``gmSurvey`` references the primary key of ``GMSurveySurveys.dbc``.
+-  ``gmSurvey`` references the primary key of :doc:`gmsurveysurveys`.

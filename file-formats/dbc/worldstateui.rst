@@ -47,5 +47,5 @@ Table structure
 Relations
 ---------
 
--  ``map`` references the primary key of ``Map.dbc``.
--  ``areaTable`` references the primary key of ``AreaTable.dbc``.
+-  ``map`` references the primary key of :doc:`map`.
+-  ``areaTable`` references the primary key of :doc:`areatable`.

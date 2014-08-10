@@ -85,22 +85,22 @@ are interaction related flags.
 Relations
 ---------
 
--  ``mapID`` references the primary key of ``Map.dbc``.
+-  ``mapID`` references the primary key of :doc:`map`.
 -  ``parentAreaTableID`` references the primary key of
-   ``AreaTable.dbc``. This is a self-reference.
+   :doc:`areatable`. This is a self-reference.
 -  ``soundPreferencesID`` references the primary key of
-   ``SoundProviderPreferences.dbc``.
+   :doc:`soundproviderpreferences`.
 -  ``soundPreferencesIDUnderWater`` references the primary key of
-   ``SoundProviderPreferences.dbc``.
+   :doc:`soundproviderpreferences`.
 -  ``soundAmbienceID`` references the primary key of
-   ``SoundAmbience.dbc``.
--  ``zoneMusicID`` references the primary key of ``ZoneMusic.dbc``.
+   :doc:`soundambience`.
+-  ``zoneMusicID`` references the primary key of :doc:`zonemusic`.
 -  ``zoneIntroMusicTableID`` references the primary key of
-   ``ZoneIntroMusicTable.dbc``.
+   :doc:`zoneintromusictable`.
 -  ``factionGroupID`` references the primary key of
-   ``FactionGroup.dbc``.
--  ``liquidTypeID`` references the primary key of ``LiquidType.dbc``.
--  ``lightID`` references the primary key of ``Light.dbc``.
+   :doc:`factiongroup`.
+-  ``liquidTypeID`` references the primary key of :doc:`liquidtype`.
+-  ``lightID`` references the primary key of :doc:`light`.
 
 Data
 ----

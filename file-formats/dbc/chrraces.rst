@@ -77,9 +77,9 @@ BaseLanguage
 Relations
 ---------
 
--  ``faction`` references the primary key of ``Faction.dbc``.
--  ``explorationSound`` and ``splashSoundEntry`` references the primary key of ``SoundEntries.dbc``.
--  ``maleDisplay`` and ``femaleDisplay`` reference the primary key of ``CreatureDisplayInfo.dbc``.
--  ``creatureType`` references the primary key of ``CreatureType.dbc``.
--  ``loginEffect`` and ``resSicknessSpell`` reference the primary key of ``Spell.dbc``.
--  ``cinematicSequence`` references the primary key of ``CinematicSequences.dbc``.
+-  ``faction`` references the primary key of :doc:`faction`.
+-  ``explorationSound`` and ``splashSoundEntry`` references the primary key of :doc:`soundentries`.
+-  ``maleDisplay`` and ``femaleDisplay`` reference the primary key of :doc:`creaturedisplayinfo`.
+-  ``creatureType`` references the primary key of :doc:`creaturetype`.
+-  ``loginEffect`` and ``resSicknessSpell`` reference the primary key of :doc:`spell`.
+-  ``cinematicSequence`` references the primary key of :doc:`cinematicsequences`.

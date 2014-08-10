@@ -49,5 +49,5 @@ emoteSpecProc
 Relations
 ---------
 
--  ``animationData`` references the primary key of ``AnimationData.dbc``.
--  ``eventSoundEntry`` references the primary key of ``SoundEntries.dbc``.
+-  ``animationData`` references the primary key of :doc:`animationdata`.
+-  ``eventSoundEntry`` references the primary key of :doc:`soundentries`.

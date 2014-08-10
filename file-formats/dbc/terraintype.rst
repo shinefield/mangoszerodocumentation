@@ -38,5 +38,5 @@ flags
 Relations
 ---------
 
--  ``footstepSprayRun`` and ``footstepSprayWalk`` reference the primary key of ``SpellVisualEffectName.dbc``.
--  ``terrainTypeSound`` references the primary key of ``TerrainTypeSounds.dbc``.
+-  ``footstepSprayRun`` and ``footstepSprayWalk`` reference the primary key of :doc:`spellvisualeffectname`.
+-  ``terrainTypeSound`` references the primary key of :doc:`terraintypesounds`.

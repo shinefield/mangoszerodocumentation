@@ -59,5 +59,5 @@ Table structure
 Relations
 ---------
 
--  ``tab`` references the primary key of ``TalentTab.dbc``
--  ``spellRank[1-9]`` and ``requiredSpell`` reference the primary key of ``Spell.dbc``
+-  ``tab`` references the primary key of :doc:`talenttab`.
+-  ``spellRank[1-9]`` and ``requiredSpell`` reference the primary key of :doc:`spell`.

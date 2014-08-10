@@ -25,4 +25,4 @@ Table structure
 Relations
 ---------
 
--  ``sourceTaxiNode`` and ``destinationTaxiNode`` references the primary key of ``TaxiNodes.dbc``.
+-  ``sourceTaxiNode`` and ``destinationTaxiNode`` references the primary key of :doc:`taxinodes`.

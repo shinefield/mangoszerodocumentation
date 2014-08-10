@@ -55,5 +55,5 @@ Table structure
 Relations
 ---------
 
--  ``emote`` references the primary key of ``Emotes.dbc``.
--  ``emoteTextData[1-16]`` reference the primary key of ``EmotesTextData.dbc``.
+-  ``emote`` references the primary key of :doc:`emotes`.
+-  ``emoteTextData[1-16]`` reference the primary key of :doc:`emotestextdata`.

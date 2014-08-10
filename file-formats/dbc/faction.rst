@@ -87,4 +87,4 @@ and Tauren druids are members of.
 Relations
 ---------
 
--  ``parentFaction`` references the primary key of ``Faction.dbc``.
+-  ``parentFaction`` references the primary key of :doc:`faction`.

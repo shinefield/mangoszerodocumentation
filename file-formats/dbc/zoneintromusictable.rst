@@ -36,4 +36,4 @@ priority
 Relations
 ---------
 
--  ``introSound`` references the primary key of ``SoundEntries.dbc``.
+-  ``introSound`` references the primary key of :doc:`soundentries`.

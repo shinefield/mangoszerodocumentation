@@ -39,4 +39,4 @@ Table structure
 Relations
 ---------
 
--  ``question[1-10]`` reference the primary key of ``GMSurveyQuestions.dbc``.
+-  ``question[1-10]`` reference the primary key of :doc:`gmsurveyquestions`.

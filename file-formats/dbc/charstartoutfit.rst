@@ -41,5 +41,5 @@ flag
 Relations
 ---------
 
--  ``race`` references the primary key of ``ChrRaces.dbc``.
--  ``class`` references the primary key of ``ChrClasses.dbc``.
+-  ``race`` references the primary key of :doc:`chrraces`.
+-  ``class`` references the primary key of :doc:`chrclasses`.

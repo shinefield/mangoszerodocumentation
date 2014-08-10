@@ -35,5 +35,5 @@ fluidSpeed
 Relations
 ---------
 
--  ``liquidType`` references the primary key of ``LiquidType.dbc``.
--  ``soundEntry`` references the primary key of ``SoundEntries.dbc``.
+-  ``liquidType`` references the primary key of :doc:`liquidtype`.
+-  ``soundEntry`` references the primary key of :doc:`soundentries`.

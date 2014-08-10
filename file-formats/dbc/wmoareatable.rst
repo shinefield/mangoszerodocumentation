@@ -42,8 +42,8 @@ Relations
 ---------
 
 -  ``soundProviderPreferencesID``, and ``soundProviderPreferencesIDUnderwater``
-   references the primary key of ``SoundProviderPreferences.dbc``.
--  ``soundAmbienceID`` references the primary key of ``SoundAmbience.dbc``.
--  ``zoneMusicID`` references the primary key of ``ZoneMusic.dbc``.
--  ``zoneIntroMusicTableID`` references the primary key of ``ZoneIntroMusicTable.dbc``.
--  ``areaTableID`` references the primary key of ``AreaTable.dbc``.
+   references the primary key of :doc:`soundproviderpreferences`.
+-  ``soundAmbienceID`` references the primary key of :doc:`soundambience`.
+-  ``zoneMusicID`` references the primary key of :doc:`zonemusic`.
+-  ``zoneIntroMusicTableID`` references the primary key of :doc:`zoneintromusictable`.
+-  ``areaTableID`` references the primary key of :doc:`areatable`.
