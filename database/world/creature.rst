@@ -56,7 +56,7 @@ The unique identifier of the creature spawn.
 id
 --
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for which the entry is valid.
 
 map
@@ -69,14 +69,14 @@ modelid
 -------
 
 A display model identifier. This references the
-`creature\_model\_info <creature_model_info>`__ tables unique ID for
+:doc:`creature-model-info` tables unique ID for
 which this entry is valid.
 
 equipment\_id
 -------------
 
 This references the
-`creature\_equip\_template <creature_equip_template>`__ tables unique ID
+:doc:`creature-equip-template` tables unique ID
 for which the entry is valid.
 
 position\_x
@@ -115,7 +115,7 @@ currentwaypoint
 ---------------
 
 The current waypoint, on which the creature resides. If waypoints are
-defined, this references the `creature\_movement <creature_movement>`__
+defined, this references the :doc:`creature-movement`
 tables ``point`` field for which the entry is valid.
 
 curhealth
@@ -145,7 +145,7 @@ Defines if the creature spawn is alive or dead.
 
     Dead creatures can not have gossip dialogues, unless you
     explicitly set the dynamic flag for corpses on the
-    `creature\_template <creature_template>`__.
+    :doc:`creature-template`.
 
 MovementType
 ------------

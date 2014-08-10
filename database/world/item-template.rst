@@ -927,7 +927,7 @@ PageText
 --------
 
 If the item should be readable, e.g. for letters, this references a page
-text identifier in the `page\_text <page_text>`__ table.
+text identifier in the :doc:`page-text` table.
 
 LanguageID
 ----------
@@ -946,7 +946,7 @@ startquest
 ----------
 
 If right-clicking the item should start a quest, this references the
-quest identifier from the `quest\_template <quest_template>`__ table.
+quest identifier from the :doc:`quest-template` table.
 
 lockid
 ------
@@ -1017,7 +1017,7 @@ RandomProperty
 
 If an item has a chance to be created with a random enchantment, this
 references an entry from the
-`item\_enchantment\_template <item_enchantment_template>`__ table.
+:doc:`item-enchantment-template` table.
 
 block
 -----
@@ -1068,7 +1068,7 @@ DisenchantID
 ------------
 
 If an item can be disenchanted, this references an entry in the
-`disenchant\_loot\_template <disenchant_loot_template>`__ table.
+:doc:`disenchant-loot-template` table.
 
 FoodType
 --------

@@ -67,13 +67,12 @@ modelid\_other\_gender
 ----------------------
 
 If the model information entry is set to *male* or *female*, this
-references the `creature\_model\_info <creature_model_info>`__ tables
-unique ID for the entry of the other gender's model information.
+references the :doc:`creature-model-info` tables unique ID for the
+entry of the other gender's model information.
 
 modelid\_other\_team
 --------------------
 
 If the model information entry has different display information for the
-other faction, this references the
-`creature\_model\_info <creature_model_info>`__ tables unique ID for the
-entry of the other faction's model information.
+other faction, this references the :doc:`creature-model-info` tables unique
+ID for the entry of the other faction's model information.

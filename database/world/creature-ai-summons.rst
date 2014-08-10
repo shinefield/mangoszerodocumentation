@@ -34,9 +34,8 @@ Fields
 id
 --
 
-This references the third action parameter in the
-`creature\_ai\_scripts <creature_ai_scripts>`__ tables entry with a
-summon action assigned.
+This references the third action parameter in the :doc:`creature-ai-scripts`
+tables entry with a summon action assigned.
 
 position\_x
 -----------
@@ -68,5 +67,5 @@ comment
 
 Documents what kind of creature will be summoned. Currently it is common
 to use the summoned creature's
-`creature\_template <creature_template>`__ ``entry`` value to describe
+:doc:`creature-template` ``entry`` value to describe
 what is summoned.

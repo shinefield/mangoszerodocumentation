@@ -45,7 +45,7 @@ in :doc:`../../file-formats/dbc/areatable`.
 item
 ----
 
-This references the `item\_template <item_template>`__ tables unique ID
+This references the :doc:`item-template` tables unique ID
 for which the entry is valid.
 
 ChanceOrQuestChance
@@ -111,5 +111,5 @@ should be processed.
 condition\_id
 -------------
 
-This references the `conditions <conditions>`__ tables unique ID for
+This references the :doc:`conditions` tables unique ID for
 which the entry is valid.

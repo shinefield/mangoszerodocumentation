@@ -26,7 +26,7 @@ Fields
 entry
 -----
 
-This references the `gameobject\_template <gameobject_template>`__
+This references the :doc:`gameobject-template`
 tables unique ID of the game object of type 15 (boats and Zeppelins) for
 which the entry is valid.
 

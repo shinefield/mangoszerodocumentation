@@ -30,14 +30,14 @@ pool\_id
 
 The identifier of a pool template which should be included in the pool
 group. The value has to match with a pool identifier defined in the
-`pool\_template <pool_template>`__.
+:doc:`pool-template`.
 
 mother\_pool
 ------------
 
 The identifier of a pool template which acts as parent pool for multiple
 pool templates. The value has to match with a pool identifier defined in
-the `pool\_template <pool_template>`__.
+the :doc:`pool-template`.
 
 chance
 ------

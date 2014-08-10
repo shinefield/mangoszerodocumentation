@@ -53,7 +53,7 @@ The unique identifier of the game object spawn.
 id
 --
 
-This references the `gameobject\_template <gameobject_template>`__
+This references the :doc:`gameobject-template`
 tables unique ID for which the entry is valid.
 
 map

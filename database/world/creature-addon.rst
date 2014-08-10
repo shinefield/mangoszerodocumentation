@@ -39,15 +39,14 @@ Fields
 guid
 ----
 
-This references the `creature <creature>`__ tables unique ID for which
-the entry is valid.
+This references the :doc:`creature` tables unique ID for which the entry is valid.
 
 mount
 -----
 
 A display model identifier used as mount for the creature\_template.
-This references the `creature\_model\_info <creature_model_info>`__
-tables unique ID for which this entry is valid.
+This references the :doc:`creature-model-info` tables unique ID for
+which this entry is valid.
 
 bytes1
 ------

@@ -26,7 +26,7 @@ Fields
 guid
 ----
 
-This references the `gameobject <gameobject>`__ tables unique ID for
+This references the :doc:`gameobject` tables unique ID for
 which the entry is valid.
 
 event1

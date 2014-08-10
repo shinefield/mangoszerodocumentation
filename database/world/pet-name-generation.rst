@@ -39,7 +39,7 @@ entry
 -----
 
 The creature for which this name fragment should apply. This references
-the `creature\_template <creature_template>`__ tables unique ID.
+the :doc:`creature-template` tables unique ID.
 
 half
 ----

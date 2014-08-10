@@ -485,7 +485,7 @@ Currently the following special cases are available.
 PrevQuestId
 -----------
 
-This points to a `quest\_template <quest_template>`__ being a previous
+This points to a :doc:`quest-template` being a previous
 requirement. Depending on the signedness of the value, different
 requirements are set.
 
@@ -497,7 +497,7 @@ requirements are set.
 NextQuestId
 -----------
 
-This points to a `quest\_template <quest_template>`__ being a follow-up.
+This points to a :doc:`quest-template` being a follow-up.
 Depending on the signedness of the value, different requirements are
 set.
 
@@ -525,14 +525,14 @@ NextQuestInChain
 ----------------
 
 If ending a quest should immediately start a new quest set this to a
-quest identifier referencing the `quest\_template <quest_template>`__
+quest identifier referencing the :doc:`quest-template`
 table.
 
 SrcItemId
 ---------
 
 If starting a quest should give items to the character, set this field
-to an item identifier referencing the `item\_template <item_template>`__
+to an item identifier referencing the :doc:`item-template`
 table.
 
 SrcItemCount
@@ -649,28 +649,28 @@ ReqItemId1
 ----------
 
 If set to an item identifier, this references an entry in the
-`item\_template <item_template>`__ table which is required to complete
+:doc:`item-template` table which is required to complete
 the quest.
 
 ReqItemId2
 ----------
 
 If set to an item identifier, this references an entry in the
-`item\_template <item_template>`__ table which is required to complete
+:doc:`item-template` table which is required to complete
 the quest.
 
 ReqItemId3
 ----------
 
 If set to an item identifier, this references an entry in the
-`item\_template <item_template>`__ table which is required to complete
+:doc:`item-template` table which is required to complete
 the quest.
 
 ReqItemId4
 ----------
 
 If set to an item identifier, this references an entry in the
-`item\_template <item_template>`__ table which is required to complete
+:doc:`item-template` table which is required to complete
 the quest.
 
 ReqItemCount1
@@ -702,7 +702,7 @@ ReqSourceId1
 
 If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 .. note::
 
@@ -714,7 +714,7 @@ ReqSourceId2
 
 If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 .. note::
 
@@ -726,7 +726,7 @@ ReqSourceId3
 
 If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 .. note::
 
@@ -738,7 +738,7 @@ ReqSourceId4
 
 If the quest requires items created by using another item, set this to
 an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 .. note::
 
@@ -772,9 +772,9 @@ If the quest targets creatures or game objects, this references their
 unique identifier.
 
 -  If the value is > ``0``, this references an entry in the
-   `creature\_template <creature_template>`__ table.
+   :doc:`creature-template` table.
 -  If the value is < ``0``, this references an entry in the
-   `gameobject\_template <gameobject_template>`__ table.
+   :doc:`gameobject-template` table.
 
 ReqCreatureOrGOId2
 ------------------
@@ -783,9 +783,9 @@ If the quest targets creatures or game objects, this references their
 unique identifier.
 
 -  If the value is > ``0``, this references an entry in the
-   `creature\_template <creature_template>`__ table.
+   :doc:`creature-template` table.
 -  If the value is < ``0``, this references an entry in the
-   `gameobject\_template <gameobject_template>`__ table.
+   :doc:`gameobject-template` table.
 
 ReqCreatureOrGOId3
 ------------------
@@ -794,9 +794,9 @@ If the quest targets creatures or game objects, this references their
 unique identifier.
 
 -  If the value is > ``0``, this references an entry in the
-   `creature\_template <creature_template>`__ table.
+   :doc:`creature-template` table.
 -  If the value is < ``0``, this references an entry in the
-   `gameobject\_template <gameobject_template>`__ table.
+   :doc:`gameobject-template` table.
 
 ReqCreatureOrGOId4
 ------------------
@@ -805,9 +805,9 @@ If the quest targets creatures or game objects, this references their
 unique identifier.
 
 -  If the value is > ``0``, this references an entry in the
-   `creature\_template <creature_template>`__ table.
+   :doc:`creature-template` table.
 -  If the value is < ``0``, this references an entry in the
-   `gameobject\_template <gameobject_template>`__ table.
+   :doc:`gameobject-template` table.
 
 ReqCreatureOrGOCount1
 ---------------------
@@ -878,42 +878,42 @@ RewChoiceItemId1
 
 If the quest allow to chose between multiple items as reward, this
 contains an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewChoiceItemId2
 ----------------
 
 If the quest allow to chose between multiple items as reward, this
 contains an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewChoiceItemId3
 ----------------
 
 If the quest allow to chose between multiple items as reward, this
 contains an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewChoiceItemId4
 ----------------
 
 If the quest allow to chose between multiple items as reward, this
 contains an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewChoiceItemId5
 ----------------
 
 If the quest allow to chose between multiple items as reward, this
 contains an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewChoiceItemId6
 ----------------
 
 If the quest allow to chose between multiple items as reward, this
 contains an item identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewChoiceItemCount1
 -------------------
@@ -956,28 +956,28 @@ RewItemId1
 
 If the quest rewards items without any choice, this contains an item
 identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewItemId2
 ----------
 
 If the quest rewards items without any choice, this contains an item
 identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewItemId3
 ----------
 
 If the quest rewards items without any choice, this contains an item
 identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewItemId4
 ----------
 
 If the quest rewards items without any choice, this contains an item
 identifier, referencing the creating items entry in the
-`item\_template <item_template>`__ table.
+:doc:`item-template` table.
 
 RewItemCount1
 -------------
@@ -1146,7 +1146,7 @@ The number of seconds to wait before sending the reward mail.
 PointMapId
 ----------
 
-References an entry in the `points\_of\_interest <points_of_interest>`__
+References an entry in the :doc:`points-of-interest`
 table, if it should be shown while the quest is active.
 
 PointX
@@ -1288,10 +1288,10 @@ StartScript
 -----------
 
 If a script should be executed on quest start, this references an entry
-in the `dbscripts\_on\_quest\_start <dbscripts_on_quest_start>`__ table.
+in the :doc:`dbscripts-on-quest-start` table.
 
 CompleteScript
 --------------
 
 If a script should be executed on quest end, this references an entry in
-the `dbscripts\_on\_quest\_end <dbscripts_on_quest_end>`__ table.
+the :doc:`dbscripts-on-quest-end` table.

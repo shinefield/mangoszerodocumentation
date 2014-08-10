@@ -39,4 +39,4 @@ next\_page
 ----------
 
 If the page is followed by another page, this references the unique ID
-of the `page\_text <page_text>`__ table.
+of the :doc:`page-text` table.

@@ -55,7 +55,7 @@ id
 --
 
 This references the ``StartScript`` column of a
-`quest\_template <quest_template>`__ table entry.
+:doc:`quest-template` table entry.
 
 delay
 -----
@@ -163,8 +163,8 @@ buddy\_entry
 ------------
 
 If the command used has a buddy entry, this references either an entry
-in the `gameobject\_template <gameobject_template>`__ or
-`creature\_template <creature_template>`__ table.
+in the :doc:`gameobject-template` or
+:doc:`creature-template` table.
 
 search\_radius
 --------------
@@ -174,8 +174,8 @@ The range in which the buddy's entry will be search for.
 .. note::
 
     If ``data_flags`` has ``SCRIPT_FLAG_BUDDY_BY_GUID`` set, this
-    references an entry in the `gameobject <gameobject>`__ or
-    `creature <creature>`__ table.
+    references an entry in the :doc:`gameobject` or
+    :doc:`creature` table.
 
 data\_flags
 -----------

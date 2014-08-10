@@ -34,7 +34,7 @@ Fields
 guid
 ----
 
-This references the `creature <creature>`__ tables unique ID for which
+This references the :doc:`creature` tables unique ID for which
 the entry is valid.
 
 entry\_id
@@ -46,7 +46,7 @@ modelid
 -------
 
 A display model identifier. This references the
-`creature\_model\_info <creature_model_info>`__ tables unique ID for
+:doc:`creature-model-info` tables unique ID for
 which this entry is valid.
 
 .. note::
@@ -57,7 +57,7 @@ equipment\_id
 -------------
 
 This references the
-`creature\_equip\_template <creature_equip_template>`__ tables unique ID
+:doc:`creature-equip-template` tables unique ID
 for which the entry is valid.
 
 .. note::
@@ -81,5 +81,5 @@ spell upon removing the modifications.
 event
 -----
 
-This references the `game\_event <game_event>`__ tables unique ID for
+This references the :doc:`game-event` tables unique ID for
 which the entry is valid.

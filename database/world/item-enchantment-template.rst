@@ -27,7 +27,7 @@ entry
 -----
 
 The random properties unique identifier. This is referenced from the
-`item\_template <item_template>`__ table's ``RandomProperty`` table.
+:doc:`item-template` table's ``RandomProperty`` table.
 
 ench
 ----

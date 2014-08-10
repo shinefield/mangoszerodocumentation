@@ -56,7 +56,7 @@ Fields
 menu\_id
 --------
 
-This references the `gossip\_menu\_option <gossip_menu_option>`__ tables
+This references the :doc:`gossip-menu-option` tables
 ``menu_id`` for which the entry is valid.
 
 id
@@ -66,94 +66,94 @@ option\_text\_loc1
 ------------------
 
 *Korean* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc2
 ------------------
 
 *French* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc3
 ------------------
 
 *German* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc4
 ------------------
 
 *Chinese* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc5
 ------------------
 
 *Taiwanese* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc6
 ------------------
 
 *Spanish Spain* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc7
 ------------------
 
 *Spanish Latin America* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 option\_text\_loc8
 ------------------
 
 *Russian* localization of ``option_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc1
 ---------------
 
 *Korean* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc2
 ---------------
 
 *French* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc3
 ---------------
 
 *German* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc4
 ---------------
 
 *Chinese* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc5
 ---------------
 
 *Taiwanese* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc6
 ---------------
 
 *Spanish Spain* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc7
 ---------------
 
 *Spanish Latin America* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.
 
 box\_text\_loc8
 ---------------
 
 *Russian* localization of ``box_text`` in the
-`gossip\_menu\_option <gossip_menu_option>`__ table.
+:doc:`gossip-menu-option` table.

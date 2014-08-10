@@ -24,11 +24,11 @@ Fields
 entry
 -----
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for which the entry is valid.
 
 bg\_template
 ------------
 
-This references the `battleground\_template <battleground_template>`__
+This references the :doc:`battleground-template`
 tables unique ID for which the entry is valid.

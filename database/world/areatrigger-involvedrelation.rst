@@ -36,5 +36,5 @@ identifier defined in :doc:`../../file-formats/dbc/areatrigger`.
 quest
 -----
 
-This references the `quest\_template <quest_template>`__ tables unique
+This references the :doc:`quest-template` tables unique
 ID for which the entry is valid.

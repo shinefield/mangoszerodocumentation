@@ -38,53 +38,53 @@ Fields
 entry
 -----
 
-This references the `page\_text <page_text>`__ tables unique ID for
+This references the :doc:`page-text` tables unique ID for
 which the entry is valid.
 
 Text\_loc1
 ----------
 
-*Korean* localization of ``Text`` in the `page\_text <page_text>`__
+*Korean* localization of ``Text`` in the :doc:`page-text`
 table.
 
 Text\_loc2
 ----------
 
-*French* localization of ``Text`` in the `page\_text <page_text>`__
+*French* localization of ``Text`` in the :doc:`page-text`
 table.
 
 Text\_loc3
 ----------
 
-*German* localization of ``Text`` in the `page\_text <page_text>`__
+*German* localization of ``Text`` in the :doc:`page-text`
 table.
 
 Text\_loc4
 ----------
 
-*Chinese* localization of ``Text`` in the `page\_text <page_text>`__
+*Chinese* localization of ``Text`` in the :doc:`page-text`
 table.
 
 Text\_loc5
 ----------
 
-*Taiwanese* localization of ``Text`` in the `page\_text <page_text>`__
+*Taiwanese* localization of ``Text`` in the :doc:`page-text`
 table.
 
 Text\_loc6
 ----------
 
 *Spanish Spain* localization of ``Text`` in the
-`page\_text <page_text>`__ table.
+:doc:`page-text` table.
 
 Text\_loc7
 ----------
 
 *Spanish Latin America* localization of ``Text`` in the
-`page\_text <page_text>`__ table.
+:doc:`page-text` table.
 
 Text\_loc8
 ----------
 
-*Russian* localization of ``Text`` in the `page\_text <page_text>`__
+*Russian* localization of ``Text`` in the :doc:`page-text`
 table.

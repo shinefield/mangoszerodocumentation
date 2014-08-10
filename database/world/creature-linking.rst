@@ -26,14 +26,14 @@ Fields
 guid
 ----
 
-This references the `creature <creature>`__ tables unique ID for which
+This references the :doc:`creature` tables unique ID for which
 the entry is valid. This is a creature spawn bound to the master
 creature.
 
 master\_guid
 ------------
 
-This references the `creature <creature>`__ tables unique ID for which
+This references the :doc:`creature` tables unique ID for which
 the entry is valid. This is the master creature which defines behaviour
 for the linked creature.
 

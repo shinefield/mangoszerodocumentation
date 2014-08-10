@@ -40,7 +40,7 @@ Fields
 creature\_entry
 ---------------
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID of the pet's creature\_template for which the entry is valid.
 
 level

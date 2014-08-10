@@ -38,53 +38,53 @@ Fields
 entry
 -----
 
-This references the `points\_of\_interest <points_of_interest>`__ tables
+This references the :doc:`points-of-interest` tables
 unique ID for which the entry is valid.
 
 icon\_name\_loc1
 ----------------
 
 *Korean* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc2
 ----------------
 
 *French* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc3
 ----------------
 
 *German* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc4
 ----------------
 
 *Chinese* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc5
 ----------------
 
 *Taiwanese* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc6
 ----------------
 
 *Spanish Spain* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc7
 ----------------
 
 *Spanish Latin America* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.
 
 icon\_name\_loc8
 ----------------
 
 *Russian* localization of ``icon_name`` in the
-`points\_of\_interest <points_of_interest>`__ table.
+:doc:`points-of-interest` table.

@@ -62,8 +62,7 @@ Fields
 id
 --
 
-This references the `creature <creature>`__ tables unique ID for which
-the entry is valid.
+This references the :doc:`creature` tables unique ID for which the entry is valid.
 
 point
 -----
@@ -97,43 +96,42 @@ script\_id
 ----------
 
 If a script should be executed, this references the
-`dbscripts\_on\_creature\_movement <dbscripts_on_creature_movement>`__
-tables unique ID for which the entry is valid. If not, set the value to
-zero.
+:doc:`dbscripts-on-creature-movement` tables unique ID for which the entry
+is valid. If not, set the value to zero.
 
 textid1
 -------
 
 If a text should be emoted, this references the
-`dbscript\_string <dbscript_string>`__ tables unique ID for which the
+:doc:`db-script-string` tables unique ID for which the
 entry is valid. If not, set the value to zero.
 
 textid2
 -------
 
 If a text should be emoted, this references the
-`dbscript\_string <dbscript_string>`__ tables unique ID for which the
+:doc:`db-script-string` tables unique ID for which the
 entry is valid. If not, set the value to zero.
 
 textid3
 -------
 
 If a text should be emoted, this references the
-`dbscript\_string <dbscript_string>`__ tables unique ID for which the
+:doc:`db-script-string` tables unique ID for which the
 entry is valid. If not, set the value to zero.
 
 textid4
 -------
 
 If a text should be emoted, this references the
-`dbscript\_string <dbscript_string>`__ tables unique ID for which the
+:doc:`db-script-string` tables unique ID for which the
 entry is valid. If not, set the value to zero.
 
 textid5
 -------
 
 If a text should be emoted, this references the
-`dbscript\_string <dbscript_string>`__ tables unique ID for which the
+:doc:`db-script-string` tables unique ID for which the
 entry is valid. If not, set the value to zero.
 
 emote
@@ -165,12 +163,12 @@ model1
 ------
 
 A display model identifier activated on the waypoint. This references
-the `creature\_model\_info <creature_model_info>`__ tables unique ID for
-which this entry is valid.
+the :doc:`creature-model-info` tables unique ID for which this entry is
+valid.
 
 model2
 ------
 
 An alternative display model identifier activated on the waypoint. This
-references the `creature\_model\_info <creature_model_info>`__ tables
-unique ID for which this entry is valid.
+references the :doc:`creature-model-info` tables unique ID for which this
+entry is valid.

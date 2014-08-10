@@ -26,7 +26,7 @@ Fields
 entry
 -----
 
-This references the `item\_template <item_template>`__ tables unique ID.
+This references the :doc:`item-template` tables unique ID.
 
 type
 ----
@@ -48,5 +48,5 @@ targetEntry
 -----------
 
 Depending on the ``type`` value this references the
-`creature\_template <creature_template>`__ tables unique ID, or the
-`gameobject\_template <gameobject_template>`__ tables unique ID.
+:doc:`creature-template` tables unique ID, or the
+:doc:`gameobject-template` tables unique ID.

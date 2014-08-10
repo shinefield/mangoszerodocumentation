@@ -54,101 +54,101 @@ Fields
 entry
 -----
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for which the entry is valid.
 
 name\_loc1
 ----------
 
 *Korean* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc2
 ----------
 
 *French* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc3
 ----------
 
 *German* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc4
 ----------
 
 *Chinese* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc5
 ----------
 
 *Taiwanese* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc6
 ----------
 
 *Spanish Spain* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc7
 ----------
 
 *Spanish Latin America* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 name\_loc8
 ----------
 
 *Russian* localization of ``name`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc1
 -------------
 
 *Korean* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc2
 -------------
 
 *French* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc3
 -------------
 
 *German* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc4
 -------------
 
 *Chinese* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc5
 -------------
 
 *Taiwanese* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc6
 -------------
 
 *Spanish Spain* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc7
 -------------
 
 *Spanish Latin America* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.
 
 subname\_loc8
 -------------
 
 *Russian* localization of ``subname`` in the
-`creature\_template <creature_template>`__ table.
+:doc:`creature-template` table.

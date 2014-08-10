@@ -24,11 +24,11 @@ Fields
 guid
 ----
 
-This references the `gameobject <gameobject>`__ tables unique ID for
+This references the :doc:`gameobject` tables unique ID for
 which the entry is valid.
 
 event
 -----
 
-This references the `game\_event <game_event>`__ tables unique ID for
+This references the :doc:`game-event` tables unique ID for
 which the entry is valid.

@@ -29,25 +29,25 @@ entry
 -----
 
 The unique identifier for the gossip menu entry. This may be referenced
-by either the `creature\_template <creature_template>`__ table's
+by either the :doc:`creature-template` table's
 ``gossip_menu_id`` field, or by
-`gameobject\_template <gameobject_template>`__ tables ``data3`` field
+:doc:`gameobject-template` tables ``data3`` field
 for all game objects which are quest givers.
 
 text\_id
 --------
 
-This references the `npc\_text <npc_text>`__ tables unique ID for which
+This references the :doc:`npc-text` tables unique ID for which
 the entry is valid.
 
 script\_id
 ----------
 
-This references the `dbscripts\_on\_gossip <dbscripts_on_gossip>`__
+This references the :doc:`dbscripts-on-gossip`
 tables unique ID for which the entry is valid.
 
 condition\_id
 -------------
 
-This references the `conditions <conditions>`__ tables unique ID for
+This references the :doc:`conditions` tables unique ID for
 which the entry is valid.

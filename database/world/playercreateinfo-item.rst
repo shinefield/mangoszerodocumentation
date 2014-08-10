@@ -43,7 +43,7 @@ itemid
 ------
 
 The item a character should receive upon creation. This references the
-`item\_template <item_template>`__ tables unique ID.
+:doc:`item-template` tables unique ID.
 
 amount
 ------

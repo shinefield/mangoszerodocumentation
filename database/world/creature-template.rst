@@ -189,15 +189,15 @@ ModelId1
 --------
 
 A display model identifier for the creature\_template. This references
-the `creature\_model\_info <creature_model_info>`__ tables unique ID for
-which this entry is valid.
+the :doc:`creature-model-info` tables unique ID for which this entry is
+valid.
 
 ModelId2
 --------
 
 A display model identifier for the creature\_template. This references
-the `creature\_model\_info <creature_model_info>`__ tables unique ID for
-which this entry is valid.
+the :doc:`creature-model-info` tables unique ID for which this entry is
+valid.
 
 FactionAlliance
 ---------------
@@ -761,21 +761,21 @@ LootId
 ------
 
 The field adds loot to a creature template and references the
-`creature\_loot\_template <creature_loot_template>`__ tables unique ID
+:doc:`creature-loot-template` tables unique ID
 for which the entry is valid.
 
 PickpocketLootId
 ----------------
 
 The field adds pickpocketing loot to a creature template and references
-the `pickpocketing\_loot\_template <pickpocketing_loot_template>`__
+the :doc:`pickpocketing-loot-template`
 tables unique ID for which the entry is valid.
 
 SkinningLootId
 --------------
 
 The field adds skinning loot to a creature template and references the
-`skinning\_loot\_template <skinning_loot_template>`__ tables unique ID
+:doc:`skinning-loot-template` tables unique ID
 for which the entry is valid.
 
 KillCredit1
@@ -963,20 +963,20 @@ TrainerTemplateId
 -----------------
 
 This field adds a training spells to a creature template and references
-the `npc\_trainer\_template <npc_trainer_template>`__ tables unique ID
+the :doc:`npc-trainer-template` tables unique ID
 for which the entry is valid.
 
 VendorTemplateId
 ----------------
 
 This field adds a vendor items to a creature template and references the
-`npc\_vendor\_template <npc_vendor_template>`__ tables unique ID for
+:doc:`npc-vendor-template` tables unique ID for
 which the entry is valid.
 
 GossipMenuId
 ------------
 
-This references the `gossip\_menu <gossip_menu>`__ tables unique ID for
+This references the :doc:`gossip-menu` tables unique ID for
 which the entry is valid, if the creature\_template should have a gossip
 dialogue.
 
@@ -984,7 +984,7 @@ EquipmentTemplateId
 -------------------
 
 The field adds equipment to a creature template and references the
-`creature\_equip\_template <creature_equip_template>`__ tables unique ID
+:doc:`creature-equip-template` tables unique ID
 for which the entry is valid.
 
 Civilian

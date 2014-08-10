@@ -54,7 +54,7 @@ entry
 -----
 
 This references a script using an action of the type ``ACTION_T_TEXT``
-in the `creature\_ai\_scripts <creature_ai_scripts>`__ tables entry.
+in the :doc:`creature-ai-scripts` tables entry.
 
 .. note::
 

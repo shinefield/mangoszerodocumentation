@@ -45,7 +45,7 @@ Fields
 creature\_id
 ------------
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for which the entry is valid.
 
 RewOnKillRepFaction1

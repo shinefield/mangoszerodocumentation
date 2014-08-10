@@ -28,7 +28,7 @@ Fields
 guid
 ----
 
-This references the `creature <creature>`__ tables unique ID for which
+This references the :doc:`creature` tables unique ID for which
 the entry is valid.
 
 pool\_entry
@@ -36,7 +36,7 @@ pool\_entry
 
 The identifier of a pool template to which this creature belongs. The
 value has to match with a pool identifier defined in the
-`pool\_template <pool_template>`__.
+:doc:`pool-template`.
 
 chance
 ------

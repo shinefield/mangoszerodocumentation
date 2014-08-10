@@ -25,7 +25,7 @@ Fields
 id
 --
 
-This references the `gameobject\_template <gameobject_template>`__
+This references the :doc:`gameobject-template`
 tables unique ID for which the entry is valid.
 
 .. note::
@@ -35,5 +35,5 @@ tables unique ID for which the entry is valid.
 quest
 -----
 
-This references the `quest\_template <quest_template>`__ tables unique
+This references the :doc:`quest-template` tables unique
 ID for which the entry is valid.

@@ -33,7 +33,7 @@ entry
 -----
 
 The trainer which should train this spell. This references the
-`creature\_template <creature_template>`__ tables unique ID for which
+:doc:`creature-template` tables unique ID for which
 the entry is valid.
 
 spell

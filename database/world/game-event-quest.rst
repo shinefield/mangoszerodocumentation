@@ -24,11 +24,11 @@ Fields
 quest
 -----
 
-This references the `quest\_template <quest_template>`__ tables entry
+This references the :doc:`quest-template` tables entry
 which should be restricted to the referenced game event.
 
 event
 -----
 
-This references the `game\_event <game_event>`__ tables unique ID for
+This references the :doc:`game-event` tables unique ID for
 which the entry is valid.

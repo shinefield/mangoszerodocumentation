@@ -26,8 +26,8 @@ Fields
 guid
 ----
 
-This references the `creature <creature>`__ tables unique ``guid`` for
-which the entry is valid.
+This references the :doc:`creature` tables unique ``guid`` for which the entry
+is valid.
 
 event1
 ------

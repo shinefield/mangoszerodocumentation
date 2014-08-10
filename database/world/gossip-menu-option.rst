@@ -46,7 +46,7 @@ Fields
 menu\_id
 --------
 
-This references the `gossip\_menu <gossip_menu>`__ tables unique ID for
+This references the :doc:`gossip-menu` tables unique ID for
 which the entry is valid.
 
 id
@@ -141,7 +141,7 @@ the menu will require. The following table shows all valid option types:
 .. note::
 
     In order for gossip\_menu\_option entries to work, the
-    ``npcflag`` of the `creature\_template <creature_template>`__ table
+    ``npcflag`` of the :doc:`creature-template` table
     entry needs to be set appropriately.
 
 npc\_option\_npcflag
@@ -201,7 +201,7 @@ action\_menu\_id
 ----------------
 
 To create a sub-menu, this can reference the
-`gossip\_menu <gossip_menu>`__ tables unique ID for which the entry is
+:doc:`gossip-menu` tables unique ID for which the entry is
 valid.
 
 .. note::
@@ -212,13 +212,13 @@ valid.
 action\_poi\_id
 ---------------
 
-This references the `points\_of\_interest <points_of_interest>`__ tables
+This references the :doc:`points-of-interest` tables
 unique ID for which the entry is valid.
 
 action\_script\_id
 ------------------
 
-This references the `dbscripts\_on\_gossip <dbscripts_on_gossip>`__
+This references the :doc:`dbscripts-on-gossip`
 tables unique ID for which the entry is valid.
 
 box\_coded
@@ -242,5 +242,5 @@ in the coded box.
 condition\_id
 -------------
 
-This references the `conditions <conditions>`__ tables unique ID for
+This references the :doc:`conditions` tables unique ID for
 which the entry is valid.

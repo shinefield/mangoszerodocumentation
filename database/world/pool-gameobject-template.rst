@@ -32,7 +32,7 @@ Fields
 id
 --
 
-This references the `gameobject\_template <gameobject_template>`__
+This references the :doc:`gameobject-template`
 tables unique ID for which the entry is valid.
 
 pool\_entry
@@ -40,7 +40,7 @@ pool\_entry
 
 The identifier of a pool template to which this game object template
 belongs. The value has to match with a pool identifier defined in the
-`pool\_template <pool_template>`__.
+:doc:`pool-template`.
 
 chance
 ------

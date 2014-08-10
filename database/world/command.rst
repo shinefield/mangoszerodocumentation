@@ -33,7 +33,7 @@ security
 --------
 
 The security level required to use the command. This references the
-`account <../realm/account>`__ tables ``gmlevel`` key.
+:doc:`../realm/account` tables ``gmlevel`` key.
 
 help
 ----

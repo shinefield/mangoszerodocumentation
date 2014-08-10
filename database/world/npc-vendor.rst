@@ -31,14 +31,14 @@ entry
 -----
 
 The vendor which should sell this item. This references the
-`creature\_template <creature_template>`__ tables unique ID for which
+:doc:`creature-template` tables unique ID for which
 the entry is valid.
 
 item
 ----
 
 The item a vendor should sell. This references the
-`item\_template <item_template>`__ tables unique ID.
+:doc:`item-template` tables unique ID.
 
 maxcount
 --------
@@ -51,11 +51,11 @@ incrtime
 
 This field decides how frequently a vendor will restock and item having
 a maximum count. The value is given in seconds, and for limited items,
-the ``BuyCount`` column of the `item\_template <item_template>`__ is
+the ``BuyCount`` column of the :doc:`item-template` is
 taken into account when restocking.
 
 condition\_id
 -------------
 
-This references the `conditions <conditions>`__ tables unique ID for
+This references the :doc:`conditions` tables unique ID for
 which the entry is valid.

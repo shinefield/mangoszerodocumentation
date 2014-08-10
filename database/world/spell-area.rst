@@ -52,7 +52,7 @@ identifier defined in :doc:`../../file-formats/dbc/areatrigger`.
 quest\_start
 ------------
 
-This references the `quest\_template <quest_template>`__ tables unique
+This references the :doc:`quest-template` tables unique
 ID for which the entry is valid. The quest entry listed here has to be
 available to a character or needs to be active for a character. Depends
 on the value of ``quest_start_active``.
@@ -68,14 +68,14 @@ character.
 quest\_end
 ----------
 
-This references the `quest\_template <quest_template>`__ tables unique
+This references the :doc:`quest-template` tables unique
 ID for which the entry is valid. The quest listed here *must not* be
 completed to apply the spell.
 
 condition\_id
 -------------
 
-This references the `conditions <conditions>`__ tables unique ID for
+This references the :doc:`conditions` tables unique ID for
 which the entry is valid.
 
 aura\_spell

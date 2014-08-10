@@ -60,21 +60,21 @@ required\_item
 --------------
 
 Item required to activate the trigger. This references the
-`item\_template <item_template>`__ tables unique ID for which the entry
+:doc:`item-template` tables unique ID for which the entry
 is valid.
 
 required\_item2
 ---------------
 
 Another item required to activate the trigger. This references the
-`item\_template <item_template>`__ tables unique ID for which the entry
+:doc:`item-template` tables unique ID for which the entry
 is valid.
 
 required\_quest\_done
 ---------------------
 
 Quest required to be completed to activate the trigger. This references
-the `quest\_template <quest_template>`__ tables unique ID for which the
+the :doc:`quest-template` tables unique ID for which the
 entry is valid.
 
 target\_map

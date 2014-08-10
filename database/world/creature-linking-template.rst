@@ -31,7 +31,7 @@ Fields
 entry
 -----
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for which the entry is valid. This is a creature template
 bound to the master creature template.
 
@@ -45,7 +45,7 @@ templates are located.
 master\_entry
 -------------
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for which the entry is valid. This is the master creature
 template which defines behaviour for the linked creature template.
 

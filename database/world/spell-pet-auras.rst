@@ -32,7 +32,7 @@ defined in :doc:`../../file-formats/dbc/spell`.
 pet
 ---
 
-This references the `creature\_template <creature_template>`__ tables
+This references the :doc:`creature-template` tables
 unique ID for the pet.
 
 aura

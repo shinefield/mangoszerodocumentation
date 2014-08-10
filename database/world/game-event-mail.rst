@@ -30,7 +30,7 @@ Fields
 event
 -----
 
-This references the `game\_event <game_event>`__ tables unique ID for
+This references the :doc:`game-event` tables unique ID for
 which the entry is valid.
 
 raceMask
@@ -42,7 +42,7 @@ has to match with races defined in :doc:`../../file-formats/dbc/chrraces`.
 quest
 -----
 
-This references the `quest\_template <quest_template>`__ tables entry if
+This references the :doc:`quest-template` tables entry if
 the mail is related to a quest.
 
 mailTemplateId
@@ -54,5 +54,5 @@ This references an entry from the
 senderEntry
 -----------
 
-This references the `creature\_template <creature_template>`__ entry to
+This references the :doc:`creature-template` entry to
 be used as sender for the mail.

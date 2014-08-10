@@ -76,7 +76,7 @@ action
 
 Depending on the type value, this could reference either a spell identifier as
 defined in :doc:`../../file-formats/dbc/spell`, a reference to the unique
-identifier of an `item\_template <item_template>`__, or the identifier
+identifier of an :doc:`item-template`, or the identifier
 for a macro.
 
 type

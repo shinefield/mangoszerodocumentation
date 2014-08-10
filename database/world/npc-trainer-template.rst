@@ -33,7 +33,7 @@ entry
 -----
 
 The unique identifier for the training template. A
-`creature\_template <creature_template>`__ references this from its
+:doc:`creature-template` references this from its
 ``trainer_id`` column.
 
 spell

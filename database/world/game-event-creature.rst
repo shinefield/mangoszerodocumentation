@@ -24,11 +24,11 @@ Fields
 guid
 ----
 
-This references the `creature <creature>`__ tables unique ID for which
+This references the :doc:`creature` tables unique ID for which
 the entry is valid.
 
 event
 -----
 
-This references the `game\_event <game_event>`__ tables unique ID for
+This references the :doc:`game-event` tables unique ID for
 which the entry is valid.

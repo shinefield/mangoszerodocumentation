@@ -24,20 +24,20 @@ Fields
 npc\_guid
 ---------
 
-This references the `creature <creature>`__ tables ``guid`` field for
+This references the :doc:`creature` tables ``guid`` field for
 which the entry is valid.
 
 textid
 ------
 
-This references the `npc\_text <npc_text>`__ tables unique ID of the NPC
+This references the :doc:`npc-text` tables unique ID of the NPC
 text for which the entry is valid.
 
 .. note::
 
     To actually make a creature display a gossip dialogue with the
     linked text, you will have to update the
-    `creature\_template <creature_template>`__ as follows:
+    :doc:`creature-template` as follows:
 
 .. code-block:: sql
 
