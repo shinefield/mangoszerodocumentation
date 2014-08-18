@@ -5,7 +5,7 @@ Cfg\_Categories.dbc
 ===================
 
 The *configuration categories* table contains definitions for grouping
-realms in the realm selection dialogue.
+realms in the realm selection dialog.
 
 Table structure
 ---------------

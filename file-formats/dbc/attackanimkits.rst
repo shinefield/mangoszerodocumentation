@@ -4,8 +4,8 @@
 AttackAnimKits.dbc
 ==================
 
-The *attack animation kits* table contains definitions for attack
-animation groups.
+The *attack animation kits* table contains definitions for attack animation groups,
+by combining animation data and various flags.
 
 Table structure
 ---------------

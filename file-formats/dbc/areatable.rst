@@ -4,7 +4,8 @@
 AreaTable.dbc
 =============
 
-The *area* table contains definitions for distinct areas in a zone.
+The *area* table contains definitions all available main and child areas in game, such as zones, and their
+sub-zones.
 
 Table structure
 ---------------

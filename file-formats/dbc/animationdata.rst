@@ -4,8 +4,8 @@
 AnimationData.dbc
 =================
 
-The *animation data* table contains definitions for the different
-animations models can have.
+The *animation data* table contains the basic definitions for available animation types
+that can be used in models.
 
 Table structure
 ---------------

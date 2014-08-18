@@ -4,8 +4,8 @@
 GroundEffectDoodad.dbc
 ======================
 
-The *ground effect doodad* table contains definitions for use-able game
-objects placed on the ground.
+The *ground effect doodad* table contains definitions for doodads to be placed on the ground,
+specifically flower models.
 
 Table structure
 ---------------

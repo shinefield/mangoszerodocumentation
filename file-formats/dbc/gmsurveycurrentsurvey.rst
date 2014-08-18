@@ -4,8 +4,7 @@
 GMSurveyCurrentSurvey.dbc
 =========================
 
-The *game master current survey* table contains definitions for
-connecting languages to game master surveys.
+The *game master current survey* table connects current game master surveys to client languages.
 
 Table structure
 ---------------

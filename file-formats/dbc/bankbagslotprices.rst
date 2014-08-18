@@ -4,7 +4,7 @@
 BankBagSlotPrices.dbc
 =====================
 
-The *bank bag slot prices* table contains definitions for buyable bank
+The *bank bag slot prices* table contains definitions for available bank
 slots for additional bags.
 
 Table structure

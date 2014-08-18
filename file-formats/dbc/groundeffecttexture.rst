@@ -4,10 +4,7 @@
 GroundEffectTexture.dbc
 =======================
 
-The *ground effect doodad texture* table contains definitions for what
-doodads get used for the effects on textures. This file also defines,
-which sounds are played, which footprints you will leave and if snow for
-example is thrown up when running.
+The *ground effect doodad texture* table connects terrain types to flower doodads.
 
 Table structure
 ---------------

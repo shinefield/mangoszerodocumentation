@@ -4,7 +4,7 @@
 AttackAnimTypes.dbc
 ===================
 
-The *attack animation types* table contains definitions for attack
+The *attack animation types* table contains definitions for available attack
 animation types.
 
 Table structure

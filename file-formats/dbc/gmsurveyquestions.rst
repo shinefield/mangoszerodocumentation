@@ -4,8 +4,8 @@
 GMSurveyQuestions.dbc
 =====================
 
-The *game master survey questions* table contains definitions for
-questions asked after game master support has been provided.
+The *game master survey questions* table contains questions to be asked during a game master survey,
+which is usually issued after a ticket is closed.
 
 Table structure
 ---------------

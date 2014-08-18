@@ -4,8 +4,8 @@
 AreaTrigger.dbc
 ===============
 
-The *area trigger* table contains definitions for position which are
-supposed to trigger or monitor server side events.
+The *area trigger* table contains definitions for locations which are supposed to trigger
+in-game server side events. Usually these are scripted events.
 
 Table structure
 ---------------

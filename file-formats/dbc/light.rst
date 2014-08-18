@@ -4,8 +4,8 @@
 Light.dbc
 =========
 
-The *light* table contains definitions for lights, fogs, sky colour,
-water colour, etc.
+The *light* table contains definitions for lights, fogs, sky color,
+water color, etc.
 
 Table structure
 ---------------

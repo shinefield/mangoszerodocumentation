@@ -4,7 +4,8 @@
 AreaPOI.dbc
 =============
 
-The *area points of interest* table contains definitions for points of interests in a zone.
+The *area points of interest* table contains points of interest within zones. This can be global points
+of interest, faction specific ones, or even PvP related points of interest
 
 Table structure
 ---------------
