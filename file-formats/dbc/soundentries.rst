@@ -16,47 +16,47 @@ Table structure
 +------+--------------------------+--------------------+-----------+----------------------------------+
 | 2    | soundType                | Integer (signed)   | 0         | See below.                       |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 3    | name                     | String             | -         | The description of the string.   |
+| 3    | name                     | String             | -         | The name of the sound entry.     |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 4    | file1                    | String             | -         | The description of the string.   |
+| 4    | file1                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 5    | file2                    | String             | -         | The description of the string.   |
+| 5    | file2                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 6    | file3                    | String             | -         | The description of the string.   |
+| 6    | file3                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 7    | file4                    | String             | -         | The description of the string.   |
+| 7    | file4                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 8    | file5                    | String             | -         | The description of the string.   |
+| 8    | file5                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 9    | file6                    | String             | -         | The description of the string.   |
+| 9    | file6                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 10   | file7                    | String             | -         | The description of the string.   |
+| 10   | file7                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 11   | file8                    | String             | -         | The description of the string.   |
+| 11   | file8                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 12   | file9                    | String             | -         | The description of the string.   |
+| 12   | file9                    | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 13   | file10                   | String             | -         | The description of the string.   |
+| 13   | file10                   | String             | -         | File name for the sound entry.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 14   | freq1                    | String             | -         | The description of the string.   |
+| 14   | freq1                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 15   | freq2                    | String             | -         | The description of the string.   |
+| 15   | freq2                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 16   | freq3                    | String             | -         | The description of the string.   |
+| 16   | freq3                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 17   | freq4                    | String             | -         | The description of the string.   |
+| 17   | freq4                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 18   | freq5                    | String             | -         | The description of the string.   |
+| 18   | freq5                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 19   | freq6                    | String             | -         | The description of the string.   |
+| 19   | freq6                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 20   | freq7                    | String             | -         | The description of the string.   |
+| 20   | freq7                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 21   | freq8                    | String             | -         | The description of the string.   |
+| 21   | freq8                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 22   | freq9                    | String             | -         | The description of the string.   |
+| 22   | freq9                    | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
-| 23   | freq10                   | String             | -         | The description of the string.   |
+| 23   | freq10                   | Integer            | 1         | **TODO**                         |
 +------+--------------------------+--------------------+-----------+----------------------------------+
 | 24   | directoryBase            | String             | -         | Base path for all sound files.   |
 +------+--------------------------+--------------------+-----------+----------------------------------+

@@ -41,13 +41,13 @@ Table structure
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
 | 14   | reputationBase4        | Integer (signed)     | 0         | Base reputation value.                                 |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 15   | reputationFlags1       | Integer (signed)     | 0         | **TODO**                                               |
+| 15   | reputationFlags1       | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 16   | reputationFlags2       | Integer (signed)     | 0         | **TODO**                                               |
+| 16   | reputationFlags2       | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 17   | reputationFlags3       | Integer (signed)     | 0         | **TODO**                                               |
+| 17   | reputationFlags3       | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
-| 18   | reputationFlags4       | Integer (signed)     | 0         | **TODO**                                               |
+| 18   | reputationFlags4       | Integer (signed)     | 0         | See below.                                             |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
 | 19   | parentFaction          | Integer              | 0         | If non-zero, the faction is a child of this faction.   |
 +------+------------------------+----------------------+-----------+--------------------------------------------------------+
@@ -83,6 +83,16 @@ reputationClassMask
 
 Currently this is only set for the *Cenarion Circle*, which Night Elf
 and Tauren druids are members of.
+
+reputationFlags
+~~~~~~~~~~~~~~~
+
+-  ``0x01``: makes the reputation visible in the game client,
+-  ``0x02``: enables "At war" button,
+-  ``0x04``: hides faction in game client,
+-  ``0x08``: forces to hide a faction in game client,
+-  ``0x10``: forces player at peace with a faction,
+-  ``0x20``: sets a faction to inactive.
 
 Relations
 ---------

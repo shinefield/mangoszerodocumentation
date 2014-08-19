@@ -48,7 +48,8 @@ Fields
 flags
 ~~~~~
 
-**TODO**
+-  ``0x800``: flagged for PvP,
+-  ``0x1000``: faction will attack players engaging in PvP
 
 Relations
 ---------
