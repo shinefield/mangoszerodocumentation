@@ -17,7 +17,7 @@ Table structure
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 2    | flags                      | Integer (signed)     | 0         | See below.                                                                                                          |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 3    | faction                    | Integer              | 0         | References the faction to which the race belongs.                                                                   |
+| 3    | faction                    | Integer              | 0         | References the faction template to which the race belongs.                                                          |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
 | 4    | explorationSound           | Integer              | 0         | References the sound to play upon zone exploration.                                                                 |
 +------+----------------------------+----------------------+-----------+---------------------------------------------------------------------------------------------------------------------+
@@ -77,7 +77,7 @@ BaseLanguage
 Relations
 ---------
 
--  ``faction`` references the primary key of :doc:`faction`.
+-  ``faction`` references the primary key of :doc:`factiontemplate`.
 -  ``explorationSound`` and ``splashSoundEntry`` references the primary key of :doc:`soundentries`.
 -  ``maleDisplay`` and ``femaleDisplay`` reference the primary key of :doc:`creaturedisplayinfo`.
 -  ``creatureType`` references the primary key of :doc:`creaturetype`.
