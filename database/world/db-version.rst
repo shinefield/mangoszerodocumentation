@@ -18,7 +18,7 @@ Table structure
 +-----------------------------------------------------------------------+----------------+--------+-------+-----------+---------+
 | creature\_ai\_version                                                 | varchar(120)   | YES    |       | NULL      |         |
 +-----------------------------------------------------------------------+----------------+--------+-------+-----------+---------+
-| required\_z2482\_s2128\_12654\_01\_mangos\_creature\_template_power   | bit(1)         | YES    |       | NULL      |         |
+| required\_z2483\_xxxxx\_02\_mangos\_string                            | bit(1)         | YES    |       | NULL      |         |
 +-----------------------------------------------------------------------+----------------+--------+-------+-----------+---------+
 
 Fields
@@ -39,8 +39,8 @@ creature\_ai\_version
 A version string, describing the release version of the scripted
 creature AI.
 
-required\_z2482\_s2128\_12654\_01\_mangos\_creature\_template_power
--------------------------------------------------------------------
+required\_z2483\_xxxxx\_02\_mangos\_string
+------------------------------------------
 
 This field is used to indicate the last database structure update
 applied. Each applied update will renamed the field, in order to allow
