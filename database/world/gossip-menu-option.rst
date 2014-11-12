@@ -147,55 +147,9 @@ the menu will require. The following table shows all valid option types:
 npc\_option\_npcflag
 --------------------
 
-Each option requires a matching ``npcflag``. The following table shows
-option IDs and their flag pair:
-
-+-----------+----------------------------------+
-| flag      | option ID                        |
-+===========+==================================+
-| 0         | GOSSIP\_OPTION\_NONE             |
-+-----------+----------------------------------+
-| 1         | GOSSIP\_OPTION\_GOSSIP           |
-+-----------+----------------------------------+
-| 2         | GOSSIP\_OPTION\_QUESTGIVER       |
-+-----------+----------------------------------+
-| 16        | GOSSIP\_OPTION\_TRAINER          |
-+-----------+----------------------------------+
-| 128       | GOSSIP\_OPTION\_VENDOR           |
-+-----------+----------------------------------+
-| 4096      | GOSSIP\_OPTION\_ARMORER          |
-+-----------+----------------------------------+
-| 8192      | GOSSIP\_OPTION\_TAXIVENDOR       |
-+-----------+----------------------------------+
-| 16384     | GOSSIP\_OPTION\_SPIRITHEALER     |
-+-----------+----------------------------------+
-| 32768     | GOSSIP\_OPTION\_SPIRITGUIDE      |
-+-----------+----------------------------------+
-| 65536     | GOSSIP\_OPTION\_INNKEEPER        |
-+-----------+----------------------------------+
-| 131072    | GOSSIP\_OPTION\_BANKER           |
-+-----------+----------------------------------+
-| 262144    | GOSSIP\_OPTION\_PETITIONER       |
-+-----------+----------------------------------+
-| 524288    | GOSSIP\_OPTION\_TABARDDESIGNER   |
-+-----------+----------------------------------+
-| 1048576   | GOSSIP\_OPTION\_BATTLEFIELD      |
-+-----------+----------------------------------+
-| 2097152   | GOSSIP\_OPTION\_AUCTIONEER       |
-+-----------+----------------------------------+
-| 4194304   | GOSSIP\_OPTION\_STABLEPET        |
-+-----------+----------------------------------+
-
-The following are flags are bonus options for creatures marked as
-trainers, or pet trainers.
-
-+--------+------------------------------------+
-| flag   | option ID                          |
-+========+====================================+
-| 16     | GOSSIP\_OPTION\_UNLEARNTALENTS     |
-+--------+------------------------------------+
-| 16     | GOSSIP\_OPTION\_UNLEARNPETSKILLS   |
-+--------+------------------------------------+
+Each option requires a matching ``npcflag``. The flag should be
+identical to the flag set on the NPC on which the dialogue option
+is displayed.
 
 action\_menu\_id
 ----------------
