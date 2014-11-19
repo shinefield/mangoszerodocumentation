@@ -59,5 +59,7 @@ as *world state database*.
     petition-sign
     pet-spell-cooldown
     pet-spell
+    pvpstats-battlegrounds
+    pvpstats-players
     saved-variables
     world
